@@ -29,21 +29,18 @@
       line-height:1.05;
     }
     .hero h2 {
-      font-size:36px;         /* zvětšeno */
+      font-size:36px;
       margin:12px 0 0;
-      color:#ccc;             /* jemnější než čistě bílá */
+      color:#ccc;
       font-weight:600;
-      letter-spacing:2px;     /* magazínový feeling */
+      letter-spacing:2px;
       text-transform:uppercase;
     }
-
-    /* Mobilní úpravy, ať se to hezky vejde */
     @media (max-width: 600px) {
       .hero { padding: 48px 16px 28px; }
       .hero h1 { font-size:40px; }
       .hero h2 { font-size:22px; letter-spacing:1.5px; }
     }
-
     .wrap {
       max-width:900px;
       margin:0 auto;
@@ -82,21 +79,21 @@
     // 1) Slug z URL, např.: person.html?slug=cristiano-ronaldo
     const slug = new URLSearchParams(location.search).get("slug") || "";
 
-    // 2) Mapování slug -> hezké jméno
+    // 2) Mapování slug -> hezké jméno (finální desítka)
     const NAMES = {
       "taylor-swift":"Taylor Swift",
-      "kanye-west":"Kanye West",
+      "rihanna":"Rihanna",
       "cristiano-ronaldo":"Cristiano Ronaldo",
       "selena-gomez":"Selena Gomez",
       "kim-kardashian":"Kim Kardashian",
-      "billie-eilish":"Billie Eilish",
+      "dua-lipa":"Dua Lipa",
       "ariana-grande":"Ariana Grande",
-      "harry-styles":"Harry Styles",
-      "zendaya":"Zendaya",
+      "scarlett-johansson":"Scarlett Johansson",
+      "katy-perry":"Katy Perry",
       "margot-robbie":"Margot Robbie"
     };
 
-    // 3) Demo data (funguje hned bez backendu)
+    // 3) Demo data (funguje hned bez backendu – můžeš libovolně upravit)
     const DEMO = {
       "cristiano-ronaldo": [
         {title:"Ronaldo scores stunning free-kick", source:"ESPN", url:"#", published_at:"2025-08-29T12:30:00Z"},
@@ -105,13 +102,19 @@
       "taylor-swift": [
         {title:"Taylor Swift teases new single", source:"Billboard", url:"#", published_at:"2025-08-28T18:00:00Z"}
       ],
+      "rihanna": [
+        {title:"Rihanna hints at studio return", source:"Rolling Stone", url:"#", published_at:"2025-08-27T09:00:00Z"}
+      ],
       "kim-kardashian": [
         {title:"Kim Kardashian launches new beauty line", source:"TMZ", url:"#", published_at:"2025-08-27T09:00:00Z"}
+      ],
+      "margot-robbie": [
+        {title:"Margot Robbie set for new thriller project", source:"Variety", url:"#", published_at:"2025-08-26T14:20:00Z"}
       ]
-      // ostatní můžou být prázdné → zobrazí se „No recent links yet.“
+      // ostatní mohou být prázdní → zobrazí se „No recent links yet.“
     };
 
-    // 4) (Později) URL na tvoje API (Railway)
+    // 4) (Později) URL na tvoje API (Railway) – stačí vyplnit a jedeš na živo
     const API_URL = ""; // např.: "https://tvuj-backend.up.railway.app/api/news"
 
     // Pomocná funkce pro formátování času
@@ -128,7 +131,7 @@
           const res = await fetch(`${API_URL}?q=${encodeURIComponent(name)}&limit=50`, { cache:"no-store" });
           items = await res.json();
         } catch (e) {
-          // když API selže, spadne to na demo
+          // fallback na demo data
         }
       }
 
