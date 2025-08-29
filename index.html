@@ -46,7 +46,7 @@
       display:flex;
       flex-direction:column;
       text-align:center;
-      height:320px;  /* jednotná výška */
+      height:320px;
       text-decoration:none;
     }
     .card:hover {
@@ -55,7 +55,7 @@
     }
     .card img {
       width:100%;
-      height:250px;  /* jednotná výška obrázku */
+      height:250px;
       object-fit:cover;
       display:block;
     }
@@ -71,11 +71,19 @@
       padding:0 8px;
     }
 
-    /* Mobil */
     @media (max-width: 800px) {
       .grid { grid-template-columns: repeat(2, 1fr); }
       .card { height:300px; }
       .card img { height:200px; }
+    }
+
+    footer {
+      text-align:center;
+      padding:16px;
+      color:#aaa;
+      font-size:12px;
+      border-top:1px solid #1a1a1a;
+      margin-top:20px;
     }
   </style>
 </head>
@@ -86,23 +94,33 @@
   </header>
 
   <div class="grid">
-    <!-- 1. řada -->
     <a href="person.html?slug=taylor-swift" class="card"><img src="assets/taylor.jpg" alt="Taylor Swift"><span>Taylor Swift</span></a>
     <a href="person.html?slug=rihanna" class="card"><img src="assets/rihanna.jpg" alt="Rihanna"><span>Rihanna</span></a>
     <a href="person.html?slug=cristiano-ronaldo" class="card"><img src="assets/ronaldo.jpg" alt="Cristiano Ronaldo"><span>Cristiano Ronaldo</span></a>
     <a href="person.html?slug=selena-gomez" class="card"><img src="assets/selena.jpg" alt="Selena Gomez"><span>Selena Gomez</span></a>
 
-    <!-- 2. řada -->
     <a href="person.html?slug=kim-kardashian" class="card"><img src="assets/kim.jpg" alt="Kim Kardashian"><span>Kim Kardashian</span></a>
     <a href="person.html?slug=dua-lipa" class="card"><img src="assets/dua.jpg" alt="Dua Lipa"><span>Dua Lipa</span></a>
     <a href="person.html?slug=ariana-grande" class="card"><img src="assets/ariana.jpg" alt="Ariana Grande"><span>Ariana Grande</span></a>
     <a href="person.html?slug=scarlett-johansson" class="card"><img src="assets/scarlett.jpg" alt="Scarlett Johansson"><span>Scarlett Johansson</span></a>
 
-    <!-- 3. řada – 2 uprostřed -->
-    <div></div> <!-- prázdné místo vlevo -->
+    <div></div>
     <a href="person.html?slug=katy-perry" class="card"><img src="assets/katy.jpg" alt="Katy Perry"><span>Katy Perry</span></a>
     <a href="person.html?slug=margot-robbie" class="card"><img src="assets/margot.jpg" alt="Margot Robbie"><span>Margot Robbie</span></a>
-    <div></div> <!-- prázdné místo vpravo -->
+    <div></div>
   </div>
+
+  <footer>
+    Photos from Wikimedia Commons – Taylor Swift © Jana Zills (CC BY-SA 2.0), 
+    Rihanna © Eva Rinaldi (CC BY-SA 2.0), 
+    Cristiano Ronaldo © Анна Нэсси (CC BY-SA 3.0), 
+    Selena Gomez © Joella Marano (CC BY-SA 2.0), 
+    Kim Kardashian © Georges Biard (CC BY-SA 3.0), 
+    Dua Lipa © Harald Krichel (CC BY-SA 4.0), 
+    Ariana Grande © David Shankbone (CC BY 2.0), 
+    Scarlett Johansson © Gage Skidmore (CC BY-SA 3.0), 
+    Katy Perry © dephisticate (CC BY 2.0), 
+    Margot Robbie © Gage Skidmore (CC BY-SA 3.0).
+  </footer>
 </body>
 </html>
