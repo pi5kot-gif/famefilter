@@ -68,10 +68,13 @@
     footer {
       text-align:center;
       padding:16px;
-      color:#aaa;
-      font-size:12px;
       border-top:1px solid #1a1a1a;
       margin-top:20px;
+    }
+    footer a {
+      color:#8ab4ff;
+      text-decoration:none;
+      font-size:13px;
     }
   </style>
 </head>
@@ -84,16 +87,7 @@
   <div class="wrap" id="list">Loading…</div>
 
   <footer>
-    Photos from Wikimedia Commons – Taylor Swift © Jana Zills (CC BY-SA 2.0), 
-    Rihanna © Eva Rinaldi (CC BY-SA 2.0), 
-    Cristiano Ronaldo © Анна Нэсси (CC BY-SA 3.0), 
-    Selena Gomez © Joella Marano (CC BY-SA 2.0), 
-    Kim Kardashian © Georges Biard (CC BY-SA 3.0), 
-    Dua Lipa © Harald Krichel (CC BY-SA 4.0), 
-    Ariana Grande © David Shankbone (CC BY 2.0), 
-    Scarlett Johansson © Gage Skidmore (CC BY-SA 3.0), 
-    Katy Perry © dephisticate (CC BY 2.0), 
-    Margot Robbie © Gage Skidmore (CC BY-SA 3.0).
+    <a href="credits.html">Photo credits</a>
   </footer>
 
   <script>
@@ -119,20 +113,10 @@
       ],
       "taylor-swift": [
         {title:"Taylor Swift teases new single", source:"Billboard", url:"#", published_at:"2025-08-28T18:00:00Z"}
-      ],
-      "rihanna": [
-        {title:"Rihanna hints at studio return", source:"Rolling Stone", url:"#", published_at:"2025-08-27T09:00:00Z"}
-      ],
-      "kim-kardashian": [
-        {title:"Kim Kardashian launches new beauty line", source:"TMZ", url:"#", published_at:"2025-08-27T09:00:00Z"}
-      ],
-      "margot-robbie": [
-        {title:"Margot Robbie set for new thriller project", source:"Variety", url:"#", published_at:"2025-08-26T14:20:00Z"}
       ]
     };
 
     const API_URL = ""; 
-
     const fmt = iso => new Date(iso).toLocaleString();
 
     async function load() {
