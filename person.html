@@ -65,6 +65,14 @@
       padding:24px 0;
       text-align:center;
     }
+    footer {
+      text-align:center;
+      padding:16px;
+      color:#aaa;
+      font-size:12px;
+      border-top:1px solid #1a1a1a;
+      margin-top:20px;
+    }
   </style>
 </head>
 <body>
@@ -75,11 +83,22 @@
 
   <div class="wrap" id="list">Loading…</div>
 
+  <footer>
+    Photos from Wikimedia Commons – Taylor Swift © Jana Zills (CC BY-SA 2.0), 
+    Rihanna © Eva Rinaldi (CC BY-SA 2.0), 
+    Cristiano Ronaldo © Анна Нэсси (CC BY-SA 3.0), 
+    Selena Gomez © Joella Marano (CC BY-SA 2.0), 
+    Kim Kardashian © Georges Biard (CC BY-SA 3.0), 
+    Dua Lipa © Harald Krichel (CC BY-SA 4.0), 
+    Ariana Grande © David Shankbone (CC BY 2.0), 
+    Scarlett Johansson © Gage Skidmore (CC BY-SA 3.0), 
+    Katy Perry © dephisticate (CC BY 2.0), 
+    Margot Robbie © Gage Skidmore (CC BY-SA 3.0).
+  </footer>
+
   <script>
-    // 1) Slug z URL, např.: person.html?slug=cristiano-ronaldo
     const slug = new URLSearchParams(location.search).get("slug") || "";
 
-    // 2) Mapování slug -> hezké jméno (finální desítka)
     const NAMES = {
       "taylor-swift":"Taylor Swift",
       "rihanna":"Rihanna",
@@ -93,7 +112,6 @@
       "margot-robbie":"Margot Robbie"
     };
 
-    // 3) Demo data (funguje hned bez backendu – můžeš libovolně upravit)
     const DEMO = {
       "cristiano-ronaldo": [
         {title:"Ronaldo scores stunning free-kick", source:"ESPN", url:"#", published_at:"2025-08-29T12:30:00Z"},
@@ -111,13 +129,10 @@
       "margot-robbie": [
         {title:"Margot Robbie set for new thriller project", source:"Variety", url:"#", published_at:"2025-08-26T14:20:00Z"}
       ]
-      // ostatní mohou být prázdní → zobrazí se „No recent links yet.“
     };
 
-    // 4) (Později) URL na tvoje API (Railway) – stačí vyplnit a jedeš na živo
-    const API_URL = ""; // např.: "https://tvuj-backend.up.railway.app/api/news"
+    const API_URL = ""; 
 
-    // Pomocná funkce pro formátování času
     const fmt = iso => new Date(iso).toLocaleString();
 
     async function load() {
@@ -130,9 +145,7 @@
         try {
           const res = await fetch(`${API_URL}?q=${encodeURIComponent(name)}&limit=50`, { cache:"no-store" });
           items = await res.json();
-        } catch (e) {
-          // fallback na demo data
-        }
+        } catch (e) {}
       }
 
       if (!API_URL || !items?.length) {
