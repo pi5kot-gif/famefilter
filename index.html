@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
     body {
       margin:0;
       background:#000;
@@ -14,7 +15,7 @@
     }
     header {
       text-align:center;
-      padding:40px 20px;
+      padding:40px 20px 10px;
     }
     header h1 {
       font-size:48px;
@@ -22,8 +23,14 @@
       text-transform:uppercase;
       letter-spacing:2px;
     }
+    header p {
+      margin:8px 0 0;
+      color:#aaa;
+    }
+
+    /* GRID 4 + 4 + (2 uprostřed) */
     .grid {
-      max-width:900px;
+      max-width:1000px;
       margin:0 auto;
       display:grid;
       grid-template-columns: repeat(4, 1fr);
@@ -31,28 +38,53 @@
       padding:20px;
     }
     .row-last {
-      grid-column: 2 / span 2; /* posune poslední řadu doprostřed */
+      grid-column: 2 / span 2;       /* posune poslední řadu doprostřed */
       display:flex;
-      justify-content:space-around;
+      justify-content:space-around;  /* rovnoměrně rozprostře 2 karty */
       gap:20px;
     }
+
+    /* KARTY – stejná výška bez ohledu na délku jména */
     .card {
       background:#111;
       border:1px solid #1f1f1f;
       border-radius:12px;
-      padding:30px 20px;
-      text-align:center;
+      overflow:hidden;
       transition:all .2s ease;
+      display:flex;
+      flex-direction:column;
+      text-align:center;
+      height:320px;                  /* všechny karty stejně vysoké */
+      text-decoration:none;          /* pro <a> */
     }
     .card:hover {
       transform:translateY(-4px);
       border-color:#444;
     }
-    .card a {
-      color:#8ab4ff;
-      font-size:20px;
+    .card img {
+      width:100%;
+      height:250px;                  /* jednotná výška fotky */
+      object-fit:cover;
+      display:block;
+    }
+    .card span {
+      flex:1;                        /* vyplní zbytek výšky */
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:18px;
       font-weight:600;
-      text-decoration:none;
+      color:#fff;
+      background:#111;
+      padding:0 8px;
+    }
+
+    /* Responsivní úpravy na mobilu */
+    @media (max-width: 800px) {
+      .grid { grid-template-columns: repeat(2, 1fr); }
+      .row-last { grid-column: 1 / -1; justify-content:center; }
+      .card { height:300px; }
+      .card img { height:200px; }
     }
   </style>
 </head>
@@ -63,22 +95,42 @@
   </header>
 
   <div class="grid">
-    <!-- První řada (4) -->
-    <div class="card"><a href="person.html?slug=taylor-swift">Taylor Swift</a></div>
-    <div class="card"><a href="person.html?slug=rihanna">Rihanna</a></div>
-    <div class="card"><a href="person.html?slug=cristiano-ronaldo">Cristiano Ronaldo</a></div>
-    <div class="card"><a href="person.html?slug=selena-gomez">Selena Gomez</a></div>
+    <!-- 1. řada (4) -->
+    <a href="person.html?slug=taylor-swift" class="card">
+      <img src="assets/taylor.jpg" alt="Taylor Swift"><span>Taylor Swift</span>
+    </a>
+    <a href="person.html?slug=rihanna" class="card">
+      <img src="assets/rihanna.jpg" alt="Rihanna"><span>Rihanna</span>
+    </a>
+    <a href="person.html?slug=cristiano-ronaldo" class="card">
+      <img src="assets/ronaldo.jpg" alt="Cristiano Ronaldo"><span>Cristiano Ronaldo</span>
+    </a>
+    <a href="person.html?slug=selena-gomez" class="card">
+      <img src="assets/selena.jpg" alt="Selena Gomez"><span>Selena Gomez</span>
+    </a>
 
-    <!-- Druhá řada (4) -->
-    <div class="card"><a href="person.html?slug=kim-kardashian">Kim Kardashian</a></div>
-    <div class="card"><a href="person.html?slug=dua-lipa">Dua Lipa</a></div>
-    <div class="card"><a href="person.html?slug=ariana-grande">Ariana Grande</a></div>
-    <div class="card"><a href="person.html?slug=scarlett-johansson">Scarlett Johansson</a></div>
+    <!-- 2. řada (4) -->
+    <a href="person.html?slug=kim-kardashian" class="card">
+      <img src="assets/kim.jpg" alt="Kim Kardashian"><span>Kim Kardashian</span>
+    </a>
+    <a href="person.html?slug=dua-lipa" class="card">
+      <img src="assets/dua.jpg" alt="Dua Lipa"><span>Dua Lipa</span>
+    </a>
+    <a href="person.html?slug=ariana-grande" class="card">
+      <img src="assets/ariana.jpg" alt="Ariana Grande"><span>Ariana Grande</span>
+    </a>
+    <a href="person.html?slug=scarlett-johansson" class="card">
+      <img src="assets/scarlett.jpg" alt="Scarlett Johansson"><span>Scarlett Johansson</span>
+    </a>
 
-    <!-- Poslední řada (2 uprostřed) -->
+    <!-- 3. řada (2 uprostřed) -->
     <div class="row-last">
-      <div class="card"><a href="person.html?slug=katy-perry">Katy Perry</a></div>
-      <div class="card"><a href="person.html?slug=margot-robbie">Margot Robbie</a></div>
+      <a href="person.html?slug=katy-perry" class="card">
+        <img src="assets/katy.jpg" alt="Katy Perry"><span>Katy Perry</span>
+      </a>
+      <a href="person.html?slug=margot-robbie" class="card">
+        <img src="assets/margot.jpg" alt="Margot Robbie"><span>Margot Robbie</span>
+      </a>
     </div>
   </div>
 </body>
