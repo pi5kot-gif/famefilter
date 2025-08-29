@@ -15,14 +15,17 @@
     }
     header {
       text-align:center;
-      padding:40px 20px;
+      padding:40px 20px 20px;
     }
-    header h1 {
-      font-size:36px;
-      margin:0;
+    .brand {
+      font-size:48px;
+      font-weight:800;
       text-transform:uppercase;
       letter-spacing:2px;
+      margin:0;
     }
+    .brand .accent { color:#8ab4ff; }
+    header p { color:#aaa; margin:8px 0 0; }
     .wrap {
       max-width:900px;
       margin:0 auto;
@@ -42,13 +45,8 @@
       border-radius:8px;
       flex-shrink:0;
     }
-    .credit div {
-      flex:1;
-    }
-    a {
-      color:#8ab4ff;
-      text-decoration:none;
-    }
+    .credit div { flex:1; }
+    a { color:#8ab4ff; text-decoration:none; }
     a:hover { text-decoration:underline; }
     footer {
       text-align:center;
@@ -62,8 +60,8 @@
 </head>
 <body>
   <header>
-    <h1>Photo Credits</h1>
-    <p>All photos are from Wikimedia Commons under Creative Commons licenses</p>
+    <h1 class="brand">Fame<span class="accent">Filter</span></h1>
+    <p>All photos from Wikimedia Commons under Creative Commons licenses</p>
   </header>
 
   <div class="wrap">
@@ -149,7 +147,7 @@
   </div>
 
   <footer>
-    FameFilter © 2025 – Photo credits listed above.
+    FameFilter © 2025 – All rights reserved.
   </footer>
 </body>
 </html>
