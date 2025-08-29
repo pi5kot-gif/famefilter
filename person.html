@@ -8,28 +8,29 @@
     :root { color-scheme: dark; }
     * { box-sizing: border-box; }
     body { margin:0; background:#000; color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+
+    /* Stejný hero jako na indexu */
     .hero {
       display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
-      padding: 60px 20px 40px; border-bottom:1px solid #1a1a1a;
+      padding:60px 20px 40px; border-bottom:1px solid #1a1a1a;
     }
-    .brand {
-      font-size:56px; font-weight:800; text-transform:uppercase; letter-spacing:2px; margin:0; line-height:1.05;
-    }
+    .brand { font-size:56px; font-weight:800; text-transform:uppercase; letter-spacing:2px; margin:0; line-height:1.05; }
     .brand .accent { color:#8ab4ff; }
-    .hero h2 {
-      font-size:36px; margin:12px 0 0; color:#ccc; font-weight:600; letter-spacing:2px; text-transform:uppercase;
-    }
+    .hero p { margin:12px 0 0; color:#ccc; font-weight:600; letter-spacing:2px; text-transform:uppercase; font-size:20px; }
+
     @media (max-width: 600px) {
-      .hero { padding: 48px 16px 28px; }
       .brand { font-size:40px; }
-      .hero h2 { font-size:22px; letter-spacing:1.5px; }
+      .hero { padding:48px 16px 28px; }
+      .hero p { font-size:18px; letter-spacing:1.5px; }
     }
+
     .wrap { max-width:900px; margin:0 auto; padding:20px 16px; }
     .item { padding:16px 0; border-bottom:1px solid #1a1a1a; }
     .src { color:#aaa; font-size:13px; margin-top:6px; }
     a { color:#8ab4ff; text-decoration:none; }
     a:hover { text-decoration:underline; }
     .empty { color:#aaa; padding:24px 0; text-align:center; }
+
     footer { text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
     footer a { color:#8ab4ff; text-decoration:none; font-size:13px; }
   </style>
@@ -37,7 +38,7 @@
 <body>
   <div class="hero">
     <h1 class="brand">Fame<span class="accent">Filter</span></h1>
-    <h2 id="title">News</h2>
+    <p id="title">News</p>
   </div>
 
   <div class="wrap" id="list">Loading…</div>
@@ -77,6 +78,7 @@
 
     async function load() {
       const name = NAMES[slug] || slug.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
+      // Nadpis pod logem
       document.getElementById("title").textContent = name ? `${name} – News` : "News";
 
       let items = [];
