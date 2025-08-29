@@ -10,6 +10,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column; /* aby šel text pod sebe */
       background-color: #000; /* černé pozadí */
       color: #fff;            /* bílý text */
       font-family: Arial, sans-serif;
@@ -17,10 +18,18 @@
     h1 {
       font-size: 64px;
       text-align: center;
+      margin: 0;
+    }
+    p {
+      font-size: 20px;
+      text-align: center;
+      margin-top: 16px;
+      color: #aaa; /* trochu světlejší šedá, aby slogan nebyl tak křiklavý */
     }
   </style>
 </head>
 <body>
   <h1>FameFilter News</h1>
+  <p>Celebrity news filtered for you</p>
 </body>
 </html>
