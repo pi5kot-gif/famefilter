@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>FameFilter – Person</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root { color-scheme: dark; }
+    body { margin:0; background:#000; color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    header { padding:24px 16px; text-align:center; border-bottom:1px solid #1a1a1a; }
+    h1 { margin:0; font-size:28px; }
+    .wrap { max-width:900px; margin:0 auto; padding:12px 16px; }
+    .item { padding:16px 0; border-bottom:1px solid #1a1a1a; }
+    .src { color:#aaa; font-size:13px; margin-top:6px; }
+    a { color:#8ab4ff; text-decoration:none; }
+    .empty { color:#aaa; padding:24px 0; }
+  </style>
+</head>
+<body>
+  <header><h1 id="title">FameFilter</h1></header>
+  <div class="wrap" id="list">Loading…</div>
+
+  <script>
+    // 1) Přečti slug z URL: person.html?slug=cristiano-ronaldo
+    const slug = new URLSearchParams(location.search).get("slug") || "";
+
+    // 2) Mapa slug -> zobrazované jméno
+    const NAMES = {
+      "taylor-swift":"Taylor Swift",
+      "kanye-west":"Kanye West",
+      "cristiano-ronaldo":"Cristiano Ronaldo",
+      "selena-gomez":"Selena Gomez",
+      "kim-kardashian":"Kim Kardashian",
+      "billie-eilish":"Billie Eilish",
+      "ariana-grande":"Ariana Grande",
+      "harry-styles":"Harry Styles",
+      "zendaya":"Zendaya",
+      "margot-robbie":"Margot Robbie"
+    };
+
+    // 3) Demo data (funguje hned bez backendu)
+    const DEMO = {
+      "cristiano-ronaldo": [
+        {title:"Ronaldo scores stunning free-kick", source:"ESPN", url:"#", published_at:"2025-08-29T12:30:00Z"},
+        {title:"Al Nassr extend unbeaten run", source:"BBC Sport", url:"#", published_at:"2025-08-28T20:10:00Z"}
+      ],
+      "taylor-swift": [
+        {title:"Taylor Swift teases new single", source:"Billboard", url:"#", published_at:"2025-08-28T18:00:00Z"}
+      ]
+      // ostatní mohou být prázdné – uvidíš hlášku „No recent links yet.“
+    };
+
+    // 4) (Později) URL na tvoje API na Railway
+    const API_URL = ""; // až bude backend, např.: "https://tvuj-backend.up.railway.app/api/news"
+
+    // Pomocná funkce pro hezký čas
+    const fmt = iso => new Date(iso).toLocaleString();
+
+    async function load() {
+      const name = NAMES[slug] || slug.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
+      document.getElementById("title").textContent = name || "FameFilter";
+
+      let items = [];
+
+      if (API_URL) {
+        // Reálná data z API (až bude)
+        try {
+          const res = await fetch(`${API_URL}?q=${encodeURIComponent(name)}&limit=50`, { cache:"no-store" });
+          items = await res.json();
+        } catch (e) { /* fallback na DEMO */ }
+      }
+
+      if (!API_URL || !items?.length) {
+        // Fallback na demo data
+        items = DEMO[slug] || [];
+      }
+
+      const list = document.getElementById("list");
+      if (!items.length) {
+        list.innerHTML = `<div class="empty">No recent links yet.</div>`;
+        return;
+      }
+
+      list.innerHTML = items.map(x => `
+        <div class="item">
+          <a href="${x.url}" target="_blank" rel="noopener"><strong>${x.title}</strong></a>
+          <div class="src">${x.source ? x.source + " • " : ""}${x.published_at ? fmt(x.published_at) : ""}</div>
+        </div>
+      `).join("");
+    }
+
+    load();
+  </script>
+</body>
+</html>
