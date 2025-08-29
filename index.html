@@ -1,35 +1,72 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <title>FameFilter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
+    :root { color-scheme: dark; }
     body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column; /* aby šel text pod sebe */
-      background-color: #000; /* černé pozadí */
-      color: #fff;            /* bílý text */
-      font-family: Arial, sans-serif;
+      margin:0;
+      background:#000;
+      color:#fff;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     }
-    h1 {
-      font-size: 64px;
-      text-align: center;
-      margin: 0;
+    header {
+      text-align:center;
+      padding:40px 20px;
     }
-    p {
-      font-size: 20px;
-      text-align: center;
-      margin-top: 16px;
-      color: #aaa; /* trochu světlejší šedá, aby slogan nebyl tak křiklavý */
+    header h1 {
+      font-size:48px;
+      margin:0;
+      text-transform:uppercase;
+      letter-spacing:2px;
+    }
+    .grid {
+      max-width:900px;
+      margin:0 auto;
+      display:grid;
+      grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+      gap:20px;
+      padding:20px;
+    }
+    .card {
+      background:#111;
+      border:1px solid #1f1f1f;
+      border-radius:12px;
+      padding:30px 20px;
+      text-align:center;
+      transition:all .2s ease;
+    }
+    .card:hover {
+      transform:translateY(-4px);
+      border-color:#444;
+    }
+    .card a {
+      color:#8ab4ff;
+      font-size:20px;
+      font-weight:600;
+      text-decoration:none;
     }
   </style>
 </head>
 <body>
-  <h1>FameFilter News</h1>
-  <p>Celebrity news filtered for you</p>
+  <header>
+    <h1>FameFilter</h1>
+    <p>Select your star to see the latest news</p>
+  </header>
+
+  <div class="grid">
+    <div class="card"><a href="person.html?slug=taylor-swift">Taylor Swift</a></div>
+    <div class="card"><a href="person.html?slug=rihanna">Rihanna</a></div>
+    <div class="card"><a href="person.html?slug=cristiano-ronaldo">Cristiano Ronaldo</a></div>
+    <div class="card"><a href="person.html?slug=selena-gomez">Selena Gomez</a></div>
+    <div class="card"><a href="person.html?slug=kim-kardashian">Kim Kardashian</a></div>
+    <div class="card"><a href="person.html?slug=dua-lipa">Dua Lipa</a></div>
+    <div class="card"><a href="person.html?slug=ariana-grande">Ariana Grande</a></div>
+    <div class="card"><a href="person.html?slug=scarlett-johansson">Scarlett Johansson</a></div>
+    <div class="card"><a href="person.html?slug=katy-perry">Katy Perry</a></div>
+    <div class="card"><a href="person.html?slug=margot-robbie">Margot Robbie</a></div>
+  </div>
 </body>
 </html>
