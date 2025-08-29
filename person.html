@@ -6,25 +6,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root { color-scheme: dark; }
-    body { margin:0; background:#000; color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
-    header { padding:24px 16px; text-align:center; border-bottom:1px solid #1a1a1a; }
-    h1 { margin:0; font-size:28px; }
-    .wrap { max-width:900px; margin:0 auto; padding:12px 16px; }
-    .item { padding:16px 0; border-bottom:1px solid #1a1a1a; }
-    .src { color:#aaa; font-size:13px; margin-top:6px; }
-    a { color:#8ab4ff; text-decoration:none; }
-    .empty { color:#aaa; padding:24px 0; }
+    body {
+      margin:0;
+      background:#000;
+      color:#fff;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+    .hero {
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding: 60px 20px 40px;
+      border-bottom:1px solid #1a1a1a;
+    }
+    .hero h1 {
+      font-size:64px;
+      margin:0;
+      text-transform:uppercase;
+    }
+    .hero h2 {
+      font-size:24px;
+      margin:10px 0 0;
+      color:#aaa;
+      font-weight:400;
+    }
+    .wrap {
+      max-width:900px;
+      margin:0 auto;
+      padding:20px 16px;
+    }
+    .item {
+      padding:16px 0;
+      border-bottom:1px solid #1a1a1a;
+    }
+    .src {
+      color:#aaa;
+      font-size:13px;
+      margin-top:6px;
+    }
+    a {
+      color:#8ab4ff;
+      text-decoration:none;
+    }
+    .empty {
+      color:#aaa;
+      padding:24px 0;
+      text-align:center;
+    }
   </style>
 </head>
 <body>
-  <header><h1 id="title">FameFilter</h1></header>
+  <div class="hero">
+    <h1 id="title">FameFilter</h1>
+    <h2>News</h2>
+  </div>
   <div class="wrap" id="list">Loading…</div>
 
   <script>
-    // 1) Přečti slug z URL: person.html?slug=cristiano-ronaldo
+    // slug z URL, např. person.html?slug=cristiano-ronaldo
     const slug = new URLSearchParams(location.search).get("slug") || "";
 
-    // 2) Mapa slug -> zobrazované jméno
+    // Mapování slug -> jméno
     const NAMES = {
       "taylor-swift":"Taylor Swift",
       "kanye-west":"Kanye West",
@@ -38,7 +82,7 @@
       "margot-robbie":"Margot Robbie"
     };
 
-    // 3) Demo data (funguje hned bez backendu)
+    // Demo články pro testování
     const DEMO = {
       "cristiano-ronaldo": [
         {title:"Ronaldo scores stunning free-kick", source:"ESPN", url:"#", published_at:"2025-08-29T12:30:00Z"},
@@ -46,12 +90,15 @@
       ],
       "taylor-swift": [
         {title:"Taylor Swift teases new single", source:"Billboard", url:"#", published_at:"2025-08-28T18:00:00Z"}
+      ],
+      "kim-kardashian": [
+        {title:"Kim Kardashian launches new beauty line", source:"TMZ", url:"#", published_at:"2025-08-27T09:00:00Z"}
       ]
-      // ostatní mohou být prázdné – uvidíš hlášku „No recent links yet.“
+      // ostatní mohou být prázdní
     };
 
-    // 4) (Později) URL na tvoje API na Railway
-    const API_URL = ""; // až bude backend, např.: "https://tvuj-backend.up.railway.app/api/news"
+    // (Později) URL na API
+    const API_URL = ""; 
 
     // Pomocná funkce pro hezký čas
     const fmt = iso => new Date(iso).toLocaleString();
@@ -63,15 +110,13 @@
       let items = [];
 
       if (API_URL) {
-        // Reálná data z API (až bude)
         try {
           const res = await fetch(`${API_URL}?q=${encodeURIComponent(name)}&limit=50`, { cache:"no-store" });
           items = await res.json();
-        } catch (e) { /* fallback na DEMO */ }
+        } catch (e) { /* fallback */ }
       }
 
       if (!API_URL || !items?.length) {
-        // Fallback na demo data
         items = DEMO[slug] || [];
       }
 
