@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
     body {
       margin:0;
       background:#000;
@@ -25,13 +26,24 @@
       font-size:64px;
       margin:0;
       text-transform:uppercase;
+      line-height:1.05;
     }
     .hero h2 {
-      font-size:24px;
-      margin:10px 0 0;
-      color:#aaa;
-      font-weight:400;
+      font-size:36px;         /* zvětšeno */
+      margin:12px 0 0;
+      color:#ccc;             /* jemnější než čistě bílá */
+      font-weight:600;
+      letter-spacing:2px;     /* magazínový feeling */
+      text-transform:uppercase;
     }
+
+    /* Mobilní úpravy, ať se to hezky vejde */
+    @media (max-width: 600px) {
+      .hero { padding: 48px 16px 28px; }
+      .hero h1 { font-size:40px; }
+      .hero h2 { font-size:22px; letter-spacing:1.5px; }
+    }
+
     .wrap {
       max-width:900px;
       margin:0 auto;
@@ -50,6 +62,7 @@
       color:#8ab4ff;
       text-decoration:none;
     }
+    a:hover { text-decoration:underline; }
     .empty {
       color:#aaa;
       padding:24px 0;
@@ -62,13 +75,14 @@
     <h1 id="title">FameFilter</h1>
     <h2>News</h2>
   </div>
+
   <div class="wrap" id="list">Loading…</div>
 
   <script>
-    // slug z URL, např. person.html?slug=cristiano-ronaldo
+    // 1) Slug z URL, např.: person.html?slug=cristiano-ronaldo
     const slug = new URLSearchParams(location.search).get("slug") || "";
 
-    // Mapování slug -> jméno
+    // 2) Mapování slug -> hezké jméno
     const NAMES = {
       "taylor-swift":"Taylor Swift",
       "kanye-west":"Kanye West",
@@ -82,7 +96,7 @@
       "margot-robbie":"Margot Robbie"
     };
 
-    // Demo články pro testování
+    // 3) Demo data (funguje hned bez backendu)
     const DEMO = {
       "cristiano-ronaldo": [
         {title:"Ronaldo scores stunning free-kick", source:"ESPN", url:"#", published_at:"2025-08-29T12:30:00Z"},
@@ -94,13 +108,13 @@
       "kim-kardashian": [
         {title:"Kim Kardashian launches new beauty line", source:"TMZ", url:"#", published_at:"2025-08-27T09:00:00Z"}
       ]
-      // ostatní mohou být prázdní
+      // ostatní můžou být prázdné → zobrazí se „No recent links yet.“
     };
 
-    // (Později) URL na API
-    const API_URL = ""; 
+    // 4) (Později) URL na tvoje API (Railway)
+    const API_URL = ""; // např.: "https://tvuj-backend.up.railway.app/api/news"
 
-    // Pomocná funkce pro hezký čas
+    // Pomocná funkce pro formátování času
     const fmt = iso => new Date(iso).toLocaleString();
 
     async function load() {
@@ -113,7 +127,9 @@
         try {
           const res = await fetch(`${API_URL}?q=${encodeURIComponent(name)}&limit=50`, { cache:"no-store" });
           items = await res.json();
-        } catch (e) { /* fallback */ }
+        } catch (e) {
+          // když API selže, spadne to na demo
+        }
       }
 
       if (!API_URL || !items?.length) {
