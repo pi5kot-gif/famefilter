@@ -26,9 +26,15 @@
       max-width:900px;
       margin:0 auto;
       display:grid;
-      grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+      grid-template-columns: repeat(4, 1fr);
       gap:20px;
       padding:20px;
+    }
+    .row-last {
+      grid-column: 2 / span 2; /* posune poslední řadu doprostřed */
+      display:flex;
+      justify-content:space-around;
+      gap:20px;
     }
     .card {
       background:#111;
@@ -57,16 +63,23 @@
   </header>
 
   <div class="grid">
+    <!-- První řada (4) -->
     <div class="card"><a href="person.html?slug=taylor-swift">Taylor Swift</a></div>
     <div class="card"><a href="person.html?slug=rihanna">Rihanna</a></div>
     <div class="card"><a href="person.html?slug=cristiano-ronaldo">Cristiano Ronaldo</a></div>
     <div class="card"><a href="person.html?slug=selena-gomez">Selena Gomez</a></div>
+
+    <!-- Druhá řada (4) -->
     <div class="card"><a href="person.html?slug=kim-kardashian">Kim Kardashian</a></div>
     <div class="card"><a href="person.html?slug=dua-lipa">Dua Lipa</a></div>
     <div class="card"><a href="person.html?slug=ariana-grande">Ariana Grande</a></div>
     <div class="card"><a href="person.html?slug=scarlett-johansson">Scarlett Johansson</a></div>
-    <div class="card"><a href="person.html?slug=katy-perry">Katy Perry</a></div>
-    <div class="card"><a href="person.html?slug=margot-robbie">Margot Robbie</a></div>
+
+    <!-- Poslední řada (2 uprostřed) -->
+    <div class="row-last">
+      <div class="card"><a href="person.html?slug=katy-perry">Katy Perry</a></div>
+      <div class="card"><a href="person.html?slug=margot-robbie">Margot Robbie</a></div>
+    </div>
   </div>
 </body>
 </html>
