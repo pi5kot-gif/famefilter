@@ -9,7 +9,7 @@
     * { box-sizing: border-box; }
     body { margin:0; background:#000; color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
 
-    /* Jednotný pevný hero (stejně jako index) */
+    /* Jednotný pevný hero jako na indexu */
     .hero{
       display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
       height:160px; padding:0 20px; border-bottom:1px solid #1a1a1a;
@@ -25,7 +25,6 @@
     }
 
     .wrap { max-width:900px; margin:0 auto; padding:20px 16px; min-height:40vh; }
-
     .item { padding:16px 0; border-bottom:1px solid #1a1a1a; }
     .src  { color:#aaa; font-size:13px; margin-top:6px; }
     a { color:#8ab4ff; text-decoration:none; }
@@ -35,7 +34,7 @@
     footer { text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
     footer a { color:#8ab4ff; text-decoration:none; font-size:13px; }
 
-    /* ========= Loader (full center) ========= */
+    /* Loader uprostřed */
     .loader-wrap{
       display:flex; flex-direction:column; align-items:center; justify-content:center;
       gap:12px; height:40vh;
@@ -57,14 +56,11 @@
   </header>
 
   <div class="wrap">
-    <!-- Loader uprostřed -->
     <div id="loader" class="loader-wrap" role="status" aria-live="polite" aria-busy="true">
       <div class="spinner" aria-hidden="true"></div>
       <div class="loader-text">Please wait…</div>
       <span class="visually-hidden">Loading…</span>
     </div>
-
-    <!-- Seznam článků -->
     <div id="list" style="display:none;"></div>
   </div>
 
@@ -73,8 +69,8 @@
   </footer>
 
   <script>
-    // === Nastav si vlastní PROXY BASE po nasazení Railway (viz část 2) ===
-    const PROXY_BASE = "famefilter-production.up.railway.app/proxy"; // ← POZOR: vyměň za URL z Railway
+    // === NASTAVENÍ PROXY (TVOJE Railway adresa) ===
+    const PROXY_BASE = "https://famefilter-production.up.railway.app/proxy"; // ← máš hotovo
     const USE_PROXY = !!PROXY_BASE && PROXY_BASE.startsWith("http");
 
     const slug = new URLSearchParams(location.search).get("slug") || "";
@@ -85,7 +81,7 @@
       "katy-perry":"Katy Perry","margot-robbie":"Margot Robbie"
     };
 
-    // Fallback DEMO (když RSS selže)
+    // Fallback DEMO
     const DEMO = {
       "cristiano-ronaldo": [
         {title:"Ronaldo scores stunning free-kick", source:"ESPN", url:"#", published_at:"2025-08-29T12:30:00Z"},
@@ -96,7 +92,7 @@
       ]
     };
 
-    // Google/Bing RSS (USA/EN). Zkraťeno na 3 dny kvůli rychlosti/aktuálnosti
+    // RSS adresy (USA/EN), kratší okno pro rychlost/aktuálnost
     function googleNewsRss(name) {
       const q = encodeURIComponent(`${name} when:3d`);
       return `https://news.google.com/rss/search?q=${q}&hl=en-US&gl=US&ceid=US:en`;
@@ -106,10 +102,9 @@
       return `https://www.bing.com/news/search?q=${q}&format=rss&setlang=en`;
     }
 
-    // Když máš vlastní proxy na Railway, použij tu; jinak AllOrigins jako nouzový fallback
     function proxied(url) {
       if (USE_PROXY) return `${PROXY_BASE}?url=${encodeURIComponent(url)}`;
-      return `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+      return `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`; // nouzový fallback
     }
 
     const fmt = iso => new Date(iso).toLocaleString();
@@ -119,11 +114,8 @@
       const ctrl = new AbortController();
       const t = setTimeout(() => ctrl.abort(), ms);
       try {
-        const res = await fetch(url, { cache:"no-store", signal: ctrl.signal });
-        return res;
-      } finally {
-        clearTimeout(t);
-      }
+        return await fetch(url, { cache:"no-store", signal: ctrl.signal });
+      } finally { clearTimeout(t); }
     }
 
     function parseRss(xmlText) {
@@ -150,9 +142,26 @@
         try { published_at = new Date(pub).toISOString(); } catch(e){}
         out.push({ title, url: link || "#", source: src || "News", published_at });
       }
-      return out;
+
+      // ===== Whitelist kvalitních zdrojů (news + showbiz + sport) =====
+      const whitelist = [
+        // obecné / agentury
+        "reuters.com","apnews.com","bbc.co.uk","theguardian.com","nytimes.com","cnn.com","washingtonpost.com","wsj.com",
+        // showbiz / kultura
+        "billboard.com","rollingstone.com","variety.com","hollywoodreporter.com","deadline.com","vogue.com","vanityfair.com","people.com",
+        // sport
+        "espn.com","bbc.com","skysports.com","goal.com","si.com","theathletic.com"
+      ];
+
+      return out.filter(item => {
+        try {
+          const host = new URL(item.url).hostname.replace(/^www\./,"");
+          return whitelist.some(w => host === w || host.endsWith(`.${w}`));
+        } catch { return false; }
+      });
     }
 
+    // Paralelně Google + Bing, ber první úspěch; jinak DEMO
     async function fetchRss(name) {
       const gUrl = proxied(googleNewsRss(name));
       const bUrl = proxied(bingNewsRss(name));
@@ -160,25 +169,16 @@
       const fetchOne = async (url) => {
         const r = await fetchWithTimeout(url, 4000);
         if (!r.ok) throw new Error("RSS fail");
-        const isAllOrigins = r.headers.get("content-type")?.includes("application/json");
-        if (isAllOrigins) {
-          const j = await r.json(); const xml = j.contents || "";
-          const parsed = parseRss(xml);
-          if (!parsed.length) throw new Error("Empty feed");
-          return parsed;
-        } else {
-          const xml = await r.text();
-          const parsed = parseRss(xml);
-          if (!parsed.length) throw new Error("Empty feed");
-          return parsed;
-        }
+        const isJson = (r.headers.get("content-type") || "").includes("application/json");
+        const xml = isJson ? (await r.json()).contents || "" : await r.text();
+        const parsed = parseRss(xml);
+        if (!parsed.length) throw new Error("Empty feed");
+        return parsed;
       };
 
       try {
-        // Google i Bing paralelně – ber první úspěšný výsledek
-        const result = await Promise.any([ fetchOne(gUrl), fetchOne(bUrl) ]);
-        return result;
-      } catch (e) {
+        return await Promise.any([ fetchOne(gUrl), fetchOne(bUrl) ]);
+      } catch {
         return DEMO[slug] || [];
       }
     }
@@ -187,19 +187,15 @@
       const name = NAMES[slug] || slug.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
       document.getElementById("title").textContent = name ? `${name} – News` : "News";
 
-      const listEl   = document.getElementById("list");
+      const listEl = document.getElementById("list");
       const loaderEl = document.getElementById("loader");
 
       let items = [];
-      try {
-        items = await fetchRss(name);
-      } catch(e) {
-        items = DEMO[slug] || [];
-      }
+      try { items = await fetchRss(name); }
+      catch { items = DEMO[slug] || []; }
 
-      // schovej loader, ukaž list
       loaderEl.style.display = "none";
-      listEl.style.display   = "block";
+      listEl.style.display = "block";
 
       if (!items.length) {
         listEl.innerHTML = `<div class="empty">No recent links yet.</div>`;
