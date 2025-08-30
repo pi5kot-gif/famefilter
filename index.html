@@ -7,7 +7,7 @@
   <style>
     :root { color-scheme: dark; }
     * { box-sizing: border-box; }
-    body { margin:0; background:#000; color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    body { margin:0; background:#000; color:#fff; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
 
     /* Jednotný hero */
     .hero{
@@ -19,27 +19,32 @@
     .hero p{ margin:8px 0 0; color:#ccc; font-weight:600; letter-spacing:2px; text-transform:uppercase; font-size:20px; white-space:nowrap; }
     @media (max-width:600px){ .brand{font-size:40px;} .hero{height:140px;} .hero p{font-size:18px; letter-spacing:1.5px;} }
 
-    /* Adaptivní grid bez placeholderů */
+    /* GRID: mobil 2 sloupce, desktop 4 sloupce */
     .grid{
       max-width:1000px; margin:0 auto; padding:20px;
       display:grid; gap:20px;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(2, 1fr);   /* DEFAULT = mobil: 2 vedle sebe */
+    }
+    @media (min-width: 801px){
+      .grid{ grid-template-columns: repeat(4, 1fr); }
+      /* Poslední 2 karty doprostřed poslední řady na desktopu (sloupce 2 a 3) */
+      .grid > a.card:nth-last-child(2){ grid-column: 2; }
+      /* poslední karta automaticky spadne do sloupce 3 */
     }
 
     .card{
       background:#111; border:1px solid #1f1f1f; border-radius:12px; overflow:hidden;
       transition:transform .2s ease, border-color .2s ease;
-      display:flex; flex-direction:column; text-align:center; text-decoration:none;
-      height:100%;
+      display:flex; flex-direction:column; text-align:center; text-decoration:none; height:100%;
     }
     .card:hover{ transform:translateY(-4px); border-color:#444; }
 
-    /* PORTRÉT poměr + fokus na obličej (nahoru) */
+    /* Portrét poměr + fokus na obličej */
     .thumb{ width:100%; aspect-ratio: 3 / 4; overflow:hidden; }
     .thumb img{
       width:100%; height:100%;
-      object-fit: cover;           /* vyplní rámeček */
-      object-position: 50% 15%;    /* posun výřezu výš na obličej */
+      object-fit:cover;
+      object-position:50% 15%; /* výřez výš – obličej */
       display:block;
     }
 
