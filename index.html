@@ -28,7 +28,7 @@
       .hero p{font-size:16px; letter-spacing:1px;}
     }
 
-    /* GRID */
+    /* Grid */
     .grid{
       max-width:1000px; margin:0 auto; padding:20px;
       display:grid; gap:20px;
@@ -47,19 +47,21 @@
     .card:hover{ transform:translateY(-4px); border-color:#444; }
 
     .thumb{ width:100%; aspect-ratio: 3 / 4; overflow:hidden; }
-    .thumb img{
-      width:100%; height:100%;
-      object-fit:cover; object-position:50% 15%;
-      display:block;
-    }
+    .thumb img{ width:100%; height:100%; object-fit:cover; object-position:50% 15%; display:block; }
 
     .card span{
       padding:14px 8px; font-size:18px; font-weight:600; color:#fff; background:#111;
       display:flex; align-items:center; justify-content:center; min-height:56px;
     }
 
-    footer{ text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
-    footer a{ color:#8ab4ff; text-decoration:none; font-size:13px; }
+    /* Footer button */
+    footer { text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
+    .btn{
+      display:inline-block; padding:10px 14px; border-radius:10px; border:1px solid #2a2a2a;
+      background:#111; color:#8ab4ff; text-decoration:none; font-weight:600;
+      transition:transform .15s ease, border-color .15s ease;
+    }
+    .btn:hover{ transform:translateY(-2px); border-color:#444; }
   </style>
 </head>
 <body>
@@ -69,54 +71,20 @@
   </header>
 
   <div class="grid">
-    <a href="person.html?slug=taylor-swift" class="card">
-      <div class="thumb"><img src="assets/taylor.jpg" alt="Taylor Swift" loading="lazy"></div>
-      <span>Taylor Swift</span>
-    </a>
-    <a href="person.html?slug=rihanna" class="card">
-      <div class="thumb"><img src="assets/rihanna.jpg" alt="Rihanna" loading="lazy"></div>
-      <span>Rihanna</span>
-    </a>
-    <a href="person.html?slug=cristiano-ronaldo" class="card">
-      <div class="thumb"><img src="assets/ronaldo.jpg" alt="Cristiano Ronaldo" loading="lazy"></div>
-      <span>Cristiano Ronaldo</span>
-    </a>
-    <a href="person.html?slug=selena-gomez" class="card">
-      <div class="thumb"><img src="assets/selena.jpg" alt="Selena Gomez" loading="lazy"></div>
-      <span>Selena Gomez</span>
-    </a>
-    <a href="person.html?slug=kim-kardashian" class="card">
-      <div class="thumb"><img src="assets/kim.jpg" alt="Kim Kardashian" loading="lazy"></div>
-      <span>Kim Kardashian</span>
-    </a>
-    <a href="person.html?slug=dua-lipa" class="card">
-      <div class="thumb"><img src="assets/dua.jpg" alt="Dua Lipa" loading="lazy"></div>
-      <span>Dua Lipa</span>
-    </a>
-    <a href="person.html?slug=ariana-grande" class="card">
-      <div class="thumb"><img src="assets/ariana.jpg" alt="Ariana Grande" loading="lazy"></div>
-      <span>Ariana Grande</span>
-    </a>
-    <a href="person.html?slug=scarlett-johansson" class="card">
-      <div class="thumb"><img src="assets/scarlett.jpg" alt="Scarlett Johansson" loading="lazy"></div>
-      <span>Scarlett Johansson</span>
-    </a>
-    <a href="person.html?slug=katy-perry" class="card">
-      <div class="thumb"><img src="assets/katy.jpg" alt="Katy Perry" loading="lazy"></div>
-      <span>Katy Perry</span>
-    </a>
-    <a href="person.html?slug=margot-robbie" class="card">
-      <div class="thumb"><img src="assets/margot.jpg" alt="Margot Robbie" loading="lazy"></div>
-      <span>Margot Robbie</span>
-    </a>
+    <a href="person.html?slug=taylor-swift" class="card"><div class="thumb"><img src="assets/taylor.jpg" alt="Taylor Swift"></div><span>Taylor Swift</span></a>
+    <a href="person.html?slug=rihanna" class="card"><div class="thumb"><img src="assets/rihanna.jpg" alt="Rihanna"></div><span>Rihanna</span></a>
+    <a href="person.html?slug=cristiano-ronaldo" class="card"><div class="thumb"><img src="assets/ronaldo.jpg" alt="Cristiano Ronaldo"></div><span>Cristiano Ronaldo</span></a>
+    <a href="person.html?slug=selena-gomez" class="card"><div class="thumb"><img src="assets/selena.jpg" alt="Selena Gomez"></div><span>Selena Gomez</span></a>
+    <a href="person.html?slug=kim-kardashian" class="card"><div class="thumb"><img src="assets/kim.jpg" alt="Kim Kardashian"></div><span>Kim Kardashian</span></a>
+    <a href="person.html?slug=dua-lipa" class="card"><div class="thumb"><img src="assets/dua.jpg" alt="Dua Lipa"></div><span>Dua Lipa</span></a>
+    <a href="person.html?slug=ariana-grande" class="card"><div class="thumb"><img src="assets/ariana.jpg" alt="Ariana Grande"></div><span>Ariana Grande</span></a>
+    <a href="person.html?slug=scarlett-johansson" class="card"><div class="thumb"><img src="assets/scarlett.jpg" alt="Scarlett Johansson"></div><span>Scarlett Johansson</span></a>
+    <a href="person.html?slug=katy-perry" class="card"><div class="thumb"><img src="assets/katy.jpg" alt="Katy Perry"></div><span>Katy Perry</span></a>
+    <a href="person.html?slug=margot-robbie" class="card"><div class="thumb"><img src="assets/margot.jpg" alt="Margot Robbie"></div><span>Margot Robbie</span></a>
   </div>
 
   <footer>
-  <div class="btnrow">
-    <a class="btn" href="index.html">Home</a>
     <a class="btn" href="credits.html">Attributions</a>
-  </div>
-</footer>
-
+  </footer>
 </body>
 </html>
