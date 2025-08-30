@@ -32,11 +32,14 @@
       .hero p{font-size:16px; letter-spacing:1px;}
     }
 
-    /* Grid */
+    /* Grid – vždy 2 vedle sebe */
     .wrap{
       max-width:1000px; margin:0 auto; padding:24px 16px;
-      display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
-      gap:24px;
+      display:grid; gap:24px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width:600px){
+      .wrap{ grid-template-columns: 1fr; }
     }
 
     .credit{
