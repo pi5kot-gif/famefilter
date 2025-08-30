@@ -9,7 +9,7 @@
     * { box-sizing: border-box; }
     body { margin:0; background:#000; color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
 
-    /* Jednotný pevný hero na obou stránkách */
+    /* Jednotný hero */
     .hero{
       display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
       height:160px; padding:0 20px; border-bottom:1px solid #1a1a1a;
@@ -17,62 +17,92 @@
     .brand{ font-size:56px; font-weight:800; text-transform:uppercase; letter-spacing:2px; margin:0; }
     .brand .accent{ color:#8ab4ff; }
     .hero p{ margin:8px 0 0; color:#ccc; font-weight:600; letter-spacing:2px; text-transform:uppercase; font-size:20px; white-space:nowrap; }
+    @media (max-width:600px){ .brand{font-size:40px;} .hero{height:140px;} .hero p{font-size:18px; letter-spacing:1.5px;} }
 
-    .grid {
-      max-width:1000px; margin:0 auto; display:grid;
-      grid-template-columns: repeat(4, 1fr); gap:20px; padding:20px;
+    /* Grid bez placeholderů – sám se zarovnává i na mobilu */
+    .grid{
+      max-width:1000px; margin:0 auto; padding:20px;
+      display:grid; gap:20px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     }
-    .card {
+
+    .card{
       background:#111; border:1px solid #1f1f1f; border-radius:12px; overflow:hidden;
-      transition:all .2s ease; display:flex; flex-direction:column; text-align:center;
-      height:320px; text-decoration:none;
+      transition:transform .2s ease, border-color .2s ease;
+      display:flex; flex-direction:column; text-align:center; text-decoration:none;
+      height:100%;
     }
-    .card:hover { transform:translateY(-4px); border-color:#444; }
-    .card img { width:100%; height:250px; object-fit:cover; display:block; }
-    .card span {
-      flex:1; display:flex; align-items:center; justify-content:center;
-      font-size:18px; font-weight:600; color:#fff; background:#111; padding:0 8px;
-    }
+    .card:hover{ transform:translateY(-4px); border-color:#444; }
 
-    /* Poslední řadu vycentrujeme prázdnými místy */
-    .grid > div:empty { visibility:hidden; }
+    /* Obrázky ve stabilním poměru (žádné skákání) */
+    .thumb{ width:100%; aspect-ratio: 16 / 10; overflow:hidden; }
+    .thumb img{ width:100%; height:100%; object-fit:cover; display:block; }
 
-    @media (max-width: 800px) {
-      .grid { grid-template-columns: repeat(2, 1fr); }
-      .card { height:300px; } .card img { height:200px; }
-      .brand { font-size:40px; }
-      .hero { height:140px; }
-      .hero p { font-size:18px; letter-spacing:1.5px; }
+    .card span{
+      padding:14px 8px; font-size:18px; font-weight:600; color:#fff; background:#111;
+      display:flex; align-items:center; justify-content:center; min-height:56px;
     }
 
-    footer { text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
-    footer a { color:#8ab4ff; text-decoration:none; font-size:13px; }
+    footer{ text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
+    footer a{ color:#8ab4ff; text-decoration:none; font-size:13px; }
   </style>
 </head>
 <body>
   <header class="hero">
     <h1 class="brand">Fame<span class="accent">Filter</span></h1>
-    <p id="title">Select your star to see the latest news</p>
+    <p>Select your star to see the latest news</p>
   </header>
 
   <div class="grid">
-    <!-- 1. řada -->
-    <a href="person.html?slug=taylor-swift" class="card"><img src="assets/taylor.jpg" alt="Taylor Swift"><span>Taylor Swift</span></a>
-    <a href="person.html?slug=rihanna" class="card"><img src="assets/rihanna.jpg" alt="Rihanna"><span>Rihanna</span></a>
-    <a href="person.html?slug=cristiano-ronaldo" class="card"><img src="assets/ronaldo.jpg" alt="Cristiano Ronaldo"><span>Cristiano Ronaldo</span></a>
-    <a href="person.html?slug=selena-gomez" class="card"><img src="assets/selena.jpg" alt="Selena Gomez"><span>Selena Gomez</span></a>
+    <a href="person.html?slug=taylor-swift" class="card">
+      <div class="thumb"><img src="assets/taylor.jpg" alt="Taylor Swift" loading="lazy"></div>
+      <span>Taylor Swift</span>
+    </a>
 
-    <!-- 2. řada -->
-    <a href="person.html?slug=kim-kardashian" class="card"><img src="assets/kim.jpg" alt="Kim Kardashian"><span>Kim Kardashian</span></a>
-    <a href="person.html?slug=dua-lipa" class="card"><img src="assets/dua.jpg" alt="Dua Lipa"><span>Dua Lipa</span></a>
-    <a href="person.html?slug=ariana-grande" class="card"><img src="assets/ariana.jpg" alt="Ariana Grande"><span>Ariana Grande</span></a>
-    <a href="person.html?slug=scarlett-johansson" class="card"><img src="assets/scarlett.jpg" alt="Scarlett Johansson"><span>Scarlett Johansson</span></a>
+    <a href="person.html?slug=rihanna" class="card">
+      <div class="thumb"><img src="assets/rihanna.jpg" alt="Rihanna" loading="lazy"></div>
+      <span>Rihanna</span>
+    </a>
 
-    <!-- 3. řada – 2 uprostřed -->
-    <div></div>
-    <a href="person.html?slug=katy-perry" class="card"><img src="assets/katy.jpg" alt="Katy Perry"><span>Katy Perry</span></a>
-    <a href="person.html?slug=margot-robbie" class="card"><img src="assets/margot.jpg" alt="Margot Robbie"><span>Margot Robbie</span></a>
-    <div></div>
+    <a href="person.html?slug=cristiano-ronaldo" class="card">
+      <div class="thumb"><img src="assets/ronaldo.jpg" alt="Cristiano Ronaldo" loading="lazy"></div>
+      <span>Cristiano Ronaldo</span>
+    </a>
+
+    <a href="person.html?slug=selena-gomez" class="card">
+      <div class="thumb"><img src="assets/selena.jpg" alt="Selena Gomez" loading="lazy"></div>
+      <span>Selena Gomez</span>
+    </a>
+
+    <a href="person.html?slug=kim-kardashian" class="card">
+      <div class="thumb"><img src="assets/kim.jpg" alt="Kim Kardashian" loading="lazy"></div>
+      <span>Kim Kardashian</span>
+    </a>
+
+    <a href="person.html?slug=dua-lipa" class="card">
+      <div class="thumb"><img src="assets/dua.jpg" alt="Dua Lipa" loading="lazy"></div>
+      <span>Dua Lipa</span>
+    </a>
+
+    <a href="person.html?slug=ariana-grande" class="card">
+      <div class="thumb"><img src="assets/ariana.jpg" alt="Ariana Grande" loading="lazy"></div>
+      <span>Ariana Grande</span>
+    </a>
+
+    <a href="person.html?slug=scarlett-johansson" class="card">
+      <div class="thumb"><img src="assets/scarlett.jpg" alt="Scarlett Johansson" loading="lazy"></div>
+      <span>Scarlett Johansson</span>
+    </a>
+
+    <a href="person.html?slug=katy-perry" class="card">
+      <div class="thumb"><img src="assets/katy.jpg" alt="Katy Perry" loading="lazy"></div>
+      <span>Katy Perry</span>
+    </a>
+
+    <a href="person.html?slug=margot-robbie" class="card">
+      <div class="thumb"><img src="assets/margot.jpg" alt="Margot Robbie" loading="lazy"></div>
+      <span>Margot Robbie</span>
+    </a>
   </div>
 
   <footer>
