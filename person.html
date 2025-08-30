@@ -56,7 +56,6 @@
 </head>
 <body>
   <header class="hero">
-    <!-- Logo/textové brand není obrázek, takže není co optimalizovat -->
     <h1 class="brand">Fame<span class="accent">Filter</span></h1>
     <p id="title">News</p>
   </header>
@@ -126,6 +125,10 @@
       const items=await fetchRss(name);
       loader.style.display="none";list.style.display="block";
       if(!items.length){list.innerHTML=`<div class="empty">No recent links yet.</div>`;return;}
+
+      // 🔽 řazení podle data (nejnovější nahoře)
+      items.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+
       list.innerHTML=items.map(x=>`
         <div class="item">
           <a href="${x.url}" target="_blank"><strong>${x.title}</strong></a>
