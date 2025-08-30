@@ -9,27 +9,34 @@
     * { box-sizing: border-box; }
     body { margin:0; background:#000; color:#fff; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
 
-    /* Jednotný hero */
+    /* Hero */
     .hero{
       display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
-      height:160px; padding:0 20px; border-bottom:1px solid #1a1a1a;
+      height:auto; padding:24px 12px; border-bottom:1px solid #1a1a1a;
     }
-    .brand{ font-size:56px; font-weight:800; text-transform:uppercase; letter-spacing:2px; margin:0; }
+    .brand{
+      font-size:56px; font-weight:800; text-transform:uppercase; letter-spacing:2px;
+      margin:0; line-height:1.1; word-break:break-word;
+    }
     .brand .accent{ color:#8ab4ff; }
-    .hero p{ margin:8px 0 0; color:#ccc; font-weight:600; letter-spacing:2px; text-transform:uppercase; font-size:20px; white-space:nowrap; }
-    @media (max-width:600px){ .brand{font-size:40px;} .hero{height:140px;} .hero p{font-size:18px; letter-spacing:1.5px;} }
+    .hero p{
+      margin:10px 0 0; color:#ccc; font-weight:600; letter-spacing:2px;
+      text-transform:uppercase; font-size:20px; line-height:1.2;
+    }
+    @media (max-width:600px){
+      .brand{font-size:36px; letter-spacing:1.5px;}
+      .hero p{font-size:16px; letter-spacing:1px;}
+    }
 
-    /* GRID: mobil 2 sloupce, desktop 4 sloupce */
+    /* GRID */
     .grid{
       max-width:1000px; margin:0 auto; padding:20px;
       display:grid; gap:20px;
-      grid-template-columns: repeat(2, 1fr);   /* DEFAULT = mobil: 2 vedle sebe */
+      grid-template-columns: repeat(2, 1fr);
     }
     @media (min-width: 801px){
       .grid{ grid-template-columns: repeat(4, 1fr); }
-      /* Poslední 2 karty doprostřed poslední řady na desktopu (sloupce 2 a 3) */
       .grid > a.card:nth-last-child(2){ grid-column: 2; }
-      /* poslední karta automaticky spadne do sloupce 3 */
     }
 
     .card{
@@ -39,12 +46,10 @@
     }
     .card:hover{ transform:translateY(-4px); border-color:#444; }
 
-    /* Portrét poměr + fokus na obličej */
     .thumb{ width:100%; aspect-ratio: 3 / 4; overflow:hidden; }
     .thumb img{
       width:100%; height:100%;
-      object-fit:cover;
-      object-position:50% 15%; /* výřez výš – obličej */
+      object-fit:cover; object-position:50% 15%;
       display:block;
     }
 
@@ -68,47 +73,38 @@
       <div class="thumb"><img src="assets/taylor.jpg" alt="Taylor Swift" loading="lazy"></div>
       <span>Taylor Swift</span>
     </a>
-
     <a href="person.html?slug=rihanna" class="card">
       <div class="thumb"><img src="assets/rihanna.jpg" alt="Rihanna" loading="lazy"></div>
       <span>Rihanna</span>
     </a>
-
     <a href="person.html?slug=cristiano-ronaldo" class="card">
       <div class="thumb"><img src="assets/ronaldo.jpg" alt="Cristiano Ronaldo" loading="lazy"></div>
       <span>Cristiano Ronaldo</span>
     </a>
-
     <a href="person.html?slug=selena-gomez" class="card">
       <div class="thumb"><img src="assets/selena.jpg" alt="Selena Gomez" loading="lazy"></div>
       <span>Selena Gomez</span>
     </a>
-
     <a href="person.html?slug=kim-kardashian" class="card">
       <div class="thumb"><img src="assets/kim.jpg" alt="Kim Kardashian" loading="lazy"></div>
       <span>Kim Kardashian</span>
     </a>
-
     <a href="person.html?slug=dua-lipa" class="card">
       <div class="thumb"><img src="assets/dua.jpg" alt="Dua Lipa" loading="lazy"></div>
       <span>Dua Lipa</span>
     </a>
-
     <a href="person.html?slug=ariana-grande" class="card">
       <div class="thumb"><img src="assets/ariana.jpg" alt="Ariana Grande" loading="lazy"></div>
       <span>Ariana Grande</span>
     </a>
-
     <a href="person.html?slug=scarlett-johansson" class="card">
       <div class="thumb"><img src="assets/scarlett.jpg" alt="Scarlett Johansson" loading="lazy"></div>
       <span>Scarlett Johansson</span>
     </a>
-
     <a href="person.html?slug=katy-perry" class="card">
       <div class="thumb"><img src="assets/katy.jpg" alt="Katy Perry" loading="lazy"></div>
       <span>Katy Perry</span>
     </a>
-
     <a href="person.html?slug=margot-robbie" class="card">
       <div class="thumb"><img src="assets/margot.jpg" alt="Margot Robbie" loading="lazy"></div>
       <span>Margot Robbie</span>
