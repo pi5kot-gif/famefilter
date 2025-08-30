@@ -124,7 +124,11 @@
       const list=document.getElementById("list");const loader=document.getElementById("loader");
       const items=await fetchRss(name);
       loader.style.display="none";list.style.display="block";
-      if(!items.length){list.innerHTML=`<div class="empty">No recent links yet.</div>`;return;}
+      if(!items.length){
+  list.innerHTML=`<div class="empty">Failed to load news.<br>Please refresh the page.</div>`;
+  return;
+}
+
 
       // 🔽 řazení podle data (nejnovější nahoře)
       items.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
