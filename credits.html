@@ -7,13 +7,8 @@
   <style>
     :root { color-scheme: dark; }
     * { box-sizing: border-box; }
-    body {
-      margin:0; background:#000; color:#fff;
-      font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
-      line-height:1.5;
-    }
+    body { margin:0; background:#000; color:#fff; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; line-height:1.5; }
 
-    /* Hero */
     .hero{
       display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
       height:auto; padding:24px 12px; border-bottom:1px solid #1a1a1a;
@@ -23,60 +18,34 @@
       margin:0; line-height:1.1; word-break:break-word;
     }
     .brand .accent{ color:#8ab4ff; }
-    .hero p{
-      margin:10px 0 0; color:#ccc; font-weight:600; letter-spacing:2px;
-      text-transform:uppercase; font-size:20px; line-height:1.2;
-    }
-    @media (max-width:600px){
-      .brand{font-size:36px; letter-spacing:1.5px;}
-      .hero p{font-size:16px; letter-spacing:1px;}
-    }
+    .hero p{ margin:10px 0 0; color:#ccc; font-weight:600; letter-spacing:2px; text-transform:uppercase; font-size:20px; line-height:1.2; }
+    @media (max-width:600px){ .brand{font-size:36px;} .hero p{font-size:16px;} }
 
-    /* Grid – vždy 2 vedle sebe */
     .wrap{
       max-width:1000px; margin:0 auto; padding:24px 16px;
       display:grid; gap:24px;
       grid-template-columns: repeat(2, 1fr);
     }
-    @media (max-width:600px){
-      .wrap{ grid-template-columns: 1fr; }
-    }
+    @media (max-width:600px){ .wrap{ grid-template-columns: 1fr; } }
 
     .credit{
       background:#111; border:1px solid #1f1f1f; border-radius:12px; padding:16px;
-      display:flex; flex-direction:column; align-items:center; text-align:center;
-      gap:12px;
+      display:flex; flex-direction:column; align-items:center; text-align:center; gap:12px;
     }
-
-    .thumb{
-      width:140px; aspect-ratio: 3 / 4; overflow:hidden;
-      border-radius:10px; border:1px solid #2a2a2a;
-    }
-    .thumb img{
-      width:100%; height:100%;
-      object-fit:cover; object-position:50% 15%;
-      display:block;
-    }
-
+    .thumb{ width:140px; aspect-ratio: 3 / 4; overflow:hidden; border-radius:10px; border:1px solid #2a2a2a; }
+    .thumb img{ width:100%; height:100%; object-fit:cover; object-position:50% 15%; display:block; }
     .name{ font-weight:700; font-size:18px; }
     .meta{ color:#ccc; font-size:14px; }
     .meta a{ color:#8ab4ff; text-decoration:none; }
     .meta a:hover{ text-decoration:underline; }
 
-    .back{
-      grid-column:1/-1; display:flex; justify-content:center; margin:28px 0 8px;
-    }
-    .back a{
+    footer{ text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
+    .btn{
       display:inline-block; padding:10px 14px; border-radius:10px; border:1px solid #2a2a2a;
       background:#111; color:#8ab4ff; text-decoration:none; font-weight:600;
       transition:transform .15s ease, border-color .15s ease;
     }
-    .back a:hover{ transform:translateY(-2px); border-color:#444; }
-
-    footer{
-      text-align:center; padding:16px; color:#aaa; font-size:12px;
-      border-top:1px solid #1a1a1a; margin-top:8px;
-    }
+    .btn:hover{ transform:translateY(-2px); border-color:#444; }
   </style>
 </head>
 <body>
@@ -86,106 +55,11 @@
   </header>
 
   <div class="wrap">
-
-    <div class="credit">
-      <div class="thumb"><img src="assets/taylor.jpg" alt="Taylor Swift"></div>
-      <div class="name">Taylor Swift</div>
-      <div class="meta">
-        Image: <a href="https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png" target="_blank">Wikimedia Commons</a><br/>
-        © Jana Zills — CC BY-SA 2.0
-      </div>
-    </div>
-
-    <div class="credit">
-      <div class="thumb"><img src="assets/rihanna.jpg" alt="Rihanna"></div>
-      <div class="name">Rihanna</div>
-      <div class="meta">
-        Image: <a href="https://commons.wikimedia.org/wiki/File:Rihanna_-_Live_in_Paris_(9).jpg" target="_blank">Wikimedia Commons</a><br/>
-        © Eva Rinaldi — CC BY-SA 2.0
-      </div>
-    </div>
-
-    <div class="credit">
-      <div class="thumb"><img src="assets/ronaldo.jpg" alt="Cristiano Ronaldo"></div>
-      <div class="name">Cristiano Ronaldo</div>
-      <div class="meta">
-        Image: <a href="https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_2018.jpg" target="_blank">Wikimedia Commons</a><br/>
-        © Анна Нэсси — CC BY-SA 3.0
-      </div>
-    </div>
-
-    <div class="credit">
-      <div class="thumb"><img src="assets/selena.jpg" alt="Selena Gomez"></div>
-      <div class="name">Selena Gomez</div>
-      <div class="meta">
-        Image: <a href="https://commons.wikimedia.org/wiki/File:Selena_Gomez_2009.jpg" target="_blank">Wikimedia Commons</a><br/>
-        © Joella Marano — CC BY-SA 3.0
-      </div>
-    </div>
-
-    <div class="credit">
-      <div class="thumb"><img src="assets/kim.jpg" alt="Kim Kardashian"></div>
-      <div class="name">Kim Kardashian</div>
-      <div class="meta">
-        Image: <a href="https://commons.wikimedia.org/wiki/File:Kim_Kardashian_2.jpg" target="_blank">Wikimedia Commons</a><br/>
-        © Hollywood Life — CC BY-SA 2.5
-      </div>
-    </div>
-
-    <div class="credit">
-      <div class="thumb"><img src="assets/dua.jpg" alt="Dua Lipa"></div>
-      <div class="name">Dua Lipa</div>
-      <div class="meta">
-        Image: <a href="https://commons.wikimedia.org/wiki/File:British_singer_and_songwriter_Dua_Lipa_at_the_SWR3_New_Pop_Festival_2016.jpg" target="_blank">Wikimedia Commons</a><br/>
-        © Harald Krichel — CC BY-SA 4.0
-      </div>
-    </div>
-
-    <div class="credit">
-      <div class="thumb"><img src="assets/ariana.jpg" alt="Ariana Grande"></div>
-      <div class="name">Ariana Grande</div>
-      <div class="meta">
-        Image: <a href="https://commons.wikimedia.org/wiki/File:Ariana_Grande_by_David_Shankbone.jpg" target="_blank">Wikimedia Commons</a><br/>
-        © David Shankbone — CC BY 2.0
-      </div>
-    </div>
-
-    <div class="credit">
-      <div class="thumb"><img src="assets/scarlett.jpg" alt="Scarlett Johansson"></div>
-      <div class="name">Scarlett Johansson</div>
-      <div class="meta">
-        Image: <a href="https://commons.wikimedia.org/wiki/File:Scarlett_Johansson_2012.jpg" target="_blank">Wikimedia Commons</a><br/>
-        © Gage Skidmore — CC BY 2.0
-      </div>
-    </div>
-
-    <div class="credit">
-      <div class="thumb"><img src="assets/katy.jpg" alt="Katy Perry"></div>
-      <div class="name">Katy Perry</div>
-      <div class="meta">
-        Image: <a href="https://commons.wikimedia.org/wiki/File:Katy_Perry_performing_2010.jpg" target="_blank">Wikimedia Commons</a><br/>
-        © dephisticate — CC BY 2.0
-      </div>
-    </div>
-
-    <div class="credit">
-      <div class="thumb"><img src="assets/margot.jpg" alt="Margot Robbie"></div>
-      <div class="name">Margot Robbie</div>
-      <div class="meta">
-        Image: <a href="https://commons.wikimedia.org/wiki/File:Margot_Robbie_by_Gage_Skidmore_(cropped).jpg" target="_blank">Wikimedia Commons</a><br/>
-        © Gage Skidmore — CC BY-SA 3.0
-      </div>
-    </div>
-
-    <div class="btnrow">
-  <a class="btn" href="index.html">Home</a>
-  <a class="btn" href="credits.html">Attributions</a>
-</div>
-
+    <!-- Sem patří bloky .credit pro všechny celebrity (Taylor, Rihanna, Ronaldo … Margot) -->
   </div>
 
   <footer>
-    FameFilter © 2025 – Attributions
+    <a class="btn" href="index.html">Home</a>
   </footer>
 </body>
 </html>
