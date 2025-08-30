@@ -9,7 +9,7 @@
     * { box-sizing: border-box; }
     body { margin:0; background:#000; color:#fff; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
 
-    /* Hero (sjednoceno s indexem) */
+    /* Hero */
     .hero{
       display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
       height:auto; padding:24px 12px; border-bottom:1px solid #1a1a1a;
@@ -19,14 +19,8 @@
       margin:0; line-height:1.1; word-break:break-word;
     }
     .brand .accent{ color:#8ab4ff; }
-    .hero p{
-      margin:10px 0 0; color:#ccc; font-weight:600; letter-spacing:2px;
-      text-transform:uppercase; font-size:20px; line-height:1.2;
-    }
-    @media (max-width:600px){
-      .brand{font-size:36px; letter-spacing:1.5px;}
-      .hero p{font-size:16px; letter-spacing:1px;}
-    }
+    .hero p{ margin:10px 0 0; color:#ccc; font-weight:600; letter-spacing:2px; text-transform:uppercase; font-size:20px; line-height:1.2; }
+    @media (max-width:600px){ .brand{font-size:36px;} .hero p{font-size:16px;} }
 
     .wrap { max-width:900px; margin:0 auto; padding:20px 16px; min-height:40vh; }
 
@@ -36,7 +30,7 @@
     a:hover { text-decoration:underline; }
     .empty { color:#aaa; padding:24px 0; text-align:center; }
 
-    /* Loader uprostřed */
+    /* Loader */
     .loader-wrap{
       display:flex; flex-direction:column; align-items:center; justify-content:center;
       gap:12px; height:40vh;
@@ -46,17 +40,12 @@
       border:4px solid #222; border-top-color:#8ab4ff;
       animation: spin 0.8s linear infinite;
     }
-    .loader-text{ color:#ccc; font-size:14px; letter-spacing:.5px; }
+    .loader-text{ color:#ccc; font-size:14px; }
     @keyframes spin { to { transform: rotate(360deg); } }
     .visually-hidden{ position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
 
-    /* Footer – stejné „pill“ tlačítko pro Home i Attributions */
-    footer {
-      text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px;
-    }
-    .btnrow{
-      display:flex; gap:12px; align-items:center; justify-content:center; flex-wrap:wrap;
-    }
+    /* Footer – jedno tlačítko Home */
+    footer{ text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
     .btn{
       display:inline-block; padding:10px 14px; border-radius:10px; border:1px solid #2a2a2a;
       background:#111; color:#8ab4ff; text-decoration:none; font-weight:600;
@@ -72,41 +61,22 @@
   </header>
 
   <div class="wrap">
-    <div id="loader" class="loader-wrap" role="status" aria-live="polite" aria-busy="true">
+    <div id="loader" class="loader-wrap" role="status">
       <div class="spinner" aria-hidden="true"></div>
       <div class="loader-text">Please wait…</div>
-      <span class="visually-hidden">Loading…</span>
     </div>
     <div id="list" style="display:none;"></div>
   </div>
 
   <footer>
-    <div class="btnrow">
-      <a class="btn" href="index.html">Home</a>
-      <a class="btn" href="credits.html">Attributions</a>
-    </div>
+    <a class="btn" href="index.html">Home</a>
   </footer>
 
   <script>
-    /* Polyfill pro Promise.any (pro jistotu) */
-    if (typeof Promise.any !== "function") {
-      Promise.any = function(promises) {
-        return new Promise((resolve, reject) => {
-          let rejections = 0;
-          promises.forEach(p => Promise.resolve(p).then(resolve).catch(() => {
-            if (++rejections === promises.length) reject(new Error("All promises rejected"));
-          }));
-        });
-      };
-    }
-
-    /* Proxy – tvoje Railway URL s /proxy */
     const PROXY_BASE = "https://famefilter-production.up.railway.app/proxy";
-    const ProxyURL = (PROXY_BASE && PROXY_BASE.startsWith("http")) ? PROXY_BASE
-                    : (PROXY_BASE ? ("https://" + PROXY_BASE) : "");
+    const ProxyURL = (PROXY_BASE && PROXY_BASE.startsWith("http")) ? PROXY_BASE : "";
     const HAVE_PROXY = !!ProxyURL;
 
-    /* Slug + jméno */
     const slug = new URLSearchParams(location.search).get("slug") || "";
     const NAMES = {
       "taylor-swift":"Taylor Swift","rihanna":"Rihanna","cristiano-ronaldo":"Cristiano Ronaldo",
@@ -115,137 +85,48 @@
       "katy-perry":"Katy Perry","margot-robbie":"Margot Robbie"
     };
 
-    /* DEMO fallback */
-    const DEMO = {
-      "cristiano-ronaldo": [
-        {title:"Ronaldo scores stunning free-kick", source:"ESPN", url:"#", published_at:"2025-08-29T12:30:00Z"},
-        {title:"Al Nassr extend unbeaten run", source:"BBC Sport", url:"#", published_at:"2025-08-28T20:10:00Z"}
-      ],
-      "taylor-swift": [
-        {title:"Taylor Swift teases new single", source:"Billboard", url:"#", published_at:"2025-08-28T18:00:00Z"}
-      ]
-    };
-
-    /* RSS adresy – posledních 30 dní */
-    function googleNewsRss(name) {
-      const q = encodeURIComponent(`${name} when:30d`);
-      return `https://news.google.com/rss/search?q=${q}&hl=en-US&gl=US&ceid=US:en`;
-    }
-    function bingNewsRss(name) {
-      const q = encodeURIComponent(`${name}`);
-      return `https://www.bing.com/news/search?q=${q}&format=rss&setlang=en`;
-    }
-
-    /* Proxy obálky */
+    function googleNewsRss(name){ return `https://news.google.com/rss/search?q=${encodeURIComponent(name+" when:30d")}&hl=en-US&gl=US&ceid=US:en`; }
+    function bingNewsRss(name){ return `https://www.bing.com/news/search?q=${encodeURIComponent(name)}&format=rss&setlang=en`; }
     const allOrigins = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-    const viaProxy   = url => `${ProxyURL}?url=${encodeURIComponent(url)}`;
+    const viaProxy = url => `${ProxyURL}?url=${encodeURIComponent(url)}`;
 
-    /* Utils */
-    const fmt = iso => new Date(iso).toLocaleString();
-    const MAX_ITEMS = 24;
+    const MAX_ITEMS=24; const fmt = iso=>new Date(iso).toLocaleString();
 
-    async function fetchWithTimeout(url, ms = 5000) {
-      const ctrl = new AbortController();
-      const t = setTimeout(() => ctrl.abort(), ms);
-      try { return await fetch(url, { cache:"no-store", signal: ctrl.signal }); }
-      finally { clearTimeout(t); }
-    }
+    async function fetchWithTimeout(url,ms=5000){const ctrl=new AbortController();const t=setTimeout(()=>ctrl.abort(),ms);try{return await fetch(url,{signal:ctrl.signal});}finally{clearTimeout(t);}}
 
-    function parseRss(xmlText) {
-      const doc = new DOMParser().parseFromString(xmlText, "text/xml");
-      if (doc.querySelector("parsererror")) throw new Error("RSS parse error");
-      const items = Array.from(doc.querySelectorAll("item")).slice(0, MAX_ITEMS);
-
-      const seen = new Set();
-      const out = [];
-      for (const it of items) {
-        const title = (it.querySelector("title")?.textContent || "").trim();
-        if (!title || seen.has(title)) continue;
-        seen.add(title);
-
-        const link  = (it.querySelector("link")?.textContent || "").trim();
-        const pub   = (it.querySelector("pubDate")?.textContent || "").trim();
-
-        let src = (it.querySelector("source")?.textContent || "").trim();
-        if (!src && link) {
-          try { src = new URL(link).hostname.replace(/^www\./,""); } catch(e) { src = "News"; }
-        }
-
-        let published_at = "";
-        try { published_at = new Date(pub).toISOString(); } catch(e){}
-        out.push({ title, url: link || "#", source: src || "News", published_at });
-      }
-
-      /* Whitelist kvalitních zdrojů (s bezpečným fallbackem) */
-      const whitelist = [
-        // velká média / agentury
-        "reuters.com","apnews.com","bbc.co.uk","bbc.com","theguardian.com","nytimes.com","cnn.com","washingtonpost.com","wsj.com",
-        // showbiz
-        "billboard.com","rollingstone.com","variety.com","hollywoodreporter.com","deadline.com","vogue.com","vanityfair.com","people.com","etonline.com","eonline.com",
-        // sport
-        "espn.com","skysports.com","goal.com","si.com","theathletic.com","bleacherreport.com"
-      ];
-
-      const filtered = out.filter(item => {
-        try {
-          const host = new URL(item.url).hostname.replace(/^www\./,"");
-          return whitelist.some(w => host === w || host.endsWith(`.${w}`));
-        } catch { return false; }
+    function parseRss(xmlText){
+      const doc=new DOMParser().parseFromString(xmlText,"text/xml");
+      return Array.from(doc.querySelectorAll("item")).slice(0,MAX_ITEMS).map(it=>{
+        const title=it.querySelector("title")?.textContent.trim();
+        const link=it.querySelector("link")?.textContent.trim();
+        const src=it.querySelector("source")?.textContent.trim()||"News";
+        const pub=it.querySelector("pubDate")?.textContent.trim();
+        return {title,url:link,source:src,published_at:pub?new Date(pub).toISOString():""};
       });
-
-      return filtered.length ? filtered : out;
     }
 
-    async function fetchAndParse(requestUrl) {
-      const r = await fetchWithTimeout(requestUrl, 5000);
-      if (!r.ok) throw new Error("Fetch fail");
-      const ct = (r.headers.get("content-type") || "").toLowerCase();
-      const xml = ct.includes("application/json")
-        ? ((await r.json()).contents || "")
-        : await r.text();
-      const parsed = parseRss(xml);
-      if (!parsed.length) throw new Error("Empty feed");
-      return parsed;
-    }
-
-    async function fetchRss(name) {
-      const g = googleNewsRss(name);
-      const b = bingNewsRss(name);
-      const candidates = [
-        ...(HAVE_PROXY ? [ viaProxy(g) ] : []), allOrigins(g),
-        ...(HAVE_PROXY ? [ viaProxy(b) ] : []), allOrigins(b),
-      ];
-      return await Promise.any(candidates.map(fetchAndParse))
-        .catch(() => DEMO[slug] || []);
-    }
-
-    async function load() {
-      const name = NAMES[slug] || slug.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
-      document.getElementById("title").textContent = name ? `${name} – News` : "News";
-
-      const listEl = document.getElementById("list");
-      const loaderEl = document.getElementById("loader");
-
-      let items = [];
-      try { items = await fetchRss(name); }
-      catch { items = DEMO[slug] || []; }
-
-      loaderEl.style.display = "none";
-      listEl.style.display = "block";
-
-      if (!items.length) {
-        listEl.innerHTML = `<div class="empty">No recent links yet.</div>`;
-        return;
+    async function fetchRss(name){
+      const urls=[googleNewsRss(name),bingNewsRss(name)];
+      const candidates=urls.flatMap(u=>[...(HAVE_PROXY?[viaProxy(u)]:[]),allOrigins(u)]);
+      for(const u of candidates){
+        try{
+          const r=await fetchWithTimeout(u,5000);
+          const xml=(await r.json()).contents||"";
+          return parseRss(xml);
+        }catch{}
       }
-
-      listEl.innerHTML = items.map(x => `
-        <div class="item">
-          <a href="${x.url}" target="_blank" rel="noopener"><strong>${x.title}</strong></a>
-          <div class="src">${x.source ? x.source + " • " : ""}${x.published_at ? fmt(x.published_at) : ""}</div>
-        </div>
-      `).join("");
+      return [];
     }
 
+    async function load(){
+      const name=NAMES[slug]||slug.replace(/-/g," ");
+      document.getElementById("title").textContent=`${name} – News`;
+      const list=document.getElementById("list");const loader=document.getElementById("loader");
+      const items=await fetchRss(name);
+      loader.style.display="none";list.style.display="block";
+      if(!items.length){list.innerHTML=`<div class="empty">No recent links yet.</div>`;return;}
+      list.innerHTML=items.map(x=>`<div class="item"><a href="${x.url}" target="_blank"><strong>${x.title}</strong></a><div class="src">${x.source} • ${fmt(x.published_at)}</div></div>`).join("");
+    }
     load();
   </script>
 </body>
