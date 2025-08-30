@@ -9,7 +9,6 @@
     * { box-sizing: border-box; }
     body { margin:0; background:#000; color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
 
-    /* Jednotný hero */
     .hero{
       display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
       height:160px; padding:0 20px; border-bottom:1px solid #1a1a1a;
@@ -73,13 +72,18 @@
       ]
     };
 
-    // Google News RSS (USA/EN) – posledních 7 dní
+    // Google News RSS
     function googleNewsRss(name) {
       const q = encodeURIComponent(`${name} when:7d`);
       return `https://news.google.com/rss/search?q=${q}&hl=en-US&gl=US&ceid=US:en`;
     }
 
-    // AllOrigins JSON proxy
+    // Bing News RSS (alternativa)
+    function bingNewsRss(name) {
+      const q = encodeURIComponent(`${name}`);
+      return `https://www.bing.com/news/search?q=${q}&format=rss&setlang=en`;
+    }
+
     function proxied(url) {
       return `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
     }
@@ -89,7 +93,7 @@
     function parseRss(xmlText) {
       const doc = new DOMParser().parseFromString(xmlText, "text/xml");
       if (doc.querySelector("parsererror")) throw new Error("RSS parse error");
-      const items = Array.from(doc.querySelectorAll("item")).slice(0, 30);
+      const items = Array.from(doc.querySelectorAll("item")).slice(0, 20);
 
       const seen = new Set();
       const out = [];
@@ -100,13 +104,42 @@
 
         const link  = (it.querySelector("link")?.textContent || "").trim();
         const pub   = (it.querySelector("pubDate")?.textContent || "").trim();
-        const src   = (it.querySelector("source")?.textContent || "Google News").trim();
+        const src   = (it.querySelector("source")?.textContent || "News").trim();
 
         let published_at = "";
         try { published_at = new Date(pub).toISOString(); } catch(e){}
         out.push({ title, url: link || "#", source: src, published_at });
       }
       return out;
+    }
+
+    async function fetchRss(name) {
+      // 1) Zkus Google
+      try {
+        const res = await fetch(proxied(googleNewsRss(name)), { cache:"no-store" });
+        if (!res.ok) throw new Error("Google RSS fail");
+        const json = await res.json();
+        const xml = json.contents || "";
+        const parsed = parseRss(xml);
+        if (parsed.length) return parsed;
+      } catch(e) {
+        console.warn("Google RSS error:", e);
+      }
+
+      // 2) Zkus Bing
+      try {
+        const res = await fetch(proxied(bingNewsRss(name)), { cache:"no-store" });
+        if (!res.ok) throw new Error("Bing RSS fail");
+        const json = await res.json();
+        const xml = json.contents || "";
+        const parsed = parseRss(xml);
+        if (parsed.length) return parsed;
+      } catch(e) {
+        console.warn("Bing RSS error:", e);
+      }
+
+      // 3) Fallback demo
+      return DEMO[slug] || [];
     }
 
     async function load() {
@@ -116,21 +149,10 @@
       const list = document.getElementById("list");
       list.textContent = "Loading…";
 
-      let items = [];
-      try {
-        const rssUrl = googleNewsRss(name);
-        const res = await fetch(proxied(rssUrl), { cache: "no-store" });
-        if (!res.ok) throw new Error("RSS fetch failed");
-        const json = await res.json();
-        const xml = json.contents || "";
-        items = parseRss(xml);
-      } catch (e) {
-        console.warn("RSS error:", e);
-        items = DEMO[slug] || [];
-      }
+      const items = await fetchRss(name);
 
       if (!items.length) {
-        list.innerHTML = `<div class="empty">No recent links yet. (Try hard refresh: ⌘/Ctrl + Shift + R)</div>`;
+        list.innerHTML = `<div class="empty">No recent links yet.</div>`;
         return;
       }
 
