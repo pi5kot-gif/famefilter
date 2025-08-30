@@ -9,7 +9,6 @@
     * { box-sizing: border-box; }
     body { margin:0; background:#000; color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
 
-    /* Jednotný pevný hero jako na indexu */
     .hero{
       display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
       height:160px; padding:0 20px; border-bottom:1px solid #1a1a1a;
@@ -69,9 +68,25 @@
   </footer>
 
   <script>
-    // === NASTAVENÍ PROXY (TVOJE Railway adresa) ===
-    const PROXY_BASE = "https://famefilter-production.up.railway.app/proxy"; // ← máš hotovo
-    const USE_PROXY = !!PROXY_BASE && PROXY_BASE.startsWith("http");
+    /* ===== Polyfill pro Promise.any (pro starší prohlížeče) ===== */
+    if (typeof Promise.any !== "function") {
+      Promise.any = function(promises) {
+        return new Promise((resolve, reject) => {
+          let rejections = 0, errs = [];
+          promises.forEach((p, i) =>
+            Promise.resolve(p).then(resolve).catch(e => {
+              errs[i] = e; if (++rejections === promises.length) reject(new Error("All promises rejected"));
+            })
+          );
+        });
+      };
+    }
+
+    /* ===== Nastavení proxy (TVÁ Railway URL MUSÍ být s https://) ===== */
+    const PROXY_BASE = "https://famefilter-production.up.railway.app/proxy"; // <- tvoje doména + /proxy
+    const ProxyURL = (PROXY_BASE && PROXY_BASE.startsWith("http")) ? PROXY_BASE
+                      : (PROXY_BASE ? ("https://" + PROXY_BASE) : ""); // ošetří, kdyby tam chybělo https
+    const HAVE_PROXY = !!ProxyURL;
 
     const slug = new URLSearchParams(location.search).get("slug") || "";
     const NAMES = {
@@ -92,7 +107,7 @@
       ]
     };
 
-    // RSS adresy (USA/EN), kratší okno pro rychlost/aktuálnost
+    /* ===== RSS adresy ===== */
     function googleNewsRss(name) {
       const q = encodeURIComponent(`${name} when:3d`);
       return `https://news.google.com/rss/search?q=${q}&hl=en-US&gl=US&ceid=US:en`;
@@ -102,20 +117,19 @@
       return `https://www.bing.com/news/search?q=${q}&format=rss&setlang=en`;
     }
 
-    function proxied(url) {
-      if (USE_PROXY) return `${PROXY_BASE}?url=${encodeURIComponent(url)}`;
-      return `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`; // nouzový fallback
-    }
+    /* Proxy obálky */
+    const allOrigins = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+    const viaProxy   = url => `${ProxyURL}?url=${encodeURIComponent(url)}`;
 
+    /* Utils */
     const fmt = iso => new Date(iso).toLocaleString();
     const MAX_ITEMS = 12;
 
-    async function fetchWithTimeout(url, ms = 4000) {
+    async function fetchWithTimeout(url, ms = 5000) {
       const ctrl = new AbortController();
       const t = setTimeout(() => ctrl.abort(), ms);
-      try {
-        return await fetch(url, { cache:"no-store", signal: ctrl.signal });
-      } finally { clearTimeout(t); }
+      try { return await fetch(url, { cache:"no-store", signal: ctrl.signal }); }
+      finally { clearTimeout(t); }
     }
 
     function parseRss(xmlText) {
@@ -143,44 +157,49 @@
         out.push({ title, url: link || "#", source: src || "News", published_at });
       }
 
-      // ===== Whitelist kvalitních zdrojů (news + showbiz + sport) =====
+      /* ===== Whitelist kvalitních zdrojů (s bezpečným fallbackem) ===== */
       const whitelist = [
-        // obecné / agentury
-        "reuters.com","apnews.com","bbc.co.uk","theguardian.com","nytimes.com","cnn.com","washingtonpost.com","wsj.com",
+        // agentury / velká média
+        "reuters.com","apnews.com","bbc.co.uk","bbc.com","theguardian.com","nytimes.com","cnn.com","washingtonpost.com","wsj.com",
         // showbiz / kultura
-        "billboard.com","rollingstone.com","variety.com","hollywoodreporter.com","deadline.com","vogue.com","vanityfair.com","people.com",
+        "billboard.com","rollingstone.com","variety.com","hollywoodreporter.com","deadline.com","vogue.com","vanityfair.com","people.com","etonline.com","eonline.com",
         // sport
-        "espn.com","bbc.com","skysports.com","goal.com","si.com","theathletic.com"
+        "espn.com","skysports.com","goal.com","si.com","theathletic.com","bleacherreport.com"
       ];
 
-      return out.filter(item => {
+      const filtered = out.filter(item => {
         try {
           const host = new URL(item.url).hostname.replace(/^www\./,"");
           return whitelist.some(w => host === w || host.endsWith(`.${w}`));
         } catch { return false; }
       });
+
+      return filtered.length ? filtered : out; // když whitelist vyhodí vše, vrať nefiltrované
     }
 
-    // Paralelně Google + Bing, ber první úspěch; jinak DEMO
+    /* Jedna žádost: stáhne (JSON z AllOrigins NEBO přímo XML z tvojí proxy), vrátí pole items */
+    async function fetchAndParse(requestUrl) {
+      const r = await fetchWithTimeout(requestUrl, 5000);
+      if (!r.ok) throw new Error("Fetch fail");
+      const ct = (r.headers.get("content-type") || "").toLowerCase();
+      const xml = ct.includes("application/json")
+        ? ((await r.json()).contents || "")
+        : await r.text();
+      const parsed = parseRss(xml);
+      if (!parsed.length) throw new Error("Empty feed");
+      return parsed;
+    }
+
+    /* Stáhne PRVNÍ úspěšný z více kandidátů (Google/Bing × proxy/AllOrigins) */
     async function fetchRss(name) {
-      const gUrl = proxied(googleNewsRss(name));
-      const bUrl = proxied(bingNewsRss(name));
-
-      const fetchOne = async (url) => {
-        const r = await fetchWithTimeout(url, 4000);
-        if (!r.ok) throw new Error("RSS fail");
-        const isJson = (r.headers.get("content-type") || "").includes("application/json");
-        const xml = isJson ? (await r.json()).contents || "" : await r.text();
-        const parsed = parseRss(xml);
-        if (!parsed.length) throw new Error("Empty feed");
-        return parsed;
-      };
-
-      try {
-        return await Promise.any([ fetchOne(gUrl), fetchOne(bUrl) ]);
-      } catch {
-        return DEMO[slug] || [];
-      }
+      const g = googleNewsRss(name);
+      const b = bingNewsRss(name);
+      const candidates = [
+        ...(HAVE_PROXY ? [ viaProxy(g) ] : []), allOrigins(g),
+        ...(HAVE_PROXY ? [ viaProxy(b) ] : []), allOrigins(b),
+      ];
+      return await Promise.any(candidates.map(fetchAndParse))
+        .catch(() => DEMO[slug] || []);
     }
 
     async function load() {
