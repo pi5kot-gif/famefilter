@@ -79,7 +79,6 @@
   </footer>
 
   <script>
-    /* ---- Config ---- */
     const PROXY_BASE = "https://famefilter-production.up.railway.app/proxy";
     const ProxyURL = (PROXY_BASE && PROXY_BASE.startsWith("http")) ? PROXY_BASE : "";
     const HAVE_PROXY = !!ProxyURL;
@@ -92,7 +91,6 @@
       "katy-perry":"Katy Perry","margot-robbie":"Margot Robbie"
     };
 
-    /* ---- RSS builders (last 30 days) ---- */
     function googleNewsRss(name){
       return `https://news.google.com/rss/search?q=${encodeURIComponent(name + " when:30d")}&hl=en-US&gl=US&ceid=US:en`;
     }
@@ -100,7 +98,6 @@
       return `https://www.bing.com/news/search?q=${encodeURIComponent(name)}&format=rss&setlang=en`;
     }
 
-    /* ---- Helpers ---- */
     const allOrigins = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
     const viaProxy   = url => `${ProxyURL}?url=${encodeURIComponent(url)}`;
 
@@ -139,8 +136,8 @@
       if (!r.ok) throw new Error("Fetch fail");
       const ct = (r.headers.get("content-type") || "").toLowerCase();
       const xml = ct.includes("application/json")
-        ? ((await r.json()).contents || "")   // AllOrigins JSON wrapper
-        : await r.text();                     // Railway proxy returns XML/text
+        ? ((await r.json()).contents || "")   // AllOrigins JSON
+        : await r.text();                     // Railway proxy XML/text
       const parsed = parseRss(xml);
       if (!parsed.length) throw new Error("Empty feed");
       return parsed;
@@ -160,7 +157,6 @@
       return [];
     }
 
-    /* ---- Load & render ---- */
     async function load(){
       const name = NAMES[slug] || slug.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
       document.getElementById("title").textContent = name ? `${name} – News` : "News";
@@ -180,7 +176,16 @@
         return;
       }
 
-      // Sort by date (newest first). Items without date go last.
+      // Deduplicate by title (case-insensitive)
+      const seen = new Set();
+      items = items.filter(x => {
+        const key = x.title.toLowerCase();
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+
+      // Sort by date (newest first)
       items.sort((a, b) => {
         const da = a.published_at ? new Date(a.published_at).getTime() : 0;
         const db = b.published_at ? new Date(b.published_at).getTime() : 0;
