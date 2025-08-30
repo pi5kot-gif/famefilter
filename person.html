@@ -1,108 +1,91 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>FameFilter – Person</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    :root { color-scheme: dark; }
-    * { box-sizing: border-box; }
-    body { margin:0; background:#000; color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+<script>
+  const slug = new URLSearchParams(location.search).get("slug") || "";
 
-    /* Jednotný pevný hero jako na indexu */
-    .hero{
-      display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
-      height:160px; padding:0 20px; border-bottom:1px solid #1a1a1a;
-    }
-    .brand{ font-size:56px; font-weight:800; text-transform:uppercase; letter-spacing:2px; margin:0; line-height:1.05; }
-    .brand .accent{ color:#8ab4ff; }
-    .hero p{ margin:8px 0 0; color:#ccc; font-weight:600; letter-spacing:2px; text-transform:uppercase; font-size:20px; white-space:nowrap; }
+  const NAMES = {
+    "taylor-swift":"Taylor Swift",
+    "rihanna":"Rihanna",
+    "cristiano-ronaldo":"Cristiano Ronaldo",
+    "selena-gomez":"Selena Gomez",
+    "kim-kardashian":"Kim Kardashian",
+    "dua-lipa":"Dua Lipa",
+    "ariana-grande":"Ariana Grande",
+    "scarlett-johansson":"Scarlett Johansson",
+    "katy-perry":"Katy Perry",
+    "margot-robbie":"Margot Robbie"
+  };
 
-    @media (max-width: 600px) {
-      .brand { font-size:40px; }
-      .hero  { height:140px; }
-      .hero p{ font-size:18px; letter-spacing:1.5px; }
-    }
+  // Fallback demo data
+  const DEMO = {
+    "cristiano-ronaldo": [
+      {title:"Ronaldo scores stunning free-kick", source:"ESPN", url:"#", published_at:"2025-08-29T12:30:00Z"},
+      {title:"Al Nassr extend unbeaten run", source:"BBC Sport", url:"#", published_at:"2025-08-28T20:10:00Z"}
+    ],
+    "taylor-swift": [
+      {title:"Taylor Swift teases new single", source:"Billboard", url:"#", published_at:"2025-08-28T18:00:00Z"}
+    ]
+  };
 
-    .wrap { max-width:900px; margin:0 auto; padding:20px 16px; }
-    .item { padding:16px 0; border-bottom:1px solid #1a1a1a; }
-    .src  { color:#aaa; font-size:13px; margin-top:6px; }
-    a { color:#8ab4ff; text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    .empty { color:#aaa; padding:24px 0; text-align:center; }
+  // Google News RSS (USA/EN) – posledních 7 dní
+  function googleNewsRss(name) {
+    const q = encodeURIComponent(`${name} when:7d`);
+    return `https://news.google.com/rss/search?q=${q}&hl=en-US&gl=US&ceid=US:en`;
+  }
 
-    footer { text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
-    footer a { color:#8ab4ff; text-decoration:none; font-size:13px; }
-  </style>
-</head>
-<body>
-  <header class="hero">
-    <h1 class="brand">Fame<span class="accent">Filter</span></h1>
-    <p id="title">News</p>
-  </header>
+  // Přes veřejný proxy, aby fungoval CORS v prohlížeči
+  function proxied(url) {
+    // „raw“ vrátí čisté XML bez JSON obalu
+    return `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
+  }
 
-  <div class="wrap" id="list">Loading…</div>
+  // Hezký formát času
+  const fmt = iso => new Date(iso).toLocaleString();
 
-  <footer>
-    <a href="credits.html">Photo credits</a>
-  </footer>
+  // Parsování RSS XML -> naše položky
+  function parseRss(xmlText) {
+    const doc = new DOMParser().parseFromString(xmlText, "text/xml");
+    const items = Array.from(doc.querySelectorAll("item")).slice(0, 30);
+    return items.map(it => {
+      const title = it.querySelector("title")?.textContent?.trim() || "Untitled";
+      const link  = it.querySelector("link")?.textContent?.trim() || "#";
+      const pub   = it.querySelector("pubDate")?.textContent?.trim();
+      const src   = it.querySelector("source")?.textContent?.trim() || "Google News";
+      // pubDate na ISO (když to jde)
+      let published_at = "";
+      try { published_at = new Date(pub).toISOString(); } catch(e){}
+      return { title, url: link, source: src, published_at };
+    });
+  }
 
-  <script>
-    const slug = new URLSearchParams(location.search).get("slug") || "";
+  async function load() {
+    const name = NAMES[slug] || slug.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
+    document.getElementById("title").textContent = name ? `${name} – News` : "News";
 
-    const NAMES = {
-      "taylor-swift":"Taylor Swift",
-      "rihanna":"Rihanna",
-      "cristiano-ronaldo":"Cristiano Ronaldo",
-      "selena-gomez":"Selena Gomez",
-      "kim-kardashian":"Kim Kardashian",
-      "dua-lipa":"Dua Lipa",
-      "ariana-grande":"Ariana Grande",
-      "scarlett-johansson":"Scarlett Johansson",
-      "katy-perry":"Katy Perry",
-      "margot-robbie":"Margot Robbie"
-    };
+    let items = [];
 
-    const DEMO = {
-      "cristiano-ronaldo": [
-        {title:"Ronaldo scores stunning free-kick", source:"ESPN", url:"#", published_at:"2025-08-29T12:30:00Z"},
-        {title:"Al Nassr extend unbeaten run", source:"BBC Sport", url:"#", published_at:"2025-08-28T20:10:00Z"}
-      ],
-      "taylor-swift": [
-        {title:"Taylor Swift teases new single", source:"Billboard", url:"#", published_at:"2025-08-28T18:00:00Z"}
-      ]
-    };
-
-    const API_URL = ""; 
-    const fmt = iso => new Date(iso).toLocaleString();
-
-    async function load() {
-      const name = NAMES[slug] || slug.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
-      document.getElementById("title").textContent = name ? `${name} – News` : "News";
-
-      let items = [];
-
-      if (API_URL) {
-        try {
-          const res = await fetch(`${API_URL}?q=${encodeURIComponent(name)}&limit=50`, { cache:"no-store" });
-          items = await res.json();
-        } catch (e) {}
-      }
-
-      if (!API_URL || !items?.length) items = DEMO[slug] || [];
-
-      const list = document.getElementById("list");
-      if (!items.length) { list.innerHTML = `<div class="empty">No recent links yet.</div>`; return; }
-
-      list.innerHTML = items.map(x => `
-        <div class="item">
-          <a href="${x.url}" target="_blank" rel="noopener"><strong>${x.title}</strong></a>
-          <div class="src">${x.source ? x.source + " • " : ""}${x.published_at ? fmt(x.published_at) : ""}</div>
-        </div>
-      `).join("");
+    try {
+      const rssUrl = googleNewsRss(name);
+      const res = await fetch(proxied(rssUrl), { cache: "no-store" });
+      if (!res.ok) throw new Error("RSS fetch failed");
+      const xml = await res.text();
+      items = parseRss(xml);
+    } catch (e) {
+      // fallback na demo
+      items = DEMO[slug] || [];
     }
 
-    load();
-  </script>
-</body>
-</html>
+    const list = document.getElementById("list");
+    if (!items.length) {
+      list.innerHTML = `<div class="empty">No recent links yet.</div>`;
+      return;
+    }
+
+    list.innerHTML = items.map(x => `
+      <div class="item">
+        <a href="${x.url}" target="_blank" rel="noopener"><strong>${x.title}</strong></a>
+        <div class="src">${x.source ? x.source + " • " : ""}${x.published_at ? fmt(x.published_at) : ""}</div>
+      </div>
+    `).join("");
+  }
+
+  load();
+</script>
