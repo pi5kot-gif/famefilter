@@ -19,8 +19,13 @@
       margin:0; line-height:1.1; word-break:break-word;
     }
     .brand .accent{ color:#8ab4ff; }
-    .hero p{ margin:10px 0 0; color:#ccc; font-weight:600; letter-spacing:2px; text-transform:uppercase; font-size:20px; line-height:1.2; }
-    @media (max-width:600px){ .brand{font-size:36px;} .hero p{font-size:16px;} }
+    .hero p{
+      margin:10px 0 0; color:#ccc; font-weight:600; letter-spacing:2px;
+      text-transform:uppercase; font-size:20px; line-height:1.2;
+    }
+    @media (max-width:600px){
+      .brand{font-size:36px;} .hero p{font-size:16px;}
+    }
 
     .wrap { max-width:900px; margin:0 auto; padding:20px 16px; min-height:40vh; }
 
@@ -61,9 +66,10 @@
   </header>
 
   <div class="wrap">
-    <div id="loader" class="loader-wrap" role="status">
+    <div id="loader" class="loader-wrap" role="status" aria-live="polite" aria-busy="true">
       <div class="spinner" aria-hidden="true"></div>
       <div class="loader-text">Please wait…</div>
+      <span class="visually-hidden">Loading…</span>
     </div>
     <div id="list" style="display:none;"></div>
   </div>
@@ -73,6 +79,7 @@
   </footer>
 
   <script>
+    /* ---- Config ---- */
     const PROXY_BASE = "https://famefilter-production.up.railway.app/proxy";
     const ProxyURL = (PROXY_BASE && PROXY_BASE.startsWith("http")) ? PROXY_BASE : "";
     const HAVE_PROXY = !!ProxyURL;
@@ -85,60 +92,109 @@
       "katy-perry":"Katy Perry","margot-robbie":"Margot Robbie"
     };
 
-    function googleNewsRss(name){ return `https://news.google.com/rss/search?q=${encodeURIComponent(name+" when:30d")}&hl=en-US&gl=US&ceid=US:en`; }
-    function bingNewsRss(name){ return `https://www.bing.com/news/search?q=${encodeURIComponent(name)}&format=rss&setlang=en`; }
+    /* ---- RSS builders (last 30 days) ---- */
+    function googleNewsRss(name){
+      return `https://news.google.com/rss/search?q=${encodeURIComponent(name + " when:30d")}&hl=en-US&gl=US&ceid=US:en`;
+    }
+    function bingNewsRss(name){
+      return `https://www.bing.com/news/search?q=${encodeURIComponent(name)}&format=rss&setlang=en`;
+    }
+
+    /* ---- Helpers ---- */
     const allOrigins = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-    const viaProxy = url => `${ProxyURL}?url=${encodeURIComponent(url)}`;
+    const viaProxy   = url => `${ProxyURL}?url=${encodeURIComponent(url)}`;
 
-    const MAX_ITEMS=24; const fmt = iso=>new Date(iso).toLocaleString();
+    const MAX_ITEMS = 24;
+    const fmt = iso => iso ? new Date(iso).toLocaleString() : "";
 
-    async function fetchWithTimeout(url,ms=5000){const ctrl=new AbortController();const t=setTimeout(()=>ctrl.abort(),ms);try{return await fetch(url,{signal:ctrl.signal});}finally{clearTimeout(t);}}
+    async function fetchWithTimeout(url, ms = 5000) {
+      const ctrl = new AbortController();
+      const t = setTimeout(() => ctrl.abort(), ms);
+      try { return await fetch(url, { cache:"no-store", signal: ctrl.signal }); }
+      finally { clearTimeout(t); }
+    }
 
     function parseRss(xmlText){
-      const doc=new DOMParser().parseFromString(xmlText,"text/xml");
-      return Array.from(doc.querySelectorAll("item")).slice(0,MAX_ITEMS).map(it=>{
-        const title=it.querySelector("title")?.textContent.trim();
-        const link=it.querySelector("link")?.textContent.trim();
-        const src=it.querySelector("source")?.textContent.trim()||"News";
-        const pub=it.querySelector("pubDate")?.textContent.trim();
-        return {title,url:link,source:src,published_at:pub?new Date(pub).toISOString():""};
+      const doc = new DOMParser().parseFromString(xmlText, "text/xml");
+      const items = Array.from(doc.querySelectorAll("item")).slice(0, MAX_ITEMS).map(it => {
+        const title = (it.querySelector("title")?.textContent || "").trim();
+        const link  = (it.querySelector("link")?.textContent || "").trim();
+        const pub   = (it.querySelector("pubDate")?.textContent || "").trim();
+        let source  = (it.querySelector("source")?.textContent || "").trim();
+        if (!source && link) {
+          try { source = new URL(link).hostname.replace(/^www\./,""); } catch {}
+        }
+        return {
+          title,
+          url: link || "#",
+          source: source || "News",
+          published_at: pub ? new Date(pub).toISOString() : ""
+        };
       });
+      return items;
+    }
+
+    async function fetchAndParse(requestUrl) {
+      const r = await fetchWithTimeout(requestUrl, 5000);
+      if (!r.ok) throw new Error("Fetch fail");
+      const ct = (r.headers.get("content-type") || "").toLowerCase();
+      const xml = ct.includes("application/json")
+        ? ((await r.json()).contents || "")   // AllOrigins JSON wrapper
+        : await r.text();                     // Railway proxy returns XML/text
+      const parsed = parseRss(xml);
+      if (!parsed.length) throw new Error("Empty feed");
+      return parsed;
     }
 
     async function fetchRss(name){
-      const urls=[googleNewsRss(name),bingNewsRss(name)];
-      const candidates=urls.flatMap(u=>[...(HAVE_PROXY?[viaProxy(u)]:[]),allOrigins(u)]);
-      for(const u of candidates){
-        try{
-          const r=await fetchWithTimeout(u,5000);
-          const xml=(await r.json()).contents||"";
-          return parseRss(xml);
-        }catch{}
+      const urls = [googleNewsRss(name), bingNewsRss(name)];
+      const candidates = urls.flatMap(u => [
+        ...(HAVE_PROXY ? [ viaProxy(u) ] : []),
+        allOrigins(u)
+      ]);
+
+      for (const u of candidates) {
+        try { return await fetchAndParse(u); }
+        catch {}
       }
       return [];
     }
 
+    /* ---- Load & render ---- */
     async function load(){
-      const name=NAMES[slug]||slug.replace(/-/g," ");
-      document.getElementById("title").textContent=`${name} – News`;
-      const list=document.getElementById("list");const loader=document.getElementById("loader");
-      const items=await fetchRss(name);
-      loader.style.display="none";list.style.display="block";
-      if(!items.length){
-  list.innerHTML=`<div class="empty">Failed to load news.<br>Please refresh the page.</div>`;
-  return;
-}
+      const name = NAMES[slug] || slug.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
+      document.getElementById("title").textContent = name ? `${name} – News` : "News";
 
+      const listEl = document.getElementById("list");
+      const loaderEl = document.getElementById("loader");
 
-      // 🔽 řazení podle data (nejnovější nahoře)
-      items.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+      let items = [];
+      try { items = await fetchRss(name); }
+      catch { items = []; }
 
-      list.innerHTML=items.map(x=>`
+      loaderEl.style.display = "none";
+      listEl.style.display = "block";
+
+      if (!items.length) {
+        listEl.innerHTML = `<div class="empty">Failed to load news.<br>Please refresh the page.</div>`;
+        return;
+      }
+
+      // Sort by date (newest first). Items without date go last.
+      items.sort((a, b) => {
+        const da = a.published_at ? new Date(a.published_at).getTime() : 0;
+        const db = b.published_at ? new Date(b.published_at).getTime() : 0;
+        return db - da;
+      });
+
+      listEl.innerHTML = items.map(x => `
         <div class="item">
-          <a href="${x.url}" target="_blank"><strong>${x.title}</strong></a>
-          <div class="src">${x.source} • ${fmt(x.published_at)}</div>
-        </div>`).join("");
+          <a href="${x.url}" target="_blank" rel="noopener"><strong>${x.title}</strong></a>
+          <div class="src">${x.source ? x.source + " • " : ""}${fmt(x.published_at)}</div>
+        </div>
+      `).join("");
     }
+
     load();
   </script>
 </body>
