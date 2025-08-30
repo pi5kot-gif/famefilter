@@ -9,6 +9,7 @@
     * { box-sizing: border-box; }
     body { margin:0; background:#000; color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
 
+    /* Jednotný pevný hero (stejně jako index) */
     .hero{
       display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
       height:160px; padding:0 20px; border-bottom:1px solid #1a1a1a;
@@ -23,7 +24,8 @@
       .hero p{ font-size:18px; letter-spacing:1.5px; }
     }
 
-    .wrap { max-width:900px; margin:0 auto; padding:20px 16px; }
+    .wrap { max-width:900px; margin:0 auto; padding:20px 16px; min-height:40vh; }
+
     .item { padding:16px 0; border-bottom:1px solid #1a1a1a; }
     .src  { color:#aaa; font-size:13px; margin-top:6px; }
     a { color:#8ab4ff; text-decoration:none; }
@@ -32,6 +34,23 @@
 
     footer { text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
     footer a { color:#8ab4ff; text-decoration:none; font-size:13px; }
+
+    /* ========= Loader (full center) ========= */
+    .loader-wrap{
+      display:flex; align-items:center; justify-content:center;
+      height:40vh; /* hezký prostor pod headerem */
+    }
+    .spinner{
+      width:48px; height:48px; border-radius:50%;
+      border:4px solid #222;           /* tmavý kroužek */
+      border-top-color:#8ab4ff;        /* akcent barva */
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .visually-hidden{
+      position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+    }
   </style>
 </head>
 <body>
@@ -40,7 +59,16 @@
     <p id="title">News</p>
   </header>
 
-  <div class="wrap" id="list">Loading…</div>
+  <div class="wrap">
+    <!-- Loader (uvidíš ho, dokud se nenačtou články) -->
+    <div id="loader" class="loader-wrap" role="status" aria-live="polite" aria-busy="true">
+      <div class="spinner" aria-hidden="true"></div>
+      <span class="visually-hidden">Loading…</span>
+    </div>
+
+    <!-- Sem se vykreslí články -->
+    <div id="list" style="display:none;"></div>
+  </div>
 
   <footer>
     <a href="credits.html">Photo credits</a>
@@ -77,13 +105,12 @@
       const q = encodeURIComponent(`${name} when:7d`);
       return `https://news.google.com/rss/search?q=${q}&hl=en-US&gl=US&ceid=US:en`;
     }
-
-    // Bing News RSS (alternativa)
+    // Bing News RSS (fallback)
     function bingNewsRss(name) {
       const q = encodeURIComponent(`${name}`);
       return `https://www.bing.com/news/search?q=${q}&format=rss&setlang=en`;
     }
-
+    // AllOrigins proxy (JSON)
     function proxied(url) {
       return `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
     }
@@ -114,31 +141,25 @@
     }
 
     async function fetchRss(name) {
-      // 1) Zkus Google
+      // 1) Google
       try {
-        const res = await fetch(proxied(googleNewsRss(name)), { cache:"no-store" });
-        if (!res.ok) throw new Error("Google RSS fail");
-        const json = await res.json();
-        const xml = json.contents || "";
+        const r = await fetch(proxied(googleNewsRss(name)), { cache:"no-store" });
+        if (!r.ok) throw new Error("Google RSS fail");
+        const j = await r.json(); const xml = j.contents || "";
         const parsed = parseRss(xml);
         if (parsed.length) return parsed;
-      } catch(e) {
-        console.warn("Google RSS error:", e);
-      }
+      } catch(e){ console.warn("Google RSS error:", e); }
 
-      // 2) Zkus Bing
+      // 2) Bing
       try {
-        const res = await fetch(proxied(bingNewsRss(name)), { cache:"no-store" });
-        if (!res.ok) throw new Error("Bing RSS fail");
-        const json = await res.json();
-        const xml = json.contents || "";
+        const r = await fetch(proxied(bingNewsRss(name)), { cache:"no-store" });
+        if (!r.ok) throw new Error("Bing RSS fail");
+        const j = await r.json(); const xml = j.contents || "";
         const parsed = parseRss(xml);
         if (parsed.length) return parsed;
-      } catch(e) {
-        console.warn("Bing RSS error:", e);
-      }
+      } catch(e){ console.warn("Bing RSS error:", e); }
 
-      // 3) Fallback demo
+      // 3) Demo
       return DEMO[slug] || [];
     }
 
@@ -146,17 +167,26 @@
       const name = NAMES[slug] || slug.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
       document.getElementById("title").textContent = name ? `${name} – News` : "News";
 
-      const list = document.getElementById("list");
-      list.textContent = "Loading…";
+      const listEl = document.getElementById("list");
+      const loaderEl = document.getElementById("loader");
 
-      const items = await fetchRss(name);
+      let items = [];
+      try {
+        items = await fetchRss(name);
+      } catch(e) {
+        items = DEMO[slug] || [];
+      }
+
+      // schovej loader, ukaž list
+      loaderEl.style.display = "none";
+      listEl.style.display = "block";
 
       if (!items.length) {
-        list.innerHTML = `<div class="empty">No recent links yet.</div>`;
+        listEl.innerHTML = `<div class="empty">No recent links yet.</div>`;
         return;
       }
 
-      list.innerHTML = items.map(x => `
+      listEl.innerHTML = items.map(x => `
         <div class="item">
           <a href="${x.url}" target="_blank" rel="noopener"><strong>${x.title}</strong></a>
           <div class="src">${x.source ? x.source + " • " : ""}${x.published_at ? fmt(x.published_at) : ""}</div>
