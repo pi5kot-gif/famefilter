@@ -7,31 +7,34 @@
   <style>
     :root { color-scheme: dark; }
     * { box-sizing: border-box; }
-    body { margin:0; background:#000; color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    body { margin:0; background:#000; color:#fff; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
 
+    /* Hero (sjednoceno s indexem) */
     .hero{
       display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
-      height:160px; padding:0 20px; border-bottom:1px solid #1a1a1a;
+      height:auto; padding:24px 12px; border-bottom:1px solid #1a1a1a;
     }
-    .brand{ font-size:56px; font-weight:800; text-transform:uppercase; letter-spacing:2px; margin:0; line-height:1.05; }
+    .brand{
+      font-size:56px; font-weight:800; text-transform:uppercase; letter-spacing:2px;
+      margin:0; line-height:1.1; word-break:break-word;
+    }
     .brand .accent{ color:#8ab4ff; }
-    .hero p{ margin:8px 0 0; color:#ccc; font-weight:600; letter-spacing:2px; text-transform:uppercase; font-size:20px; white-space:nowrap; }
-
-    @media (max-width: 600px) {
-      .brand { font-size:40px; }
-      .hero  { height:140px; }
-      .hero p{ font-size:18px; letter-spacing:1.5px; }
+    .hero p{
+      margin:10px 0 0; color:#ccc; font-weight:600; letter-spacing:2px;
+      text-transform:uppercase; font-size:20px; line-height:1.2;
+    }
+    @media (max-width:600px){
+      .brand{font-size:36px; letter-spacing:1.5px;}
+      .hero p{font-size:16px; letter-spacing:1px;}
     }
 
     .wrap { max-width:900px; margin:0 auto; padding:20px 16px; min-height:40vh; }
+
     .item { padding:16px 0; border-bottom:1px solid #1a1a1a; }
     .src  { color:#aaa; font-size:13px; margin-top:6px; }
     a { color:#8ab4ff; text-decoration:none; }
     a:hover { text-decoration:underline; }
     .empty { color:#aaa; padding:24px 0; text-align:center; }
-
-    footer { text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
-    footer a { color:#8ab4ff; text-decoration:none; font-size:13px; }
 
     /* Loader uprostřed */
     .loader-wrap{
@@ -46,6 +49,20 @@
     .loader-text{ color:#ccc; font-size:14px; letter-spacing:.5px; }
     @keyframes spin { to { transform: rotate(360deg); } }
     .visually-hidden{ position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+
+    /* Footer – stejné „pill“ tlačítko pro Home i Attributions */
+    footer {
+      text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px;
+    }
+    .btnrow{
+      display:flex; gap:12px; align-items:center; justify-content:center; flex-wrap:wrap;
+    }
+    .btn{
+      display:inline-block; padding:10px 14px; border-radius:10px; border:1px solid #2a2a2a;
+      background:#111; color:#8ab4ff; text-decoration:none; font-weight:600;
+      transition:transform .15s ease, border-color .15s ease;
+    }
+    .btn:hover{ transform:translateY(-2px); border-color:#444; }
   </style>
 </head>
 <body>
@@ -64,30 +81,32 @@
   </div>
 
   <footer>
-  <a href="index.html">Home</a> | <a href="credits.html">Attributions</a>
-</footer>
+    <div class="btnrow">
+      <a class="btn" href="index.html">Home</a>
+      <a class="btn" href="credits.html">Attributions</a>
+    </div>
+  </footer>
 
   <script>
-    /* ===== Polyfill pro Promise.any (pro starší prohlížeče) ===== */
+    /* Polyfill pro Promise.any (pro jistotu) */
     if (typeof Promise.any !== "function") {
       Promise.any = function(promises) {
         return new Promise((resolve, reject) => {
-          let rejections = 0, errs = [];
-          promises.forEach((p, i) =>
-            Promise.resolve(p).then(resolve).catch(e => {
-              errs[i] = e; if (++rejections === promises.length) reject(new Error("All promises rejected"));
-            })
-          );
+          let rejections = 0;
+          promises.forEach(p => Promise.resolve(p).then(resolve).catch(() => {
+            if (++rejections === promises.length) reject(new Error("All promises rejected"));
+          }));
         });
       };
     }
 
-    /* ===== Nastavení proxy (TVÁ Railway URL MUSÍ být s https://) ===== */
-    const PROXY_BASE = "https://famefilter-production.up.railway.app/proxy"; // <- tvoje doména + /proxy
+    /* Proxy – tvoje Railway URL s /proxy */
+    const PROXY_BASE = "https://famefilter-production.up.railway.app/proxy";
     const ProxyURL = (PROXY_BASE && PROXY_BASE.startsWith("http")) ? PROXY_BASE
-                      : (PROXY_BASE ? ("https://" + PROXY_BASE) : ""); // ošetří, kdyby tam chybělo https
+                    : (PROXY_BASE ? ("https://" + PROXY_BASE) : "");
     const HAVE_PROXY = !!ProxyURL;
 
+    /* Slug + jméno */
     const slug = new URLSearchParams(location.search).get("slug") || "";
     const NAMES = {
       "taylor-swift":"Taylor Swift","rihanna":"Rihanna","cristiano-ronaldo":"Cristiano Ronaldo",
@@ -96,7 +115,7 @@
       "katy-perry":"Katy Perry","margot-robbie":"Margot Robbie"
     };
 
-    // Fallback DEMO
+    /* DEMO fallback */
     const DEMO = {
       "cristiano-ronaldo": [
         {title:"Ronaldo scores stunning free-kick", source:"ESPN", url:"#", published_at:"2025-08-29T12:30:00Z"},
@@ -107,7 +126,7 @@
       ]
     };
 
-    /* ===== RSS adresy ===== */
+    /* RSS adresy – posledních 30 dní */
     function googleNewsRss(name) {
       const q = encodeURIComponent(`${name} when:30d`);
       return `https://news.google.com/rss/search?q=${q}&hl=en-US&gl=US&ceid=US:en`;
@@ -123,7 +142,7 @@
 
     /* Utils */
     const fmt = iso => new Date(iso).toLocaleString();
-    const MAX_ITEMS = 50;
+    const MAX_ITEMS = 24;
 
     async function fetchWithTimeout(url, ms = 5000) {
       const ctrl = new AbortController();
@@ -157,11 +176,11 @@
         out.push({ title, url: link || "#", source: src || "News", published_at });
       }
 
-      /* ===== Whitelist kvalitních zdrojů (s bezpečným fallbackem) ===== */
+      /* Whitelist kvalitních zdrojů (s bezpečným fallbackem) */
       const whitelist = [
-        // agentury / velká média
+        // velká média / agentury
         "reuters.com","apnews.com","bbc.co.uk","bbc.com","theguardian.com","nytimes.com","cnn.com","washingtonpost.com","wsj.com",
-        // showbiz / kultura
+        // showbiz
         "billboard.com","rollingstone.com","variety.com","hollywoodreporter.com","deadline.com","vogue.com","vanityfair.com","people.com","etonline.com","eonline.com",
         // sport
         "espn.com","skysports.com","goal.com","si.com","theathletic.com","bleacherreport.com"
@@ -174,10 +193,9 @@
         } catch { return false; }
       });
 
-      return filtered.length ? filtered : out; // když whitelist vyhodí vše, vrať nefiltrované
+      return filtered.length ? filtered : out;
     }
 
-    /* Jedna žádost: stáhne (JSON z AllOrigins NEBO přímo XML z tvojí proxy), vrátí pole items */
     async function fetchAndParse(requestUrl) {
       const r = await fetchWithTimeout(requestUrl, 5000);
       if (!r.ok) throw new Error("Fetch fail");
@@ -190,7 +208,6 @@
       return parsed;
     }
 
-    /* Stáhne PRVNÍ úspěšný z více kandidátů (Google/Bing × proxy/AllOrigins) */
     async function fetchRss(name) {
       const g = googleNewsRss(name);
       const b = bingNewsRss(name);
