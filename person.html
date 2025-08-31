@@ -30,7 +30,7 @@
     /* Content wrapper */
     .wrap {
       max-width:900px; margin:0 auto; padding:20px 16px; min-height:60vh;
-      position: relative; /* <-- důležité pro absolutní centrování loaderu */
+      position: relative; /* pro absolutní overlay loaderu */
     }
 
     .item { padding:16px 0; border-bottom:1px solid #1a1a1a; }
@@ -39,11 +39,14 @@
     a:hover { text-decoration:underline; }
     .empty { color:#aaa; padding:24px 0; text-align:center; }
 
-    /* Loader – absolutně vystředěný uvnitř .wrap */
+    /* Loader – absolutně uprostřed (nezničitelné centrování) */
     .loader-wrap{
-      position: absolute; inset: 0;         /* vyplní celý .wrap */
-      display:flex; align-items:center; justify-content:center;
-      gap:12px; text-align:center; width:100%;
+      position:absolute; inset:0;
+      display:grid; place-items:center;     /* horizontálně i vertikálně na střed */
+      width:100%; text-align:center;
+    }
+    .loader-inner{
+      display:flex; flex-direction:column; align-items:center; gap:12px;
     }
     .spinner{
       width:48px; height:48px; border-radius:50%;
@@ -81,9 +84,11 @@
 
   <div class="wrap">
     <div id="loader" class="loader-wrap" role="status" aria-live="polite" aria-busy="true">
-      <div class="spinner" aria-hidden="true"></div>
-      <div class="loader-text">Please wait…</div>
-      <span class="visually-hidden">Loading…</span>
+      <div class="loader-inner">
+        <div class="spinner" aria-hidden="true"></div>
+        <div class="loader-text">Please wait…</div>
+        <span class="visually-hidden">Loading…</span>
+      </div>
     </div>
     <div id="list" style="display:none;"></div>
   </div>
@@ -93,7 +98,6 @@
   </footer>
 
   <script>
-    // Pokud už běží CNAME, nech proxy.famefilter.com; jinak můžeš dočasně vrátit *.up.railway.app
     const PROXY_BASE = "https://proxy.famefilter.com/proxy";
     const ProxyURL = (PROXY_BASE && PROXY_BASE.startsWith("http")) ? PROXY_BASE : "";
     const HAVE_PROXY = !!ProxyURL;
@@ -106,12 +110,10 @@
       "katy-perry":"Katy Perry","margot-robbie":"Margot Robbie"
     };
 
-    /* Rychlá varianta: jen Google News (posledních 30 dní) */
     function googleNewsRss(name){
       return `https://news.google.com/rss/search?q=${encodeURIComponent(name + " when:30d")}&hl=en-US&gl=US&ceid=US:en`;
     }
 
-    /* Helpery */
     const allOrigins = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
     const viaProxy   = url => `${ProxyURL}?url=${encodeURIComponent(url)}`;
 
@@ -152,7 +154,6 @@
       return parsed;
     }
 
-    /* Závod proxy vs AllOrigins – vezmeme rychlejší odpověď */
     async function raceMirrors(sourceUrl){
       const jobs = [];
       if (HAVE_PROXY) jobs.push(fetchAndParseOne(viaProxy(sourceUrl)));
