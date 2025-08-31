@@ -37,13 +37,8 @@
       margin:0; line-height:1.1; word-break:break-word;
     }
     .brand .accent{ color:#8ab4ff; }
-    .hero p{
-      margin:10px 0 0; color:#ccc; font-weight:600; letter-spacing:2px;
-      text-transform:uppercase; font-size:20px; line-height:1.2;
-    }
-    @media (max-width:600px){
-      .brand{font-size:36px;} .hero p{font-size:16px;}
-    }
+    .hero p{ margin:10px 0 0; color:#ccc; font-weight:600; letter-spacing:2px; text-transform:uppercase; font-size:20px; line-height:1.2; }
+    @media (max-width:600px){ .brand{font-size:36px;} .hero p{font-size:16px;} }
 
     /* Content wrapper */
     .wrap {
@@ -57,7 +52,7 @@
     a:hover { text-decoration:underline; }
     .empty { color:#aaa; padding:24px 0; text-align:center; }
 
-    /* Loader – absolutně uprostřed */
+    /* Loader – absolutně uprostřed (nezničitelně) */
     .loader-wrap{
       position:absolute; inset:0;
       display:grid; place-items:center;
@@ -114,6 +109,7 @@
   </footer>
 
   <script>
+    /* Fallback proxy pro živé RSS (použije se jen když chybí local JSON) */
     const PROXY_BASE = "https://proxy.famefilter.com/proxy";
     const ProxyURL = (PROXY_BASE && PROXY_BASE.startsWith("http")) ? PROXY_BASE : "";
     const HAVE_PROXY = !!ProxyURL;
@@ -151,17 +147,24 @@
       ensure('meta[name="twitter:title"]','meta',{name:'twitter:title'}).setAttribute('content', t);
       ensure('meta[name="twitter:description"]','meta',{name:'twitter:description'}).setAttribute('content', d);
 
-      // canonical
       const can = document.querySelector('link[rel="canonical"]') || (()=>{const l=document.createElement('link');l.rel='canonical';document.head.appendChild(l);return l;})();
       can.href = location.href;
     }
 
+    /* ---------- Lokální JSON (GitHub Actions) ---------- */
+    async function fetchLocalJson(slug) {
+      const url = `news/${slug}.json?ts=${Date.now()}`; // cache-bust
+      const r = await fetch(url, { cache: "no-store" });
+      if (!r.ok) throw new Error("local json missing");
+      return await r.json();
+    }
+
+    /* ---------- Fallback: živé RSS (pouze když JSON není) ---------- */
     function googleNewsRss(name){
       return `https://news.google.com/rss/search?q=${encodeURIComponent(name + " when:30d")}&hl=en-US&gl=US&ceid=US:en`;
     }
-
     const allOrigins = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-    const viaProxy   = url => `${ProxyURL}?url=${encodeURIComponent(url)}`;
+    const viaProxy   = url => `${HAVE_PROXY ? (ProxyURL + "?url=" + encodeURIComponent(url)) : ""}`;
 
     const MAX_ITEMS = 24;
     const fmt = iso => iso ? new Date(iso).toLocaleString() : "";
@@ -207,22 +210,7 @@
       return await Promise.any(jobs);
     }
 
-    function dedupeAndSort(items){
-      const seen = new Set();
-      const out = items.filter(x => {
-        const k = x.title.toLowerCase();
-        if (seen.has(k)) return false;
-        seen.add(k);
-        return true;
-      });
-      out.sort((a,b)=>{
-        const da = a.published_at ? new Date(a.published_at).getTime() : 0;
-        const db = b.published_at ? new Date(b.published_at).getTime() : 0;
-        return db - da;
-      });
-      return out;
-    }
-
+    /* ---------- Render ---------- */
     function render(listEl, items){
       listEl.innerHTML = items.map(x => `
         <div class="item">
@@ -234,7 +222,6 @@
 
     async function load(){
       const name = NAMES[slug] || slug.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
-      // SEO + H1
       setSeo(name);
       document.getElementById("title").textContent = name ? `${name} – News` : "News";
 
@@ -245,9 +232,25 @@
       listEl.style.display = "none";
 
       let items = [];
+
+      // 1) Bleskově z lokálního JSONu (GitHub Actions)
       try {
-        items = await raceMirrors(googleNewsRss(name));
-      } catch { items = []; }
+        const data = await fetchLocalJson(slug);
+        items = (data && Array.isArray(data.items)) ? data.items : [];
+      } catch {
+        // 2) Fallback: živé RSS
+        try {
+          items = await raceMirrors(googleNewsRss(name));
+          // seřadit a deduplikovat (JSON už bývá čistý)
+          const seen = new Set();
+          items = items.filter(x => {
+            const k = (x.title||"").toLowerCase();
+            if (seen.has(k)) return false;
+            seen.add(k);
+            return true;
+          }).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
+        } catch { items = []; }
+      }
 
       loaderEl.style.display = "none";
       listEl.style.display = "block";
@@ -257,7 +260,7 @@
         return;
       }
 
-      render(listEl, dedupeAndSort(items));
+      render(listEl, items);
     }
 
     load();
