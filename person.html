@@ -58,6 +58,15 @@
     }
     .btn:hover{ transform:translateY(-2px); border-color:#444; }
   </style>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3QCS3QKWZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q3QCS3QKWZ');
+  </script>
 </head>
 <body>
   <header class="hero">
@@ -79,7 +88,8 @@
   </footer>
 
   <script>
-    const PROXY_BASE = "https://famefilter-production.up.railway.app/proxy";
+    // 🚀 použij vlastní subdoménu proxy (změň zpět na *.up.railway.app, pokud CNAME ještě neběží)
+    const PROXY_BASE = "https://proxy.famefilter.com/proxy";
     const ProxyURL = (PROXY_BASE && PROXY_BASE.startsWith("http")) ? PROXY_BASE : "";
     const HAVE_PROXY = !!ProxyURL;
 
@@ -137,7 +147,7 @@
       const ct = (r.headers.get("content-type") || "").toLowerCase();
       const xml = ct.includes("application/json")
         ? ((await r.json()).contents || "")   // AllOrigins JSON
-        : await r.text();                     // Railway proxy XML/text
+        : await r.text();                     // Proxy XML/text
       const parsed = parseRss(xml);
       if (!parsed.length) throw new Error("Empty feed");
       return parsed;
