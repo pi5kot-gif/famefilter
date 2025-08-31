@@ -4,6 +4,24 @@
   <meta charset="utf-8" />
   <title>FameFilter – Person</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO defaults (přepíše se níž v JS podle slug) -->
+  <meta name="description" content="Latest celebrity news on FameFilter." />
+  <meta name="keywords" content="celebrity news, famefilter" />
+  <link rel="canonical" href="https://famefilter.com/person.html" />
+
+  <!-- Open Graph / Twitter (defaults) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="FameFilter" />
+  <meta property="og:title" content="FameFilter – Person" />
+  <meta property="og:description" content="Latest celebrity news on FameFilter." />
+  <meta property="og:url" content="https://famefilter.com/person.html" />
+  <meta property="og:image" content="https://famefilter.com/assets/og-default.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="FameFilter – Person" />
+  <meta name="twitter:description" content="Latest celebrity news on FameFilter." />
+  <meta name="twitter:image" content="https://famefilter.com/assets/og-default.jpg" />
+
   <style>
     :root { color-scheme: dark; }
     * { box-sizing: border-box; }
@@ -39,15 +57,13 @@
     a:hover { text-decoration:underline; }
     .empty { color:#aaa; padding:24px 0; text-align:center; }
 
-    /* Loader – absolutně uprostřed (nezničitelné centrování) */
+    /* Loader – absolutně uprostřed */
     .loader-wrap{
       position:absolute; inset:0;
-      display:grid; place-items:center;     /* horizontálně i vertikálně na střed */
+      display:grid; place-items:center;
       width:100%; text-align:center;
     }
-    .loader-inner{
-      display:flex; flex-direction:column; align-items:center; gap:12px;
-    }
+    .loader-inner{ display:flex; flex-direction:column; align-items:center; gap:12px; }
     .spinner{
       width:48px; height:48px; border-radius:50%;
       border:4px solid #222; border-top-color:#8ab4ff;
@@ -109,6 +125,36 @@
       "ariana-grande":"Ariana Grande","scarlett-johansson":"Scarlett Johansson",
       "katy-perry":"Katy Perry","margot-robbie":"Margot Robbie"
     };
+
+    // --- SEO: dynamická hlavička podle jména
+    function setSeo(name){
+      const person = name || "Celebrity";
+      const t = `${person} – Latest News | FameFilter`;
+      const d = `Stay updated with the latest news and headlines about ${person} on FameFilter.`;
+      const k = `${person} news, ${person} headlines, ${person} articles`;
+
+      document.title = t;
+
+      const ensure = (selector, tag, attrs={}) => {
+        let el = document.querySelector(selector);
+        if(!el){ el = document.createElement(tag); for(const [k,v] of Object.entries(attrs)) el.setAttribute(k,v); document.head.appendChild(el); }
+        return el;
+      };
+
+      ensure('meta[name="description"]','meta',{name:'description'}).setAttribute('content', d);
+      ensure('meta[name="keywords"]','meta',{name:'keywords'}).setAttribute('content', k);
+
+      ensure('meta[property="og:title"]','meta',{property:'og:title'}).setAttribute('content', t);
+      ensure('meta[property="og:description"]','meta',{property:'og:description'}).setAttribute('content', d);
+      ensure('meta[property="og:url"]','meta',{property:'og:url'}).setAttribute('content', location.href);
+
+      ensure('meta[name="twitter:title"]','meta',{name:'twitter:title'}).setAttribute('content', t);
+      ensure('meta[name="twitter:description"]','meta',{name:'twitter:description'}).setAttribute('content', d);
+
+      // canonical
+      const can = document.querySelector('link[rel="canonical"]') || (()=>{const l=document.createElement('link');l.rel='canonical';document.head.appendChild(l);return l;})();
+      can.href = location.href;
+    }
 
     function googleNewsRss(name){
       return `https://news.google.com/rss/search?q=${encodeURIComponent(name + " when:30d")}&hl=en-US&gl=US&ceid=US:en`;
@@ -188,6 +234,8 @@
 
     async function load(){
       const name = NAMES[slug] || slug.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
+      // SEO + H1
+      setSeo(name);
       document.getElementById("title").textContent = name ? `${name} – News` : "News";
 
       const listEl = document.getElementById("list");
@@ -199,9 +247,7 @@
       let items = [];
       try {
         items = await raceMirrors(googleNewsRss(name));
-      } catch {
-        items = [];
-      }
+      } catch { items = []; }
 
       loaderEl.style.display = "none";
       listEl.style.display = "block";
