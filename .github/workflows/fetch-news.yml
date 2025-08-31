@@ -1,0 +1,29 @@
+name: Fetch celebrity news (hourly)
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # každou hodinu
+  workflow_dispatch:      # ruční spuštění z UI
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # aby mohla zapsat commit
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run fetch script
+        run: node scripts/fetch-news.js
+
+      - name: Commit & push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(news): hourly refresh JSON"
+          file_pattern: news/*.json
