@@ -36,10 +36,16 @@
     a:hover { text-decoration:underline; }
     .empty { color:#aaa; padding:24px 0; text-align:center; }
 
-    /* Loader – vycentrovaný uprostřed stránky pod nadpisem */
+    /* Loader – přesně doprostřed pod nadpisem */
     .loader-wrap{
-      display:flex; flex-direction:column; align-items:center; justify-content:center;
-      gap:12px; min-height:60vh; text-align:center;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap:12px;
+      min-height:60vh;
+      width:100%;          /* důležité: zabere celou šířku */
+      text-align:center;   /* důležité: zarovnání na střed */
     }
     .spinner{
       width:48px; height:48px; border-radius:50%;
