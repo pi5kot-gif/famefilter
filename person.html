@@ -10,7 +10,7 @@
   <meta name="keywords" content="celebrity news, famefilter" />
   <link rel="canonical" href="https://famefilter.com/person.html" />
 
-  <!-- Open Graph / Twitter (defaults) -->
+  <!-- Open Graph / Twitter -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="FameFilter" />
   <meta property="og:title" content="FameFilter – Person" />
@@ -22,7 +22,7 @@
   <meta name="twitter:description" content="Latest celebrity news on FameFilter." />
   <meta name="twitter:image" content="https://famefilter.com/assets/og-default.jpg" />
 
-  <!-- Favicons (PNG + ICO only) -->
+  <!-- Favicons -->
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -51,10 +51,7 @@
     .hero p{ margin:10px 0 0; color:#ccc; font-weight:600; letter-spacing:2px; text-transform:uppercase; font-size:20px; line-height:1.2; }
     @media (max-width:600px){ .brand{font-size:36px;} .hero p{font-size:16px;} }
 
-    .wrap {
-      max-width:900px; margin:0 auto; padding:20px 16px; min-height:60vh;
-      position: relative;
-    }
+    .wrap { max-width:900px; margin:0 auto; padding:20px 16px; min-height:60vh; position: relative; }
 
     .item { padding:16px 0; border-bottom:1px solid #1a1a1a; }
     .src  { color:#aaa; font-size:13px; margin-top:6px; }
@@ -62,28 +59,16 @@
     a:hover { text-decoration:underline; }
     .empty { color:#aaa; padding:24px 0; text-align:center; }
 
-    /* Loader – absolutně uprostřed */
-    .loader-wrap{
-      position:absolute; inset:0;
-      display:grid; place-items:center;
-      width:100%; text-align:center;
-    }
+    /* Loader – uprostřed */
+    .loader-wrap{ position:absolute; inset:0; display:grid; place-items:center; width:100%; text-align:center; }
     .loader-inner{ display:flex; flex-direction:column; align-items:center; gap:12px; }
-    .spinner{
-      width:48px; height:48px; border-radius:50%;
-      border:4px solid #222; border-top-color:#8ab4ff;
-      animation: spin 0.8s linear infinite;
-    }
+    .spinner{ width:48px; height:48px; border-radius:50%; border:4px solid #222; border-top-color:#8ab4ff; animation: spin .8s linear infinite; }
     .loader-text{ color:#ccc; font-size:14px; }
     @keyframes spin { to { transform: rotate(360deg); } }
     .visually-hidden{ position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
 
     footer{ text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
-    .btn{
-      display:inline-block; padding:10px 14px; border-radius:10px; border:1px solid #2a2a2a;
-      background:#111; color:#8ab4ff; text-decoration:none; font-weight:600;
-      transition:transform .15s ease, border-color .15s ease;
-    }
+    .btn{ display:inline-block; padding:10px 14px; border-radius:10px; border:1px solid #2a2a2a; background:#111; color:#8ab4ff; text-decoration:none; font-weight:600; transition:transform .15s ease, border-color .15s ease; }
     .btn:hover{ transform:translateY(-2px); border-color:#444; }
   </style>
 
@@ -118,7 +103,6 @@
   </footer>
 
   <script>
-    /* Proxy pro živé RSS (fallback když chybí local JSON) */
     const PROXY_BASE = "https://proxy.famefilter.com/proxy";
     const ProxyURL = (PROXY_BASE && PROXY_BASE.startsWith("http")) ? PROXY_BASE : "";
     const HAVE_PROXY = !!ProxyURL;
@@ -131,44 +115,36 @@
       "katy-perry":"Katy Perry","margot-robbie":"Margot Robbie"
     };
 
-    // --- SEO: dynamická hlavička podle jména
     function setSeo(name){
       const person = name || "Celebrity";
       const t = `${person} – Latest News | FameFilter`;
       const d = `Stay updated with the latest news and headlines about ${person} on FameFilter.`;
       const k = `${person} news, ${person} headlines, ${person} articles`;
-
       document.title = t;
 
-      const ensure = (selector, tag, attrs={}) => {
-        let el = document.querySelector(selector);
-        if(!el){ el = document.createElement(tag); for(const [k,v] of Object.entries(attrs)) el.setAttribute(k,v); document.head.appendChild(el); }
+      const ensure = (sel, tag, attrs={})=>{
+        let el = document.querySelector(sel);
+        if(!el){ el=document.createElement(tag); for(const [k,v] of Object.entries(attrs)) el.setAttribute(k,v); document.head.appendChild(el); }
         return el;
       };
-
       ensure('meta[name="description"]','meta',{name:'description'}).setAttribute('content', d);
       ensure('meta[name="keywords"]','meta',{name:'keywords'}).setAttribute('content', k);
-
       ensure('meta[property="og:title"]','meta',{property:'og:title'}).setAttribute('content', t);
       ensure('meta[property="og:description"]','meta',{property:'og:description'}).setAttribute('content', d);
       ensure('meta[property="og:url"]','meta',{property:'og:url'}).setAttribute('content', location.href);
-
       ensure('meta[name="twitter:title"]','meta',{name:'twitter:title'}).setAttribute('content', t);
       ensure('meta[name="twitter:description"]','meta',{name:'twitter:description'}).setAttribute('content', d);
-
       const can = document.querySelector('link[rel="canonical"]') || (()=>{const l=document.createElement('link');l.rel='canonical';document.head.appendChild(l);return l;})();
       can.href = location.href;
     }
 
-    /* ---------- Lokální JSON (GitHub Actions) ---------- */
+    // --- Datové zdroje
     async function fetchLocalJson(slug) {
-      const url = `news/${slug}.json?ts=${Date.now()}`; // cache-bust
+      const url = `news/${slug}.json?ts=${Date.now()}`;
       const r = await fetch(url, { cache: "no-store" });
       if (!r.ok) throw new Error(`local json ${r.status}`);
       return await r.json();
     }
-
-    /* ---------- Fallback: živé RSS ---------- */
     function googleNewsRss(name){
       return `https://news.google.com/rss/search?q=${encodeURIComponent(name + " when:30d")}&hl=en-US&gl=US&ceid=US:en`;
     }
@@ -183,14 +159,9 @@
       const ctrl = new AbortController();
       const t = setTimeout(() => ctrl.abort(), ms);
       try {
-        return await fetch(url, {
-          signal: ctrl.signal,
-          cache: "no-store",
-          headers: { "Accept": "application/rss+xml, application/xml, text/xml, application/json;q=0.9, */*;q=0.8" }
-        });
+        return await fetch(url, { signal: ctrl.signal, cache: "no-store", headers: { "Accept": "application/rss+xml, application/xml, text/xml, application/json;q=0.9, */*;q=0.8" } });
       } finally { clearTimeout(t); }
     }
-
     function parseRss(xmlText){
       const doc = new DOMParser().parseFromString(xmlText, "text/xml");
       return Array.from(doc.querySelectorAll("item")).slice(0, MAX_ITEMS).map(it => {
@@ -202,7 +173,6 @@
         return { title, url: link || "#", source: source || "News", published_at: pub ? new Date(pub).toISOString() : "" };
       });
     }
-
     async function fetchAndParseOne(url){
       const r = await fetchWithTimeout(url, 4000);
       if (!r.ok) throw new Error(`fetch ${r.status}`);
@@ -212,8 +182,6 @@
       if (!parsed.length) throw new Error("empty feed");
       return parsed;
     }
-
-    // Vyzkouší 3 mirrory (Railway proxy, AllOrigins JSON, AllOrigins RAW) a vrátí první úspěch
     async function raceMirrors(sourceUrl){
       const jobs = [];
       if (HAVE_PROXY) jobs.push(fetchAndParseOne(viaProxy(sourceUrl)));
@@ -222,7 +190,14 @@
       return await Promise.any(jobs);
     }
 
-    /* ---------- Render ---------- */
+    function dedupeSort(items){
+      const seen = new Set();
+      const out = items.filter(x => {
+        const k = (x.title||"").toLowerCase();
+        if (seen.has(k)) return false; seen.add(k); return true;
+      }).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
+      return out;
+    }
     function render(listEl, items){
       listEl.innerHTML = items.map(x => `
         <div class="item">
@@ -237,7 +212,7 @@
       setSeo(name);
       document.getElementById("title").textContent = name ? `${name} – News` : "News";
 
-      const listEl   = document.getElementById("list");
+      const listEl = document.getElementById("list");
       const loaderEl = document.getElementById("loader");
       const loaderTx = document.getElementById("loader-text");
 
@@ -246,29 +221,24 @@
 
       let items = [];
 
-      // 1) Lokální JSON (nejrychlejší varianta)
       try {
         const data = await fetchLocalJson(slug);
-        items = (data && Array.isArray(data.items)) ? data.items : [];
-        console.info(`[FameFilter] Loaded local JSON: news/${slug}.json (${items.length} items)`);
+        items = Array.isArray(data.items) ? data.items : [];
+        console.info(`[FameFilter] Local JSON: news/${slug}.json (${items.length})`);
       } catch (e) {
-        console.warn(`[FameFilter] Local JSON failed for news/${slug}.json:`, e?.message || e);
+        console.warn(`[FameFilter] Local JSON failed:`, e?.message || e);
+      }
+
+      // NOVĚ: pokud je lokální JSON prázdný/velmi krátký, spadni na live RSS
+      if (!items.length) {
         loaderTx.textContent = "Loading live news…";
-        // 2) Fallback: živé RSS
         try {
-          const rss = googleNewsRss(name);
-          items = await raceMirrors(rss);
-          // dedupe + sort
-          const seen = new Set();
-          items = items.filter(x => {
-            const k = (x.title||"").toLowerCase();
-            if (seen.has(k)) return false;
-            seen.add(k);
-            return true;
-          }).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
-          console.info(`[FameFilter] Loaded live RSS via mirror (${items.length} items)`);
+          const rssUrl = googleNewsRss(name);
+          const live = await raceMirrors(rssUrl);
+          items = dedupeSort(live);
+          console.info(`[FameFilter] Live RSS used (${items.length})`);
         } catch (e2) {
-          console.error("[FameFilter] Live RSS failed:", e2?.message || e2);
+          console.error(`[FameFilter] Live RSS failed:`, e2?.message || e2);
           items = [];
         }
       }
@@ -280,7 +250,6 @@
         listEl.innerHTML = `<div class="empty">Failed to load news for <strong>${name}</strong>.<br>Try refreshing the page.</div>`;
         return;
       }
-
       render(listEl, items);
     }
 
