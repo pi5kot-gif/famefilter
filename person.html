@@ -5,7 +5,7 @@
   <title>FameFilter – Person</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- SEO defaults (přepíše se níž v JS podle slug) -->
+  <!-- SEO defaults (JS je přepíše podle slug) -->
   <meta name="description" content="Latest celebrity news on FameFilter." />
   <meta name="keywords" content="celebrity news, famefilter" />
   <link rel="canonical" href="https://famefilter.com/person.html" />
@@ -22,7 +22,7 @@
   <meta name="twitter:description" content="Latest celebrity news on FameFilter." />
   <meta name="twitter:image" content="https://famefilter.com/assets/og-default.jpg" />
 
-  <!-- Favicons & PWA -->
+  <!-- Favicons (PNG + ICO only) -->
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -39,7 +39,6 @@
     * { box-sizing: border-box; }
     body { margin:0; background:#000; color:#fff; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
 
-    /* Hero */
     .hero{
       display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
       height:auto; padding:24px 12px; border-bottom:1px solid #1a1a1a;
@@ -52,10 +51,9 @@
     .hero p{ margin:10px 0 0; color:#ccc; font-weight:600; letter-spacing:2px; text-transform:uppercase; font-size:20px; line-height:1.2; }
     @media (max-width:600px){ .brand{font-size:36px;} .hero p{font-size:16px;} }
 
-    /* Content wrapper */
     .wrap {
       max-width:900px; margin:0 auto; padding:20px 16px; min-height:60vh;
-      position: relative; /* pro absolutní overlay loaderu */
+      position: relative;
     }
 
     .item { padding:16px 0; border-bottom:1px solid #1a1a1a; }
@@ -64,7 +62,7 @@
     a:hover { text-decoration:underline; }
     .empty { color:#aaa; padding:24px 0; text-align:center; }
 
-    /* Loader – absolutně uprostřed (nezničitelně) */
+    /* Loader – absolutně uprostřed */
     .loader-wrap{
       position:absolute; inset:0;
       display:grid; place-items:center;
@@ -80,7 +78,6 @@
     @keyframes spin { to { transform: rotate(360deg); } }
     .visually-hidden{ position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
 
-    /* Footer – jedno tlačítko Home */
     footer{ text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
     .btn{
       display:inline-block; padding:10px 14px; border-radius:10px; border:1px solid #2a2a2a;
@@ -91,7 +88,7 @@
   </style>
 
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3QCS3QKWZ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -109,7 +106,7 @@
     <div id="loader" class="loader-wrap" role="status" aria-live="polite" aria-busy="true">
       <div class="loader-inner">
         <div class="spinner" aria-hidden="true"></div>
-        <div class="loader-text">Please wait…</div>
+        <div class="loader-text" id="loader-text">Please wait…</div>
         <span class="visually-hidden">Loading…</span>
       </div>
     </div>
@@ -121,7 +118,7 @@
   </footer>
 
   <script>
-    /* Fallback proxy pro živé RSS (použije se jen když chybí local JSON) */
+    /* Proxy pro živé RSS (fallback když chybí local JSON) */
     const PROXY_BASE = "https://proxy.famefilter.com/proxy";
     const ProxyURL = (PROXY_BASE && PROXY_BASE.startsWith("http")) ? PROXY_BASE : "";
     const HAVE_PROXY = !!ProxyURL;
@@ -167,21 +164,22 @@
     async function fetchLocalJson(slug) {
       const url = `news/${slug}.json?ts=${Date.now()}`; // cache-bust
       const r = await fetch(url, { cache: "no-store" });
-      if (!r.ok) throw new Error("local json missing");
+      if (!r.ok) throw new Error(`local json ${r.status}`);
       return await r.json();
     }
 
-    /* ---------- Fallback: živé RSS (pouze když JSON není) ---------- */
+    /* ---------- Fallback: živé RSS ---------- */
     function googleNewsRss(name){
       return `https://news.google.com/rss/search?q=${encodeURIComponent(name + " when:30d")}&hl=en-US&gl=US&ceid=US:en`;
     }
-    const allOrigins = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-    const viaProxy   = url => `${HAVE_PROXY ? (ProxyURL + "?url=" + encodeURIComponent(url)) : ""}`;
+    const allOriginsGet = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+    const allOriginsRaw = url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
+    const viaProxy      = url => `${HAVE_PROXY ? (ProxyURL + "?url=" + encodeURIComponent(url)) : ""}`;
 
     const MAX_ITEMS = 24;
     const fmt = iso => iso ? new Date(iso).toLocaleString() : "";
 
-    async function fetchWithTimeout(url, ms = 3000) {
+    async function fetchWithTimeout(url, ms = 4000) {
       const ctrl = new AbortController();
       const t = setTimeout(() => ctrl.abort(), ms);
       try {
@@ -206,19 +204,21 @@
     }
 
     async function fetchAndParseOne(url){
-      const r = await fetchWithTimeout(url, 3000);
-      if (!r.ok) throw new Error("Fetch fail");
+      const r = await fetchWithTimeout(url, 4000);
+      if (!r.ok) throw new Error(`fetch ${r.status}`);
       const ct = (r.headers.get("content-type") || "").toLowerCase();
       const xml = ct.includes("application/json") ? ((await r.json()).contents || "") : await r.text();
       const parsed = parseRss(xml);
-      if (!parsed.length) throw new Error("Empty feed");
+      if (!parsed.length) throw new Error("empty feed");
       return parsed;
     }
 
+    // Vyzkouší 3 mirrory (Railway proxy, AllOrigins JSON, AllOrigins RAW) a vrátí první úspěch
     async function raceMirrors(sourceUrl){
       const jobs = [];
       if (HAVE_PROXY) jobs.push(fetchAndParseOne(viaProxy(sourceUrl)));
-      jobs.push(fetchAndParseOne(allOrigins(sourceUrl)));
+      jobs.push(fetchAndParseOne(allOriginsGet(sourceUrl)));
+      jobs.push((async()=>{ const txt = await (await fetchWithTimeout(allOriginsRaw(sourceUrl), 4000)).text(); return parseRss(txt); })());
       return await Promise.any(jobs);
     }
 
@@ -237,23 +237,28 @@
       setSeo(name);
       document.getElementById("title").textContent = name ? `${name} – News` : "News";
 
-      const listEl = document.getElementById("list");
+      const listEl   = document.getElementById("list");
       const loaderEl = document.getElementById("loader");
+      const loaderTx = document.getElementById("loader-text");
 
       loaderEl.style.display = "block";
       listEl.style.display = "none";
 
       let items = [];
 
-      // 1) Bleskově z lokálního JSONu (GitHub Actions)
+      // 1) Lokální JSON (nejrychlejší varianta)
       try {
         const data = await fetchLocalJson(slug);
         items = (data && Array.isArray(data.items)) ? data.items : [];
-      } catch {
+        console.info(`[FameFilter] Loaded local JSON: news/${slug}.json (${items.length} items)`);
+      } catch (e) {
+        console.warn(`[FameFilter] Local JSON failed for news/${slug}.json:`, e?.message || e);
+        loaderTx.textContent = "Loading live news…";
         // 2) Fallback: živé RSS
         try {
-          items = await raceMirrors(googleNewsRss(name));
-          // seřadit a deduplikovat (JSON už bývá čistý)
+          const rss = googleNewsRss(name);
+          items = await raceMirrors(rss);
+          // dedupe + sort
           const seen = new Set();
           items = items.filter(x => {
             const k = (x.title||"").toLowerCase();
@@ -261,14 +266,18 @@
             seen.add(k);
             return true;
           }).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
-        } catch { items = []; }
+          console.info(`[FameFilter] Loaded live RSS via mirror (${items.length} items)`);
+        } catch (e2) {
+          console.error("[FameFilter] Live RSS failed:", e2?.message || e2);
+          items = [];
+        }
       }
 
       loaderEl.style.display = "none";
       listEl.style.display = "block";
 
       if (!items.length) {
-        listEl.innerHTML = `<div class="empty">Failed to load news.<br>Please refresh the page.</div>`;
+        listEl.innerHTML = `<div class="empty">Failed to load news for <strong>${name}</strong>.<br>Try refreshing the page.</div>`;
         return;
       }
 
