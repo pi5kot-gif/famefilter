@@ -1,5 +1,5 @@
 // scripts/fetch-news.js
-// Node 18+ (vestavěné fetch). Bez externích závislostí.
+// Node 18+ (má fetch). Bez závislostí.
 
 const fs = require('fs');
 const path = require('path');
@@ -18,57 +18,76 @@ const CELEBS = {
 };
 
 const MAX_ITEMS = 30;
+const TIMEOUT_MS = 6500;
+const SLEEP_MS = 600;              // drobná pauza mezi requesty
 const USER_AGENT = "famefilter-bot/1.0 (+https://famefilter.com)";
-const FETCH_TIMEOUT_MS = 6000;
-const SLEEP_BETWEEN_PEOPLE_MS = 1200; // malá „mezera“ mezi celebritami
-const SLEEP_BETWEEN_QUERIES_MS = 400; // a i mezi alternativními dotazy
+const PROXY_BASE = process.env.PROXY_BASE || ""; // např. https://proxy.famefilter.com/proxy
 
+/* ---------- Utils ---------- */
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-// Google News RSS
-const gnews = (q) =>
-  `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`;
-
-// Mirrors
-const mirrors = (q) => {
-  const base = gnews(q);
-  return [
-    base, // přímo
-    `https://api.allorigins.win/raw?url=${encodeURIComponent(base)}`,
-    `https://api.allorigins.win/get?url=${encodeURIComponent(base)}`, // vrací JSON {contents}
-  ];
-};
-
-// fetch s timeoutem
-async function fetchWithTimeout(url, init = {}) {
+async function fetchWithTimeout(url) {
   const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT_MS);
+  const t = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
   try {
-    const r = await fetch(url, {
-      ...init,
-      signal: ctrl.signal,
-      headers: { "User-Agent": USER_AGENT, ...(init.headers || {}) }
-    });
-    return r;
-  } finally {
-    clearTimeout(t);
-  }
+    const r = await fetch(url, { signal: ctrl.signal, headers: { "User-Agent": USER_AGENT } });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return await r.text();
+  } finally { clearTimeout(t); }
 }
 
-// udělej 1 dotaz přes všechny mirrory, první úspěšný vyhrává
-async function fetchOneQuery(q) {
-  const urls = mirrors(q);
+function allOriginsRaw(url) {
+  return `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
+}
+
+function viaProxy(url) {
+  return PROXY_BASE ? `${PROXY_BASE}?url=${encodeURIComponent(url)}` : null;
+}
+
+/* ---------- Google News ---------- */
+function googleNewsRssFromQuery(q) {
+  // q = třeba: `"Taylor Swift" when:90d`
+  return `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`;
+}
+
+function buildQueries(name) {
+  // “mezerové” dotazy + 90d default, plus další varianty, aby něco padlo vždy
+  const quoted = `"${name}"`;
+  const base = [
+    `${quoted} when:90d`,
+    `${name} when:90d`,
+    `${quoted} when:30d`,
+    `${name} when:30d`,
+    `${quoted}`,
+    `${name}`
+  ];
+
+  // Specifická jemná pomoc pro časté překlepy (Scarlett)
+  if (name.toLowerCase().includes('scarlett johansson')) {
+    base.push(`"Scarlett Johanssen" when:90d`);
+    base.push(`"Scarlet Johansson" when:90d`);
+  }
+
+  return base;
+}
+
+async function fetchFromMirrors(sourceUrl) {
+  const mirrors = [
+    googleNewsRssFromQuery(sourceUrl).startsWith('http') ? null : null, // nic; jen pro přehled
+  ];
+  // sourceUrl už je QUERY, ne URL. tady postavíme URL:
+  const url = googleNewsRssFromQuery(sourceUrl);
+  const tries = [
+    () => fetchWithTimeout(url),
+    () => fetchWithTimeout(allOriginsRaw(url)),
+  ];
+  const proxied = viaProxy(url);
+  if (proxied) tries.unshift(() => fetchWithTimeout(proxied)); // proxy preferovaně první
+
   let lastErr;
-  for (const url of urls) {
+  for (const fn of tries) {
     try {
-      const r = await fetchWithTimeout(url);
-      if (!r.ok) { lastErr = new Error(`HTTP ${r.status}`); continue; }
-      const ct = (r.headers.get("content-type") || "").toLowerCase();
-      if (ct.includes("application/json")) {
-        const j = await r.json();
-        return typeof j.contents === "string" ? j.contents : "";
-      }
-      return await r.text();
+      return await fn();
     } catch (e) {
       lastErr = e;
     }
@@ -76,9 +95,8 @@ async function fetchOneQuery(q) {
   throw lastErr || new Error("All mirrors failed");
 }
 
-// jednoduchý parser <item>…</item>
+/* ---------- RSS parser (lehký, bez závislostí) ---------- */
 function parseRss(xml) {
-  if (!xml || typeof xml !== "string") return [];
   const items = [];
   const itemRegex = /<item>([\s\S]*?)<\/item>/g;
   let m;
@@ -86,13 +104,18 @@ function parseRss(xml) {
     const block = m[1];
     const get = (tag) => {
       const mm = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'i').exec(block);
-      return mm ? mm[1].replace(/<!\[CDATA\[(.*?)\]\]>/g, '$1').trim() : "";
+      const raw = mm ? mm[1] : "";
+      // strip CDATA
+      const clean = raw.replace(/<!\[CDATA\[(.*?)\]\]>/gs, '$1').trim();
+      return clean;
     };
     const title = get('title');
     const link  = get('link');
     const pub   = get('pubDate');
     let source  = get('source');
+
     if (!source && link) { try { source = new URL(link).hostname.replace(/^www\./,''); } catch {} }
+
     if (title && link) {
       items.push({
         title,
@@ -102,66 +125,61 @@ function parseRss(xml) {
       });
     }
   }
+
   // dedupe podle title (case-insensitive)
   const seen = new Set();
   const uniq = items.filter(x => {
-    const k = (x.title||"").toLowerCase();
+    const k = (x.title || "").toLowerCase();
     if (seen.has(k)) return false;
-    seen.add(k);
-    return true;
+    seen.add(k); return true;
   });
-  // sort newest first
+
+  // newest first
   uniq.sort((a,b) => new Date(b.published_at) - new Date(a.published_at));
   return uniq;
 }
 
-// postav sadu dotazů pro jméno (vždy 90d + fallbacky)
-// — používáme uvozovky i bez, aby Google nevázal až moc striktně.
-function buildQueries(name) {
-  const quoted = `"${name}"`;
-  const q = [
-    `${quoted} when:90d`,
-    `${quoted}`,
-    `${name} when:90d`,
-  ];
-  // speciální případy / překlepy
-  const lower = name.toLowerCase();
-  if (lower.includes("scarlett johansson")) {
-    q.push(
-      `"Scarlett Johanssen" when:90d`,
-      `"Scarlett Ingrid Johansson" when:90d`,
-      `Scarlett+Johansson when:90d`
-    );
-  }
-  if (lower.includes("cristiano ronaldo")) {
-    q.push(`"Cristiano Ronaldo dos Santos Aveiro" when:90d`);
-  }
-  return q;
-}
-
-// zkus dotazy postupně; jakmile najdeme nenulový seznam, bereme ho
-async function getItemsForName(name) {
+/* ---------- Hlavní logika na osobu ---------- */
+async function fetchOne(name) {
   const queries = buildQueries(name);
+
+  // postupně zkoušej dotazy; u každého mirror fallback + 2 pokusy
   for (const q of queries) {
-    try {
-      const xml = await fetchOneQuery(q);
-      const items = parseRss(xml);
-      if (items.length) return items;
-    } catch (_) {
-      // zkusíme další dotaz
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        const xml = await fetchFromMirrors(q);
+        const items = parseRss(xml);
+        if (items.length) return items;
+      } catch (_) {
+        // zkusí další attempt / query
+      }
     }
-    await sleep(SLEEP_BETWEEN_QUERIES_MS);
+    // malá pauza mezi dotazy, aby se neroztočilo throttling
+    await sleep(250);
   }
   return [];
 }
 
+/* ---------- Run ---------- */
 async function run() {
   const outDir = path.join(process.cwd(), 'news');
   fs.mkdirSync(outDir, { recursive: true });
 
   for (const [slug, name] of Object.entries(CELEBS)) {
     try {
-      const items = await getItemsForName(name);
+      // malý throttle mezi osobami
+      await sleep(SLEEP_MS);
+
+      const items = await fetchOne(name);
+      // poslední záchrana: pokud by selhalo úplně, nepiš prázdný — ponecháš starý soubor
+      if (!items.length) {
+        const file = path.join(outDir, `${slug}.json`);
+        if (fs.existsSync(file)) {
+          console.warn(`× ${slug}: no fresh items; keeping existing file`);
+          continue;
+        }
+      }
+
       const payload = {
         slug, name,
         updatedAt: new Date().toISOString(),
@@ -171,9 +189,14 @@ async function run() {
       fs.writeFileSync(file, JSON.stringify(payload, null, 2));
       console.log(`✓ ${slug} → ${items.length} items`);
     } catch (e) {
-      console.error(`× ${slug}:`, e.message);
+      console.error(`× ${slug}:`, e.message || String(e));
+      // když selže a soubor neexistuje, vytvoř aspoň „prázdný“ s metadata (ať frontend má co číst)
+      const file = path.join(outDir, `${slug}.json`);
+      if (!fs.existsSync(file)) {
+        const payload = { slug, name, updatedAt: new Date().toISOString(), items: [] };
+        fs.writeFileSync(file, JSON.stringify(payload, null, 2));
+      }
     }
-    await sleep(SLEEP_BETWEEN_PEOPLE_MS); // mezera mezi lidmi
   }
 }
 
