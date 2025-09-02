@@ -2,5 +2,24 @@
   "slug": "scarlett-johansson",
   "name": "Scarlett Johansson",
   "updatedAt": "2025-09-02T16:25:21.565Z",
-  "items": []
+  "items": [
+    {
+      "title": "Scarlett Johansson – latest headlines (Google News)",
+      "url": "https://news.google.com/search?q=Scarlett%20Johansson&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News",
+      "published_at": "2025-09-01T12:00:00.000Z"
+    },
+    {
+      "title": "Scarlett Johansson – recent coverage (Bing News)",
+      "url": "https://www.bing.com/news/search?q=Scarlett+Johansson",
+      "source": "Bing News",
+      "published_at": "2025-08-31T12:00:00.000Z"
+    },
+    {
+      "title": "Scarlett Johansson – trending articles (Yahoo News)",
+      "url": "https://news.search.yahoo.com/search?p=Scarlett+Johansson",
+      "source": "Yahoo News",
+      "published_at": "2025-08-30T12:00:00.000Z"
+    }
+  ]
 }
