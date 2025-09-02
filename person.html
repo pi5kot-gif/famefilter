@@ -59,7 +59,7 @@
     a:hover { text-decoration:underline; }
     .empty { color:#aaa; padding:24px 0; text-align:center; }
 
-    /* Loader – uprostřed */
+    /* Loader */
     .loader-wrap{ position:absolute; inset:0; display:grid; place-items:center; width:100%; text-align:center; }
     .loader-inner{ display:flex; flex-direction:column; align-items:center; gap:12px; }
     .spinner{ width:48px; height:48px; border-radius:50%; border:4px solid #222; border-top-color:#8ab4ff; animation: spin .8s linear infinite; }
@@ -103,6 +103,7 @@
   </footer>
 
   <script>
+    /* ---------- Konfigurace ---------- */
     const PROXY_BASE = "https://proxy.famefilter.com/proxy";
     const ProxyURL = (PROXY_BASE && PROXY_BASE.startsWith("http")) ? PROXY_BASE : "";
     const HAVE_PROXY = !!ProxyURL;
@@ -115,6 +116,7 @@
       "katy-perry":"Katy Perry","margot-robbie":"Margot Robbie"
     };
 
+    /* ---------- SEO ---------- */
     function setSeo(name){
       const person = name || "Celebrity";
       const t = `${person} – Latest News | FameFilter`;
@@ -138,11 +140,12 @@
       can.href = location.href;
     }
 
-    /* ---- Helpers ---- */
+    /* ---------- Utilities ---------- */
+    const sleep = (ms)=>new Promise(r=>setTimeout(r, ms));
     const MAX_ITEMS = 24;
     const fmt = iso => iso ? new Date(iso).toLocaleString() : "";
 
-    async function fetchWithTimeout(url, ms = 5000) {
+    async function fetchWithTimeout(url, ms = 6000) {
       const ctrl = new AbortController();
       const t = setTimeout(() => ctrl.abort(), ms);
       try {
@@ -167,13 +170,19 @@
     }
 
     async function fetchAndParseOne(url){
-      const r = await fetchWithTimeout(url, 5000);
-      if (!r.ok) throw new Error(`fetch ${r.status}`);
-      const ct = (r.headers.get("content-type") || "").toLowerCase();
-      const xml = ct.includes("application/json") ? ((await r.json()).contents || "") : await r.text();
-      const parsed = parseRss(xml);
-      if (!parsed.length) throw new Error("empty feed");
-      return parsed;
+      try{
+        const r = await fetchWithTimeout(url, 6000);
+        if (!r.ok) throw new Error(`fetch ${r.status}`);
+        const ct = (r.headers.get("content-type") || "").toLowerCase();
+        const xml = ct.includes("application/json") ? ((await r.json()).contents || "") : await r.text();
+        const parsed = parseRss(xml);
+        if (!parsed.length) throw new Error("empty feed");
+        return parsed;
+      }catch(err){
+        // Vždy vrať prázdné pole → nikdy to nespadne
+        console.warn("[FameFilter] fetchAndParseOne failed:", err?.message || err);
+        return [];
+      }
     }
 
     const allOriginsGet = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
@@ -181,11 +190,19 @@
     const viaProxy      = url => `${HAVE_PROXY ? (ProxyURL + "?url=" + encodeURIComponent(url)) : ""}`;
 
     async function raceMirrors(sourceUrl){
-      const jobs = [];
+      // Zkus současně víc zrcadel, vyber první, které něco vrátí
+      const jobs = [
+        fetchAndParseOne(allOriginsGet(sourceUrl)),
+        (async()=>{ const res = await fetchWithTimeout(allOriginsRaw(sourceUrl), 6000).catch(()=>null); if(!res) return []; try { return parseRss(await res.text()); } catch { return []; } })()
+      ];
       if (HAVE_PROXY) jobs.push(fetchAndParseOne(viaProxy(sourceUrl)));
-      jobs.push(fetchAndParseOne(allOriginsGet(sourceUrl)));
-      jobs.push((async()=>{ const txt = await (await fetchWithTimeout(allOriginsRaw(sourceUrl), 5000)).text(); return parseRss(txt); })());
-      return await Promise.any(jobs);
+
+      const results = await Promise.allSettled(jobs);
+      for (const r of results) {
+        const arr = r.status === "fulfilled" ? r.value : [];
+        if (Array.isArray(arr) && arr.length) return arr;
+      }
+      return []; // nic → vrátíme prázdné, nespadne to
     }
 
     function dedupeSort(items){
@@ -196,45 +213,42 @@
       }).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
     }
 
-    /* ---- Dotazy pro Google News (chytrý fallback pro Scarlett) ---- */
+    /* ---------- Dotazy (všichni 90d + mezery ve jméně) ---------- */
     function buildQueries(name){
+      // name je vždy s MEZERAMI (slug -> "taylor swift" už řešíme níže)
       const quoted = `"${name}"`;
-      const lower = name.toLowerCase();
-      const isScarlett = lower.includes("scarlett johansson");
-
-      if (isScarlett) {
-        return [
-          `${quoted} when:30d`,                                // 1) přesná fráze 30 dní
-          `"Scarlett Johanssen" when:30d`,                     // 2) běžný překlep
-          `${quoted}`,                                         // 3) bez časového okna
-          `${quoted} when:90d`,                                // 4) širší okno 90 dní
-          `Scarlett+Johansson when:30d`,                       // 5) bez uvozovek
-        ];
-      }
       return [
-        `${quoted} when:30d`,
-        `${quoted}`,
-        `${quoted} when:90d`,
+        `${quoted} when:90d`,   // přesná fráze, 90 dní
+        `${name} when:90d`,     // bez uvozovek, 90 dní
+        `${quoted}`,            // bez okna (pro jistotu)
+        `${name}`               // úplně základ
       ];
     }
-
-    function googleNewsRssFromQuery(q){
-      return `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`;
+    function googleNewsRssFromQuery(q, hl="en-US", gl="US", ceid="US:en"){
+      return `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=${hl}&gl=${gl}&ceid=${ceid}`;
     }
 
     async function fetchLiveWithFallback(name){
       const queries = buildQueries(name);
+      const locales = [
+        {hl:"en-US", gl:"US", ceid:"US:en"},
+        {hl:"en-GB", gl:"GB", ceid:"GB:en"},
+        {hl:"en-CA", gl:"CA", ceid:"CA:en"}
+      ];
+
       for (const q of queries) {
-        try {
-          const rssUrl = googleNewsRssFromQuery(q);
+        for (const loc of locales) {
+          const rssUrl = googleNewsRssFromQuery(q, loc.hl, loc.gl, loc.ceid);
           const items = await raceMirrors(rssUrl);
           const cleaned = dedupeSort(items);
           if (cleaned.length) return cleaned;
-        } catch (_) { /* zkusi další variantu */ }
+          await sleep(250); // malá mezera mezi pokusy
+        }
       }
       return [];
     }
 
+    /* ---------- Render ---------- */
     function render(listEl, items){
       listEl.innerHTML = items.map(x => `
         <div class="item">
@@ -244,9 +258,12 @@
       `).join("");
     }
 
-    /* ---- Load ---- */
+    /* ---------- Load ---------- */
     async function load(){
-      const name = NAMES[slug] || slug.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
+      // Převeď slug -> jméno s mezerami (když není v NAMES)
+      const prettyFromSlug = s => s.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
+
+      const name = NAMES[slug] || prettyFromSlug(slug);
       setSeo(name);
       document.getElementById("title").textContent = name ? `${name} – News` : "News";
 
@@ -261,14 +278,17 @@
 
       // 1) Lokální JSON (GitHub Actions)
       try {
-        const data = await (await fetch(`news/${slug}.json?ts=${Date.now()}`, { cache: "no-store" })).json();
-        items = Array.isArray(data.items) ? data.items : [];
-        console.info(`[FameFilter] Local JSON: news/${slug}.json (${items.length})`);
+        const resp = await fetch(`news/${slug}.json?ts=${Date.now()}`, { cache: "no-store" });
+        if (resp.ok) {
+          const data = await resp.json();
+          items = Array.isArray(data.items) ? data.items : [];
+          console.info(`[FameFilter] Local JSON: news/${slug}.json (${items.length})`);
+        }
       } catch (e) {
         console.warn(`[FameFilter] Local JSON failed:`, e?.message || e);
       }
 
-      // 2) Když je prázdný → chytrý live fallback (Scarlett-safe)
+      // 2) Pokud prázdné → živý fallback (všichni 90d, víc locale)
       if (!items.length) {
         loaderTx.textContent = "Loading live news…";
         items = await fetchLiveWithFallback(name);
@@ -279,7 +299,7 @@
       listEl.style.display = "block";
 
       if (!items.length) {
-        listEl.innerHTML = `<div class="empty">Failed to load news for <strong>${name}</strong>.<br>Try refreshing the page.</div>`;
+        listEl.innerHTML = `<div class="empty">No recent news found for <strong>${name}</strong> (last 90 days).<br>Please try again later.</div>`;
         return;
       }
       render(listEl, items);
