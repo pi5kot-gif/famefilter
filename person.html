@@ -138,30 +138,22 @@
       can.href = location.href;
     }
 
-    // --- Datové zdroje
-    async function fetchLocalJson(slug) {
-      const url = `news/${slug}.json?ts=${Date.now()}`;
-      const r = await fetch(url, { cache: "no-store" });
-      if (!r.ok) throw new Error(`local json ${r.status}`);
-      return await r.json();
-    }
-    function googleNewsRss(name){
-      return `https://news.google.com/rss/search?q=${encodeURIComponent(name + " when:30d")}&hl=en-US&gl=US&ceid=US:en`;
-    }
-    const allOriginsGet = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-    const allOriginsRaw = url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
-    const viaProxy      = url => `${HAVE_PROXY ? (ProxyURL + "?url=" + encodeURIComponent(url)) : ""}`;
-
+    /* ---- Helpers ---- */
     const MAX_ITEMS = 24;
     const fmt = iso => iso ? new Date(iso).toLocaleString() : "";
 
-    async function fetchWithTimeout(url, ms = 4000) {
+    async function fetchWithTimeout(url, ms = 5000) {
       const ctrl = new AbortController();
       const t = setTimeout(() => ctrl.abort(), ms);
       try {
-        return await fetch(url, { signal: ctrl.signal, cache: "no-store", headers: { "Accept": "application/rss+xml, application/xml, text/xml, application/json;q=0.9, */*;q=0.8" } });
+        return await fetch(url, {
+          signal: ctrl.signal,
+          cache: "no-store",
+          headers: { "Accept": "application/rss+xml, application/xml, text/xml, application/json;q=0.9, */*;q=0.8" }
+        });
       } finally { clearTimeout(t); }
     }
+
     function parseRss(xmlText){
       const doc = new DOMParser().parseFromString(xmlText, "text/xml");
       return Array.from(doc.querySelectorAll("item")).slice(0, MAX_ITEMS).map(it => {
@@ -173,8 +165,9 @@
         return { title, url: link || "#", source: source || "News", published_at: pub ? new Date(pub).toISOString() : "" };
       });
     }
+
     async function fetchAndParseOne(url){
-      const r = await fetchWithTimeout(url, 4000);
+      const r = await fetchWithTimeout(url, 5000);
       if (!r.ok) throw new Error(`fetch ${r.status}`);
       const ct = (r.headers.get("content-type") || "").toLowerCase();
       const xml = ct.includes("application/json") ? ((await r.json()).contents || "") : await r.text();
@@ -182,22 +175,66 @@
       if (!parsed.length) throw new Error("empty feed");
       return parsed;
     }
+
+    const allOriginsGet = url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+    const allOriginsRaw = url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
+    const viaProxy      = url => `${HAVE_PROXY ? (ProxyURL + "?url=" + encodeURIComponent(url)) : ""}`;
+
     async function raceMirrors(sourceUrl){
       const jobs = [];
       if (HAVE_PROXY) jobs.push(fetchAndParseOne(viaProxy(sourceUrl)));
       jobs.push(fetchAndParseOne(allOriginsGet(sourceUrl)));
-      jobs.push((async()=>{ const txt = await (await fetchWithTimeout(allOriginsRaw(sourceUrl), 4000)).text(); return parseRss(txt); })());
+      jobs.push((async()=>{ const txt = await (await fetchWithTimeout(allOriginsRaw(sourceUrl), 5000)).text(); return parseRss(txt); })());
       return await Promise.any(jobs);
     }
 
     function dedupeSort(items){
       const seen = new Set();
-      const out = items.filter(x => {
+      return items.filter(x => {
         const k = (x.title||"").toLowerCase();
         if (seen.has(k)) return false; seen.add(k); return true;
       }).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
-      return out;
     }
+
+    /* ---- Dotazy pro Google News (chytrý fallback pro Scarlett) ---- */
+    function buildQueries(name){
+      const quoted = `"${name}"`;
+      const lower = name.toLowerCase();
+      const isScarlett = lower.includes("scarlett johansson");
+
+      if (isScarlett) {
+        return [
+          `${quoted} when:30d`,                                // 1) přesná fráze 30 dní
+          `"Scarlett Johanssen" when:30d`,                     // 2) běžný překlep
+          `${quoted}`,                                         // 3) bez časového okna
+          `${quoted} when:90d`,                                // 4) širší okno 90 dní
+          `Scarlett+Johansson when:30d`,                       // 5) bez uvozovek
+        ];
+      }
+      return [
+        `${quoted} when:30d`,
+        `${quoted}`,
+        `${quoted} when:90d`,
+      ];
+    }
+
+    function googleNewsRssFromQuery(q){
+      return `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`;
+    }
+
+    async function fetchLiveWithFallback(name){
+      const queries = buildQueries(name);
+      for (const q of queries) {
+        try {
+          const rssUrl = googleNewsRssFromQuery(q);
+          const items = await raceMirrors(rssUrl);
+          const cleaned = dedupeSort(items);
+          if (cleaned.length) return cleaned;
+        } catch (_) { /* zkusi další variantu */ }
+      }
+      return [];
+    }
+
     function render(listEl, items){
       listEl.innerHTML = items.map(x => `
         <div class="item">
@@ -207,6 +244,7 @@
       `).join("");
     }
 
+    /* ---- Load ---- */
     async function load(){
       const name = NAMES[slug] || slug.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
       setSeo(name);
@@ -221,26 +259,20 @@
 
       let items = [];
 
+      // 1) Lokální JSON (GitHub Actions)
       try {
-        const data = await fetchLocalJson(slug);
+        const data = await (await fetch(`news/${slug}.json?ts=${Date.now()}`, { cache: "no-store" })).json();
         items = Array.isArray(data.items) ? data.items : [];
         console.info(`[FameFilter] Local JSON: news/${slug}.json (${items.length})`);
       } catch (e) {
         console.warn(`[FameFilter] Local JSON failed:`, e?.message || e);
       }
 
-      // NOVĚ: pokud je lokální JSON prázdný/velmi krátký, spadni na live RSS
+      // 2) Když je prázdný → chytrý live fallback (Scarlett-safe)
       if (!items.length) {
         loaderTx.textContent = "Loading live news…";
-        try {
-          const rssUrl = googleNewsRss(name);
-          const live = await raceMirrors(rssUrl);
-          items = dedupeSort(live);
-          console.info(`[FameFilter] Live RSS used (${items.length})`);
-        } catch (e2) {
-          console.error(`[FameFilter] Live RSS failed:`, e2?.message || e2);
-          items = [];
-        }
+        items = await fetchLiveWithFallback(name);
+        console.info(`[FameFilter] Live RSS used (${items.length})`);
       }
 
       loaderEl.style.display = "none";
