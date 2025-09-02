@@ -1,23 +1,36 @@
-name: Fetch celebrity news (hourly)
+name: Fetch celebrity news (every 30 min)
 
 on:
   schedule:
-    - cron: '0 * * * *'   # každou hodinu
-  workflow_dispatch:      # ruční spuštění z UI
+    - cron: '*/30 * * * *'   # každých 30 minut
+  workflow_dispatch:          # možnost ručního spuštění z UI
+
+# Zabraň paralelním běhům, když by jeden běh trval déle
+concurrency:
+  group: fetch-news
+  cancel-in-progress: true
+
+permissions:
+  contents: write   # pro commit/push změn
 
 jobs:
-  build:
+  fetch:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write   # aby mohla zapsat commit
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # ať je možné korektně porovnat změny
 
       - name: Use Node.js 20
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+
+      # (volitelné) Ujisti se, že složka 'news' existuje
+      - name: Ensure news directory exists
+        run: mkdir -p news
 
       - name: Run fetch script
         run: node scripts/fetch-news.js
@@ -25,5 +38,8 @@ jobs:
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore(news): hourly refresh JSON"
+          commit_message: "chore(news): 30min refresh JSON"
           file_pattern: news/*.json
+          # volitelné:
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
