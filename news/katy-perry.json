@@ -1,19 +1,13 @@
 {
   "slug": "katy-perry",
   "name": "Katy Perry",
-  "updatedAt": "2025-09-03T17:10:37.761Z",
+  "updatedAt": "2025-09-03T17:36:35.489Z",
   "items": [
     {
       "title": "Katy Perry Testifies in Bitter Legal Battle Over $15 Million Montecito Mansion: What You Need to Know - SFGATE",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLVFuX2ZUMjVFUldWOVNnbnlpaHdHMUE1eHZZakhBaXpUMVF4ekd2MTFPRU90cHZFNUlvUkhvZTcweEl2RUVnck5XcHlCTXBsUUhWV1FRT3hjN2EzenZsV244WTJUWEFnRmx6bDlCVmwxUTBTejQ5TDVoU0sycjQyNnZmeXlob0l0RHNvaUtEekJWbkZmRlFwY2QzQWUxRnFWaFNxVHJ3?oc=5",
       "source": "SFGATE",
       "published_at": "2025-08-31T16:28:28.000Z"
-    },
-    {
-      "title": "Katy Perry Posts Big Ticket Sales for The Lifetimes Tour - Billboard",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRzdfeDZUUzRsZDMyX0N4M2tod19ERDRwNmlmYXhZT1A1aW5aR3ZEMVRQWmNOZDBhT0dQX01pLXZTS0UzN016WnVoNWJGMmNWWjY1aHhOOHJ3MlhPbFRVNkdyZ0tYUFpYQldHNWwzMlhPV2dQZU1iNlV1U2FoRzItWnA4MzZ0QQ?oc=5",
-      "source": "Billboard",
-      "published_at": "2025-08-28T22:34:02.000Z"
     },
     {
       "title": "Katy Perry wants 'justice' in legal battle with former owner of her $15 million mansion - KOMO",
@@ -28,10 +22,16 @@
       "published_at": "2025-08-27T16:26:53.000Z"
     },
     {
+      "title": "Review: In Tampa, Katy Perry marvels in complex and demanding concert for 14,000 fans - Creative Loafing Tampa Bay",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb1hOX01seTdJRXBoNjNnWVRudHJHUGR3ZzVobERaRVZNeGRZVmJyTTJ4eU5DWktORURkcERfaTlIQlhtVUlkd1l0ak9UU3pZek1kUzJfSEphQk81dzRjRUtzYVllc0k5MkFhMXZNdmVBUnpJS0xVLUJiQVZqaEl4dlhKdmpTTlNVRXQyLWlSM1VuNGhEajJfUDFidTFTbG0tZC1IRG9wYzBoLUpHM0dyZnVsRU9OMkNQTE94ZWFB?oc=5",
+      "source": "Creative Loafing Tampa Bay",
+      "published_at": "2025-08-26T15:02:31.000Z"
+    },
+    {
       "title": "Katy Perry testifies that she’s seeking ‘justice’ at trial over $15 million mansion - AP News",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQWZQdElHNzU5M3hxeFY4T3NYa1J4VGs4ZmptY2J0c3JpNW5DWFRuZ201R3FKR1YxMUtjdlRMM3lEQ0FuNExjcTNOZjY1THY2emJWZDJxeHdxc1hwcnlpdWd1akx2ZUZ6Q0RDSFl2c1NrankxTzUtTmNKUGpwNkZZdlhNNmJIZGJHcVVjcw?oc=5",
       "source": "AP News",
-      "published_at": "2025-08-26T22:38:00.000Z"
+      "published_at": "2025-08-26T07:00:00.000Z"
     },
     {
       "title": "Orlando Bloom Revealed as Real Owner of $15 Million Montecito Mansion at the Center of Katy Perry's Legal Fight With Veteran - Realtor.com",
@@ -64,10 +64,22 @@
       "published_at": "2025-08-21T07:00:00.000Z"
     },
     {
+      "title": "Love her or not, Katy Perry’s 'The Lifetimes Tour' roars with electrifying energy in Nashville. Here are our highlights - The Tennessean",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOc0VtMExJQ05RRGhRMlY4NkktclIyWi0zcmtVa21rejAyUkROM0Y0b2FJR0RGVnNvTTNNc1pLRnZ5ZlFCNFZTSk52Ym9ONkM0U3oyQjk4OWNFYUNUV0VSa1o4N0RjNFlaQktQMkZkSzM3eFMxbjE2bUswb0JwU3l2NTZYa3ZHRldLVTBQaDNPdmJORnl2enZXY1Y5ZS12M2ZmczZXNkQ5LVZ5VWt0YWM3UDVlMWgycjM5Qzdod1lKUXFXeV9KZ2ZFWVZOZ25Takg0dUNrMA?oc=5",
+      "source": "The Tennessean",
+      "published_at": "2025-08-20T07:00:00.000Z"
+    },
+    {
       "title": "Katy Perry performs at Bridgestone in Nashville - The Tennessean",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZW5FQnBlM2pEYWZJcS1iRWtsRDI2V08tN0s5TFp1ZEQydUVXS3VlaUlubjJCVE50MEo0MlRaUktNNjBJdmRLNFAtVmhpY1NfZGdsYzJLV1d6aEpSTW9VMy1VMkRWaEpxZTZyU2Z0YmM3Ynprck41alpVSDhNV0pDVjVHRzE3dGlmUTVFXzdvM0pPdUdOMWdOcVZwendIWHlOX2pxb000VmpzcUN4VEdCRzRNU1hlWUJ4Vmk3eTdJWjBFblpFdl9z?oc=5",
       "source": "The Tennessean",
       "published_at": "2025-08-19T07:00:00.000Z"
+    },
+    {
+      "title": "Katy Perry is no punchline, roars back at thrilling N.J. concert. ‘I know who I am.’ | Review - NJ.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS3R0MEI4MGtUYjZIRFN3YnJpa1FsZVhIQV83YVV1c2FjNEhSSk5SRGVDekNCU2h2c29WX3l6LVRuVTZhZm5EYXV4dUEtMUNLd0NTcVIxMnp3MHY5bTRpTVl1NWZaaklRTlBuSUtoUVZXSVlzYzlIQ1FTTmNGc1d0OEN6ZVJWQXcyQXBLRnluVTFYQXVlY3U4OENoOUVjbk15RlBjdEFEV3hEWlh5M2ZaamlqZENsa3hiQ24yQXAtM1l6MWt3OTZEMzd30gHeAUFVX3lxTE9mMkhNNm40U3JZVTNBTXI1TDFVcjFyVXREazRVTTMtWmNFeTJ5UWo1WE5CbnpQdWYzd0Z1SGhXUmNoWEN6TXdHMm5idjIySmw4bVFOdnE0UUl4eFc5ZlZGNFRQcnZ3Z043TWhRc3pHMlNiN2tuTEVFcXNMemQxSFZrREJWWGhCZkZLV1ZwZVpNVTRRbmZlVUFRa0RrWV9ycEpwbEZJaFRBc0FKVkhTWGYzdmhvNUt1Y1Z4ZWl3MVZudUtuYlpoY1FWTDZmZEtkTTlPMmNiWkR3TjdDOGZYQQ?oc=5",
+      "source": "NJ.com",
+      "published_at": "2025-08-15T07:00:00.000Z"
     },
     {
       "title": "It's easy to be a Katy Perry fan. It's harder to be Katy Perry. - yahoo.com",
@@ -166,22 +178,10 @@
       "published_at": "2025-07-22T07:00:00.000Z"
     },
     {
-      "title": "Guide to Katy Perry: The Lifetimes Tour at Madison Square Garden and Prudential Center - New York Theatre Guide",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVC12SEJxTWxUV3BfYkpTNEw5TXJWczJzVWpfMmEydmRLYWxzSDBUN0toZ1NBSTRfWHNOTlpYTi1HNkJPejkwbm4zcC1OYTREc3FFNlp6VkFuWE5RVXQzUmhOaDNGRWw1QXR5Yk1faUQ2S2hZU1VjeW81QU8yQW1KTzIyQ21FMjJqQWFhb3gyRTIwZHFLOU9kTVpETGQ5YUUyNW9oUThXNlNNV3dKOG1DVXlBaWhleW91dW0xZkhJWTFsUUd5RlBReWN0b2xSaXBk?oc=5",
-      "source": "New York Theatre Guide",
-      "published_at": "2025-07-18T07:00:00.000Z"
-    },
-    {
       "title": "Katy Perry and Orlando Bloom split six years after engagement - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1acEVURW1VVnRadVVlZUk5cUhtdUpqc2FEM2tKQ3RCRmRRVUlaUV9sTVNqdndLaUs1NlM2aWh5X1NTdXAzbi1OSFBuS050OWxZd2dWQi1yZGpNUdIBX0FVX3lxTE5qa2wwejdVbjBMa3FnRHpaamd4SU41ZGk3T21fajhCbExTeVBzZ2J6OGZaaWZmTndCZmxvQVRzREZ4U0lhOEZrWnB1T3BMeDVrQnlXdlVWRVh6TWM3V2lr?oc=5",
       "source": "BBC",
       "published_at": "2025-07-03T07:00:00.000Z"
-    },
-    {
-      "title": "Review: In Tampa, Katy Perry marvels in complex and demanding concert for 14,000 fans - Creative Loafing Tampa Bay",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb1hOX01seTdJRXBoNjNnWVRudHJHUGR3ZzVobERaRVZNeGRZVmJyTTJ4eU5DWktORURkcERfaTlIQlhtVUlkd1l0ak9UU3pZek1kUzJfSEphQk81dzRjRUtzYVllc0k5MkFhMXZNdmVBUnpJS0xVLUJiQVZqaEl4dlhKdmpTTlNVRXQyLWlSM1VuNGhEajJfUDFidTFTbG0tZC1IRG9wYzBoLUpHM0dyZnVsRU9OMkNQTE94ZWFB?oc=5",
-      "source": "Creative Loafing Tampa Bay",
-      "published_at": "2025-06-07T07:00:00.000Z"
     }
   ]
 }
