@@ -1,25 +1,13 @@
 {
   "slug": "kim-kardashian",
   "name": "Kim Kardashian",
-  "updatedAt": "2025-09-03T16:42:58.456Z",
+  "updatedAt": "2025-09-03T17:10:33.012Z",
   "items": [
-    {
-      "title": "Kim Kardashian Reveals Why She Doesn’t “Believe in Homework” - E! News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPV3c2dGQ0bG5tQUNNNnptOUlSb3JjMU42TnB6SU8zdkQ5WG03MEpPQS1jV2kxTFlHRlFRUUpZei1xcVRNczNYXzVnenR0OHVLU2lRTmtIOWhoUGVIU3l4SGN6eW9EeUZWbjdOYjdyMHIxT2hkdVREbGZYMTRVWDZpRUxIT2s?oc=5",
-      "source": "E! News",
-      "published_at": "2025-09-02T20:10:00.000Z"
-    },
     {
       "title": "Kim Kardashian and Kenya Barris’ La La Anthony Pilot ‘Group Chat’ Adds Four to Cast - Variety",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSDFHOHlLUmJNSnR4dUE2RVdMZFlqLXNwcFhSbTVfdlFiRktDZ1EyTzQxYkRoSDZaVG4xZEhMS2FTRFlBWEdjMTZEQ0NHeEdwbkE4MmFkWkdkRjFNcEgyTnlwdWZBeldXeTVudS1YUjdUNHAyZUpqOUJXN2ZQa3UwY19IZG42SURYVjJfcEdvOXBaYkV2WEhmNHc1TVRJVGRoTUJJYg?oc=5",
       "source": "Variety",
       "published_at": "2025-09-02T17:06:00.000Z"
-    },
-    {
-      "title": "The Evolution of Kim Kardashian - E! News",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sTnBwOUFqREZLOTBhaVduRmZ6a2VuR0d4R3hhSE5hVEdhdll1ZEYzcUJUWklRdWhvMlpRbElvVjVBekVPbE90WkVTZl82X1NQLWhhRDNfaElMZlNNY2tpcWJyOVdybVFOOG9ZYUg2UlBUX0lDTnNN?oc=5",
-      "source": "E! News",
-      "published_at": "2025-08-29T15:48:00.000Z"
     },
     {
       "title": "Kim Kardashian Steps Out With Polarizing Ensemble for Party in Venice - E! News",
@@ -34,16 +22,22 @@
       "published_at": "2025-08-29T13:28:07.000Z"
     },
     {
+      "title": "Kim Kardashian Makes Her Venice Film Festival Entrance in a Hooded Halter Dress - Harper's BAZAAR",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcURQQ0xFcWFlS0JMNmsxMGRDZldoRXpHeUhIYUFWWWNNeW9OUTZNLWtVc3FrVmk2MzN5dDRXZ05NbUJZNzduVThsMFdEQlJwMHF4S2VjUXZNTDVsdm5XVzdoaVJLbVI5SjlTTVJOLUFsa25uci1zQW85NDU2dzdDSkxMNmlZQWJwWkRvV3NSYUMtOXhLSmFaM0Q4TFFuWXlETVhad09wWnhnUUM4UGN5RjQyZ0YtX2pVb1E?oc=5",
+      "source": "Harper's BAZAAR",
+      "published_at": "2025-08-29T12:58:00.000Z"
+    },
+    {
       "title": "Kim Kardashian Responds to Trump’s Immigration Policy Before Accepting DVF Award for Prison Reform Work: ‘Protect the People’ That ‘Supported and Built Our Country’ - Variety",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUHB0MGVra1g4NE1hWVBiaklwUnRlSFRsUUEwTmhTbWhnaWktNG1aeUhES2dIMlhGdnFwX1Z0WHBtODFSTzM3U2FEQzlERU1CeWF1VTh3aFMwWkVtS1lMV1ZLdktLa0tGU2lYeTRQUFRPZE5nVDVFSXNYMnVOMGNqcmNFN3htdzNQT0lScUdyNUtzbGZhY3NHcnJtaWc4TWFGVEFrcw?oc=5",
       "source": "Variety",
       "published_at": "2025-08-28T21:50:00.000Z"
     },
     {
-      "title": "Kim Kardashian | Biography, Children, &amp; Facts - Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTeHFNZk9sREFtVDE0UWFEQllTc0FCZjRyY1BncTMxWnZCNGhpZm9kMVh4cjlhVjhCc0xKa3phOFBUOU1nUEdGX2U1U25uYmUxZUpPODZta2paQVIwbGl6dQ?oc=5",
-      "source": "Britannica",
-      "published_at": "2025-08-21T07:00:00.000Z"
+      "title": "North West looks all grown up with mom Kim Kardashian during Italy trip - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQckhRamZlQUdvTVVZa2RaNDlxbE9pREdTWkIxbk1mY2M3ZHBacllTNmFCWWhEV0x3M29FQ25qVDBoREJKS3p4SWZNRkpHYnVwTGxHVFpkeU43VDdIYlB3SUNkNVczUVpHT2YxZVpmVFU4eDVnOGlMTldYVzFTRkMxUU53SGs0Z2tibXpjYWVscVNwMDJxV1FXLURNemJHc2h2TnlHeFdVaXU2ZXdneENac0dLT3h1WXJwR0Z3dFpfSDFkNUlMTmtQcw?oc=5",
+      "source": "USA Today",
+      "published_at": "2025-08-26T07:00:00.000Z"
     },
     {
       "title": "Inside Kris Humphries and Kim Kardashian's Whirlwind Romance and His Private Life After Their Divorce - E! News",
@@ -118,6 +112,12 @@
       "published_at": "2025-08-13T07:00:00.000Z"
     },
     {
+      "title": "Kim Kardashian Flaunting Expensive Stem Cell Treatment Leaves Fans Livid: 'Wish We All Had That Luxury' - yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMGd4dDZDaVh4anFkSTU0YmV3bXdoakxTUjBSOFcwTnN2c1RFQkhIVEQ5Q2hQY2I3ZWhPbzhEU013dlpxcW9OVjBTRkZKclBpVVgtNFdJaHVCNjltcXlzWHplZkpKSWRRRUhoNzdQRU1HMmE0YWNpWmkzR2N6RExkSEdlREl0Vno4OWcySnloNGU2SWNiZlJoLVB6ZEg5dG9Q?oc=5",
+      "source": "yahoo.com",
+      "published_at": "2025-08-09T07:00:00.000Z"
+    },
+    {
       "title": "Kim Kardashian Shows Up Close and Personal Look at Her Kids’ Grills - E! News",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1pNms5U0Uwb0N2cU9XUHIwb1dSdFhDc3pjT0lXVm80a2pFd3pwT1pad3ZIR1NlV01yNnBDM29tN2lZblJEQnZCVzVDWmotMGZrYXdkSkFGUkZlVFNQdkZyUVRXUVJ3b1VsT0FGaVVJa09HZURPelFicQ?oc=5",
       "source": "E! News",
@@ -166,6 +166,12 @@
       "published_at": "2025-07-24T07:00:00.000Z"
     },
     {
+      "title": "“Where Are Her Organs?”: Kim Kardashian’s Latest Extremely Tight Outfit Has Left People Concerned - BuzzFeed",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObnUxWXJIc1RJS3pUOFRGWHFSMnBkdG9DT3J5Zm9tbWlHaVJKMnA5Tms1aTNYUld6Q1JEZDhzV2l6ODNQdG1Rb3l4T1ZpcHNuUi1waFJKMjBGREFBNHNGZDNNU1FaTkZIWW9iYi1OTGVTWEJtZFNURUVtT1ctRDU0THBua01qempR?oc=5",
+      "source": "BuzzFeed",
+      "published_at": "2025-07-23T07:00:00.000Z"
+    },
+    {
       "title": "Khloe Kardashian Reveals Whether She Was Ever a Surrogate for Kim Kardashian - E! News",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOa1daNjJnQ01hOGp5NFVrdXdySXBKbnNzSkpZR1hFcUJSUFJCSmVFcHdVVE0zY1dHdUpVT096dF84TTZmMHVTS2E0cWtPV2pQUXdIMDR4SHFPMGhhdFY4eHJWMVdUdHdPYUJKMkNyRzhEV3dLckhlZTlPLWIyYVFDSk5VeVJkeThSTHNSVUJ3ckl4VGFVaFptNm5sWDYxTHFpYXZ2cUJDbw?oc=5",
       "source": "E! News",
@@ -176,12 +182,6 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUHNQQ2kxRTNJZHZMbUd5blg2Z3BtLWIzY1JiR3B1MTVuX2owbllMX3BtS3VTTHFzR1V3al95VFBELUV2TFVQTElyblZYVWY3djJ5M19lZDVRZ1pBRzlHNGdrcFBxdkp2SnAxZWlGN1RSa3VhXzZPREM0cVBhSWlUODJOeXI2c2RPaVpRQUdpSE9TYzFOaWZfOFp4Tmt4SU5PS1JjV25QdTRzamE3cXc?oc=5",
       "source": "The Economist",
       "published_at": "2025-07-03T07:00:00.000Z"
-    },
-    {
-      "title": "Kim Kardashian Starring in Bratz Movie - E! News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOalZObWVxaGpZWUplSEdIaE1scDFtVlJYelZRRm9WMjZqUTJLNjAtMDZFOHVQWXMwdjdXeUtVQTNjalpCdjRTd01wQ2RTZGk5ek1oWGo2X2c0X2tZTVVqR3pCUnN4czJfZWk0dUlGUGprVXR5UHdaTDhsaUVYWkFHWg?oc=5",
-      "source": "E! News",
-      "published_at": "2025-06-25T07:00:00.000Z"
     }
   ]
 }
