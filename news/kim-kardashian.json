@@ -1,13 +1,19 @@
 {
   "slug": "kim-kardashian",
   "name": "Kim Kardashian",
-  "updatedAt": "2025-09-03T05:37:02.951Z",
+  "updatedAt": "2025-09-03T06:17:15.645Z",
   "items": [
     {
       "title": "Kim Kardashian and Kenya Barris’ La La Anthony Pilot ‘Group Chat’ Adds Four to Cast - Variety",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSDFHOHlLUmJNSnR4dUE2RVdMZFlqLXNwcFhSbTVfdlFiRktDZ1EyTzQxYkRoSDZaVG4xZEhMS2FTRFlBWEdjMTZEQ0NHeEdwbkE4MmFkWkdkRjFNcEgyTnlwdWZBeldXeTVudS1YUjdUNHAyZUpqOUJXN2ZQa3UwY19IZG42SURYVjJfcEdvOXBaYkV2WEhmNHc1TVRJVGRoTUJJYg?oc=5",
       "source": "Variety",
       "published_at": "2025-09-02T17:06:00.000Z"
+    },
+    {
+      "title": "Kim Kardashian Brings the Drama in Waist-Snatching Look as She Arrives at the DVF Awards in Venice - People.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUktQSUdxaDNCSEp5NTRrMkcxN2hBTWFVcTBBUnFpQk14OHhZZ05GakdyUmx1ZlVrVG5acHVHSDlla1FWSkxpOE1CeHlKZnRMQzZyaWNsdXg1cDFHdlZ3V0xobEV4VmJGY1RkUFduUGlVRGRKam5NNmRCcjZwVkxVUy0zT2RkbGRySU5NVzI2ZTZOa1FpVW9IQ2ViMGFSTWNKM1U0?oc=5",
+      "source": "People.com",
+      "published_at": "2025-09-01T13:24:00.000Z"
     },
     {
       "title": "Kim Kardashian condemns Trump ICE raids targeting people who 'build our country' - Fox News",
@@ -46,12 +52,6 @@
       "published_at": "2025-08-28T20:50:00.000Z"
     },
     {
-      "title": "All About Kim Kardashian’s 4 Kids with Kanye West: North, Saint, Chicago, and Psalm - instyle.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSzV1dnctakJ3UERUWkppSlJVeGo0VXdLeVFualZpTUxrZmFUOXViUzQwX19LU1FOMkFidTNxNFhiZ1AyNnBUWFNSM0ZPczU1WWNmT2hHbExkdW9Tb1BDaVA3cXhKUHpjRmkzaFduYVc0R3VOY3E0ejFxeElJWTF1LXFuT2c?oc=5",
-      "source": "instyle.com",
-      "published_at": "2025-08-27T12:30:00.000Z"
-    },
-    {
       "title": "On an Evening in Roma, Kim Kardashian Pairs Her Gelato With an Ultra Rare Hermès Bag - Vogue",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqTl9RMmZSeEFOSlFmelMzZzdQUE5VNnptM0xtam5sTVB5Ry1YZGtYc1V4eWRTTHBINUxMOXF2U1JMN0RKX1ZScXpMdE0xeFhMbFFFX3pEcGNfV1gwempFWEJkUkhRMlFhVlc3OE4yWVRKMzl3N0xhZA?oc=5",
       "source": "Vogue",
@@ -82,10 +82,10 @@
       "published_at": "2025-08-18T07:00:00.000Z"
     },
     {
-      "title": "Kim Kardashian Swaps Out Dark Hair for Sultry Blonde Transformation - E! News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdmItSmgxSFFJSV9IdjUzUDZuV3JuU0tMWTNDNkl6Xy0zRVRVYW5JcVNFd0RmaEoxMmN0cktzWnhVTkYweUxGZGlPMVF6c0pZN2xvN3lmZDhlZERNT04tejd1eGpTNUZUTnAwaU85SGZQZDNaRFRHYWdJZ2taS1h2aEVKemRQUQ?oc=5",
-      "source": "E! News",
-      "published_at": "2025-08-15T07:00:00.000Z"
+      "title": "Kim Kardashian sobs in Kanye West confrontation over ‘personality' changes - NBC4 Los Angeles",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPajdrRzVVVkM2TF8tX0VDVi1Ycktpem9iU1RyakF0SFNsSzNqSGx2bmhfVXUzZEZ6MnJ6aFdncm10RGNPc25UNy1FYTQwMWNWWjJGZ3U2RDRxZ3dreDZ3QkRNOV9rcm9qaU0yU3ZqMDByYnAxeXEzbHpmWEVzNzJnZjNHYm9Ycm9Pb0dDajR1U2pwS2o5blhxM0tyU19GdDBUZlVNNXdMQ3JhLVozb1U0VGw5MXJDREhzSmkwZTlSZVFmb0lkSmFZWVVn0gHSAUFVX3lxTE10MWdxY3FJcjJhVVhrd05meHFxaE10TzlvWHNLNHdYOG9KOTNESUVVQ1lBZC03S1JqRE1HWGlLekdFTm5IUlRwd01vRWtRRHlmNVlYTFc2V2VKQmJBMWZHVUhrbG52eE5uYlFpMWRFWk9URmxJNmRyMkZGQ3E4eU03OTFkMmdqY3J2aEs0MjN6VG5wWlZNZWdPQUhGLUR3dkUtUzJ3Yzk5RE1lV0tlR0lySkpuWnplUFhBOWJnVnpUeVRSeG42aWdXWURCWEExTkdXZw?oc=5",
+      "source": "NBC4 Los Angeles",
+      "published_at": "2025-08-14T07:00:00.000Z"
     },
     {
       "title": "Kim Kardashian Sobs in Trailer for Kanye West's New Documentary - People.com",
