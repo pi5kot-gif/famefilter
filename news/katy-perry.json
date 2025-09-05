@@ -1,7 +1,7 @@
 {
   "slug": "katy-perry",
   "name": "Katy Perry",
-  "updatedAt": "2025-09-05T11:09:31.790Z",
+  "updatedAt": "2025-09-05T11:34:28.437Z",
   "items": [
     {
       "title": "Katy Perry Testifies in Bitter Legal Battle Over $15 Million Montecito Mansion: What You Need to Know - SFGATE",
@@ -22,12 +22,6 @@
       "published_at": "2025-08-28T22:34:02.000Z"
     },
     {
-      "title": "Inside Katy Perry and Justin Trudeau's 'wonderful time together in Canada' - KFOX",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQUhadkpyZlZIMC12RVgySktySThmcXhjWTJNblRLbVdiV1I0OVNfR2ozOWlwM1hLWXRhdlNnb1lyeXBhbnA0SmZ0SmFEcTF0UTNtWDlPcm51RGtWQjBTS3ZUbWdFQW84OENJZWY2dXk5eXZwSEZ4UzRDc1lxR05Mdi1XY0FuLWx0bFFQMkdYNU8zNUdVTi1PdEhPUmt2akFaUDd4aQ?oc=5",
-      "source": "KFOX",
-      "published_at": "2025-08-28T16:00:00.000Z"
-    },
-    {
       "title": "Katy Perry Reveals Stake in Montecito Mansion Linked to Veteran Lawsuit - Realtor.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbktJaU44eVdLMDVubFR6STF2LXk3WjdDQWNqRXlmVHE0eGg1TndDRzNFMjJvNnB3ZG5CYVNfTG85UlNLMnJpekY0ZDhlRXRkYUZmbmppNmd3eDd5ZW1OX0d6c2Z3a3RVYWVUZVQ2NnZsbmQxLXdiQzVLbDhTNkdWSUNIRGplUUpvWE9qSENQTVhZOUE3Uk5ZS0dNQ1ZwX0R3aXU5aXpyYTR5bDdpekxKaQ?oc=5",
       "source": "Realtor.com",
@@ -38,6 +32,12 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQWZQdElHNzU5M3hxeFY4T3NYa1J4VGs4ZmptY2J0c3JpNW5DWFRuZ201R3FKR1YxMUtjdlRMM3lEQ0FuNExjcTNOZjY1THY2emJWZDJxeHdxc1hwcnlpdWd1akx2ZUZ6Q0RDSFl2c1NrankxTzUtTmNKUGpwNkZZdlhNNmJIZGJHcVVjcw?oc=5",
       "source": "AP News",
       "published_at": "2025-08-26T07:00:00.000Z"
+    },
+    {
+      "title": "Orlando Bloom Revealed as Real Owner of $15 Million Montecito Mansion at the Center of Katy Perry's Legal Fight With Veteran - Realtor.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQUNiVzVVaEZaMi1ub2w0d3pCQjVhblBjaG9JTXEtUXFaTXlyb2RXY01vZXFKaGl4RnRVT195Mnd6eTc1RlFDT05Wd09PUHczTjBhYldfVW12RTRMR3BGZElUUy13UVVWNGJ2Q3lud2RZeDJZYnM0U2JQVUY1WHRwMGk3YlFfSDRzM2psU0dlWjBPM0Q4dDRlT3RQbGZmaU56X1lnelVwNDlITVNYcW1Wb0FSZFdhaWhUc1VhVFczYWhXZw?oc=5",
+      "source": "Realtor.com",
+      "published_at": "2025-08-25T07:00:00.000Z"
     },
     {
       "title": "Review: Katy Perry Brought Her Lifetimes Tour to Miami - Miami New Times",
@@ -106,10 +106,10 @@
       "published_at": "2025-08-11T07:00:00.000Z"
     },
     {
-      "title": "Katy Perry Shows Off Her Tour Injuries After a 'Slide on My Knees' Moment: 'Arghh' - People.com",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPU0ZoaUhnYm9MaVJ3Wk1QVDhqS3NvZEdNTGRpcFo5ZU9KTV95a2NYUUhjMmwteUpYWUVCYm9fUzl4bXZCbGhvZ3dTanltOV9kWGduZmhkU2JVWGhzQmFJeWktSEc5LVZqaFpsWVM0YU5VWVJoNGxMUnRROHJrQ05xemQxTFVvLWpwekpORjJlNEN4TnBIZzNXVg?oc=5",
-      "source": "People.com",
-      "published_at": "2025-08-08T07:00:00.000Z"
+      "title": "Katy Perry brings pop spectacle to Detroit, prays aloud after fan's medical incident onstage - Detroit Free Press",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWTJvOTBuT2VxeXBlSUlRdWEzSVJXQVo3cmRSVG15bDVkVElBdEJWYVNhV0MtcF8zRl9nSXc1Q1BTQVRIRjBrc29FNTRIRERLRFlnQlpRQmEzU1lweXIxOFhOb3J6MzdJdW9ObmhVTnZQVVFWUGEtM2RuTlAzd1FucV9YRU5jLXYxSnZpQWtIZ2NqS1VOcV9ZcFhoYVhBTWpKcnltMVIwZVFqWnhPWnk3c3d3ajZXdVZ0cUh1OFpFUklaVlRlQWZPc2N4X2dpTDFrcHc0V3BpQQ?oc=5",
+      "source": "Detroit Free Press",
+      "published_at": "2025-08-04T07:00:00.000Z"
     },
     {
       "title": "The Bumpiness of the Celebrity-Politician Romance - The New York Times",
@@ -166,12 +166,6 @@
       "published_at": "2025-07-18T07:00:00.000Z"
     },
     {
-      "title": "Guide to Katy Perry: The Lifetimes Tour at Madison Square Garden and Prudential Center - New York Theatre Guide",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVC12SEJxTWxUV3BfYkpTNEw5TXJWczJzVWpfMmEydmRLYWxzSDBUN0toZ1NBSTRfWHNOTlpYTi1HNkJPejkwbm4zcC1OYTREc3FFNlp6VkFuWE5RVXQzUmhOaDNGRWw1QXR5Yk1faUQ2S2hZU1VjeW81QU8yQW1KTzIyQ21FMjJqQWFhb3gyRTIwZHFLOU9kTVpETGQ5YUUyNW9oUThXNlNNV3dKOG1DVXlBaWhleW91dW0xZkhJWTFsUUd5RlBReWN0b2xSaXBk?oc=5",
-      "source": "New York Theatre Guide",
-      "published_at": "2025-07-18T07:00:00.000Z"
-    },
-    {
       "title": "Katy Perry’s Phoenix show was a dystopian spectacle - Phoenix New Times",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaHQ5TmRCZVBvRWhnSVVadnkzTk9aaU0zQlFaT09LX0xPUUxscWdneFhla0JzeHpvRVJZMHE3SDZWYndQWUpNNHp0dzdoQUVsMDJNWDFzOFBidVBFVHZoQkxSQkpDODZ2YlF3YW85MmpacHU1Vi1qZzRQejZPRmtmNzB4aERjOTM4ZmFFdm85UXZYWEkwLS1RMmc4Skt6V2VwWlBmN3lSTQ?oc=5",
       "source": "Phoenix New Times",
@@ -182,6 +176,12 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1acEVURW1VVnRadVVlZUk5cUhtdUpqc2FEM2tKQ3RCRmRRVUlaUV9sTVNqdndLaUs1NlM2aWh5X1NTdXAzbi1OSFBuS050OWxZd2dWQi1yZGpNUdIBX0FVX3lxTE5qa2wwejdVbjBMa3FnRHpaamd4SU41ZGk3T21fajhCbExTeVBzZ2J6OGZaaWZmTndCZmxvQVRzREZ4U0lhOEZrWnB1T3BMeDVrQnlXdlVWRVh6TWM3V2lr?oc=5",
       "source": "BBC",
       "published_at": "2025-07-03T07:00:00.000Z"
+    },
+    {
+      "title": "Katy Perry and Orlando Bloom Split After Nearly 10 Years Together - Us Weekly",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSXh6UU9wdEdqMjUxZnA0QzBidVRYSHhSVjl0RzRqRXc0Y3FTRGx6WFFsZUlqNmtHbHJ3ejhVTDdnN21pZEduMXh3MDJDOGJSbWxZTU0tWE4wcTFObUg0RUY2amFEcFg2TFRCaVNWeldNR2d3XzdDMVNlR2ZUN01kRHQ2VXRlbExRejdfVUxNUkRTbHc4UjZ6STN3N1NvVlFVMlNuX3BzS3BNd0h5R0dyNGJYcw?oc=5",
+      "source": "Us Weekly",
+      "published_at": "2025-06-25T07:00:00.000Z"
     }
   ]
 }
