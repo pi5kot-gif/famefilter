@@ -1,7 +1,7 @@
 {
   "slug": "katy-perry",
   "name": "Katy Perry",
-  "updatedAt": "2025-09-05T16:40:48.687Z",
+  "updatedAt": "2025-09-05T17:10:38.562Z",
   "items": [
     {
       "title": "Orlando Bloom on Where Things Stand with Katy Perry After Breakup - TODAY.com",
@@ -26,6 +26,12 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb09XSVg4UkxTTldzSTV6SHZ2TjMtcVdqRGwwWmVnc0VQYS0zWWYyb3l1VS05bzlkaEZodzJuYzNOYnhnMEJwemlpV1J2M2hwZEtzME1ZQ01vUkQ2NmtoR2RpUmJYZGdDMmdSVEp2QzE1aVNBMENvMzJRaHBvN1FfeG56X2xiWlB0R3ZyX3dVNlJ2WFBvSE9BT2tNdVBMYXROazJZLVEtbkpKZFlmX3c?oc=5",
       "source": "Realtor.com",
       "published_at": "2025-08-28T23:58:37.000Z"
+    },
+    {
+      "title": "Inside Katy Perry and Justin Trudeau's 'wonderful time together in Canada' - KFOX",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQUhadkpyZlZIMC12RVgySktySThmcXhjWTJNblRLbVdiV1I0OVNfR2ozOWlwM1hLWXRhdlNnb1lyeXBhbnA0SmZ0SmFEcTF0UTNtWDlPcm51RGtWQjBTS3ZUbWdFQW84OENJZWY2dXk5eXZwSEZ4UzRDc1lxR05Mdi1XY0FuLWx0bFFQMkdYNU8zNUdVTi1PdEhPUmt2akFaUDd4aQ?oc=5",
+      "source": "KFOX",
+      "published_at": "2025-08-28T16:00:00.000Z"
     },
     {
       "title": "Katy Perry Posts Big Ticket Sales for The Lifetimes Tour - Billboard",
@@ -61,12 +67,6 @@
       "title": "Katy Perry to take stand in court battle with US veteran after judge blasts proceedings as 'outrageous' - Fox News",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZzlkRFBDSmxRdzVyb1VNVzN0U2NyUjdpelh4UmtnWHdCVTVaSC0takd2d0dtLTFWb2ZLTk5JbFJXaFN4RzlmSlhxWG1rYUY4eUx1b3RHekZzbzZUZUVMOGQ2U1ViSk5hQXc0cmlIZGRoYktfQzRNUnBZSUlWRnlrdnltS2V5WUVKeGlmUlQwblRDWC16c24waXh2NG5QTGJVeUtSeHFlNlVQekJBVkJRdnBmUFdidDFfTzN0eUpmLXY5eFXSAcgBQVVfeXFMUEZ0S1lTclB2SC12WmJ4aXdhM2RJZUxfZVJRSnhSS0lTSEotcHlxVHJfNmhnVGhwVXgwR1dsUENHdzA2LXhjRWRKTVVKUEg2RjFoVWdMckh5NDMzZDFTZFJ0bjNGSTZqZ1V4MG5ReUdKU3BRNk9iMGx4Vkc1SjllaWIzQzhfTEc3dmNuYk5XZkl3VXF4WUhOZkF6ZjlOVDRXYms0N1FQVUNWdHctSjhxWDRXSS05VkFkOGZBZW1fTHRIeWd3cEJFeDE?oc=5",
       "source": "Fox News",
-      "published_at": "2025-08-22T07:00:00.000Z"
-    },
-    {
-      "title": "I Witnessed Katy Perry’s Lifetimes Tour in Person—and It’s Actually Worth Seeing - ELLE",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRlNaSDZXM0U3YlhsaTQ0Rm9uSVlRYUZzN1Q2MFlINE5nZzd3ZjJWU3dySDFtSWRnSDZacHotMHEwVkQ3VmtWMGpzNXlSdkxoQ2VwZVZBdDR4REdnRjZGMXpzb2F4ZXBmYi0zeDk0Z1lVWHMxaXNkQzZxMVZvUFFXWUw0R2pVX0x0NGtV?oc=5",
-      "source": "ELLE",
       "published_at": "2025-08-22T07:00:00.000Z"
     },
     {
@@ -142,16 +142,22 @@
       "published_at": "2025-08-07T07:00:00.000Z"
     },
     {
-      "title": "Orlando Bloom shares video with his &amp; Katy Perry's daughter Daisy - NBC 7 San Diego",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMHFmMHl1eXRPQ1VtcjJ4aUpTaUdLNkFUb2E0S1kxM3BsbXBOWGUzRkVSTi1FVjdKUFZKR3cwbXhxYVJucDdiVWZPYUlZb1A2SEhjZXc0RkN6WXlkYndXRnVxa2YzWHJPczVRMEdsSmNtLUg0b1hnQzBIN2VMb2t0MjFDd0M1ck13LTcwQnVSSmM4dzVOR2cyaFdFazZzZG9mRzI4QllCeTBOd9IBsgFBVV95cUxQcGFsVmJUa1Z2aldRRW0xRVJySEt5a09uZUwySzBOa2VDMzJoWE9ZTGFXTVUxdTdMV1dmaVZ6NncteFMzUVY2SG9RZlQ1THpESXZvNWQ0TXM3d0F6WmxSald0TTVGWEZKeW1qTm13TDR3aXdJb083Q1JiX3hKNkZZSll2VzZ2V2I2OXZrazhnbkdEaDBWdHpjeE1Gd1RKUXgzT2tqcmRKQVdKNmdTUWUzTzRR?oc=5",
-      "source": "NBC 7 San Diego",
-      "published_at": "2025-08-05T07:00:00.000Z"
+      "title": "Katy Perry's Lifetimes Tour plays Detroit - Detroit Free Press",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYndGcnRRNEdVaURwLTEtMnh1YzU2aDAtSUdyVjZDWlVJWm1oMVBCWDFQamVXUDc0eHJRS1l3Vk91V0xYc2g2c1AyYm4wbUhBMTVHNTZNWGhzeFdiakNsdnlPSmJTYmxkdUNBT01ldjBwT1dRaUZPaU5JWjBmbXVmb0xBeGZCNTQwY095Z3daTEc1ak5lcVd5aVJ6TFdBNVlDLUJoQWxkSTVKR0UtVmpBRlRWMXlPYmlnVDdtTXZKNmw?oc=5",
+      "source": "Detroit Free Press",
+      "published_at": "2025-08-04T07:00:00.000Z"
     },
     {
       "title": "Review | The Lifetimes Tour with Katy Perry - The Santa Barbara Independent",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ1N0RFp3eTlfWFZ5SEQyVEc0RUc4QU05MUV3LWVYUnEtbUo1ak1HSFpxMGxiS1hac0FqbUdhazZ0UkllUTI4alVWbWZjR0E3MUJ3emt1TUtEWllhdnhKWk0yMndEcldCZmVkdXlTeENGdjZoMkZUdXZTQlF0VzJHLUdIVGxmUktj0gGQAUFVX3lxTE1sT08xeGZ4dlRCRjRWanNXTUNaX1h5bHRORzhWQjRWR1Z6VzR4R05hdlJ2SXJtQzRNZ1poSGR0UnYxS0oxSzZVSDFZUzJ2dDZDUE02ajJXWFpvcE4wR0EySDZNc0NxejlmQTIyUDhadmtBQlZtTVJaS0g2X1cxTHpJbXd3ZnNsbzRPVFh3cHQ5OA?oc=5",
       "source": "The Santa Barbara Independent",
       "published_at": "2025-07-30T07:00:00.000Z"
+    },
+    {
+      "title": "Katy Perry Spotted With Justin Trudeau—Weeks After Orlando Bloom Split - Realtor.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLV9ibGpFZG92WktsN21WNWNLc1M4ZjZwRWM4eUdYcnZocXh0eUk4aExjLXlkaXl6bExDZ1VQbkZHWjNNR0FwZ0w4U1RfX1RqclRWQVVobUxvQm1XRF9icHpfNG9YV1QtRk1DSFFyYm9ObW9GbS1KYmdGMEFRbHBxdUVQbjlqQ3ZvNnRQSTk4ajRVNVlVOW5QaWNIQUQ3NFpNVnZIb2JoRkdyOVZWaFphN2V1dw?oc=5",
+      "source": "Realtor.com",
+      "published_at": "2025-07-29T07:00:00.000Z"
     },
     {
       "title": "Review: Katy Perry soars into Seattle for her 'Lifetimes Tour' at Climate Pledge Arena - Seattle Refined",
@@ -170,12 +176,6 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaHQ5TmRCZVBvRWhnSVVadnkzTk9aaU0zQlFaT09LX0xPUUxscWdneFhla0JzeHpvRVJZMHE3SDZWYndQWUpNNHp0dzdoQUVsMDJNWDFzOFBidVBFVHZoQkxSQkpDODZ2YlF3YW85MmpacHU1Vi1qZzRQejZPRmtmNzB4aERjOTM4ZmFFdm85UXZYWEkwLS1RMmc4Skt6V2VwWlBmN3lSTQ?oc=5",
       "source": "Phoenix New Times",
       "published_at": "2025-07-13T07:00:00.000Z"
-    },
-    {
-      "title": "Katy Perry and Orlando Bloom Spotted Vacationing Together on Yacht Months After Split - People.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNR2VmWEY5NVlWRmNPNGp3NThyLTQyMHRvbUt3czBmSDVlakpZcFlwMVVycW5URTB4QkNHVXpRaDFqSE52eFhrNjYxYmVNUHpGZno5dmZoRldJdVh1NUpQQzFGcW5zMHNwNUgtTXpDTXBiZk56cFQwMHE0Tmg0WlQ0RlBMazNmM1Zo?oc=5",
-      "source": "People.com",
-      "published_at": "2025-07-07T07:00:00.000Z"
     }
   ]
 }
