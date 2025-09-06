@@ -1,7 +1,7 @@
 {
   "slug": "selena-gomez",
   "name": "Selena Gomez",
-  "updatedAt": "2025-09-06T06:15:05.470Z",
+  "updatedAt": "2025-09-06T06:41:59.326Z",
   "items": [
     {
       "title": "This Just In: Selena Gomez and Benny Blanco’s Wedding Is Happening Sooner Than You Think - Cosmopolitan",
@@ -32,12 +32,6 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMWxfUmh2NndtYXRVTXRnUVJRMXVqY0xYUG9vNFFtYm9yTVp6WXd1N0I2emtCemFURldzZ3Bob2wzODFIX2FJTkcwdHNPalFFTUg0NWk0LTc5OS0zZ1p5RF9wcGJwV09vcy01Z2xfSWJpSFhFTnBJLWZRSER6WGduSlIwRDVOWU1hb1BBWkZoekZCWUYwOVptUWxBT3VYaUpE?oc=5",
       "source": "ELLE",
       "published_at": "2025-09-01T19:09:00.000Z"
-    },
-    {
-      "title": "Selena Gomez Was The Happiest Bride-To-Be At Her Bachelorette Party — See Photos - Teen Vogue",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMGxJTHFmNDFEdzBFTC1ac0dVdlhMRXVaNldwRHRJMFl4UjRTMTlGaVVxZjB6Qi1uZE9JdVdBSFFDYjhZM2xTc09DQUhPcTFCRGdjMmJ1Ymc0TDFQcjdOQUpuSGtMUmNQOU1faHZiSmdFNTRGVmhxYTF6RkZBRjlIeHhnZkJ6ajg?oc=5",
-      "source": "Teen Vogue",
-      "published_at": "2025-08-30T14:57:30.000Z"
     },
     {
       "title": "Consider Selena Gomez’s Bachelorette Outfits Your Official Bridal Style Guide - ELLE",
@@ -88,10 +82,10 @@
       "published_at": "2025-08-27T07:00:00.000Z"
     },
     {
-      "title": "Selena Gomez and Benny Blanco Spark Rumors They're on Their Bachelorette and Bachelor Trips - ELLE",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZkZEN2hTbTRkOW1Fd1Izam5ObkVZSU8zZUVnTmZQdDFJek1nOExSMkR5YzFTRVNKRlV5MzNKV0hLR2NJVlNGTTZUQ3ZUMzZ3dWlUdjRJSmRNQ1d6V3Fja0duQ3VOOFlqdDlyZ2J4bzBZbWZwSGxsMGM0MXgwdmxQaXFFcGhvNjlmbHlfM0lJaENRbDA4QU5BZUFmdHkxWGFId1pKTGlqR1RxdGJyU0ZXdDFxWFlVNnRfcDVwS3FObw?oc=5",
-      "source": "ELLE",
-      "published_at": "2025-08-25T07:00:00.000Z"
+      "title": "Selena Gomez’s 2-Ingredient Popcorn Hack Is Pure Genius — and Perfect for Pickle Lovers - Food &amp; Wine",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Da3RJVkdQWF9kaXlrRndyTGF2Vzc0TDdTbDVCUUxHbWdXVkV6M2t2YkxIbXU3bzVJWFpCdGdHV1d3Mkx2ZzFhaW0yOVdmTzVuMDN6aTBnUW9hXzJON2ZSZHV2YzdrcERNeVFLRkUtZ3hmS1V1TlVyYQ?oc=5",
+      "source": "Food &amp; Wine",
+      "published_at": "2025-08-26T07:00:00.000Z"
     },
     {
       "title": "Selena Gomez Calls Benny Blanco Her ‘Hubby’ and Shares New Photo Amid Wedding Buzz - ELLE",
@@ -154,15 +148,21 @@
       "published_at": "2025-08-17T07:00:00.000Z"
     },
     {
+      "title": "Selena Gomez’s ‘Lizzie McGuire’ and ‘Suite Life’ Spinoffs Got Axed at Disney Before ‘Wizards of Waverly Place’: ‘I Was Kind of at My Wits’ End’ - Variety",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN2RydTB5cWJweEtsa09lSXV3M0F0YVk5S1ljTjQ4MERxY2wwSEtZTU53V2VNRzNMX1NJZDU4S0N3b2R4d2lfeXMwcWNoejlDVmszbGNGRkZtNnlvZ05QZ0lxdlZTZkZKaW5aOGpqeWJXd0Rkdi05NGh1OFNoSWJpbl9ZMTVEbTF1dzFoNGg4SXJXdXRSM1lXZVRldzB2TndNaEJzTzVqTFE?oc=5",
+      "source": "Variety",
+      "published_at": "2025-08-07T07:00:00.000Z"
+    },
+    {
       "title": "Selena Gomez Explains How She and Taylor Swift 1st Became Friends - TODAY.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNV29mX3IwZ2NFbUNKNWhRUHZJZS1NbHBUOGZDYlZ5aE1QSTZzZEpvWXk0TWU1OTRxZmhvaWJuNFprNFZIUTFkZ2RQc3lkdTZMNlpNS29rSl9HWnViLWRaY2tVTi0tbEJDSWJ3UlFET1FDZzZFc0JNdFdvc1ZNVDduZThPSm90NWVjZ2c0RkZERS1XX1FGanAzdlA3RmE4M2F30gFUQVVfeXFMTk93NGR2Nk1tNzhMd2RHamhwcWZUcVhtZVhWTzV5NlFyZVBfeGJuZ3NGLXppaVRrcWNRRXJSWGJrVS1BLUk2WlVvZkxEdTRSc2g5UWt5?oc=5",
       "source": "TODAY.com",
       "published_at": "2025-08-07T07:00:00.000Z"
     },
     {
-      "title": "Selena Gomez’s ‘Lizzie McGuire’ and ‘Suite Life’ Spinoffs Got Axed at Disney Before ‘Wizards of Waverly Place’: ‘I Was Kind of at My Wits’ End’ - Variety",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN2RydTB5cWJweEtsa09lSXV3M0F0YVk5S1ljTjQ4MERxY2wwSEtZTU53V2VNRzNMX1NJZDU4S0N3b2R4d2lfeXMwcWNoejlDVmszbGNGRkZtNnlvZ05QZ0lxdlZTZkZKaW5aOGpqeWJXd0Rkdi05NGh1OFNoSWJpbl9ZMTVEbTF1dzFoNGg4SXJXdXRSM1lXZVRldzB2TndNaEJzTzVqTFE?oc=5",
-      "source": "Variety",
+      "title": "Taylor Swift, Selena Gomez Became 'Best Friends' 'Bonding' Over Jonas Brothers Breakup - People.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcnAway1jVTJyTEwwc3pXV3RtZzJsQ3dSZWFPZl9yRkNTSTR4NzdNOHNCdF9oU1BwTzR0OEJFY1k4UDVNWmIxckRvZXU4ci15Ni1XMzZOWmZ1YzBtNnppYzdKbmVXNElmaUZXbllzeHQ3dk5sd0dSeFhQcjBYMlRNQlpPYkVNZ2h6eV9HVExKQVc0LU1YQkRiODRsZWdpWW1DMmp4ZlQ1UkYwN29FZnc?oc=5",
+      "source": "People.com",
       "published_at": "2025-08-07T07:00:00.000Z"
     },
     {
