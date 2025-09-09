@@ -110,10 +110,16 @@
 
     const slug = new URLSearchParams(location.search).get("slug") || "";
     const NAMES = {
-      "taylor-swift":"Taylor Swift","rihanna":"Rihanna","cristiano-ronaldo":"Cristiano Ronaldo",
-      "selena-gomez":"Selena Gomez","kim-kardashian":"Kim Kardashian","dua-lipa":"Dua Lipa",
-      "ariana-grande":"Ariana Grande","scarlett-johansson":"Scarlett Johansson",
-      "katy-perry":"Katy Perry","margot-robbie":"Margot Robbie"
+      "ariana-grande":"Ariana Grande",
+      "cristiano-ronaldo":"Cristiano Ronaldo",
+      "dua-lipa":"Dua Lipa",
+      "katy-perry":"Katy Perry",
+      "kim-kardashian":"Kim Kardashian",
+      "margot-robbie":"Margot Robbie",
+      "rihanna":"Rihanna",
+      "scarlett-johansson":"Scarlett Johansson",
+      "selena-gomez":"Selena Gomez",
+      "taylor-swift":"Taylor Swift"
     };
 
     /* ---------- SEO ---------- */
@@ -179,7 +185,6 @@
         if (!parsed.length) throw new Error("empty feed");
         return parsed;
       }catch(err){
-        // Vždy vrať prázdné pole → nikdy to nespadne
         console.warn("[FameFilter] fetchAndParseOne failed:", err?.message || err);
         return [];
       }
@@ -190,7 +195,6 @@
     const viaProxy      = url => `${HAVE_PROXY ? (ProxyURL + "?url=" + encodeURIComponent(url)) : ""}`;
 
     async function raceMirrors(sourceUrl){
-      // Zkus současně víc zrcadel, vyber první, které něco vrátí
       const jobs = [
         fetchAndParseOne(allOriginsGet(sourceUrl)),
         (async()=>{ const res = await fetchWithTimeout(allOriginsRaw(sourceUrl), 6000).catch(()=>null); if(!res) return []; try { return parseRss(await res.text()); } catch { return []; } })()
@@ -202,7 +206,7 @@
         const arr = r.status === "fulfilled" ? r.value : [];
         if (Array.isArray(arr) && arr.length) return arr;
       }
-      return []; // nic → vrátíme prázdné, nespadne to
+      return [];
     }
 
     function dedupeSort(items){
@@ -213,15 +217,14 @@
       }).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
     }
 
-    /* ---------- Dotazy (všichni 90d + mezery ve jméně) ---------- */
+    /* ---------- Dotazy ---------- */
     function buildQueries(name){
-      // name je vždy s MEZERAMI (slug -> "taylor swift" už řešíme níže)
       const quoted = `"${name}"`;
       return [
-        `${quoted} when:90d`,   // přesná fráze, 90 dní
-        `${name} when:90d`,     // bez uvozovek, 90 dní
-        `${quoted}`,            // bez okna (pro jistotu)
-        `${name}`               // úplně základ
+        `${quoted} when:90d`,
+        `${name} when:90d`,
+        `${quoted}`,
+        `${name}`
       ];
     }
     function googleNewsRssFromQuery(q, hl="en-US", gl="US", ceid="US:en"){
@@ -242,7 +245,7 @@
           const items = await raceMirrors(rssUrl);
           const cleaned = dedupeSort(items);
           if (cleaned.length) return cleaned;
-          await sleep(250); // malá mezera mezi pokusy
+          await sleep(250);
         }
       }
       return [];
@@ -260,9 +263,7 @@
 
     /* ---------- Load ---------- */
     async function load(){
-      // Převeď slug -> jméno s mezerami (když není v NAMES)
       const prettyFromSlug = s => s.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
-
       const name = NAMES[slug] || prettyFromSlug(slug);
       setSeo(name);
       document.getElementById("title").textContent = name ? `${name} – News` : "News";
@@ -276,7 +277,6 @@
 
       let items = [];
 
-      // 1) Lokální JSON (GitHub Actions)
       try {
         const resp = await fetch(`news/${slug}.json?ts=${Date.now()}`, { cache: "no-store" });
         if (resp.ok) {
@@ -288,7 +288,6 @@
         console.warn(`[FameFilter] Local JSON failed:`, e?.message || e);
       }
 
-      // 2) Pokud prázdné → živý fallback (všichni 90d, víc locale)
       if (!items.length) {
         loaderTx.textContent = "Loading live news…";
         items = await fetchLiveWithFallback(name);
