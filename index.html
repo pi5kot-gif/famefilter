@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- SEO -->
-  <meta name="description" content="FameFilter brings you the latest celebrity news from around the world. Follow Taylor Swift, Cristiano Ronaldo, Rihanna, Selena Gomez, Kim Kardashian, Dua Lipa, Ariana Grande, Scarlett Johansson, Katy Perry, Margot Robbie – all in one place." />
-  <meta name="keywords" content="celebrity news, Taylor Swift, Cristiano Ronaldo, Rihanna, Selena Gomez, Kim Kardashian, Dua Lipa, Ariana Grande, Scarlett Johansson, Katy Perry, Margot Robbie" />
+  <meta name="description" content="FameFilter brings you the latest celebrity news from around the world. Follow Ariana Grande, Cristiano Ronaldo, Dua Lipa, Katy Perry, Kim Kardashian, Margot Robbie, Rihanna, Scarlett Johansson, Selena Gomez, Taylor Swift – all in one place." />
+  <meta name="keywords" content="celebrity news, Ariana Grande, Cristiano Ronaldo, Dua Lipa, Katy Perry, Kim Kardashian, Margot Robbie, Rihanna, Scarlett Johansson, Selena Gomez, Taylor Swift" />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://famefilter.com/" />
 
@@ -48,17 +48,18 @@
       height:auto; padding:24px 12px; border-bottom:1px solid #1a1a1a;
     }
     .brand{
-      font-size:56px; font-weight:800; text-transform:uppercase; letter-spacing:2px;
-      margin:0; line-height:1.1; word-break:break-word;
+      font-size: clamp(36px, 6vw, 56px);
+      line-height: 1.1;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin: 0;
+      word-break: break-word;
     }
     .brand .accent{ color:#8ab4ff; }
     .hero p{
       margin:10px 0 0; color:#ccc; font-weight:600; letter-spacing:2px;
-      text-transform:uppercase; font-size:20px; line-height:1.2;
-    }
-    @media (max-width:600px){
-      .brand{font-size:36px; letter-spacing:1.5px;}
-      .hero p{font-size:16px; letter-spacing:1px;}
+      text-transform:uppercase; font-size: clamp(16px, 2.2vw, 20px); line-height:1.2;
     }
 
     /* Grid */
@@ -113,7 +114,7 @@
   </header>
 
   <div class="grid">
-    <!-- Abecedně podle jména (A–Z) + width/height kvůli CLS -->
+    <!-- Abecedně podle jména (A–Z), width/height kvůli CLS -->
     <a href="person.html?slug=ariana-grande" class="card">
       <div class="thumb"><img src="assets/ariana.jpg" alt="Ariana Grande" loading="lazy" width="300" height="400"></div>
       <span>Ariana Grande</span>
