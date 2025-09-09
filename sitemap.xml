@@ -4,52 +4,85 @@
   <url>
     <loc>https://famefilter.com/</loc>
     <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+    <lastmod>2025-09-09</lastmod>
   </url>
 
   <url>
     <loc>https://famefilter.com/credits.html</loc>
     <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2025-09-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://famefilter.com/person.html?slug=ariana-grande</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+    <lastmod>2025-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://famefilter.com/person.html?slug=cristiano-ronaldo</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+    <lastmod>2025-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://famefilter.com/person.html?slug=dua-lipa</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+    <lastmod>2025-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://famefilter.com/person.html?slug=katy-perry</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+    <lastmod>2025-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://famefilter.com/person.html?slug=kim-kardashian</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+    <lastmod>2025-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://famefilter.com/person.html?slug=margot-robbie</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+    <lastmod>2025-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://famefilter.com/person.html?slug=rihanna</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+    <lastmod>2025-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://famefilter.com/person.html?slug=scarlett-johansson</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+    <lastmod>2025-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://famefilter.com/person.html?slug=selena-gomez</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+    <lastmod>2025-09-09</lastmod>
   </url>
 
   <url>
     <loc>https://famefilter.com/person.html?slug=taylor-swift</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://famefilter.com/person.html?slug=rihanna</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://famefilter.com/person.html?slug=cristiano-ronaldo</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://famefilter.com/person.html?slug=selena-gomez</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://famefilter.com/person.html?slug=kim-kardashian</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://famefilter.com/person.html?slug=dua-lipa</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://famefilter.com/person.html?slug=ariana-grande</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://famefilter.com/person.html?slug=scarlett-johansson</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://famefilter.com/person.html?slug=katy-perry</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://famefilter.com/person.html?slug=margot-robbie</loc>
-    <priority>0.9</priority>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+    <lastmod>2025-09-09</lastmod>
   </url>
 
 </urlset>
