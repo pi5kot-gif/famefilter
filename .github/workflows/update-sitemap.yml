@@ -1,0 +1,30 @@
+name: Update sitemap lastmod (daily)
+
+on:
+  schedule:
+    - cron: "5 2 * * *"   # denně v 02:05 UTC
+  workflow_dispatch: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run updater
+        run: node scripts/update-sitemap-lastmod.js
+
+      - name: Commit & push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(sitemap): daily lastmod refresh"
+          file_pattern: sitemap.xml
