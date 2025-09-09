@@ -1,7 +1,7 @@
 {
   "slug": "selena-gomez",
   "name": "Selena Gomez",
-  "updatedAt": "2025-09-09T14:10:23.294Z",
+  "updatedAt": "2025-09-09T14:40:41.699Z",
   "items": [
     {
       "title": "Selena Gomez Is in Rare Form—Interview - Allure",
@@ -22,6 +22,12 @@
       "published_at": "2025-09-06T15:48:00.000Z"
     },
     {
+      "title": "Will Selena Gomez attend the 2025 VMAs? - glamour.com",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1fZ1pmSmR0dTFTUTJQcWc2YlpwWlpMdm4yYXlBTlF3dG8zSG9nOTl1VzU3NTJwc2VQS2JYazJ3TTU2ck5GbHlCUFo0MHFYeXdyY3R6bGtwb0RfSVoyQnFPQmVRVF9rRDNTVUp0X3RsZzBTY2htNEtFMDNlSQ?oc=5",
+      "source": "glamour.com",
+      "published_at": "2025-09-05T19:14:40.000Z"
+    },
+    {
       "title": "Selena Gomez and Benny Blanco’s wedding date revealed: report - Page Six",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdHA5Njk3REF2OC0xWFVtVTg1bnYwTkVYZHFsUWZWYU90Um9WVURib0JKUkdleVMwVEY5d1ZWbjdVb0s0azRRdFRsQk1vaDZDRzRTZkVZX0lUTnZ4eG1rOGsxZVVrb2gyQzJXbmk4R1d2NUZNUjJCeXN0S1hEazRIWVFxcC1EVzBrRklHclRzR3NhaWJNNmYyN0xMS3d3SEMwdXAtQ1ZCaWNhZw?oc=5",
       "source": "Page Six",
@@ -40,15 +46,15 @@
       "published_at": "2025-09-03T00:00:00.000Z"
     },
     {
-      "title": "Selena Gomez Shares Photos from Romantic Lake Trip With Benny Blanco - ELLE",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMWxfUmh2NndtYXRVTXRnUVJRMXVqY0xYUG9vNFFtYm9yTVp6WXd1N0I2emtCemFURldzZ3Bob2wzODFIX2FJTkcwdHNPalFFTUg0NWk0LTc5OS0zZ1p5RF9wcGJwV09vcy01Z2xfSWJpSFhFTnBJLWZRSER6WGduSlIwRDVOWU1hb1BBWkZoekZCWUYwOVptUWxBT3VYaUpE?oc=5",
-      "source": "ELLE",
-      "published_at": "2025-09-01T07:00:00.000Z"
-    },
-    {
       "title": "Selena Gomez wows in bridal-white bikini at Cabo bachelorette party - Fox News",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeURmM2N2MmZ4S2ZEM0wtM3RlbWhfSVpYM0dVVk1xcXZVeHo0bE5YTHd4NkpWVFhKbEhOVTFZNlBCS3ZpVGFXM1pTbWhtakQtTWUxY3VUSU4zQXRlenFmcVhVUHhaMHhIRW9sZGdiZEZvajRnWGFQSTRablNUY3pNaTJCWVFfVkFSdXIyZFVJbDJ0Y2ttTHE2ZFQ5NklBVFNJ0gGmAUFVX3lxTE05SVJSZVJPZnJqYUl6X19oNHZuZDJVdl9CbEZYaVZldXRVdTBNV3ZhekVWWjNpYVl5TmZxTS1PRWVlRVZJUW15dzBuYThURmh1SXd0dHVNT0RoS1o3eS1nVTI2bk9aZ0Jnd3VjMTZ0WmZ1T2YtRTg0QzdEclJpazhEODlIaGJpdUt1RVVOd2ZES0ZXZzNDNFlKVUg0azdJNVJ5NUJ0QVE?oc=5",
       "source": "Fox News",
+      "published_at": "2025-09-01T22:59:09.000Z"
+    },
+    {
+      "title": "Selena Gomez Shares Photos from Romantic Lake Trip With Benny Blanco - ELLE",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMWxfUmh2NndtYXRVTXRnUVJRMXVqY0xYUG9vNFFtYm9yTVp6WXd1N0I2emtCemFURldzZ3Bob2wzODFIX2FJTkcwdHNPalFFTUg0NWk0LTc5OS0zZ1p5RF9wcGJwV09vcy01Z2xfSWJpSFhFTnBJLWZRSER6WGduSlIwRDVOWU1hb1BBWkZoekZCWUYwOVptUWxBT3VYaUpE?oc=5",
+      "source": "ELLE",
       "published_at": "2025-09-01T07:00:00.000Z"
     },
     {
@@ -146,12 +152,6 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONUpNLVNiNmpCQmw4a0M5TXg1SUthUU1acTZ5Vk52ODExcEd1QlJJbTdXY0FraDJIV0lsNzVhZWN5b0F6OXJDeE9pNTYydTlJYlJLZk1YUjZjc3NhcFc1WWdrclAxOGpDQkdKeDBZVFBzN2hhcmxMaHRSeC15b0hXQmVSUXlMNjNmcDBuZExzSDF3NkZueWNydU1mSWRmLTZ6?oc=5",
       "source": "ELLE",
       "published_at": "2025-08-20T07:00:00.000Z"
-    },
-    {
-      "title": "Selena Gomez Questions Future of Her Relationship With Benny Blanco Over His One Fear, Say Source - yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVWRHdThpRUs2TWRrd0ZfYzEwakV3ZmlOQUozQVJPSnRsNG5ETTZrLU1ieDVNUm56UHoxU3lxTVlHYWVJeXl3S0tNSjNKLVdmRy1UOTVqck9VUXp3b3lseHlqTUMwUzhqRW9fUG1LMmpidktaZUFzTWNXVFM0SldmMTVUV3NTdzQ0ZWNDWDJVTzVQRkFsaVludA?oc=5",
-      "source": "yahoo.com",
-      "published_at": "2025-08-19T07:00:00.000Z"
     },
     {
       "title": "Selena Gomez Channels Taylor Swift With Bold New Bangs in a Surprising Hair Transformation - instyle.com",
