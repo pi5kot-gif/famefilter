@@ -1,7 +1,7 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-09-10T21:10:33.123Z",
+  "updatedAt": "2025-09-10T21:33:37.242Z",
   "items": [
     {
       "title": "Taylor Swift Attends Travis Kelce Soft Opening for Steakhouse - TMZ",
@@ -49,6 +49,12 @@
       "title": "Taylor Swift and Travis Kelce’s Engagement Rollout Was a Master Class - GQ",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd1hsaFI3QlRzdk1aWkt2WjhVcjl6R3Q1bG90UVRwRkg0YmNpOTEwdEVSZWRTSWJEeGlfTnIyT2IzdGUwUExpb2lrRE5VUXF2N1JTV3ZaRU9yeE1EZlpLeld3TDVHWHI1dVJqakpGZ0J6QWhuelhvOUJMQzNnVW1kaDZfNmo0RUtZekFhcjI3d285bjZ2U09xYg?oc=5",
       "source": "GQ",
+      "published_at": "2025-08-28T07:00:00.000Z"
+    },
+    {
+      "title": "Thursday briefing: How Taylor Swift, the ​ultimate pop ​star, ​turned ​her story into our own - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQ0RLWUMtODBVNWdMeFVDaWtuNEFGeURJTVVzZjJ0dkpROHVUSUJWdUp1YXRpREdmaGNWUHplYjZaMjNzRGRJd3M0VnBEbVZTQkJhQ0pSbUFxNXNkdXdOU0JqM3YtYXNBaWpMc2tYenl2Nm1zMFhPN1FOQmszYU9kM2p6bnRWYm5HelFwd0lLVGNJblpZMzdRbFBvRDlIV0lQQ3Vwa0FFOEpSanVzRm41dzhZX1U1N2taWmV5d2thczI0LWJwUkNWbktDTVU?oc=5",
+      "source": "The Guardian",
       "published_at": "2025-08-28T07:00:00.000Z"
     },
     {
@@ -130,21 +136,9 @@
       "published_at": "2025-08-15T07:00:00.000Z"
     },
     {
-      "title": "Taylor Swift Reveals Her Sourdough Obsession On Travis Kelce's Podcast—And We're Eating It Up - Delish",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbUlLQm8zSTc5a1Vqc2NpSHVPbGJuU2xWVU9vV1p2Z1FiZVczYzNiTi1IMzF3WFhpSWNHeURiOVlFS2t3aUZieEZlbldMVmd2UjlfbXBwekZKM0JCVTJpMldNZ2owMERFOWVzb1JwdGRrdVNQNTlHQUkwdm1EaWQ2RXo4XzQ?oc=5",
-      "source": "Delish",
-      "published_at": "2025-08-14T07:00:00.000Z"
-    },
-    {
       "title": "'Huge green flag': Taylor Swift opens up about Travis Kelce - CNN",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTFZ2cW96Wmdibm15MU9TaUVWeDBTZnpBMUFldnNMSTB5WnA5YTQ1dE12UFkyNk9zd0ZPMHBWVmhUWTRmYmJiTGZheFU0WGtjM0lpdElSRTlkQlBUdGpfbnp1RHVMMXlJRE1zQmlUWUpWZk4wM0tZMWhBQWhCSjJVeXpLUFlCcFBoVXI1MmlRTW90QkZta2dxOWg5aEkxTVo4M016R2ZOQjNUTkJlbm1mREpIM2cySHVTQ3g1X1hQSXM?oc=5",
       "source": "CNN",
-      "published_at": "2025-08-14T07:00:00.000Z"
-    },
-    {
-      "title": "Taylor Swift Reveals Sourdough Obsession On ‘New Heights’ Podcast - TODAY.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSkItT3JYYmtid21RYThnTGJ3WFpMUnh2MGRRd1RWTFZMMENuUlFqM2JpSWNrYWkzby1yeFAwTldKNThZUHVNdHJzUXJaY2FQMDVkb0RTSVpQdWdJaHM5cS1oTGtmZzFwbFJlRVRvNjZLTThYNEZnY2pwVS1PeUNjQVdmaGtoZkNJM2VZNHgydjRIb1nSAVRBVV95cUxOcDhaT2VXMVBtOXlxYkxPdm5XbGQzcmlwNld4TldBeHQ1UmNMZFJQeE9FRlF4cjh4YWRrM2RXaE40dTlWTHFVbUZXYVhad2ZKazdUbFg?oc=5",
-      "source": "TODAY.com",
       "published_at": "2025-08-14T07:00:00.000Z"
     },
     {
@@ -154,10 +148,10 @@
       "published_at": "2025-08-14T07:00:00.000Z"
     },
     {
-      "title": "Two Showgirls In Love: Travis Kelce And Taylor Swift Have A Chat - Defector",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWkZqcTNuQ3FVYnlGNmJtUHdYdVVHS1ZuMGJKOWJNdXA0UjE5RUNRa1Q5ME00MzRjWC1FZFRGcGdBVEU5ZTlSNzN1TUhnOHc1MkFVdklyVU15bWJkazlwU0puSXMyRWM5akRLY2JIWExPdlIzV2dCT3lyOHlHeF9Ycm10LW9zZ2JpZkRIaQ?oc=5",
-      "source": "Defector",
-      "published_at": "2025-08-14T07:00:00.000Z"
+      "title": "August 13, 2025: Taylor Swift announces track list and release date for new album on ‘New Heights’ podcast - CNN",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZUNWdzdZVnk4eWc4SVB3MEJ1SmJDUDZyckplYXgxcXNMbnhmdkVTYkpwQmRLclFqbFFzMjdhMXRFa3F1ckc1MTE5M0NtcHo1YmE0RXVLcEJpWnVycG9IOV8wRzlyZHVMcnVPanM1ejBCOUZkWXJPRGEtTzV2X3gxQy1qdE9mTTVINXJ0UGNyMXdsRjlaX0NYTHZPMkc?oc=5",
+      "source": "CNN",
+      "published_at": "2025-08-13T07:00:00.000Z"
     },
     {
       "title": "Taylor Swift Reveals New Album on Kelce's 'New Heights' Podcast - TODAY.com",
@@ -181,6 +175,12 @@
       "title": "Taylor Swift announces her next era: 'The Life of a Showgirl' - NPR",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaFNsRHZnN0pYc3ozeWtGSGNNS1czR3dHZlpZWXdRbUNGV0NRZ3FaQkpPTVpYMVAxT0J1YUtmT19iN1dZa3FiVzNJS1BjTjcxYlpmejR0ZjZhb2lvMDU2TGI0bVgyWmJqZmtrbzhjOEUwS1RzbnZtR0JkbExFYTMxZVpmazJzc0h5?oc=5",
       "source": "NPR",
+      "published_at": "2025-08-12T07:00:00.000Z"
+    },
+    {
+      "title": "Taylor Swift announces new album, ‘The Life of a Showgirl’ - CNN",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbU9IdEdvWl9feDJ1ZXBZSlB5cnBxSm5XczNVTHlYbEd3djBPTFNMbUI0ZGtHVDRnT3Z5OTRWV0NYMUw0N2xrTDdIbHZYc0JvSHhjMlZBM0R5emhmUzd6TGh1NEVBUXFxVzg4ZDY4ZXhfSmxWNW9GLTZsMjJSSVdBbFViZUg5WXBNUFNfOFgyZw?oc=5",
+      "source": "CNN",
       "published_at": "2025-08-12T07:00:00.000Z"
     }
   ]
