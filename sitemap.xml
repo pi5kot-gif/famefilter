@@ -51,7 +51,21 @@
   </url>
 
   <url>
+    <loc>https://famefilter.com/person.html?slug=lebron-james</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+    <lastmod>2025-09-10</lastmod>
+  </url>
+
+  <url>
     <loc>https://famefilter.com/person.html?slug=margot-robbie</loc>
+    <priority>1.0</priority>
+    <changefreq>hourly</changefreq>
+    <lastmod>2025-09-10</lastmod>
+  </url>
+
+  <url>
+    <loc>https://famefilter.com/person.html?slug=miley-cyrus</loc>
     <priority>1.0</priority>
     <changefreq>hourly</changefreq>
     <lastmod>2025-09-10</lastmod>
