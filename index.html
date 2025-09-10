@@ -68,9 +68,13 @@
       display:grid; gap:20px;
       grid-template-columns: repeat(2, 1fr);
     }
-    @media (min-width: 801px){
+    /* 3 sloupce na středních šířkách */
+    @media (min-width: 680px){
+      .grid{ grid-template-columns: repeat(3, 1fr); }
+    }
+    /* 4 sloupce na desktopu */
+    @media (min-width: 1000px){
       .grid{ grid-template-columns: repeat(4, 1fr); }
-      .grid > a.card:nth-last-child(2){ grid-column: 2; }
     }
 
     .card{
@@ -88,7 +92,6 @@
       display:flex; align-items:center; justify-content:center; min-height:56px;
     }
 
-    /* Footer button */
     footer { text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
     .btn{
       display:inline-block; padding:10px 14px; border-radius:10px; border:1px solid #2a2a2a;
@@ -96,6 +99,10 @@
       transition:transform .15s ease, border-color .15s ease;
     }
     .btn:hover{ transform:translateY(-2px); border-color:#444; }
+    @media (prefers-reduced-motion: reduce){
+      .card{ transition:none; }
+      .btn{ transition:none; }
+    }
   </style>
 
   <!-- Google tag (gtag.js) -->
@@ -114,7 +121,7 @@
   </header>
 
   <div class="grid">
-    <!-- Abecedně podle jména (A–Z), width/height kvůli CLS -->
+    <!-- Abecedně (A–Z), width/height kvůli CLS -->
     <a href="person.html?slug=ariana-grande" class="card">
       <div class="thumb"><img src="assets/ariana.jpg" alt="Ariana Grande" loading="lazy" width="300" height="400"></div>
       <span>Ariana Grande</span>
