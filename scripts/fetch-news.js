@@ -5,16 +5,18 @@ const fs = require('fs');
 const path = require('path');
 
 const CELEBS = {
-  "taylor-swift":"Taylor Swift",
-  "rihanna":"Rihanna",
-  "cristiano-ronaldo":"Cristiano Ronaldo",
-  "selena-gomez":"Selena Gomez",
-  "kim-kardashian":"Kim Kardashian",
-  "dua-lipa":"Dua Lipa",
   "ariana-grande":"Ariana Grande",
-  "scarlett-johansson":"Scarlett Johansson",
+  "cristiano-ronaldo":"Cristiano Ronaldo",
+  "dua-lipa":"Dua Lipa",
   "katy-perry":"Katy Perry",
-  "margot-robbie":"Margot Robbie"
+  "kim-kardashian":"Kim Kardashian",
+  "lebron-james":"LeBron James",        // ⬅️ přidáno
+  "margot-robbie":"Margot Robbie",
+  "miley-cyrus":"Miley Cyrus",          // ⬅️ přidáno
+  "rihanna":"Rihanna",
+  "scarlett-johansson":"Scarlett Johansson",
+  "selena-gomez":"Selena Gomez",
+  "taylor-swift":"Taylor Swift"
 };
 
 const MAX_ITEMS = 30;
@@ -72,10 +74,7 @@ function buildQueries(name) {
 }
 
 async function fetchFromMirrors(sourceUrl) {
-  const mirrors = [
-    googleNewsRssFromQuery(sourceUrl).startsWith('http') ? null : null, // nic; jen pro přehled
-  ];
-  // sourceUrl už je QUERY, ne URL. tady postavíme URL:
+  // sourceUrl je QUERY, tady z něj postavíme URL:
   const url = googleNewsRssFromQuery(sourceUrl);
   const tries = [
     () => fetchWithTimeout(url),
