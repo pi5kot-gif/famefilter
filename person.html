@@ -59,6 +59,30 @@
       text-transform:uppercase; font-size: clamp(16px, 2.2vw, 20px); line-height:1.2;
     }
 
+    /* Socials pod názvem osoby */
+    .socials{
+      margin-top:12px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      gap:18px;
+      min-height:28px; /* aby layout neskákal i když není nic */
+    }
+    .socials a{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      width:32px; height:32px;
+      border-radius:8px;
+      border:1px solid #2a2a2a;
+      background:#111;
+      color:#8ab4ff;
+      text-decoration:none;
+      transition:transform .15s ease, border-color .15s ease, background .15s ease;
+    }
+    .socials a:hover{ transform:translateY(-2px); border-color:#444; background:#101318; }
+    .socials svg{ width:20px; height:20px; display:block; }
+
     .wrap { max-width:900px; margin:0 auto; padding:20px 16px; min-height:60vh; position: relative; }
 
     .item { padding:16px 0; border-bottom:1px solid #1a1a1a; }
@@ -93,6 +117,7 @@
   <header class="hero">
     <h1 class="brand">Fame<span class="accent">Filter</span></h1>
     <p id="title">News</p>
+    <div class="socials" id="socials" aria-label="Official social profiles"></div>
   </header>
 
   <div class="wrap">
@@ -129,6 +154,20 @@
       "scarlett-johansson":"Scarlett Johansson",
       "selena-gomez":"Selena Gomez",
       "taylor-swift":"Taylor Swift"
+    };
+
+    /* Oficiální profily (prázdné = nezobrazit) */
+    const PROFILES = {
+      "ariana-grande":       { ig: "arianagrande",         x: "ArianaGrande" },
+      "cristiano-ronaldo":   { ig: "cristiano",            x: "Cristiano" },
+      "dua-lipa":            { ig: "dualipa",              x: "DUALIPA" },
+      "katy-perry":          { ig: "katyperry",            x: "katyperry" },
+      "kim-kardashian":      { ig: "kimkardashian",        x: "KimKardashian" },
+      "margot-robbie":       { ig: "margotrobbieofficial", x: "" },          // X neuváděn
+      "rihanna":             { ig: "badgalriri",           x: "rihanna" },
+      "scarlett-johansson":  { ig: "",                     x: "" },          // nemá official
+      "selena-gomez":        { ig: "selenagomez",          x: "selenagomez" },
+      "taylor-swift":        { ig: "taylorswift",          x: "taylorswift13" }
     };
 
     /* ---------- SEO ---------- */
@@ -270,12 +309,38 @@
       `).join("");
     }
 
+    /* ---------- Ikony (inline SVG) ---------- */
+    const IG_ICON = `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2.2A2.8 2.8 0 1 0 12 15.8 2.8 2.8 0 0 0 12 9.2zm5.25-2.2a1.05 1.05 0 1 1 0 2.1 1.05 1.05 0 0 1 0-2.1z"/>
+      </svg>`;
+    const X_ICON = `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor" d="M18.9 2H22l-7.1 8.1L23.3 22h-6.4l-5-6.5L5.9 22H2.7l7.6-8.7L1.7 2h6.5l4.6 6.1L18.9 2zm-2.2 18h2.3L9.4 4H7.1l9.6 16z"/>
+      </svg>`;
+
     /* ---------- Load ---------- */
     async function load(){
       const prettyFromSlug = s => s.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
       const name = NAMES[slug] || prettyFromSlug(slug);
       setSeo(name);
       document.getElementById("title").textContent = name ? `${name} – News` : "News";
+
+      // Socials (pod názvem)
+      const profiles = PROFILES[slug] || null;
+      const socialsEl = document.getElementById("socials");
+      if (profiles && (profiles.ig || profiles.x)) {
+        let html = "";
+        if (profiles.ig) {
+          html += `<a class="social-link" href="https://instagram.com/${profiles.ig}" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><span class="visually-hidden">Instagram</span>${IG_ICON}</a>`;
+        }
+        if (profiles.x) {
+          html += `<a class="social-link" href="https://x.com/${profiles.x}" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><span class="visually-hidden">X</span>${X_ICON}</a>`;
+        }
+        socialsEl.innerHTML = html;
+      } else {
+        socialsEl.innerHTML = ""; // čisté, ale drží výšku díky min-height
+      }
 
       const listEl = document.getElementById("list");
       const loaderEl = document.getElementById("loader");
