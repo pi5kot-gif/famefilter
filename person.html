@@ -66,7 +66,7 @@
       justify-content:center;
       align-items:center;
       gap:18px;
-      min-height:28px; /* aby layout neskákal i když není nic */
+      min-height:28px; /* stabilní výška i bez ikon */
     }
     .socials a{
       display:inline-flex;
@@ -142,14 +142,17 @@
     const HAVE_PROXY = !!ProxyURL;
 
     const slug = new URLSearchParams(location.search).get("slug") || "";
-    /* Abecedně */
+
+    /* Abecedně (dopl. LeBron & Miley) */
     const NAMES = {
       "ariana-grande":"Ariana Grande",
       "cristiano-ronaldo":"Cristiano Ronaldo",
       "dua-lipa":"Dua Lipa",
       "katy-perry":"Katy Perry",
       "kim-kardashian":"Kim Kardashian",
+      "lebron-james":"LeBron James",
       "margot-robbie":"Margot Robbie",
+      "miley-cyrus":"Miley Cyrus",
       "rihanna":"Rihanna",
       "scarlett-johansson":"Scarlett Johansson",
       "selena-gomez":"Selena Gomez",
@@ -163,9 +166,11 @@
       "dua-lipa":            { ig: "dualipa",              x: "DUALIPA" },
       "katy-perry":          { ig: "katyperry",            x: "katyperry" },
       "kim-kardashian":      { ig: "kimkardashian",        x: "KimKardashian" },
-      "margot-robbie":       { ig: "margotrobbieofficial", x: "" },          // X neuváděn
+      "lebron-james":        { ig: "kingjames",            x: "KingJames" },
+      "margot-robbie":       { ig: "margotrobbieofficial", x: "" },
+      "miley-cyrus":         { ig: "mileycyrus",           x: "MileyCyrus" },
       "rihanna":             { ig: "badgalriri",           x: "rihanna" },
-      "scarlett-johansson":  { ig: "",                     x: "" },          // nemá official
+      "scarlett-johansson":  { ig: "",                     x: "" },
       "selena-gomez":        { ig: "selenagomez",          x: "selenagomez" },
       "taylor-swift":        { ig: "taylorswift",          x: "taylorswift13" }
     };
@@ -339,7 +344,7 @@
         }
         socialsEl.innerHTML = html;
       } else {
-        socialsEl.innerHTML = ""; // čisté, ale drží výšku díky min-height
+        socialsEl.innerHTML = "";
       }
 
       const listEl = document.getElementById("list");
