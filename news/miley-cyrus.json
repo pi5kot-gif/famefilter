@@ -1,3 +1,187 @@
 {
-  "items": []
+  "slug": "miley-cyrus",
+  "name": "Miley Cyrus",
+  "updatedAt": "2025-09-10T16:42:56.796Z",
+  "items": [
+    {
+      "title": "Miley Cyrus Misses the MTV VMAs Despite 4 Nominations - ELLE",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQd2lZalI2enpYb09VeTlwQVE0elhwVmljdnFzQ0E1VTc3SmtmbU9Yd24wcEZmSmV3VnZYZXZCejhmQk9HbFJsakY0LVRiQzQ4Vm05dS1yVDJ2anRJeklPWlNPaW1HMDRkd1FCcWpTeUpJN0RmcURmZHNQYXJIbW5UVzhSUmpzVWdST3lsUGVvYm8zZTQ?oc=5",
+      "source": "ELLE",
+      "published_at": "2025-09-08T02:21:00.000Z"
+    },
+    {
+      "title": "One hour on the phone with Miley Cyrus. - theperfectmagazine.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUUJ6VDNXN2s3RlRQZmFxblB5dy1hemJXUDJqMi1IX091QVRjX09ld1B4THhpbXZ0cW1pWkw3QzZBTWJSaW5zV1VkcU8zR01odzMxTC1VbFRDcTNSeloxNk5Fa2VCcW9zSnNZSl9WRFRpYkhoWG5qRnFmanJ3UEYxdm1NMzJ6X3RNOXRnam8xaVV6QQ?oc=5",
+      "source": "theperfectmagazine.com",
+      "published_at": "2025-09-05T13:15:59.000Z"
+    },
+    {
+      "title": "Please Be Advised That Miley Cyrus Has More $$$ in the Bank Than I Can Count - cosmopolitan.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPb3FST2hHYnJzdnlieFpGbV93UGpEWUFYU2NCcTJtUWxIampVeFJoNTR5VjNCQzFKR2hPTURVNnZxaFp3S0tvdG81WngtVlJmMGV0XzRXNllPbnR5dnVIZXZXUTV2SVRZMFNINTlqYVRyejhWQlNrVmJEYkNnYXlYbEI0c0puc2xaNlpQWg?oc=5",
+      "source": "cosmopolitan.com",
+      "published_at": "2025-09-04T07:00:00.000Z"
+    },
+    {
+      "title": "Miley Cyrus Calls Out Mom Tish Cyrus for Encouraging Her to \"Stay With the Wrong Guy\" - E! News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdV9KdEprN3FZb2xvSFY0Rlk1dnNZTmFQa1YzZzlCcWhUZmYzYjBFVDNkTFl4U2V3LTk4SUJmaUY4ZnRrTDQwYWR2VnNJNUk1U09yYXlZMXRlYXZHSFNQaXBmN0h6VjB2aFVnb1Z0NXBWRExwMDlpNVYxbDlqZ1hObWVYQ2p2RHRoNUx5Q3phbXktdw?oc=5",
+      "source": "E! News",
+      "published_at": "2025-09-02T19:17:00.000Z"
+    },
+    {
+      "title": "The True Story of Miley Cyrus And Family, In Their Own Words - The Cut",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVjhNOEdqbkZ6RVdFUXpjRE83NnpIYjI1RkhSUWtFOU9vNXlHc3RUVldWU1B2Y3FZTGs5TlI0SlprUVliOWIxS2tRTUZUeWR4ems4a1NfSFpNNGlvWmVKVFVkaElXMndXWmhkZ2FyMEpSc0N1TDhWYnBxNXdVSDVjZU9OYWxkOS1HeEZrbnRSRXM?oc=5",
+      "source": "The Cut",
+      "published_at": "2025-09-02T12:00:26.000Z"
+    },
+    {
+      "title": "Miley Cyrus Says Modeling Nothing But Body Paint and Tabi Boots for Margiela “Felt Major” - Harper's BAZAAR",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQelBiUWJDRU9hNXlER0Z2ckgtaFFEd1BpcWRSUk4zR05fcTBKZnk0dkhLbFdXNmdYWVc1M1pkbzFmeHlmZThiMW10UUctVzlKTjdRSEItR3Q0Vm05NFhBUnNnY1NyMlBDTER5aEdSWW9nMVgxZ25fa0t1MXlobkdYdGE1SXVJaHBYMHVDNGFBdmxfbDZ6S01lclNWcmYyM0JNeEdkcmZhWGM0LV9ua2JWb0xXbk1kOUNXSWlZRzJLQ2k?oc=5",
+      "source": "Harper's BAZAAR",
+      "published_at": "2025-08-29T07:00:00.000Z"
+    },
+    {
+      "title": "Maison Margiela Taps Miley Cyrus For First-Ever Celebrity Campaign - The Business of Fashion",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVFhIZHk5MXdRU2VaRzA2blg3M0tyZFozY01Dcnc5TlRSLWdDYVN4bjZBVERFVmFaSUFKUW1vcmt0OEw5STBlZTR2M1Exem12Rzg0cENfZjE3WVFoQmVWOHpLdHJNeklIMkVidVJWbVk5OEZ0X1ZQTU1VVkFFWnliTUt3c2dUWHFEd0ZGUVpqMHo1OE4tN1h4b2ViQkVOc3JYWXlIXy1ON3ZfLW9IOG1OVGVhdw?oc=5",
+      "source": "The Business of Fashion",
+      "published_at": "2025-08-28T07:00:00.000Z"
+    },
+    {
+      "title": "Miley Cyrus Writes Song, \"Secrets,\" for Father Billy Ray Cyrus' 64th Birthday - Wide Open Country",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZnFvV1pVT1QxVmp3NDlVS2lNWUo0dGM1U2ltTl83UUR1dThQTkRmdVJ1NU5jSlloN2p3ejFWV3R5eUNmTFVXY1RwbmlmaDNRU2FIREFrNHBxaDBoUU42TldGX2JpRm1OOUlvU2tjb09hbEU1XzBtNXY3c0pSV0NUNjFIVlpwRFdZUjZ0bHhzMmJ3Sjg?oc=5",
+      "source": "Wide Open Country",
+      "published_at": "2025-08-26T07:00:00.000Z"
+    },
+    {
+      "title": "Billy Ray Cyrus Reveals Miley Cyrus Wrote Him a Song Called “Secrets” for His Birthday - E! News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQlB6RnItTVUyb3hBQmh6UEFNTURMb1Z2ZDllYnlOSkN0aDNLeG5SSkplS25EdzRVaGpZcVFHVm1uR01icUNhU0F4ZUhfa0tJR1dSdWlGbENqbktiSVNPdHRTUmRBdGxwejBrNDB3RWlGYk9nTFIzMGg1VHNIWDN3QnZ2TnA0T3ZDQzZJblAwYzFZdm94RmdZ?oc=5",
+      "source": "E! News",
+      "published_at": "2025-08-26T07:00:00.000Z"
+    },
+    {
+      "title": "Miley Cyrus Recruits Fleetwood Mac Members for Special Birthday Song for Dad Billy Ray Cyrus: 'I Love You Mile' - People.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdkZORTRzY3JTQlNVMTB1Qmp4VjFTVHB2OTgtaGYzQmJOYU9ta2EtdDBfS3I3c0hsMUdBMENOeUN5OU1rd3U5WjRtSU5yd0NVb3pyOVF3SV9UOE81OFVBRjZQYlZLN2hDZ3piMmZ1bE5Wb0QxdExIcnp3ZDdIWjEybVJFRUIyQlllY0J2WVJKLTFvQQ?oc=5",
+      "source": "People.com",
+      "published_at": "2025-08-25T07:00:00.000Z"
+    },
+    {
+      "title": "Did Miley Cyrus Undergo New Cosmetic Surgery? Her Before And After Pics Have Left Internet Stunned - BollywoodShaadis",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdFpvNmJ5VnYzZHRQeHUyZXdpTFNxR3FsTXY1ZjhIWmROUFhFRV90ZnFZNE9OaldZeEppRGFxemNTdUpwSHVuR2RhLWFiVm4wNXlpQkFVQUtnMW9vbFM1dzZDbk9sd21vNGtRb25ZMUpWY2QtdmlKVGpRMDNMRWdkVFNrX3FQV3ZPclFoLQ?oc=5",
+      "source": "BollywoodShaadis",
+      "published_at": "2025-08-24T07:00:00.000Z"
+    },
+    {
+      "title": "Noah Cyrus Reveals 'Lessons' She's Learned from Big Sister Miley — and Why She's 'a Great Role Model' (Exclusive) - People.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMjhkcUF3cWdmRjNsNDhXbGg2V1ZvaS1XaGhaOUlsU0pheXp0NVJNbTdEbl85ek54a3huWkVrcFlfUm1YdkgwaXRHdGV2eEpYWUtTenVmNnNMeW5HWUpvREZ5SzlxWTNnWEtmUmhzbkFUV0lfZkpBeUlDZjVURlVTUWZ2M01SN1IzWC1UX1JwYWU1Skpod081TFBCNVc4cE1ENmxV?oc=5",
+      "source": "People.com",
+      "published_at": "2025-08-23T07:00:00.000Z"
+    },
+    {
+      "title": "Noah Cyrus Breaks Down Why Miley Cyrus Is ‘A Great Role Model’ - parade.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS3RKTHU5YzEzYWt6S0pRTXZiUW5ha1owQ0tMLVJnaU1VNDg2SDJsYXdvbVZKQ1J3QTRDNFFmWE51X3Q1dmJULXcyaE03dGlwRlI2aDN3ZTIzV0VQN0NxbE1aZjVNWVR3amJkZ2s3QlQ0X0dJcGRIcW5hRV9tMTBaeXZiVWNVdw?oc=5",
+      "source": "parade.com",
+      "published_at": "2025-08-23T07:00:00.000Z"
+    },
+    {
+      "title": "“Is It A Trend Not To Have Eyebrows These Days?”: Viral Miley Cyrus Gucci Pic Sparks Social Media Frenzy - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE01SmZ3WmluT3paOTFndFN3TndZRlhDUGNPT1B1LUFOMnFFaWQ3czlnZXBNWlZxbThnODM5X1EyOFlNTmdpd1hiWFVJU1dLSHY3dVFXZEtuWllXWDJ5WkNDZVhpNE96Rmc5dmxSb0thRmlLZw?oc=5",
+      "source": "AOL.com",
+      "published_at": "2025-08-22T22:05:21.000Z"
+    },
+    {
+      "title": "Noah Cyrus Shares Update on Family Drama—And the One Factor That Puts an End to It - E! News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcnlwZ19GZU9jb0MweTk2dzB2b3RHNFpfWG4xVEJRejh1RlFsS3dqYl9NTmd3bWZkcXMxTUNXYWotYlBqSVZBOHZFVEVQRHZscExCZW1tX3lEV3lLOEFHZEpzQmgwa3J0UkEwQ3E0bElwdkJiZjZGWUdES3JMVGxMcGtzUWUtLUkwdTBMbEhYZ0xBbDMw?oc=5",
+      "source": "E! News",
+      "published_at": "2025-08-21T07:00:00.000Z"
+    },
+    {
+      "title": "Miley Cyrus's bold accent chairs are a masterclass in making a white kitchen interesting – and the striking pattern is on trend for 2026 - Homes and Gardens",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX1pZaXhwUHg2Q04tSzNjZjBMY3BaZ2pCeENvQ0lIMnF2bHgzY0dyNlQ4LUFwZTgxVHpsVmlwQnpCZWZER1B2Y3hhUzJ3VGx4ZHNWSlIyaG5UNG1ncW5hMlBxdmtxV1Q0UWpSSmlwNHMtdWNyV2N2Nzk3cGtfSGRxU3QxT3Y?oc=5",
+      "source": "Homes and Gardens",
+      "published_at": "2025-08-20T07:00:00.000Z"
+    },
+    {
+      "title": "Are Calvin Harris and Miley Cyrus Feuding? He Says… - E! News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVklIdkxudl8zYm55dW96VTBjUEk0THpvZU92OXl4dXZEQ1pCS1MxRW4yRnA3QnhIMWVseFlvU2VjNWhQTkhDdXgyUGFtXzc3RUJvZDRJM3RTenVVeTBOeWFFY2dnS0ZZOUZoZEVhNVl2UlJCUWs1OE0zQWZqOFhueFRzbw?oc=5",
+      "source": "E! News",
+      "published_at": "2025-08-18T07:00:00.000Z"
+    },
+    {
+      "title": "Miley Cyrus’ Wild House Party Video For ‘We Can’t Stop’ Hits One Billion Views on YouTube - Billboard",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPT2pQUDZPT0R3T1c4Mmx5Y0lYYXhpMmRaSVVVX0ctY1lYWTBSNlV2ajc4MTFaTlplZGNmVy15Tk8xZ1hxTDZndEpMVjF3a0w3UTJ5LTRwNXhxc2Utcm5FcTl6cGFRYlN1bUg1RWdXN0R2Q1R0Q0pKbFdmeWZMMnRIeWhQcm1zRTdNd2QxNnY3cFk0VG1Nd2Rlbi1qTVBlejA4Ml9HTXF1SQ?oc=5",
+      "source": "Billboard",
+      "published_at": "2025-08-13T07:00:00.000Z"
+    },
+    {
+      "title": "Miley Cyrus Makes a Silky Blue Lingerie Set Look So Effortless - Harper's BAZAAR",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWFBXdzV6SDVzNHpOXzJrOUVzMjNwLUZuZlhidnVtdWhqM2k0cnVOTTgzR093LUo3UDlfMnZEX3JNYW11RUZlMHFvRTJnTHo5U2pjMVN6bENJUDcxZnhQX3kwSVlrekt3TFpzMmhKeU9BTHlVQ2VISGxHS2R5YzdQUE9zRldSUi1YSnczUlp0eXlrWHV6ZG9oY0toTC11UWFBQUswMm9RRQ?oc=5",
+      "source": "Harper's BAZAAR",
+      "published_at": "2025-08-12T07:00:00.000Z"
+    },
+    {
+      "title": "Miley Cyrus Frees the Nipple in Sheer Lace-Trimmed Lingerie - instyle.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMzJRVGtmUGFweENwU1BLSmxaNWRoQUpOQ1kySXR1bVd2bmp5N3Z3Z1UwVHc5MUpWbnVsekRBWFQ4ZndOdDJyQTNjdkgwSGFWcHJIb3dxT2pLMVFXeFliOXY0UzJ2WmhxWDlkU002ODVMRG1zRHg0eW5LZ0o4R0Z6S2xIRQ?oc=5",
+      "source": "instyle.com",
+      "published_at": "2025-08-11T07:00:00.000Z"
+    },
+    {
+      "title": "The Miley Cyrus case: Renouncing millions from touring to avoid relapsing - EL PAÍS English",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUnY0bmtlcTJkNVlzWHhBaHk3RWpPeXk3dDdjZjRfMDBaZ2RDUnZheXB0RS0wZVkwZU5DX00yUzJ2WVNadlprVTg0Y2NSc3BVSk1HZUl4eldlUXJhXzFxNmo4akxMcDBvbEN6TU1tTmdhYTJJV2RrNXFEUG9iXzVaUkR3NlhKcTZ0UnRmeEFNRmFkYjRodTY3R0FoT3FPSFVveXdTcXloaWM0REVNQUJ4YWVxYUZyM0xjRXM1UVRYUdIB0wFBVV95cUxNT1FScndVeXdhTUlCdS1kUmlzemVUaV9hUFBScFFpRFA2NEdoVkZvQ2EzbHhUYWwyVUxkSm5yZkIySUNqUFloZTAtcHF1V3BMRmVNa0wtSWg3M3pBMnN0VndUNVFqbFJvcVdGNnVWbmI4VXA0SXNLeFJlSEstdFdOTTFEN091T1dwQldfcFI0ZEFVOUU5YWpjSC12NVVTT05HV3BKY0lqZUY3QV82RVVTdk5oeUNxYndwNXpOUkFxSmZMU0dOM3pxZml1QXRmaE44dWh3?oc=5",
+      "source": "EL PAÍS English",
+      "published_at": "2025-08-07T07:00:00.000Z"
+    },
+    {
+      "title": "I didn’t think a black bedroom could feel peaceful – until I saw Miley Cyrus’s surprising space (the secret is in her strategic artwork placement) - Homes and Gardens",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMGprLXpVZ2pFOXpCZGd5bm5fMnhoMGpUYkQ1RWk5cjFValVsYmpJenNYZFBDTXVKZDgtSW1fdFY1TXlCWFRnTlRJV2FXLUZMUFM3bmJwMU5PWWZPTmthbS1OWnphWWllOWlMVEtXcEhIRG1jTjBLNjA5LU5rYlZHWEZiaGw2RFBvMnhvaVR6YTdOUk5EeHc?oc=5",
+      "source": "Homes and Gardens",
+      "published_at": "2025-08-06T07:00:00.000Z"
+    },
+    {
+      "title": "Miley Cyrus Teases Something “Really Special” to Celebrate ‘Hannah Montana’ 20th Anniversary - The Hollywood Reporter",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeHhXc29fUERMZlNDSVJyQm5tU2haQUVsM0d3UEo5VGxEQWhsM2djSTNvZ01DQTBDRFVXZG50NVgzekEyRUlodHVZWnJyUGFfcGRKUEJJVUZmZHdiVGRGdGxKU1dZbGtiV2dnQ1gxb09uYnhuMkxYd1N1eUN0XzVnTi1hMkxRVXEwSEV4T3h4QXdfakdzZ3RxeFN5YUhFWmVJUlR4TFlnY2pDaS1ZeFFfNUdPSjg1Ykw5RmJrcnNYS2lmWWkxVWZMRw?oc=5",
+      "source": "The Hollywood Reporter",
+      "published_at": "2025-07-29T07:00:00.000Z"
+    },
+    {
+      "title": "Will Hannah Montana hit the road in 2026? Miley Cyrus teases show's 20th anniversary plans - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVkNpbHFsR3JGY3lmMzFhQnVkZzNKRWN3am1yOEJKbmJSQmtFakhKMjY0UElxckRKTUdwVHNvTnFTN2E5cHExMmxFcENNOE9oNHlZb0xPMUdkVVZpTTdHc3VQV2tKWmZoNk9wNnBYaG44RENqUW5WdFNXVXZOMUp2R1NRLUt0N0R1ekQwbjNOOTdqc0drbjlUM2xYUm5NRFpGbllFZXVEUE1uMTdGeWJWeFNn?oc=5",
+      "source": "USA Today",
+      "published_at": "2025-07-28T07:00:00.000Z"
+    },
+    {
+      "title": "Adult Money And A Hannah Montana Tour In 2026? That'd Be The Best Of Both Worlds - Betches",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZTFmTkNRWWFoczU4aEg5Z3RXT0h2S3pGbnRxNXFIdkJMbTNYVjA5QTA3bTJYa21LSmVhVmdIWnRxUl9aRURyRElZTnJkMHJVU2pEQlk5RWsyb25GdTRHSlFDM3cxTHhCQXJ1anpnQ1FNX21tR1FxbklKVFRqdmRHVU4zUi0?oc=5",
+      "source": "Betches",
+      "published_at": "2025-07-28T07:00:00.000Z"
+    },
+    {
+      "title": "Inside Miley Cyrus’s Joyful New Gucci Perfume Ad - ELLE",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVHcwbHhWekJxSFJjcEZlaF9qSlJLOXcwTXRjODVwaWRnd2FhNG9sNmZTWTQ0aDBLV1I3MWxVekJkN2ZpdzZTelI5dUdQOHlvb1pIZHU5OHNNWVZ5N29qWjVIcnVUeXplWUVqQ1c3NnhzaHN0b3lHb0tKWHpsOF93eExQN00xWDhIQXlSR2k3VWVHRjEtc2RleUEwM1VLa1BNbzVmQ2ZHMk1MNGM?oc=5",
+      "source": "ELLE",
+      "published_at": "2025-07-28T07:00:00.000Z"
+    },
+    {
+      "title": "Zack’s Summer Binge: Miley Cyrus’ Something Beautiful - The Punished Backlog",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUb2VmbWxiUU9LS1NZeXRqajM4MnF0aTFycy1RMlFyenRSelNLX090X3JoMHRNbVh5b19RUkpWenNoLTlJZDNsWE8yUnJjdWtmLU43cjl0elV2djZMZWlla1ZZVkNRWF9mTUxMY9IBdEFVX3lxTE5xdkRpTHk3WXVnNWcxYVNhM0M0Sm94YkdDaVlFVWtkMWRsRDBWZWpCcXhqRnBZSTE5Q2dzdFV1Tl9KLUs0RDNYOWY4N1k1MFNZZ2xoX0ZjQ1hWdzlNSUVrcjBWRmVFREFTby1CMW1sd18xYnpi?oc=5",
+      "source": "The Punished Backlog",
+      "published_at": "2025-07-24T07:00:00.000Z"
+    },
+    {
+      "title": "Roundtable Discussion: A Review of Miley Cyrus’ ‘Something Beautiful’ - Atwood Magazine",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQkhiUmFtZXJtU0xVeFB4aThQZ0IyZ3RTdmlYTFNDWjh4ZjFObm1JYTI0SjNIQTYwblpPNTBYNGdGbl9xajZTZlJaUFU1SFJXM1l6Y3hfdUlleWl5bFlBWl84Yzd6VWhaZXBoVjdHMDZmNTFSczVMSVdpVXlTNWphclZJQlBkNzMtRzBJYk1SZkVrZw?oc=5",
+      "source": "Atwood Magazine",
+      "published_at": "2025-07-18T07:00:00.000Z"
+    },
+    {
+      "title": "Miley Cyrus says she has 'no desire' to tour - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YV3BiZHE3Y0N0SmJEeUxlMzB5bGQ0OW40SEtSRWR2aU9LMUpEUWRYcGVWZ2NKZnJtVWVvQ2laOFZ5d0cxcFdSWUZVS3NuM0FtNGZSUmIzYWpKd9IBX0FVX3lxTFA1M21INXJLNk1UZ1VwOGtEZ0lrcjZnYnJLVmNqbTlwY0FPYVpXSEI2UTRxdVV4eW5Pa0JBX2FRMElmRktiZ0xKUWpUaFZPUHVNMlBFa0RYak5MX2k4dUN3?oc=5",
+      "source": "BBC",
+      "published_at": "2025-07-16T07:00:00.000Z"
+    },
+    {
+      "title": "Miley Cyrus Unfiltered: Bangerz to Something Beautiful &amp; Her Mom’s Life-Changing Advice - Sorry We're Cyrus - iHeart",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQV2FwUldycnA3cF9SUVdweGQ1dzAteF9XQ0djRzVRZWlOdWxHX3N4Z2pmWFBGTHljZGkyTnZoU2Fxa3JTSWF2anJEQXMzX3Z0cmZMdjFIbDNVS1BXRGxiUWdkd3hoTnhQdWNnZDQ4V2JndXpFdmR0UEhydnRGdkF2emNyMVpDS2lTYVZMUUlGaDM4OGZ5MzBlTnVpSEROX1U1T1puZjdiSGs0QVVvdmJGWVg4M1ZJeDQxTGtRY1VIaWM?oc=5",
+      "source": "iHeart",
+      "published_at": "2025-06-19T07:00:00.000Z"
+    }
+  ]
 }
