@@ -1,14 +1,8 @@
 {
   "slug": "cristiano-ronaldo",
   "name": "Cristiano Ronaldo",
-  "updatedAt": "2025-09-12T07:33:09.307Z",
+  "updatedAt": "2025-09-12T08:15:20.640Z",
   "items": [
-    {
-      "title": "Cristiano Ronaldo named 'Best of All Time' by Liga Portugal - ESPN",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQY0RiVnNoSzZzc21ET2lNQVMya0RxWnZHWDRHTjhhLV9yc051UVlDX0RwbndfeHlhNUpYellfYmRENTJ6NnRTalpyenN0ZUFEc2JMYWhVSGpqM3BzNnd5MnFFUy1BMzVEYWVXSWlLUm9BVVBhRklDdG9kTjBKX2FQSUowUWhkeXltWm9uU3NsV25BUmpqZ0xTcm1n?oc=5",
-      "source": "ESPN",
-      "published_at": "2025-09-11T08:59:00.000Z"
-    },
     {
       "title": "Sources: Ronaldo could return to U.S. in friendly - ESPN",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY01CWHg2Nm91d1dwY0hoWndiLVNIVW1QaFJZMXEzVFVCaEcwOHdUNVctSEI5QjAtYmtlX1dfaWcxUmlON3A1a1Z4aGJZVkRvSVlpOHdObFdEM3JHbWVlem1MS2t3amI1WHo4UEhkeVctQjZMQ2p5cGViNmtSOFdVVExnMlc5RXZIV2U5NlR0d2RNMkU?oc=5",
@@ -38,6 +32,12 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbkhtWVFnWWpmYXp3V0lwTUUzeHgyaFZPUDFiam9XOGRFUjVXbXVJLXdYczkxREV3SmN3MGlSVl8ySXRqSzJjTm9ETFc0dHdPQzBYWldPa1k1eWlhV0xQc1VVTVd4dVpsaUVGM2Q2WjNlNzFpNWw5LVpHbGFKZTV0T0JxU3RFQ0EtWXpObGFfV21JSG5Uc0ppWGNIOTlJQU5Wb3hfZVg0UQ?oc=5",
       "source": "AP News",
       "published_at": "2025-09-06T22:20:00.000Z"
+    },
+    {
+      "title": "Cristiano Ronaldo scores twice, Portugal crushes Armenia in World Cup qualifier - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVUE2SmlLQVRYNm8wcFdOVXREYlFNTHotQm5TcDRoRV8zX3UzTncxamJLbElONUJTZGNFcEw3REtyeTFIbjZQMG5teUV0ZXFKQU1LNzh2ZFlFSGRRUlJNUDNSVDAtc3otel8xREdVUElfQ0VScWZXVDJuSENyNVMwWnJkeTZZbjg4S1hYN3drTUt0c2dSUHVaRGVKRTRHRGF2T2ZYVWxwRzNFTXhtaDh4c1ZCbDIxR1d5N21pLXk4eG4?oc=5",
+      "source": "USA Today",
+      "published_at": "2025-09-06T18:18:21.000Z"
     },
     {
       "title": "Cristiano Ronaldo denied golden chance to outdo Lionel Messi - Diario AS",
@@ -94,6 +94,12 @@
       "published_at": "2025-08-19T07:00:00.000Z"
     },
     {
+      "title": "Cristiano Ronaldo in Hong Kong: fans greet superstar’s arrival at hotel - South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZHZxR1pzNVEzdk1qc0JIVVk3eVNfczBaMEV1bTVYVVhPT1lXcmU1VjcySDlIYnZZNzRBdzYxZGZoUm5NcXBQTlY2bXdaYTVfSzdSRUJXSjhLcExfSV9IUlNFRGxic1RDREM2cFhnSkRpUW1Ba2Y2X3A1ME84dDVGNHRVTm5WbE5NbnNaME5yNzRfck1fYW5VS3RDTGZDck1rOFVXVFlDWFdCMVVXLTBURWRRdmtmQdIBtgFBVV95cUxQMmtmUTZHWjBxcnVsZGw5Mzg4ZkU1M2pRTi1XUUxuQnRnYjFibVhTZDByeFFuNjVxWGkxb0FudEtQVUVueUhoZ2NJejRyZ2lVVFFUbXctSUIyQW9WMGV6cmthb3JsYmwwTURjck5XeUxEa0l4bUpReDV6VWdqQkxDR3pxd0dvVUpLa1RScVFJTEhLa1RmWVZ0SnF4UG11M3o0X3hGclctbUJZTDBYUG9ERmVoTkd3QQ?oc=5",
+      "source": "South China Morning Post",
+      "published_at": "2025-08-14T07:00:00.000Z"
+    },
+    {
       "title": "Georgina Rodríguez’s massive engagement ring from Cristiano Ronaldo is breaking the internet, with the rock estimated to be worth 7 figures - yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNOG9rX2lQckNhZXItTk9RaXRWSkdkWktnTS1WSllqQVhmOHZWbXJFTlpOZzh6UDhOSWhMU29PdUVjQnMwSng4clFkcDNCSFNURWZ3ZFlyYXc5SWRqRXlaOENxSVNLVlc1LVFpVUc3bFJYY2Q2c3o3eVhRYTBxNGpVUmwtNmJCazZaNk1mUU1SWXJKWWFhbDZKeDhIQlJqemdGZXJOTGxqYWhnaFNqT0t1eWQ2alFkNjBhOTBFZVY4TEFGUmIxQ1lEd0ttTnlpTGdRXzFDVmFZNkhhbFZ6b1NFbms2UXVlNkJrLWhnTEVHZ2lmMWp6ekFBMEZTWWQ3aVoxTzdZNUh4THpuTkhWdWtobHdRRmtHQ3lxeDNwdXUxcHptT0hYU1Vqd2VVZi1Nbjg?oc=5",
       "source": "yahoo.com",
@@ -136,12 +142,6 @@
       "published_at": "2025-08-12T07:00:00.000Z"
     },
     {
-      "title": "Cristiano Ronaldo proposes to his longtime girlfriend with massive engagement ring - NBC 6 South Florida",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNd2hMcG5SVzFhQS1YLVBrclpJaFZ1ejFha0dfOS1mWGdyRXMxR1lrV3Vfb2VTUlNzTGdLeVBXWTd1bDRzR29RODZkT1pmQ0xzQTlGVmVEUFY3Z3NZZTYwZmQxZU90TkcyNjV3YzlESHRrOWFCNnJEZXllQ2NMSExnU05KeTZsbnpEVlRJSWJNX0t3aXJkR0MtRDl2MVJNZ0R1TVVjONIBrAFBVV95cUxPLWhpRThRMGFQeWZOOFZqMzNJSUVpMndyZTZONG9taDdSdm05SGg3S1JBbW9mdmlTTC1BZ2UwU1ZWZ0JwdVg1YmNSMUhZTlRTR1U0RU9vMWVrVkdCYXNxc2ZtNzBzNkR1TGhZQ1pmV25MdExfYmNyN2xfTWlWd1RsOVQ3a2F0NldNVC1FT3ZTb0dCVUQ5c01oQlNEdmNWSE5YTjNDUjFoc3BtLS1H?oc=5",
-      "source": "NBC 6 South Florida",
-      "published_at": "2025-08-12T07:00:00.000Z"
-    },
-    {
       "title": "Cristiano Ronaldo, Georgina Rodriguez share engagement news with dazzling ring - ESPN",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVmhxSkpLYVFQX1RZTTVab3JIYzhvNVBtLW1GY3RqRTdRM2h3MmRpby0xOVRmSW10R0NWMXd1UmRCQ09pbW10SFhHYy1hWG9xdnZKM01NX2M3ZjZUQ294NGJPcXgzNVJDNWlBMmtTd2pLWVBfUXN3U015blhQejRVQ1I3VDNweGY4U1JJb2swckpiRHZwY003aGxtQQ?oc=5",
       "source": "ESPN",
@@ -154,16 +154,16 @@
       "published_at": "2025-08-11T07:00:00.000Z"
     },
     {
-      "title": "Cristiano Ronaldo engaged to longtime girlfriend Georgina Rodriguez, who showed off massive ring in announcement - Yahoo Sports",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPd1NQY0puYk5zZ2tCSUE1RWd2WmJoZDRtNUlrYzVZZnphWWJQbnVrRU9aV0FMQ3A1Mkd5TzdBRmpDQW5TWF9jalBrVHYwYjJ6SFVnTkJpdHZsRmFjc24yeEdEclpXbVBKUkdMUVNQT0hIbkg3cWZGRTlnbW0xQlRxQ2RWeUtqc3dEdUNmZVBZRFQtVGhxR3VUR2tPMkM2bXo0WW5vRzY3c3hIOE5KbUdvcHdFVFRTRjRwNWNPN0hndjlvNExpYzR3Mm41bGZIVi1hRWJuamt6bllmWWtxZnRhbVY2eFJlbnFFaEl3RHh1WTd0Z1A2U2t2X21n?oc=5",
-      "source": "Yahoo Sports",
-      "published_at": "2025-08-11T07:00:00.000Z"
-    },
-    {
       "title": "Cristiano Ronaldo mourns Diogo Jota’s death: ‘It doesn’t make sense’ - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQclhEbjhzcWVLMlk5MGVjQjJ2eEdDbkJWRnZUWkVMUGxaZ0ZoZ09FcFBTTjVOSG5haHFjcFVDLWZxR1Y2TjBiNlBJLUVKVzBlMkRWS3J2T2NiVHNKd1FFdUhWTTlfQ1l1d2J1LTJrNWxHLWVmUXI0SU92eVdXTm9wNk1ON0RWWmtPWU40YkVqMy1nVWdPOGhRNHJGQ0dDSzFhd3B2NVNYR0NoSzh2bXdmeFJlNzPSAboBQVVfeXFMTlNlYlo4N21YZDZvdDM1UTZELUMwc2NiZTBzcGFwOTZtNGF5cC1qTFVhZmNMc1dZUHVCdXNmN0JwVXZPby1jVXBvRG9SV3VMa1pwSjliT0F2T095MG93NnRZejh4ZEw3b1VCdWtWeHNHOG5VY2ZWcDgyM244MnpFb1duU2c1amRKQ3J6WVBVX3k0NllEbkUwVFNzS2lSdG5FYXFNbTVjMFZfVmw5LUVxNEtGRkxwMGNiYlJR?oc=5",
       "source": "Al Jazeera",
       "published_at": "2025-07-03T07:00:00.000Z"
+    },
+    {
+      "title": "For Cristiano Ronaldo, rest takes preference over Club World Cup - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOX3JFWjZYRTN0X0lnRV9WT3JIelVxYjItMG1WcEVOLVkxQk53OTYtNHJEcEVyYXVyMGtsN3dscUNwbE56dzRoQ0dQM1g3OEdtUEppX3VDdkM1ZjNVZWR2U3ZKQW5HcEFrcjhPamtQclBYSEkyYXlnelhGVDBoVU5VMVUtWkI2VHFmSTlIVmRQQ3N2R2xzeVV5UjlVZm9TNGM?oc=5",
+      "source": "Al Jazeera",
+      "published_at": "2025-06-29T07:00:00.000Z"
     },
     {
       "title": "Cristiano Ronaldo: Saudi league already top 5 in the world - ESPN",
