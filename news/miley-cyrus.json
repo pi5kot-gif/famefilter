@@ -1,19 +1,13 @@
 {
   "slug": "miley-cyrus",
   "name": "Miley Cyrus",
-  "updatedAt": "2025-09-15T10:41:08.033Z",
+  "updatedAt": "2025-09-15T11:10:24.623Z",
   "items": [
     {
       "title": "Miley Cyrus Misses the MTV VMAs Despite 4 Nominations - ELLE",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQd2lZalI2enpYb09VeTlwQVE0elhwVmljdnFzQ0E1VTc3SmtmbU9Yd24wcEZmSmV3VnZYZXZCejhmQk9HbFJsakY0LVRiQzQ4Vm05dS1yVDJ2anRJeklPWlNPaW1HMDRkd1FCcWpTeUpJN0RmcURmZHNQYXJIbW5UVzhSUmpzVWdST3lsUGVvYm8zZTQ?oc=5",
       "source": "ELLE",
       "published_at": "2025-09-08T02:21:00.000Z"
-    },
-    {
-      "title": "One hour on the phone with Miley Cyrus. - theperfectmagazine.com",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUUJ6VDNXN2s3RlRQZmFxblB5dy1hemJXUDJqMi1IX091QVRjX09ld1B4THhpbXZ0cW1pWkw3QzZBTWJSaW5zV1VkcU8zR01odzMxTC1VbFRDcTNSeloxNk5Fa2VCcW9zSnNZSl9WRFRpYkhoWG5qRnFmanJ3UEYxdm1NMzJ6X3RNOXRnam8xaVV6QQ?oc=5",
-      "source": "theperfectmagazine.com",
-      "published_at": "2025-09-05T13:15:59.000Z"
     },
     {
       "title": "Please Be Advised That Miley Cyrus Has More $$$ in the Bank Than I Can Count - Cosmopolitan",
@@ -32,6 +26,12 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVjhNOEdqbkZ6RVdFUXpjRE83NnpIYjI1RkhSUWtFOU9vNXlHc3RUVldWU1B2Y3FZTGs5TlI0SlprUVliOWIxS2tRTUZUeWR4ems4a1NfSFpNNGlvWmVKVFVkaElXMndXWmhkZ2FyMEpSc0N1TDhWYnBxNXdVSDVjZU9OYWxkOS1HeEZrbnRSRXM?oc=5",
       "source": "The Cut",
       "published_at": "2025-09-02T07:00:00.000Z"
+    },
+    {
+      "title": "Internet Reacts to Miley Cyrus Wearing Nothing But Body Paint - yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd0VNNktUXzBMaW40ODdDci1yRUJscWduQkQ5bHdITll0TTRmYUNIR3FnMjZHdXE3enRHS01Bd1Q0bHp4WUdjZnY2RTIxNWgxdEg5R1Ruam5kTWx2UkdzR21xajhYSm5WeElZVWM1M1lydlYyRExEQVFpeDhfaEFTTGNzY3U2cndmUEp6S3pHRHRJV0tKa0RPUnZzRUdHYXpzRUN3?oc=5",
+      "source": "yahoo.com",
+      "published_at": "2025-09-01T07:00:00.000Z"
     },
     {
       "title": "Maison Margiela Taps Miley Cyrus For First-Ever Celebrity Campaign - The Business of Fashion",
@@ -118,12 +118,6 @@
       "published_at": "2025-08-12T07:00:00.000Z"
     },
     {
-      "title": "Miley Cyrus Frees the Nipple in Sheer Lace-Trimmed Lingerie - instyle.com",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMzJRVGtmUGFweENwU1BLSmxaNWRoQUpOQ1kySXR1bVd2bmp5N3Z3Z1UwVHc5MUpWbnVsekRBWFQ4ZndOdDJyQTNjdkgwSGFWcHJIb3dxT2pLMVFXeFliOXY0UzJ2WmhxWDlkU002ODVMRG1zRHg0eW5LZ0o4R0Z6S2xIRQ?oc=5",
-      "source": "instyle.com",
-      "published_at": "2025-08-11T07:00:00.000Z"
-    },
-    {
       "title": "The Miley Cyrus case: Renouncing millions from touring to avoid relapsing - EL PAÍS English",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUnY0bmtlcTJkNVlzWHhBaHk3RWpPeXk3dDdjZjRfMDBaZ2RDUnZheXB0RS0wZVkwZU5DX00yUzJ2WVNadlprVTg0Y2NSc3BVSk1HZUl4eldlUXJhXzFxNmo4akxMcDBvbEN6TU1tTmdhYTJJV2RrNXFEUG9iXzVaUkR3NlhKcTZ0UnRmeEFNRmFkYjRodTY3R0FoT3FPSFVveXdTcXloaWM0REVNQUJ4YWVxYUZyM0xjRXM1UVRYUdIB0wFBVV95cUxNT1FScndVeXdhTUlCdS1kUmlzemVUaV9hUFBScFFpRFA2NEdoVkZvQ2EzbHhUYWwyVUxkSm5yZkIySUNqUFloZTAtcHF1V3BMRmVNa0wtSWg3M3pBMnN0VndUNVFqbFJvcVdGNnVWbmI4VXA0SXNLeFJlSEstdFdOTTFEN091T1dwQldfcFI0ZEFVOUU5YWpjSC12NVVTT05HV3BKY0lqZUY3QV82RVVTdk5oeUNxYndwNXpOUkFxSmZMU0dOM3pxZml1QXRmaE44dWh3?oc=5",
       "source": "EL PAÍS English",
@@ -176,6 +170,12 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YV3BiZHE3Y0N0SmJEeUxlMzB5bGQ0OW40SEtSRWR2aU9LMUpEUWRYcGVWZ2NKZnJtVWVvQ2laOFZ5d0cxcFdSWUZVS3NuM0FtNGZSUmIzYWpKd9IBX0FVX3lxTFA1M21INXJLNk1UZ1VwOGtEZ0lrcjZnYnJLVmNqbTlwY0FPYVpXSEI2UTRxdVV4eW5Pa0JBX2FRMElmRktiZ0xKUWpUaFZPUHVNMlBFa0RYak5MX2k4dUN3?oc=5",
       "source": "BBC",
       "published_at": "2025-07-16T07:00:00.000Z"
+    },
+    {
+      "title": "Miley Cyrus says she's 'really proud' of new visual album 'Something Beautiful' - ABC News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdU01ZE5MWHhlbUg4aGUxZHl0TlBRT24yMmxjMmtOS1ZkOUh4dzlRZWM1bmM2YlpMZ3ozdUM4dFNPdUtjb3NoQ0JmSnNnbFZCbVFkaTNCek5WRTVOTkxQSzRQaEhFUDJGNHlnSEtwNkpqSGxmcFdwYUVuWDZKUHRfN0dzUVpjQVJEUUl0cl9fR2VRQjJHX01hcW1oQzBZRWNrU1BJRklB?oc=5",
+      "source": "ABC News",
+      "published_at": "2025-07-15T07:00:00.000Z"
     },
     {
       "title": "Miley Cyrus Unfiltered: Bangerz to Something Beautiful &amp; Her Mom’s Life-Changing Advice - Sorry We're Cyrus - iHeart",
