@@ -24,8 +24,7 @@
   <meta name="twitter:title" content="FameFilter – Celebrity News in One Place" />
   <meta name="twitter:description" content="Follow your favorite celebrities and see all their latest news in one place on FameFilter." />
   <meta name="twitter:image" content="https://famefilter.com/assets/og-default.jpg" />
-  <!-- (NEW) attribution handle pro X -->
-  <meta name="twitter:site" content="@tvuj_handle" />
+  <meta name="twitter:site" content="@FameFilterNews" />
 
   <!-- Favicons & PWA -->
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -95,6 +94,7 @@
     }
 
     footer { text-align:center; padding:16px; border-top:1px solid #1a1a1a; margin-top:20px; }
+    footer .links { display:flex; justify-content:center; gap:12px; }
     .btn{
       display:inline-block; padding:10px 14px; border-radius:10px; border:1px solid #2a2a2a;
       background:#111; color:#8ab4ff; text-decoration:none; font-weight:600;
@@ -186,16 +186,10 @@
   </div>
 
   <footer>
-    <a class="btn" href="credits.html">Attributions</a>
-
-    <!-- (NEW) Odkaz + Follow na X -->
-    <a class="btn" href="https://x.com/FameFilterNews" target="_blank" rel="noopener" aria-label="X profile">@FameFilterNews</a>
-    <a href="https://x.com/FameFilterNews?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">
-      Follow @FameFilterNews
-    </a>
+    <div class="links">
+      <a class="btn" href="credits.html">Attributions</a>
+      <a class="btn" href="https://x.com/FameFilterNews" target="_blank" rel="noopener" aria-label="X profile">@FameFilterNews</a>
+    </div>
   </footer>
-
-  <!-- (NEW) X widgets jen jednou na stránce -->
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
