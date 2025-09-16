@@ -1,8 +1,14 @@
 {
   "slug": "selena-gomez",
   "name": "Selena Gomez",
-  "updatedAt": "2025-09-16T18:17:29.682Z",
+  "updatedAt": "2025-09-16T18:45:04.617Z",
   "items": [
+    {
+      "title": "Selena Gomez Came Home to a Big Surprise From Fiancé Benny Blanco After the 2025 Emmys - ELLE",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSVBpanRKVlVXVGw2dVRISmZncE1aWW9VOWFybU5zVmNNdDBBdjhfcy10VDN3Q2MtenZWWmthTkZJSGdTcXZGMS1FbW9nbk5kcGhYUVpPR2dVeTlHY1F0NklHaVppUXFZdDVkYjVnUGkxR2VWbG9RSlVtcVBnY2hMdzVPbmZjdzA2VHJ2a0JzYkdsZFBqc3NhZDBQSENKLWRqS01iamJyMVBlTU9K?oc=5",
+      "source": "ELLE",
+      "published_at": "2025-09-15T14:28:00.000Z"
+    },
     {
       "title": "Selena Gomez Reveals Secret Emmys Night 'Surprise' from Fiancé Benny Blanco - People.com",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd01pN2Z0b0hqdXNQNkkxSFk4bmRoSl9zbVRfWFI1RGFSQU9pcjU2RGtzcWN6bkV5WHBLeldNd2FWakZiOVBoUHZJWEN0STUySV9ac0F4TDlkbkRPQWd0SEFwWGZTbXE3Z25TWVdBdm9LbVI4ZS1Uazh4Sl8wNkNqZ3J5Z28wSmdDTV83ektpX1RmWVJnTHJvdDZGcmpiT25BbzhNcTZINUc?oc=5",
@@ -14,12 +20,6 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX0pqdWhLYnp6ZEgxOUw1cl9UWWNHWkw0ZTBzc2M5NmRNVDZTLVdBU2doelVKamdkcE4wTS1TTTJac1pxTnhPb1RPdE9Ub0swaFZlbUVUVGQ3OEFhQTljd3F2UjYzNU9JNnZUbWNjVUNkamlSOEdnLVpjLTNTNXkwTFgzUU5wNHc1YUJGeTQ5UC1VZjVZbUVwY0JldUxBZw?oc=5",
       "source": "E! News",
       "published_at": "2025-09-15T11:14:00.000Z"
-    },
-    {
-      "title": "Selena Gomez Wears a Sweeping Scarlet Gown Alongside Benny Blanco at the Emmys - ELLE",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWjJONFhOZS1Od2JvNUw5OXZTZlFuYlplbG1qMWhVRGVfSzB5b3piRmFiaHJWYjRDREtPc1JycU9PSlN2ZndydHk2dVRuVEowVk9ETDlERzlfenl1Xzk3dGp3VEwxVk9sX0VfM1VzTHItaG5zYTRWY3RXdTV5V2ZOcVphc19Tc1hteEItejI1TDEybldqUS1xc3dtamdiVjB4bFZhY3BhOHFRUQ?oc=5",
-      "source": "ELLE",
-      "published_at": "2025-09-14T23:42:00.000Z"
     },
     {
       "title": "Selena Gomez and Benny Blanco Make Red Carpet Debut at Emmys 2025 - E! News",
@@ -94,12 +94,6 @@
       "published_at": "2025-09-09T16:23:00.000Z"
     },
     {
-      "title": "Selena Gomez Has Hair Down to Her Butt on the \"Allure\" Best of Beauty Issue—See the Photos - allure.com",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9yTXNQVnF5QjBzTEJGTnY3NVlyZjc0Njc0cHlGTElTbUxDdERTMFdGQTZJRktaZ3lOVThkNzlQZnpaNmQyVVVFYXlhbmxUM2xKdTNtc3locHgyZzlBa3VVeG9aMExhcWZhMGU4RDhXeElPeEdXQmI2OU8xUV8?oc=5",
-      "source": "allure.com",
-      "published_at": "2025-09-09T15:11:13.000Z"
-    },
-    {
       "title": "Selena Gomez Is in Rare Form—Interview - allure.com",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2S3dDSWtybjBEcWZoUlNHVEZSMzNfTkNJTUxZWGhfeFdoUktmR0JFVWFPVHIzVkc1Y0IwQ095WDE2LUQwNmFrbGtydUt3YkhkTy1zZmozaG9OX0t1WjNiZ1dVcy1Keld2?oc=5",
       "source": "allure.com",
@@ -157,6 +151,12 @@
       "title": "Selena Gomez Shares Photos from Her Bachelorette Getaway in Cabo - People.com",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS2lES25hOWJUT25CMzgzUzNjMU5mUUZhc1lrSnFnNzY3cFp4YTU0MDJJU2NWaHZDd3pzLWcxRU13NEFmMHpBSUxSVzRSWHplODJ1S2dsYzA2WDVMT05pczdpRE9kUVFiZi1YODVwT3NuaE9jZUNXRDNWLXl2S2MyT1NOd190YU0?oc=5",
       "source": "People.com",
+      "published_at": "2025-08-29T07:00:00.000Z"
+    },
+    {
+      "title": "Selena Gomez stuns in white bikini at her Bachelorette party: 'Mrs Levin' - HOLA",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcEt6dVY3Rm4zVDh6QTdmUkNXcGxCVFBQb2d6XzFkT2x4eHRmZS01QkEzRURweVFvOHpoakZ1ZENxTDlBSURfV1p3ak1KNEU5S3d3SmRfYVc3a01IdjlYUXZBSmdCVWZ0U1laUjRUNm1HWmdSVThQSjFPMHM3MUlSMGM1Q0pLekhPR1dkbTBEM0YxZU11YjNTQU1oUHHSAasBQVVfeXFMTlo2YzVpb29mVVdhTUs2Uk02bVZnaVJ6UGJsLTdjaEhkSEw4cHQ1OXJEMW5EY0hGYVM4LTVVUFFNS1BLa2h6ZEtXYkRmVjU1V3Mtc3l3Y3ZRdFZLemllT2xkU3FGVnVDckVBZ3I5OWM5a1R5azVVeTRjNHhEUmVtX3l3VXpiUlR5V1MxX0Q3YmI4RXJqa1ZROHBVS2g0bHdNMkN2cU9mREVuX0Rj?oc=5",
+      "source": "HOLA",
       "published_at": "2025-08-29T07:00:00.000Z"
     },
     {
