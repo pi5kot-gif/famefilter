@@ -1,14 +1,8 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-09-20T16:38:10.406Z",
+  "updatedAt": "2025-09-20T17:08:35.820Z",
   "items": [
-    {
-      "title": "Taylor Swift returning to movie theaters with ‘Official Release Party of a Showgirl’ film - CNN",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM2RNYk82VlJOSnBGa29MNklYaXZVUWotaXZ3dThxekhyVFc5alFnUGdRVUJTZ1BQcDU2OXFJY1V3YnNoSldxeEVvdWlBekREcUF3elhCYm1nZXNfblVoR2w3TE1MTkFhaThWN3hxSWozRHUxYnhtai0zLUtkSGVqZzBsSzdtR1E?oc=5",
-      "source": "CNN",
-      "published_at": "2025-09-19T16:59:37.000Z"
-    },
     {
       "title": "TAYLOR SWIFT | THE OFFICIAL RELEASE PARTY OF A SHOWGIRL Comes to AMC Theatres® – AMC Theatres Distribution Also Taking It to Movie Theatres in 100+ Countries, Beginning Friday, October 3, at 3 pm EDT in the U.S. and 18 Other Countries - AMC Entertainment Holdings, Inc.",
       "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxPOFA0MVNBbFI0M1NiT2o1dGxsQVluN1RYZXpOZ1U0dHprRDRQb05aWjNRR200djdseUNZS1MxYkwwSERsVDJwVjZvMFdwbkZxZTQ1WmtxdVZoY3FxeUxNTGJjNjdRclRHaXJ2eXNxeFJKSV9ObFlaMWRmX3p3dUhVbUFyN2lwcTRWQjlNbE1CcGt3NHQ3QUR2WTZzcE1WQnJNTFVqM0kyR3hGWENtVE53ZEI2R3ItSmpOOFNIZDRUSm9jRU5YUGxJN3dTY0UzU0pqOGNFM1U3R0J1NzF4X21MTG02YnVpNkk4eGNVQU1adEJ2QUFVT3BSWGViWnRzQjZtOEJvV2luNWo3bnVSR2xBaE9CZVNYSVY5LVVoRnQ0TnUtVVBvQnlFQ010UWcwMEZwaDFJc1Zid2w0Zi1TdDUwb2lpQlZLWllLVTlsZnBEbUM1N1BXVElCOGllN1VXVTQ5bm1Zd01jdHJaUUJBYTdyLUI4ZEp1Sk04ajhsVDBaSklmaG9GZ3hpQWxHM2RMd21mNlY2eHZFdEF4aWY1bGE5UHRNUUYwZw?oc=5",
@@ -26,6 +20,12 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZGVjNFlCMXJ6dFAwZW9XNFdvNlVYbi02LXlRUmVjYjhmc1I1WmhMbFlxX2hJU2ZUMXJMYUQyMFBFS3ZQNVlUU1JMcjBHNTAzX3FCLWZGMzVjQTZFSlhnRk8tbFZRM09rc1lMekZub3J4WXQ4YzNPbDR5NW1pNlVIb0lfLXlibF9fWkJ0dmNGMUF4NjdEQmd4OXVCeFAzTlBXLXc?oc=5",
       "source": "The Hollywood Reporter",
       "published_at": "2025-09-19T02:14:31.000Z"
+    },
+    {
+      "title": "Taylor’s Channel 13 Returns with 24/7 Taylor Swift Music - SiriusXM",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96dUluM0JiY0pEMVh5LUVKcllWVkkyaHFtY0dPRUNwQTlTVGpQYUw1OXJueHFWb2JJNE1HZ3hBX1pOanB3MGFJMlE0OHJ0LVc2RzNWeg?oc=5",
+      "source": "SiriusXM",
+      "published_at": "2025-09-18T07:00:00.000Z"
     },
     {
       "title": "Here's Why Taylor Swift Fans Genuinely Couldn’t Be Happier That She Has Kylie Kelce In Her Life - BuzzFeed",
@@ -130,12 +130,6 @@
       "published_at": "2025-08-27T07:00:00.000Z"
     },
     {
-      "title": "Why fans feel like Taylor Swift’s best friend (even if she’s never met them) - University of Florida",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5temJLSVVka2JZZ3l6RWxCR3UwaFplalFyS1c3dkpuTkxZTjN6eE0yNFhoeFFGTVlLU1B1SGNsTEtlRGYzdnFmWENpcWp6R2o0ZWQtd3kwV244MHlKelRFSHNRS05hUkhteVdXakd0R3R0Q0ZQQjhlWWJUemxXZU0?oc=5",
-      "source": "University of Florida",
-      "published_at": "2025-08-27T07:00:00.000Z"
-    },
-    {
       "title": "Opinion | Thank You, Taylor and Travis. I Needed This. - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZVJLU0pCZXhlY1phWE9LZWdySGhPRGVYSjEtNldDc1BfdGFwTHc2WXk1N2ZxTklVNmpNUFN0M2ZKN1ZWclNXRUZLemNtcExadFc3eVZJSjlSRlJ1c3UxTHVhNHNSR1NMSXhTWVktSXF5c2xUSGdHeW9xNy04LXRoS290c1BUOGlTSzZQYQ?oc=5",
       "source": "The New York Times",
@@ -154,9 +148,21 @@
       "published_at": "2025-08-26T07:00:00.000Z"
     },
     {
+      "title": "Taylor Swift and Travis Kelce are engaged. We have to play it cool, America. | Opinion - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSy1xdXFKcFRvVi1OQTRScVJJWDJWekNEMU1ocFlVX2xmczVyR1dpN0I0RE9fTUtvVlRPY1dBTEtCR1FWM2c0VzJSSzJNLU5QU0NZWjMzNUhSblMxSjl1Q2llMkxDWFdvTHFpNlVHMV9TYVlBZWZmRWdta1VpMUNCOHo4Q1M2NGgyQVlrVG9tUDlWWE54Q3RwN3hGUjBldm1nSEk2WFF6cGhMOFh2ZHc?oc=5",
+      "source": "USA Today",
+      "published_at": "2025-08-26T07:00:00.000Z"
+    },
+    {
       "title": "Taylor Swift, Travis Kelce engagement: Proposal details, Chiefs' response, fan reactions and more - NBC News",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPY2k3WTh5MG9USkJvQllZWWh5ZFZPZ2lrOVV5c0FDV05NMkhfeklwR0k2ZVRreFRYeEw1MUJOdm1ORHNYZkJUQUFFOUtwOFhEUG1xQjl1djNEcDFvZjQyME1MRnlTTUVCMk15SXBxMkd4YkdXRGtFcGRHWkoyd2NsS3RydlVncVl5em56dzI0S3hDVkR2eHpnQlJnVm9ZN3VkREtRaGRqSUZULUhZaHlGQ2tISEpKbFFLV19rY2lzemZJamdmSWVyM1FXVXZ4UdIBY0FVX3lxTFBvdTdfUHZpNXhJOHRSUzZzZ09fUEJqOG1pSmhHZnMyU0duTGxtTEIzcVZqdm1KVGQ0R011V25VclNmUDJsRjVOLUl2V0VzT3lycXFPY1dQOHV2WTlTQURmSzUwcw?oc=5",
       "source": "NBC News",
+      "published_at": "2025-08-26T07:00:00.000Z"
+    },
+    {
+      "title": "I'm a Gen Xer Who Immediately Started Crying When I Read the Taylor Engagement News - PureWow",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAtZkVGVU9TQkxvM016X05FWXlnSGc3cndNWFdWWWlDbVplV2VnU3d4dHVESHhnbUgwcV8zM1lodm9WNnpKbjdRTEg1RmRzWm42SENPVlAwcWZzQ0txdE9HUG5nOGRvMHg4RjBCNk9ILU80VHc?oc=5",
+      "source": "PureWow",
       "published_at": "2025-08-26T07:00:00.000Z"
     },
     {
@@ -170,12 +176,6 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbm5MTDByWjNqYkZNeFY1UnFXVEJoWVZQSlFQT0NCNklUMVR4T0daa2E2QVpLQ213SEpJWFlaeHlLRFBJWFZ1R0dZLTk0QXFOMUx0TENHcExvaEtFN0lFS0NKMGJnTndZaUNIM3dnVjBjbnlhbkdGTWtLQmdORVB0RHV0eEQ1ZlhvRkdxWjlNa0ZDUEVo?oc=5",
       "source": "Slate",
       "published_at": "2025-08-14T07:00:00.000Z"
-    },
-    {
-      "title": "Taylor Swift Reveals New Album on Kelce's 'New Heights' Podcast - TODAY.com",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORS1WSEVHSDRTSE1RSk9hbUxDempmUG9DLU5pWGRwTERmSEJDRzNJVEMzbFF4NmVGVEpHUFlKNXlwMng1V2x4eVZIQ2VvM3hPNHYybVZRbXRNOUhuaEdVR1JGMG0tQUE2Ymc3dGM5ZzJwTlRsdksxNm1YcFBBVWRFV3NvX0MtamN1TVZicnIwLUxYcG9QMVdFYmdZQlBka2ZtNm5sWtIBZEFVX3lxTE1KTzRYeDRHX21kWHFINVg5Z2l3SmFoSTB2QjBCRVdKXzQ3aWFPS1pSUENpb1VraEltcHQzbUxRSUY2RGpkcjl4dUlWVXJ1YklFME1MTHBCZmJFdFVnb1RBWHNBckE?oc=5",
-      "source": "TODAY.com",
-      "published_at": "2025-08-12T07:00:00.000Z"
     },
     {
       "title": "Travis Kelce on His Upcoming Season, Post-NFL Ambitions, and Life with Taylor Swift - GQ",
