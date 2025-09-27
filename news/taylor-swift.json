@@ -1,14 +1,8 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-09-27T22:10:07.889Z",
+  "updatedAt": "2025-09-27T22:35:17.578Z",
   "items": [
-    {
-      "title": "Exclusive | Taylor Swift will attend Selena Gomez wedding, stay at private home: source - Page Six",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc19xTG5sRmctbTJiZ3NiOVVJVzdMempLWVNQWng2b1ZEbGFXV1RkZnVLQXE1TWdIcTNpaFJHY28ycl9YZXo0TlFpc3JZdnNQSVlPaHNRNDRnNGk0a1gxYjZYNFlKcXRXRGl6NXlZTXBIQmIyUEZLVFRPQ3Y0Rmc0SmNvNDhOM2tQRWJteGl2ZzFoNUxqRDFtazhMN2tqZi1NSnpQSHhYUlc?oc=5",
-      "source": "Page Six",
-      "published_at": "2025-09-26T18:58:00.000Z"
-    },
     {
       "title": "Selena Gomez and Benny Blanco's weekend wedding plans revealed - Daily Mail",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSHVRWHVWZEE2blJ0N1VwVnZLcmh5RFNDSmZ2T3FRcHA4Z1R0Z0s3UXhidVJXZVpHOVJUTXdER1pyVV83NVY3VWRfSzNobF9MWE9jTm1zaXlBZ2tOODFnanZoY0FqdWZ4Wk5qY21UNEVfeUJla3Q5SGlFMXRfc1huX2ZHSzBENGRoZUdMc0pzSjlfV3RDNlZwUDQ3Y2Z3eWxUYnBMU3RBcjFWQ2pwekJXUmVKYw?oc=5",
@@ -52,6 +46,12 @@
       "published_at": "2025-09-23T15:00:07.000Z"
     },
     {
+      "title": "Taylor Swift Granted Restraining Order Against Ex-Convict Stalker - TMZ",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU0h5U3FvMC1FNUg3YUJic2xweldOZG9ha2RlTHlYSGIwbUxkVmxDSTlkM2lnaWd5ZC1hcWZBSWpud0NmQnVmeUQwaDlLR041LTlMbF9YSXdQN2xaOTFSdUVQUmxraWN3Z2NZRlA1RU1iR1RSTXM0R0FaeFFqWFpodWNHVWjSAYQBQVVfeXFMT2h3S1RXbi1fYk5FMDJNUFFrUjgwQ3hxWmFOdzBmUjN2YUpjWTJrdWtMSWF2RG1tZ0JNY0JfeE41RXM0emJoYUxDVU52M1NlemdJRGZGZ1F2alB6ckkzbVYtODRCRFNrRngtXzZITGNpclBLVHNRbzBOVzZNMGVfbklTMGti?oc=5",
+      "source": "TMZ",
+      "published_at": "2025-09-22T22:52:02.000Z"
+    },
+    {
       "title": "I Tried Taylor Swift's Favorite Chicken Dinner and It Will Never Go Out of Style - Allrecipes",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONG1ZV1gxeHh0LTNWU1YxQ1ZjNHFGZzFmazZ5N1cwOEEwRWNGbWpxNkZKcUtZY1ZJMnFPaFp5ZUxzb3k3cTFyT0kxdmJUc3VEVUdZM2lZNi1Da1dPeUtjZGpwV2w5dWR1SE5HbE0xTVF1WUNpRlB2WDFLd2lMS3puZmZCYUNiQWs?oc=5",
       "source": "Allrecipes",
@@ -64,9 +64,21 @@
       "published_at": "2025-09-19T07:00:00.000Z"
     },
     {
+      "title": "Taylor’s Channel 13 Returns with 24/7 Taylor Swift Music - SiriusXM",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96dUluM0JiY0pEMVh5LUVKcllWVkkyaHFtY0dPRUNwQTlTVGpQYUw1OXJueHFWb2JJNE1HZ3hBX1pOanB3MGFJMlE0OHJ0LVc2RzNWeg?oc=5",
+      "source": "SiriusXM",
+      "published_at": "2025-09-18T12:57:02.000Z"
+    },
+    {
       "title": "Taylor Swift Fast Facts - CNN",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlVjdNVXhyRHJVMWtNemRwVDlLaVNfb1NJaTZmQjVOQWVTVW5DWWNKTl8wSU5UVGg0c09vVFdfMjhqMEo4Q01iQ0M1NVJPZ2JzQ2hKNkV3eVIxdw?oc=5",
       "source": "CNN",
+      "published_at": "2025-09-16T07:00:00.000Z"
+    },
+    {
+      "title": "Where to Celebrate Taylor Swift’s New Album Around DC - Washingtonian",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUTFaVFROejJrcGZkc2ZYUDNNNmc1dDA0WWN5NHVGaUZjTzF4ZHJreGh1RDUwRndDbzUtZEhTeTdxUFR3bjdTQWJPUDJIbVFPOGhfT0tlaDdiQmlkNDRLZllmbEhIR1drcFdTRkN4SUphR1EtM20wcEFvVlFoLU9iQTJiNFdELXBXbWtoeXYwY0lhSjBfM0o2ZTl4VVZYU2liY1NPNzVCbw?oc=5",
+      "source": "Washingtonian",
       "published_at": "2025-09-16T07:00:00.000Z"
     },
     {
@@ -94,6 +106,12 @@
       "published_at": "2025-09-08T07:00:00.000Z"
     },
     {
+      "title": "Tracks from Taylor Swift’s Wedding-Planning Album - The New Yorker",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN2Y5d2pYVk9sa2ktbGZLLVdIbDRaNVJ4UVFDMzJmajJrZmJaTnVQYXhaSUh3blNfVzlnYnR0M2tZQWg1bGpZWVFpQkZRM09NblMycmV2MHNMYm9fRHQydlIwelcxcFNoOFZIVWZBYTlIZHBwb1Qwb2FMSWNDcDhER01leFBtVHBWd3hVa1ByVXNUbEk5TzIweG5R?oc=5",
+      "source": "The New Yorker",
+      "published_at": "2025-09-08T07:00:00.000Z"
+    },
+    {
       "title": "Nope, Taylor Swift Isn't At The 2025 VMAs: Why She Skipped The Show This Year - Betches",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRWtEaXpnbnNRaUV0OHEzTnYzTkxvNUFhSWNjNVFSSUY1aEUzcUFJUEhDdXNRWG1jV1VaWS1Udzg2THRvRk9OUENpeXYxeXVaU2d4dFpmQ1JVdFY0R0xGRHZNZ3BIY3JPOWJrMGpRb2ROelNNMFpQeDZJb0psZlZoY1hJT082TEtXbERNakZnbXRuejgzQk5EblZlNA?oc=5",
       "source": "Betches",
@@ -106,40 +124,22 @@
       "published_at": "2025-09-05T07:00:00.000Z"
     },
     {
+      "title": "Pro wrestling legend says Taylor Swift played 3-hour private concert for family as wife was dying of cancer - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRTJTQ0VhbjNHUDVzNmZnc2dDUVBDZmMwM0Z6NjVQcFVJT1VManFKNUxHNEVxb09Jb0FSeEhrcTNsZ05vSzhWSU43U1N1MDhQcjBzTUxPVjd2alJuZVFubUZtX3E5UTU2RHJCZ2ozRUUzalRTVEI1V2txNklVZW5sS2dheDZzcUxZd25McHRpNGNtUmFpTGdoRjd2bHhCSTUtRmcxVGpDdEV0N09nMUtReG1PSGFZM1Jkc0ZsbmxyVHFrd9IBxwFBVV95cUxQNS1fWHk3U25VVEotVGhYQjI3a2JSd0t3UVJZdmRTRWFVclF6cVBJLUdQd0RxVmU4MHRFVkFGUkRxa0RSMWdrY1NRSWdsNVpLbkMtRkJHNmgyM2JjcktBNWxIaHVtZ0toUW5kbnE4VkRYUXRHM1U2NEhfSjRDSzRBX3lvSFluN29MSHczaHc3cDJ4MVNnbWIzNnZuY1hMUjFyZTIyRjAyTWJkMDBjS3lFcHZTWVNYSHhFMjdYdlM4S2NjT1YzVUNn?oc=5",
+      "source": "Fox News",
+      "published_at": "2025-09-04T07:00:00.000Z"
+    },
+    {
+      "title": "How Did Taylor Swift Convince the World That She’s Relatable? - The Atlantic",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSGoxUXJGZjVZMDZtOXU2bGY3QzVpN3F4SnJMRWJ0NUZNeDhUQkI2REhpenBHdlU3NlJMdHhvSnlad184TlNKZ2ZjUmh0bzJuSi1Gb2JZWm82MW53TjZFM0FXaG5jUDBseUFNQU50YnBoN0h0dFZORTFJQzdTUGxoOGlDbUdybjdGOFhOaE9BYW1UY1ZuMmFZazB3?oc=5",
+      "source": "The Atlantic",
+      "published_at": "2025-09-04T07:00:00.000Z"
+    },
+    {
       "title": "Taylor Swift’s engagement news comes with this sobering reality - MSNBC News",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVjRmamVxOG5GSDRaOGkxYTZfNE9BMEpCZktXSl95dGFJRGdEbW9OUUZWM3pockNXZHNvWEFfdjVwMWJ6cFY5dzlVNGptNFZoTEtSM1dzVmFvQVhQc3FMR0FHUExWTjVHTWNEeU81M1NRNXYtZmtvVFd0cEtSMmlDVGlRVmRGZGJjYkhPR2JQTjF4MW56dU9QODNaRXlWSnl3TlHSAVRBVV95cUxPVDlsMFZQWUVQbGhHMHhMTF9nXzFUUFMxbHFzVXpOcHlHam5heVgzSVk0MXYzWTNZYWV3SGFoYk95dzJJYkpIVDFxUzlicU4takU1LTk?oc=5",
       "source": "MSNBC News",
       "published_at": "2025-09-01T07:00:00.000Z"
-    },
-    {
-      "title": "Taylor Swift Ditches Her Neutral Engagement Manicure for Chrome Nails In an Unexpected Shade - Marie Claire",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1kY243OGRXcjBETDNjQzFGWnhpODBPS2RNdUY1TzYzREFhMXNDc0pZVzVUM2J5MlUwWHhwTXp5OUJPSXFocGVaUlE0Z3h5VWFaQ2tmMXQ2ekE5bFFiQzRVTEFEb05KMUdYclVQT3pDUjNNMjJOZXdvNk9KNlpmZw?oc=5",
-      "source": "Marie Claire",
-      "published_at": "2025-08-29T07:00:00.000Z"
-    },
-    {
-      "title": "Taylor Swift Showed Me Something Last Night With Her Sick Behavior - OutKick",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVjNLcmRXX05qeVlsd1ZsbVU1WW9jY1R0QVJVMkN4aXplN2xWa0E5cHJtTWhxcm9URkR3ZXVtWjA2SFJoVTBwTTA3eF9UYTB1TkFHdDYyNi1BeWlzTWRESDQ3WUFtb0Z6cWhkZGRhM29yX2g5NHY3TFEzRjJfQVpmOGtxMkMzVTFLUlBGdzNWaEd4LUNFaTMtdQ?oc=5",
-      "source": "OutKick",
-      "published_at": "2025-08-29T07:00:00.000Z"
-    },
-    {
-      "title": "Taylor, Travis, and my Gen Z students - wng.org",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FU09IWHJGdjJyV0thNTdmdHA0YzdNN2VCTFFqMS05ai0zS0dHMTh1T2tkZmhyVG5UNmFBcGhSWlZ5RXhUT3Nkc2N2TkpZT1BydDlqcGRTMXVHUkdEZm15REUzVTlmVndCc1FiQ0VaU1RndVllZVFQRTZUcw?oc=5",
-      "source": "wng.org",
-      "published_at": "2025-08-29T07:00:00.000Z"
-    },
-    {
-      "title": "Taylor Swift and Travis Kelce’s Engagement Rollout Was a Master Class - GQ",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd1hsaFI3QlRzdk1aWkt2WjhVcjl6R3Q1bG90UVRwRkg0YmNpOTEwdEVSZWRTSWJEeGlfTnIyT2IzdGUwUExpb2lrRE5VUXF2N1JTV3ZaRU9yeE1EZlpLeld3TDVHWHI1dVJqakpGZ0J6QWhuelhvOUJMQzNnVW1kaDZfNmo0RUtZekFhcjI3d285bjZ2U09xYg?oc=5",
-      "source": "GQ",
-      "published_at": "2025-08-28T07:00:00.000Z"
-    },
-    {
-      "title": "Thursday briefing: How Taylor Swift, the ​ultimate pop ​star, ​turned ​her story into our own - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQ0RLWUMtODBVNWdMeFVDaWtuNEFGeURJTVVzZjJ0dkpROHVUSUJWdUp1YXRpREdmaGNWUHplYjZaMjNzRGRJd3M0VnBEbVZTQkJhQ0pSbUFxNXNkdXdOU0JqM3YtYXNBaWpMc2tYenl2Nm1zMFhPN1FOQmszYU9kM2p6bnRWYm5HelFwd0lLVGNJblpZMzdRbFBvRDlIV0lQQ3Vwa0FFOEpSanVzRm41dzhZX1U1N2taWmV5d2thczI0LWJwUkNWbktDTVU?oc=5",
-      "source": "The Guardian",
-      "published_at": "2025-08-28T07:00:00.000Z"
     },
     {
       "title": "Why Are We So Personally Invested in Taylor Swift and Travis Kelce’s Engagement? - Vogue",
@@ -178,10 +178,10 @@
       "published_at": "2025-08-14T07:00:00.000Z"
     },
     {
-      "title": "Taylor Swift Reveals New Album on Kelce's 'New Heights' Podcast - TODAY.com",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORS1WSEVHSDRTSE1RSk9hbUxDempmUG9DLU5pWGRwTERmSEJDRzNJVEMzbFF4NmVGVEpHUFlKNXlwMng1V2x4eVZIQ2VvM3hPNHYybVZRbXRNOUhuaEdVR1JGMG0tQUE2Ymc3dGM5ZzJwTlRsdksxNm1YcFBBVWRFV3NvX0MtamN1TVZicnIwLUxYcG9QMVdFYmdZQlBka2ZtNm5sWtIBZEFVX3lxTE1KTzRYeDRHX21kWHFINVg5Z2l3SmFoSTB2QjBCRVdKXzQ3aWFPS1pSUENpb1VraEltcHQzbUxRSUY2RGpkcjl4dUlWVXJ1YklFME1MTHBCZmJFdFVnb1RBWHNBckE?oc=5",
-      "source": "TODAY.com",
-      "published_at": "2025-08-12T07:00:00.000Z"
+      "title": "I Suspected Something About Taylor Swift and Travis Kelce. Watching Their Podcast Only Confirmed It. - Slate",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbm5MTDByWjNqYkZNeFY1UnFXVEJoWVZQSlFQT0NCNklUMVR4T0daa2E2QVpLQ213SEpJWFlaeHlLRFBJWFZ1R0dZLTk0QXFOMUx0TENHcExvaEtFN0lFS0NKMGJnTndZaUNIM3dnVjBjbnlhbkdGTWtLQmdORVB0RHV0eEQ1ZlhvRkdxWjlNa0ZDUEVo?oc=5",
+      "source": "Slate",
+      "published_at": "2025-08-14T07:00:00.000Z"
     }
   ]
 }
