@@ -1,7 +1,7 @@
 {
   "slug": "selena-gomez",
   "name": "Selena Gomez",
-  "updatedAt": "2025-09-28T16:12:38.418Z",
+  "updatedAt": "2025-09-28T16:38:38.456Z",
   "items": [
     {
       "title": "Selena Gomez and Benny Blanco Are Married - TODAY.com",
@@ -28,12 +28,6 @@
       "published_at": "2025-09-28T01:15:00.000Z"
     },
     {
-      "title": "Selena Gomez stuns in first wedding photos with Benny Blanco after private ceremony - KTLA",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVlNPSk9ENUQ2SnR2QmFRdm96N0YtVTJ2M2ZsQ2sycHJpTGZON19MZ1pTalpHVGJiNGRfbGpITHJWRGZ4ZVN4ZDFDOUNBWjBIRDBSZmVmUUd2UHIzRDBoUE9LNkJVaDZKcGxhc095cDdZbXB0TFZlR1hSSEdac0Jfem8yaDdLU09WRHdwRXFQdWdUMnZnRzhDUVZkUU1RUU05MVRtajZGVFZVSUFvRGtCcXVVSVZtZ9IBuwFBVV95cUxPVTRZdXlVNHVQdURRRS1rNmx3cndHU2lWMFdVT2hvNk5vOF9XcTNzazVkSFFvNDJPTEcyNnFYX25YZ1JCM094RHYyLVROV3VIcEZiNS1YWkZlejRpdWdUa3RvNGlyU0YyQ2dtb3h3dFpMX2NPai1yX3hpV3VrLXZTclVnMXM0MmMtaHRoVmtnTUpEaU5DTmdsaEJldDBYWWw3anc4LTdYM01uTjVUTHN4b2VCTkhJUUJYRWVB?oc=5",
-      "source": "KTLA",
-      "published_at": "2025-09-28T00:51:44.000Z"
-    },
-    {
       "title": "Selena Gomez, Benny Blanco are married - ABC News - Breaking News, Latest News and Videos",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLUpGMFdwMm9YUWpxUzhJU1V4QjBrYkhIdVFmZkZZaVlEeG5ncU1tX0dPZWg4djhDOTJVbUVrNEVMcmduaG03blhfS1RPWTh1SHJsXzBRQzdxT3E2Y19ZelNIODZiQUdKeVJpRTR4WUU3R2t6Y08tZVd3R2J3bS0yaHlCTnJYTHVHbzJmbDhVSHLSAZYBQVVfeXFMUEhOcV9NV1BvYW9JMExMQlV2bTZIV1l6WFdfRkVGbmRCU0l6RWxmV0RwWVRVcWRtZFRvZ3hkREZCVmVTUjZOS2IwR2xMdVl3dzNSUjV5Q0xicWQ4VjRpRVk4WUxsOVAwbDNRTjljVDl2aGxQVXd3M3lXdEk5OXdaTnNJMm45TkhTWlJBY3RhLXJnN3kzVGN3?oc=5",
       "source": "ABC News - Breaking News, Latest News and Videos",
@@ -50,6 +44,12 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMFkwQlVfYkpoQXVQSXg2ZzVLYUc4Rm5XdThIcmhLRlk1VUNNX1pZLXFmVXN4WEtOblNqWjZ1OHBlbndJd0F5M185d1pLVzhmRFcyWkhvbGtNa2llVDJqemtoUDB3ME52UE94QUZ0U1dMUW1MZFlLSlFVN0NqN3ZoMDVVRnNfM0E3V25rcUxGZm5yV3lOakQ5dV9YMzFkd0ZkaVpzUWdWdnRxcVJXUVE?oc=5",
       "source": "Cosmopolitan",
       "published_at": "2025-09-27T23:33:00.000Z"
+    },
+    {
+      "title": "Why Selena Gomez's Romance With Benny Blanco Isn't the Same Old Love - E! News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNN2ZUZjkwNTlfb0hCQnk0Um1GRlBpTlFqcTNCcVMtNWZ0QWFrWC1ZUDEyVU5ZajIzdGRxdG4zaGxyYVZnMVdiUXg5My1NM3RqalpHbVpqb2g4SVJJQm1uZ2FVTkxNTFY1djVaWVhXQU9URUZYcXhVTVY1dHZDYnB6Qmtjd2dueGl1TzNYRDYzamxJZmhFcVZaWFBR?oc=5",
+      "source": "E! News",
+      "published_at": "2025-09-27T23:32:00.000Z"
     },
     {
       "title": "Selena Gomez marries boyfriend and musical collaborator Benny Blanco - USA Today",
@@ -76,34 +76,10 @@
       "published_at": "2025-09-27T23:10:33.000Z"
     },
     {
-      "title": "Taylor Swift Supports Bestie Selena Gomez at Her Wedding to Benny Blanco - ELLE",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWDZESGlkbDc5dWdqNGFOMUVHb1dXcGgzcFNaOFhwSDIwMXh2T1duYWlUeVA5M3RISXVXRTk0cU5XWmFMcFZud1I4WGpoeS1IczR5YkNTeE9WckZZbXAyU3lMSF9kU3cyUXV3LXRUTEU4ZWV5eHB5LUJLbEUwbmJJcE0yaUtRX3pXam5YbjF2enBlYzJhTDZV?oc=5",
-      "source": "ELLE",
-      "published_at": "2025-09-27T21:07:00.000Z"
-    },
-    {
-      "title": "Taylor Swift, Paris Hilton, and Every Celebrity Guest Attending Selena Gomez’s Wedding - ELLE",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZDE3OF9ZNF9PYng0MzBlczBCM3BXZUpFdVh0TlF4a2xpRHh4S21tcF9RX0lxZlhzeF9ueTlxUnJjUHZKYTNhNktEZGtDM1BtUXh5cElHUjR4Y29ZcW9DQ0pvUkRjRUp6LWVEZVFrOUg2TnhpTUhuUm1tQzVYR0xJcnpvWV8tbkNVUWJvODRxMjUzempuMERvcTlJZ3RpaHVvdk5NM2UydWdWc1p5UWd6MnVJWEV5UQ?oc=5",
-      "source": "ELLE",
-      "published_at": "2025-09-27T14:13:00.000Z"
-    },
-    {
-      "title": "Taylor Swift Snuck Into Selena Gomez's Rehearsal Dinner - harpersbazaar.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZnV2UGZIb0xpMzhtcU12aXdLQ3Z1SFdaWXJoUG9uRkowZFhJc3FCZkVnZkJ3RzRucUlzQ2p6cE5MVFVWZDFUWGFWb1lZUHF1LUgyYnpEYld5ZWpMRXBLaGR1amU5X29tMmExUWdBR2xxQzg5dWJ6QW9TdkJkUXp3ckp3SHk5dEVBRlI0LWVZMGNNS2NIakVmOXA2STNaSnN6N3JRckVkU3kxVFVXVHB2RUU3OA?oc=5",
-      "source": "harpersbazaar.com",
-      "published_at": "2025-09-27T14:11:00.000Z"
-    },
-    {
       "title": "Selena Gomez's mother left 'shattered' by family feud before wedding - Daily Mail",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMEI5aXhKNFlVdGRwVTIwQTV6VDVPUUdkTF9ZaXU4SVdwMGVVNjB6NzV6bFNtVlBPR3JIRzJjb05vdFJkVWNIbGRCYmVQUGRTZG1zY0loUHVhREVLdWt0aktfNnpRWUdSQUp5TFBIVzBWd0MtYTgtN21nX1cxT0dWNFNCRUtTNUw4LS1JZXZmMURYT3RVXzd5M0pnQlJieUg4RlNjaTljbjg?oc=5",
       "source": "Daily Mail",
       "published_at": "2025-09-27T13:57:09.000Z"
-    },
-    {
-      "title": "Come and Get All the Details About Selena Gomez and Benny Blanco's Wedding - E! News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ3lkeUNWeTVrUjNHUWRUZ1NzLUJwekJYTW1jQWtSUEtNVHVyLU1WVGZVblJDWm5VOHNtZ2otS05CS0tZcHdyQnJuSndRYmtoMzB2MVo5NWxNU3pnMDJlSXZnU3FxLXVLUWRFeDdnZVhTUjdWRGtTODktMm04YkZXWVMwLWNkUVZpc1FrcHpESmFFOFBqWlFfYXFB?oc=5",
-      "source": "E! News",
-      "published_at": "2025-09-26T22:50:00.000Z"
     },
     {
       "title": "Exclusive | Taylor Swift will attend Selena Gomez wedding, stay at private home: source - Page Six",
@@ -119,7 +95,7 @@
     },
     {
       "title": "Selena Gomez &amp; Benny Blanco's Weekend Wedding Taking Shape, See Pics - TMZ",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVk9xZjJ0blVkcnZSY1E0VlZEbXd1dXp1RjJxaHR3QmxLM1ZUeW8xblBoZExCV0JoOWVVWDJ6bDRVTTczYXB4NXRReXltRExFMllBVjhNUjVyWU9aOUE3bk04RjFiT3lvTTZOMWtwOVh1SUtaMWxIbFVaVVJpdzZSUHFINUtrOU9USmoxb9IBjAFBVV95cUxOd09WRmtwZTE5LWZNYVNOMy1LbTdJaUdFZV9tTU1Jak5RQ29xZVFQRlRpY0JObGdCekU0eHpoZkNYbG4weEduaUJaQnJ6QjlBUzNaaTJ4Q0U3VWlGakdPR2hjcXR2S0pacllvRGQ1cGZBMF92aFdCTEtra3RJSHp1UUo5YzFWaU1jTVUwdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVk9xZjJ0blVkcnZSY1E0VlZEbXd1dXp1RjJxaHR3QmxLM1ZUeW8xblBoZExCV0JoOWVVWDJ6bDRVTTczYXB4NXRReXltRExFMllBVjhNUjVyWU9aOUE3bk04RjFiT3lvTTZOMWtwOVh1SUtaMWxIbFVaVVJpdzZSUHFINUtrOU9USmoxbw?oc=5",
       "source": "TMZ",
       "published_at": "2025-09-26T15:06:19.000Z"
     },
@@ -136,22 +112,22 @@
       "published_at": "2025-09-16T18:08:53.000Z"
     },
     {
-      "title": "Why Taylor Swift Might Not Have Travis Kelce by Her Side at Selena Gomez’s Wedding - ELLE",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOd3haTVgxWl95UGJ0RVlBT3Y2YU1HLXBNV0FHSXZJYmlMc08tTmlpM21JSWxfOUQteXp0MjN4MGplbDZzSGQwbUxfbHNXNlhjeVB5MWhrd3Q4S25vQ01sNmlhS2tEUG9mMlhPLXNCenNseHEyREozYXVGdHRrVlpfOXE0TlpJc3dueWtfQUswNVZlbXd0SEl1TGRVNndja0ZjTzUya3BDckFrSVBNLXZ6TW9JMjNzaTNa?oc=5",
+      "title": "Selena Gomez Came Home to a Big Surprise From Fiancé Benny Blanco After the 2025 Emmys - ELLE",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSVBpanRKVlVXVGw2dVRISmZncE1aWW9VOWFybU5zVmNNdDBBdjhfcy10VDN3Q2MtenZWWmthTkZJSGdTcXZGMS1FbW9nbk5kcGhYUVpPR2dVeTlHY1F0NklHaVppUXFZdDVkYjVnUGkxR2VWbG9RSlVtcVBnY2hMdzVPbmZjdzA2VHJ2a0JzYkdsZFBqc3NhZDBQSENKLWRqS01iamJyMVBlTU9K?oc=5",
       "source": "ELLE",
-      "published_at": "2025-09-16T07:00:00.000Z"
+      "published_at": "2025-09-15T07:00:00.000Z"
     },
     {
-      "title": "Selena Gomez Reveals Which Star Will Be Ring Bearer at Her Wedding to Benny Blanco - People.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcXRvMGs0YmxCSm4yY1ZOWENBR2hCdlRTSW4tSW1SdHRYWjRaRkliS3V5VUZhUUpTTC1SVGtXYy1YOFhFY0I0MVItQk5rMElCa1JNWnVfQWRZUUxlWWduUWwxdnAwQUdvYk9BNE8zVl9KcFFZV0JDTkNxdVdoZG9BcXFYc0piNlZxUVFqOGNPRWdZekRiWGZj?oc=5",
-      "source": "People.com",
+      "title": "Selena Gomez and Benny Blanco may have a special role for Martin Short at their wedding - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYlY0T2Jvbnppb0ZqUThySUtRWmlDNGl6N0RtZ09QWF95NW1tRlE1TFc2T09oMlQ1azZmM3BJUHJqV2pncUxlVnl6dkkzc1dOTVlobmdCTnp5Uy1yTUNkQ0JLX01iZTcyTE9pbzdHMlpGS0xXTENUeDJnMEVuOVVxY0Nya3NkSktnSWlBUzhvVkVJemhLc0Q4akRFLVE1ZlpwMi1EVkJTV3hDbGxNa0YzOXJUNjF3VWdIQ0JNetIBVkFVX3lxTFBKWUZIcDR0RmlCcDhrWjhzUnJxampzVmROQUpqbTJZVHdJTTVkUGtNRVFWV2E0ZVpIdGlyZFlveUZrd1BoU05vZ3U2RVVONGxOdUNNTXVR?oc=5",
+      "source": "NBC News",
+      "published_at": "2025-09-12T07:00:00.000Z"
+    },
+    {
+      "title": "Who is going to Selena Gomez's wedding? Taylor Swift rumored to attend - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdkR5RU8yb3hWM1A2ME9fTGRxcDdqOTF5aTNiRHN2X1IyUFNGajh3VVNaUlNlTkVkbzcxdGhBN0VMOUNaUmtWUGZyMFdLU1pQZ1I1SVdXN0NDTmtEUThKNVFNZVo5NVpqcWdQRURwUFNLM2hsbUdsZlNSbi13SENzTHZpWlUwbWdDamdCemxDRzZUVFJkU1hRZ3FJLXU3Q042aEVrMnc3VlV5WmctUTNuLW5VSkg5Q0lJNTRzbWJuVng3bnc?oc=5",
+      "source": "USA Today",
       "published_at": "2025-09-10T07:00:00.000Z"
-    },
-    {
-      "title": "Selena Gomez Just Revealed The One Dish She Makes On Repeat—And It's A 'Cozy' One - Delish",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYkQ0TlZUWkpGNzh2SjFSVm1ET2czY0x5NFBtNGpTZFl1SzBXWlRpZlFGUGpiZFBaMEcxRkpIY3B3VC16OTNGSno5SnRIcGRxUnhDM3dQeFpwRDRCVklrTUM0Y2hpdF9ZQUVPSGFwaTVDeFhkSkROWm1maGZOcmhJNFlBNFJYMUJHVUtSeWo5WjVTWUgxWEJ5SXh3?oc=5",
-      "source": "Delish",
-      "published_at": "2025-09-09T07:00:00.000Z"
     },
     {
       "title": "Selena Gomez Is in Rare Form—Interview - Allure",
@@ -160,15 +136,39 @@
       "published_at": "2025-09-09T07:00:00.000Z"
     },
     {
-      "title": "In the Mood to Cry? Take a Look at Selena Gomez’s Net Worth - Cosmopolitan",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPejllcFpobHJoMGFCblA5LVpEVGd1aDlrUHdyODF5RkNoVnNqNmVURnJiUTNEa2RLVU1WT3VkNGJpYmxiOXAyZjRGQndmTFpCNE9hUjEwWEt5bG8zbTVLVTZkZVhWYUxOcEs1ME9EVHlHRHI0dkdXS3dlTDBzWEVwNEI0YUNOZmlrb2MzaXRrOWRKdjJkNXhn?oc=5",
-      "source": "Cosmopolitan",
-      "published_at": "2025-09-05T07:00:00.000Z"
+      "title": "Selena Gomez Just Revealed The One Dish She Makes On Repeat—And It's A 'Cozy' One - Delish",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYkQ0TlZUWkpGNzh2SjFSVm1ET2czY0x5NFBtNGpTZFl1SzBXWlRpZlFGUGpiZFBaMEcxRkpIY3B3VC16OTNGSno5SnRIcGRxUnhDM3dQeFpwRDRCVklrTUM0Y2hpdF9ZQUVPSGFwaTVDeFhkSkROWm1maGZOcmhJNFlBNFJYMUJHVUtSeWo5WjVTWUgxWEJ5SXh3?oc=5",
+      "source": "Delish",
+      "published_at": "2025-09-09T07:00:00.000Z"
+    },
+    {
+      "title": "Selena Gomez Shares Candid Bed Photos and a Sweet Message for Benny Blanco - ELLE",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQWNTZ1NZSWpGN0RaaUlPdldBRjIyZGlQM0RESlFoRVpnVzVxa0pfUi1aV3BBdmtZTlJEdjI1UEVMU2Z3SFp5dTg1NEZxOTAyTC14d2wwdWdMRkFHUE5qTklxRjAzUzN4RW5SbkxvTF8xNHg0RmlQSGE0RWtZYnpuMGVKaUppN2p1SjMyY1VwS2NtOV9GNTBtejVhX24?oc=5",
+      "source": "ELLE",
+      "published_at": "2025-09-08T07:00:00.000Z"
+    },
+    {
+      "title": "Selena Gomez and Benny Blanco’s Guests Don't Know the Secret Venue for September Wedding - ELLE",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNXpmTmYxSXNBU3dqMjY2WENna203dV9uNDFTNGN4UTB3SXluNlFub1E0b1FkUlhFdndpclM3a2sxUFBXZFoxRWFRRUx4WER3M2V6aWs4T2xRODR1QV93SEZGeXVIVjlZbDBOTXFtb3JJRS1aNHV2TFQyWGV6aWw3SVBkZWlkV1NDeUdtR0VSeTdxZTdpN2xmMkUzNUxHTjBWc1p5ekVrTUt1dVR3?oc=5",
+      "source": "ELLE",
+      "published_at": "2025-09-06T07:00:00.000Z"
+    },
+    {
+      "title": "Selena Gomez Shares Photos from Romantic Lake Trip With Benny Blanco - ELLE",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMWxfUmh2NndtYXRVTXRnUVJRMXVqY0xYUG9vNFFtYm9yTVp6WXd1N0I2emtCemFURldzZ3Bob2wzODFIX2FJTkcwdHNPalFFTUg0NWk0LTc5OS0zZ1p5RF9wcGJwV09vcy01Z2xfSWJpSFhFTnBJLWZRSER6WGduSlIwRDVOWU1hb1BBWkZoekZCWUYwOVptUWxBT3VYaUpE?oc=5",
+      "source": "ELLE",
+      "published_at": "2025-09-01T07:00:00.000Z"
     },
     {
       "title": "Selena Gomez wows in bridal-white bikini at Cabo bachelorette party - Fox News",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeURmM2N2MmZ4S2ZEM0wtM3RlbWhfSVpYM0dVVk1xcXZVeHo0bE5YTHd4NkpWVFhKbEhOVTFZNlBCS3ZpVGFXM1pTbWhtakQtTWUxY3VUSU4zQXRlenFmcVhVUHhaMHhIRW9sZGdiZEZvajRnWGFQSTRablNUY3pNaTJCWVFfVkFSdXIyZFVJbDJ0Y2ttTHE2ZFQ5NklBVFNJ0gGmAUFVX3lxTE05SVJSZVJPZnJqYUl6X19oNHZuZDJVdl9CbEZYaVZldXRVdTBNV3ZhekVWWjNpYVl5TmZxTS1PRWVlRVZJUW15dzBuYThURmh1SXd0dHVNT0RoS1o3eS1nVTI2bk9aZ0Jnd3VjMTZ0WmZ1T2YtRTg0QzdEclJpazhEODlIaGJpdUt1RVVOd2ZES0ZXZzNDNFlKVUg0azdJNVJ5NUJ0QVE?oc=5",
       "source": "Fox News",
+      "published_at": "2025-09-01T07:00:00.000Z"
+    },
+    {
+      "title": "Selena Gomez and Fiancé Benny Blanco Enjoy 'Lake Life' After Celebrating Bachelor and Bachelorette Parties - People.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN0k2S0QwN2p1bHl3YUpCQlMwb2xFaDNDMTVHTzJjWXlnZ1FuT3RDbW1yTEdSS0lPbVhKdEtEVVp6WnMxQ0tuZ0t1MERyTkxUWC1nVjlIaXV6endZVXhyQUFvU2lVSm5acVRTT3NCdElkWDJYOUFfZGlkYXZTUGdoNklpeDFXalFLTC03STg4azFBaU9rVTVMSFRBUmRTcWVIbzVZVTV6T3VubHNOMVE?oc=5",
+      "source": "People.com",
       "published_at": "2025-09-01T07:00:00.000Z"
     },
     {
