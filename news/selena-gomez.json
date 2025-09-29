@@ -1,14 +1,8 @@
 {
   "slug": "selena-gomez",
   "name": "Selena Gomez",
-  "updatedAt": "2025-09-29T14:12:56.168Z",
+  "updatedAt": "2025-09-29T14:41:22.018Z",
   "items": [
-    {
-      "title": "Taylor Swift Gave a Speech at Selena Gomez and Benny Blanco’s Wedding - ELLE",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeW5yT2pGNWpnaEFReTYxSlFCNXJ2MDkwWjhSNjNFekU3TWFqc3R1SkJkQjFFMUR1YW94S1BnRm8tLV9zWUJzVndkWDR1VFByVWhCYi1mSU9Ha2RvWjFXZFdBRC1qUE4tRzlrTW0zVGZEejJJLWp2SzdhVUJJRWVLTlZDZ1BrM2ZtN0RlS2xHdHpZTTUzdF9yV0lrWmxMNGNxcWhuaTV6R3A?oc=5",
-      "source": "ELLE",
-      "published_at": "2025-09-28T20:56:00.000Z"
-    },
     {
       "title": "Selena Gomez's Mom Mandy Teefey Slams Claim She Was Snubbed at Benny Blanco Wedding - E! News",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQY2ZjYktwaVdrMEp2N01qRDJhbFlnMl96SmZtTFRfeXQ0aUFudzRiMlMzSlBLUkk2OEtiZkZQX0UwS3RfXzQ3S2dkdG5mSFZnTWlTdU5fNXp5c1AzckphOEMyUmdlUmdES3AtRUhCWEtWRVJSendtSHctbzRPY2d3a3hZTER2VFZ5Y1c2VDBVUEVTOXljTm9KdE93?oc=5",
@@ -20,6 +14,12 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTnFpYnVoUUN5U2REd0ZUWHY1V2QwMGdZLXNJMndTLWFFdkFIX3NDcmFmc1hzRzFTVzBiZDhqM21GOFduVU1hbDloOUh0NjdRTExJYWdSdWw2VmxlVWYwU2NDUjA0WVJaUy0tdlNNTTlnVnpEWUNhUmM3TEZmbGpScWRQWTR6QUZuNUxadFlaSEMySGpxTHZsUEVab18zaWJPWUp2OUVHa0szazF3RlIw?oc=5",
       "source": "People.com",
       "published_at": "2025-09-28T20:13:00.000Z"
+    },
+    {
+      "title": "Benny Blanco reveals Selena Gomez wedding details, including rings - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc1NUVVNmRFQ1RGsySFRxUjRNaHJ0RGxoR3Vtbm50c09UblNwd0V2VHhSei1IOUNad3lQc0J2Uzc2TU5RdVZhWXRYNzBoQWRuLWN1RFc5LVlEQ2wtTHJVNkU3ZjUtUnZBaWdqUjVBaG1jX0ZuQlFLamhaSmNHclN4RVY5Q2VqbGFibEFNZXJpTVFmLWhHWld6ejRoQVFvSG4yaVh2ZHVJMFNzR09JQkUtV2hYS1NGQi02SF82VQ?oc=5",
+      "source": "USA Today",
+      "published_at": "2025-09-28T19:11:32.000Z"
     },
     {
       "title": "All the Celebrities at Selena Gomez and Benny Blanco's Wedding - E! News",
@@ -70,9 +70,9 @@
       "published_at": "2025-09-28T00:26:36.000Z"
     },
     {
-      "title": "Why Travis Kelce Skipped Selena Gomez’s Wedding - harpersbazaar.com",
+      "title": "Why Travis Kelce Skipped Selena Gomez’s Wedding - Harper's BAZAAR",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORXo2UzhPTVMyYS1ZbDY4WkZjWjkzeEF3VnBnVWc0eXljMDlEWW8zM09DT0FBZmxDSi0zQ0VyaHprRHZyZnZYbzJ1eHRTN1ZWVTZRU3B4aTQtcXB6ZTdMMEZjRDM0OTlLMlpQOXhJZUNuX2FjMTdkZGRmelhad0RHNDl0T3pMdlZITUFDaUhnb3VqajV1YXk3THVrdlNTSFBnbk1qbUdQVGVNbVAtZGoxa2Y0Y2t0RjlXMURzUFI2OVdKZ3RvUV80Yg?oc=5",
-      "source": "harpersbazaar.com",
+      "source": "Harper's BAZAAR",
       "published_at": "2025-09-28T00:08:00.000Z"
     },
     {
@@ -124,9 +124,9 @@
       "published_at": "2025-09-27T14:13:00.000Z"
     },
     {
-      "title": "Taylor Swift Snuck Into Selena Gomez's Rehearsal Dinner - harpersbazaar.com",
+      "title": "Taylor Swift Snuck Into Selena Gomez's Rehearsal Dinner - Harper's BAZAAR",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZnV2UGZIb0xpMzhtcU12aXdLQ3Z1SFdaWXJoUG9uRkowZFhJc3FCZkVnZkJ3RzRucUlzQ2p6cE5MVFVWZDFUWGFWb1lZUHF1LUgyYnpEYld5ZWpMRXBLaGR1amU5X29tMmExUWdBR2xxQzg5dWJ6QW9TdkJkUXp3ckp3SHk5dEVBRlI0LWVZMGNNS2NIakVmOXA2STNaSnN6N3JRckVkU3kxVFVXVHB2RUU3OA?oc=5",
-      "source": "harpersbazaar.com",
+      "source": "Harper's BAZAAR",
       "published_at": "2025-09-27T14:11:00.000Z"
     },
     {
