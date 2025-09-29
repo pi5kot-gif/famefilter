@@ -1,14 +1,8 @@
 {
   "slug": "miley-cyrus",
   "name": "Miley Cyrus",
-  "updatedAt": "2025-09-29T15:12:34.093Z",
+  "updatedAt": "2025-09-29T15:38:13.525Z",
   "items": [
-    {
-      "title": "Miley Cyrus Says Her Malibu Home Is Almost Fully Rebuilt, 7 Years After It Was Destroyed in a Wildfire - People.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcHpyYm0xcFhQdU93US1FRTZCejNRR2N2UEZDbjd6VXVlWVJBS1A3Q0dJNXdjRzR4bnM2T1RkOUFQaS1fSTRVbUNmTENKUXVVbGhfc3V3eUtmc1o5U3pUd3RlUFRXc2ZVZ3U0RGFaRktfMnQ5Q1lpcWVWdEUxZWdQT1ZsQUxiWjJZSE0xTDlnbw?oc=5",
-      "source": "People.com",
-      "published_at": "2025-09-29T01:00:00.000Z"
-    },
     {
       "title": "Miley Cyrus Reveals the \"Beautiful\" Items She Still Kept From Liam Hemsworth Relationship - E! News",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZzFJczYyTGRYcFEza1F1Xzk0X25tQjhQc0d0RlZlVEVqVklzVUZGSVgybFBkQUlsZmlPYXlwMVJVRVEyX3Z0enZ1Znl0ZW1GNmtDUFhfVE9iQU5QSW1icVREd0xjVDNCV24wSGxHLVFhV0Y2NU9KUXduR1FObHlFTy15VkxrUWpLc1dPQVVicTUxWDRMcGUwblk5d1g?oc=5",
@@ -43,6 +37,12 @@
       "title": "Miley Cyrus Releases Song Dedicated to Dad Billy Ray Cyrus After Mending Rift - E! News",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNy04MTZfV1VJTFdtalBfOFJrcnFLVV9oSHZORUY5SWgyQ3JnNDNZUVQtanFRM2EzUV93aWNhVWczOWpiR0Z6Qk1Zc3BvX3JrWDBDUTQ2QlFDcnRqUXQ1d01ncU9qSUpUeXpfZG1pZFprdnRTcTVTakN4TDdoM2MyaWN4dDd4REh3MTlKSV9mOHBfaTBaeWxfVTd3?oc=5",
       "source": "E! News",
+      "published_at": "2025-09-19T07:00:00.000Z"
+    },
+    {
+      "title": "Miley Cyrus releases new song for her father featuring Fleetwood Mac artists: Listen - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWlFXek5QdUhBM2VGTEVoSVRPbDB1T0daRUVRZ2ZVTFQ3YWE0Y1hDcm5DbWtjOWthVzkyLXZ0SXJNc3NqTXU0MWRDeGFtd0NfRklzNmg1eFJVZGVSR2twTXpYajVFN0VxQXhWRkxCS3VCM2V1YzJDeE11QkVwS3FkVTE5Skw5aDdR0gGOAUFVX3lxTE5ZVXNFSUxCSDFIQXZjVExaS19HZ1FWalVYS2RxRHhhTm5kYzdHVlRDTmlYREhEMVdRTkZJLVB0Tm9aQk1TUnFFcjNMeE1acW5uck14TGUzWExWLWo2NS1pZXhvUC1fWmQybGgxMUh1UlUyZWUxaU1mUE5TUmpXSzcwcTN6VUhJUHhPd2F6Wmc?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
       "published_at": "2025-09-19T07:00:00.000Z"
     },
     {
@@ -112,9 +112,9 @@
       "published_at": "2025-09-04T07:00:00.000Z"
     },
     {
-      "title": "The True Story of Miley Cyrus And Family, In Their Own Words - The Cut",
+      "title": "The True Story of Miley Cyrus And Family, In Their Own Words - thecut.com",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVjhNOEdqbkZ6RVdFUXpjRE83NnpIYjI1RkhSUWtFOU9vNXlHc3RUVldWU1B2Y3FZTGs5TlI0SlprUVliOWIxS2tRTUZUeWR4ems4a1NfSFpNNGlvWmVKVFVkaElXMndXWmhkZ2FyMEpSc0N1TDhWYnBxNXdVSDVjZU9OYWxkOS1HeEZrbnRSRXM?oc=5",
-      "source": "The Cut",
+      "source": "thecut.com",
       "published_at": "2025-09-02T07:00:00.000Z"
     },
     {
@@ -154,16 +154,16 @@
       "published_at": "2025-08-23T07:00:00.000Z"
     },
     {
-      "title": "Noah Cyrus Breaks Down Why Miley Cyrus Is ‘A Great Role Model’ - parade.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS3RKTHU5YzEzYWt6S0pRTXZiUW5ha1owQ0tMLVJnaU1VNDg2SDJsYXdvbVZKQ1J3QTRDNFFmWE51X3Q1dmJULXcyaE03dGlwRlI2aDN3ZTIzV0VQN0NxbE1aZjVNWVR3amJkZ2s3QlQ0X0dJcGRIcW5hRV9tMTBaeXZiVWNVdw?oc=5",
-      "source": "parade.com",
-      "published_at": "2025-08-23T07:00:00.000Z"
+      "title": "Noah Cyrus Shares Update on Family Drama—And the One Factor That Puts an End to It - E! News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcnlwZ19GZU9jb0MweTk2dzB2b3RHNFpfWG4xVEJRejh1RlFsS3dqYl9NTmd3bWZkcXMxTUNXYWotYlBqSVZBOHZFVEVQRHZscExCZW1tX3lEV3lLOEFHZEpzQmgwa3J0UkEwQ3E0bElwdkJiZjZGWUdES3JMVGxMcGtzUWUtLUkwdTBMbEhYZ0xBbDMw?oc=5",
+      "source": "E! News",
+      "published_at": "2025-08-21T07:00:00.000Z"
     },
     {
-      "title": "Adult Money And A Hannah Montana Tour In 2026? That'd Be The Best Of Both Worlds - Betches",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZTFmTkNRWWFoczU4aEg5Z3RXT0h2S3pGbnRxNXFIdkJMbTNYVjA5QTA3bTJYa21LSmVhVmdIWnRxUl9aRURyRElZTnJkMHJVU2pEQlk5RWsyb25GdTRHSlFDM3cxTHhCQXJ1anpnQ1FNX21tR1FxbklKVFRqdmRHVU4zUi0?oc=5",
-      "source": "Betches",
-      "published_at": "2025-07-28T07:00:00.000Z"
+      "title": "Miley Cyrus's bold accent chairs are a masterclass in making a white kitchen interesting – and the striking pattern is on trend for 2026 - Homes and Gardens",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX1pZaXhwUHg2Q04tSzNjZjBMY3BaZ2pCeENvQ0lIMnF2bHgzY0dyNlQ4LUFwZTgxVHpsVmlwQnpCZWZER1B2Y3hhUzJ3VGx4ZHNWSlIyaG5UNG1ncW5hMlBxdmtxV1Q0UWpSSmlwNHMtdWNyV2N2Nzk3cGtfSGRxU3QxT3Y?oc=5",
+      "source": "Homes and Gardens",
+      "published_at": "2025-08-19T07:00:00.000Z"
     },
     {
       "title": "Zack’s Summer Binge: Miley Cyrus’ Something Beautiful - The Punished Backlog",
