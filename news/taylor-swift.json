@@ -1,14 +1,8 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-01T14:41:48.906Z",
+  "updatedAt": "2025-10-01T15:12:29.841Z",
   "items": [
-    {
-      "title": "Everything to know about Taylor Swift's album release, movie and parties - NBC New York",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZHFjX0VGaXFkUDM4X1FsX1loQ1RVczM3QUljQldpTE9NYVRuTVlSQmhxVmtxbGozX2ZCXzlEbnZ1OHlmMGRxR29QNDQ5YnRmTUU4c1h6S1gxVi1hTkJqMlBsVWpBczNubmpHR29IMzEwLUVtRTNMRzhPamtYN0RWNk92bUg3Mk9OTGF5bVBLYTBrVXB0ejk0Q3BDWUJfR0JKY09HOUpKeEdPclk3ZUxuZGlBemNkbk8yZmfSAcIBQVVfeXFMUFJTVWZwV0JtVDR0a1VnRFZlaWgzc2VJeG4yZFZQcUZLNlVKTnNPb0NrenJ6SW1jUEdtZk5QUV9jSG5VWDFTR0FIb1JJb1pybVRodWk1UDBQcnVrVmhFcVhGQUdfR2pGdjQ1ZFR5cXdWMzktTU5BQm1xMUFGSl9rY3lDR3BDQnhYYWR6NkRjZXpCSEFIOGFwcFAycFJRZVJjUnVXRXNFNzAya0p1eU9Da3BPUU1YWG1VaU1TNzdfd01PVUE?oc=5",
-      "source": "NBC New York",
-      "published_at": "2025-09-30T20:11:05.000Z"
-    },
     {
       "title": "Taylor Swift course hits the classroom at Michigan State University - WILX",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeWwxcW13TnhFN0g5MkFxU0Fua2ZubWVVaTljYmxiUlA2RVFmVm1OUm9pbl9OQ3YyODZhRlpVaFVVeEpUMmUyNkdKRDE2WUxER3V1RjZYTEtJQ2FSUjVGQWtZNzRZc0NCRFpFVWdyc1pwa0VnVTNHLWFjbkgwT3cxWmlLcDNZNmJoYXgzeVlCR1REcHdfMnNPZw?oc=5",
@@ -26,6 +20,12 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR2E1clpzNWM5dVl0R01JTVhZemVtdHVHdEVBWlRWQVB1enlHMVNuOUxaQTVlal9VaHFycjlLNmFsMGh0TjBFZUFsMS1Sd3d0bUxzT25sUDZOUTZzNC1SdVJYQkVrTzZpLXJSNnpNUUtaaU9HRHM5cXY3RnJOa0hISDQ4Vm1PcGc?oc=5",
       "source": "The New York Times",
       "published_at": "2025-09-30T09:04:16.000Z"
+    },
+    {
+      "title": "Taylor Swift's speaking voice has evolved alongside her music eras, study finds - NPR",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTUY1bGpvWEpTLTJYZXppajdtZHIxZ01JS2VGTkFDc054Sk1oWm1kdzRSZEhpeWJocWtFOHdpWDhIZ0JfSDZHbzFCNE0tWHc2SjdhRFdaT18zdURHOFZsMTNqM0Z5OXA5Uk5PVDZfRUduTXJUQVBhNnV5TVNVdUJGQ05lcThMSHhoWU4wd3RRYm5Vb1prcGVPMEJKNzJ5U3JtWmppSTRyNUNuR21rdl83c2FNN1RpMWZHc3JmRXEtaw?oc=5",
+      "source": "NPR",
+      "published_at": "2025-09-30T09:00:07.000Z"
     },
     {
       "title": "What many conservatives get wrong about marriage that Taylor Swift gets right | Opinion - USA Today",
@@ -53,7 +53,7 @@
     },
     {
       "title": "Essay | The Misunderstood Genius of Taylor Swift - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxQdVlDWTR0YTBoSkpvZGMwdHhXckxra2xUM3E5c2FjaXRRZ3FJOGdxTndsTG9mRWptU3ZfcW1qTXhNRnc1U0NoZ2tjN0x3NVJReWRuLTFxbHJROFk4NTJnaDBLbVJhUHR1M0Y4SjZzaHpVRUR6UVNzRmNlT2hPX3FvN2dfQ1NwU0d0SFRXLTNlWXQxRGRNWWI0eGY3QlJraDd5djJGR1hjaXFxVVBsdFlhQm9JNURzV0hWUWR2Q1Y3aEI0ZXQ4NHFBelR1SzFwdEJXbVFERFpPN2lwSHN6ZEVNWmVRWURKdTNkbTdfT0p0SkV0eXY3OXYtRVFIaGhKZ1p5YTZhRUdlRU5DdmZTTkZZWG5rWTBsU1ZLN2pLbzBscEkxS21oRFd1Y0hfcUNORl9fb3B2cFVtaVo0SmJQTTYxcTM0MFUtejhhY2VHQWE0bkVYVkJoNXFaYmNrOC04RXQ4eWxCNjFJRVZwbGplNkp6S0RqOWJnbjdQOG82QVh5UW5wM2E1b1RVbmhWS2dSbngxVF93Nk1qYw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxQSjRiOVJVMU9jbXNmV0hRNWFibGFHRFNZeDZGUWNBMVdjNjliZmpHRS1uZnljelNYZWotREkzbE10bXFVNS1jOFFvZXhxYlBVRUtIUmZpem5oNzgtTDJ2cUpnSUY2LXl2VzhhcDIxbTNZeV9DT0lrYklFZThFd2tMWnFjX0NDYTZnZmRzVGlKamZENHg4ckFLR1ZBa0dRYzVVbF9ydGJEWGx0amhVZDE5WkU1UHlYcjh4TU9fbWlnVVphM2JWTFUxYUw0aWJwRzB2aWNpa1RhOEZ2bVRXM0FoS1NCaDNWNnVCOTRGQXpUbHM5R0habVVQREsxbzJzeWpfZVZhTEZWTU5jWXNNTGUxemgyMUhOaVFaZ2dlVFRiY2FabFBrVFJDY0hZR0hqTmd5bVRMcldOU2I0OGlsQWtETE5LS0hWM1Aza25RTTlSMkVtZDhvVDdfeks5UVd0VHlTYktKRi1NME1ZbVZJbjJJVUVydE1KRFkwVDVtYXJZTnB6WTF2MU45Xy1TVTVrVmdFSjB5dDFLTQ?oc=5",
       "source": "The Wall Street Journal",
       "published_at": "2025-09-25T13:56:00.000Z"
     },
@@ -80,18 +80,6 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNXzFzbV9rd2V4ZlBBMjRFZ2NZSVdpd2lBcy10cWRza0RkV0g2anRrVHhKQzBSWFozem1HQ0VfUko0b1N1Q0FiOVRZZ1NHYVI5Q3lDaDJaOVNmaGF2bjJlQ3MzSGZYSnVsX0ppU0p2cExTMEJaUkx5Q09KYk1KbExzWExhNjh1TEF0b2pJNDNxTmRqVGQ0SGc?oc=5",
       "source": "Variety",
       "published_at": "2025-09-19T07:00:00.000Z"
-    },
-    {
-      "title": "Taylor Swift Fast Facts - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlVjdNVXhyRHJVMWtNemRwVDlLaVNfb1NJaTZmQjVOQWVTVW5DWWNKTl8wSU5UVGg0c09vVFdfMjhqMEo4Q01iQ0M1NVJPZ2JzQ2hKNkV3eVIxdw?oc=5",
-      "source": "CNN",
-      "published_at": "2025-09-16T07:00:00.000Z"
-    },
-    {
-      "title": "Where to Celebrate Taylor Swift’s New Album Around DC - Washingtonian",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUTFaVFROejJrcGZkc2ZYUDNNNmc1dDA0WWN5NHVGaUZjTzF4ZHJreGh1RDUwRndDbzUtZEhTeTdxUFR3bjdTQWJPUDJIbVFPOGhfT0tlaDdiQmlkNDRLZllmbEhIR1drcFdTRkN4SUphR1EtM20wcEFvVlFoLU9iQTJiNFdELXBXbWtoeXYwY0lhSjBfM0o2ZTl4VVZYU2liY1NPNzVCbw?oc=5",
-      "source": "Washingtonian",
-      "published_at": "2025-09-16T07:00:00.000Z"
     },
     {
       "title": "Taylor Swift Will Not Be Deposed by Justin Baldoni in Blake Lively Case - E! Online",
@@ -136,6 +124,12 @@
       "published_at": "2025-09-05T07:00:00.000Z"
     },
     {
+      "title": "Taylor Swift Not Attending MTV VMAs 2025 - E! Online",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNkp5dVFvQ3pfTXRoV3hMUFMwVjF3bUY1WGs5QmhpV1BFTzVKd0RQN216M2UtR1FCNWVYTEJPY284enFhOTIzbjhQaFd4ZFUxWDZBZHJMbzFYamhzZEhsMkFCTEJNdHJVUDgzWWVMU1A5WlVDT0xueFc2RjJxM1hEWmdwaw?oc=5",
+      "source": "E! Online",
+      "published_at": "2025-09-05T07:00:00.000Z"
+    },
+    {
       "title": "How Did Taylor Swift Convince the World That She’s Relatable? - The Atlantic",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSGoxUXJGZjVZMDZtOXU2bGY3QzVpN3F4SnJMRWJ0NUZNeDhUQkI2REhpenBHdlU3NlJMdHhvSnlad184TlNKZ2ZjUmh0bzJuSi1Gb2JZWm82MW53TjZFM0FXaG5jUDBseUFNQU50YnBoN0h0dFZORTFJQzdTUGxoOGlDbUdybjdGOFhOaE9BYW1UY1ZuMmFZazB3?oc=5",
       "source": "The Atlantic",
@@ -157,6 +151,12 @@
       "title": "Why Are We So Personally Invested in Taylor Swift and Travis Kelce’s Engagement? - Vogue",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVjJEUE5jdEJ4TGV0Njl4cDZxY0Q0cGtJTE9qZXBZVmdtaW5xMjN5dEVaUlFFM2h3R3ZpMFlwNlVxbzJLdGdhTXhVallfVDQ5TzF0VURoNERfUjNacVIySG9SYi14UEtod2lHMmpITzJIVC12WkZfTlR6NzRtaDJZcGNoMVNtUWMzLUNNb1djVl9EcXNTRHZ2UF9n?oc=5",
       "source": "Vogue",
+      "published_at": "2025-08-27T07:00:00.000Z"
+    },
+    {
+      "title": "I'm a Millennial Swiftie, and I'm Going to Say It: Taylor and Travis' Engagement Felt Like a Milestone Win for Our Generation - People.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTzFNMzFzSGV0U21hVGtWaGFrcmJzTFBwWXl2QUFEeUR0SEU4OGNpbld5MmowYVBtZUZiLUhJbkRacVpOUUNZNHoxVl9BMk94aXE5UGYzUnhiekttenFSZkcxbFVQYjBoNnR2Rm5SVzZjVGhzcDRZU2VHWDc2b1FzXzhQY2ZESzBuMEE4YWxjdWM?oc=5",
+      "source": "People.com",
       "published_at": "2025-08-27T07:00:00.000Z"
     },
     {
