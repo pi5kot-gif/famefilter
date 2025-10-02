@@ -1,37 +1,13 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-02T17:35:06.602Z",
+  "updatedAt": "2025-10-02T18:16:48.056Z",
   "items": [
-    {
-      "title": "I'm an Entertainment Editor and I Was Totally Wrong About Taylor Swift - PureWow",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ2thNkVOSlAtc3BNY3RvUUVWX2w4Q21PWjVoTjFHaUdqcDFzWFU0Q0tZYkhVVE1Ta2ttMHpCaDBZOWo4NUlQLTZhRVRxWndCSThvcmxrSXJSN1JlYjdPbTlmQkxSMS03MGUwOVpuLTVRZDdJVHFLVHVuRVhTWjlZVzZ5cjN4SEk?oc=5",
-      "source": "PureWow",
-      "published_at": "2025-10-01T14:27:50.000Z"
-    },
     {
       "title": "When Taylor Swift Met Her ‘Life of a Showgirl’ Partner Max Martin - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbU9GdGhJeWhYSmxpZzRNZXdfU1k1VzVOYU42Q1h6cXdxWkFPSnlCSmx1TXdKQ0RGVlFkX1NPaXJWWEdhSVVZQnFhOGxCeTEtV2RjQVlKeFJWbWZwWWxNN3lKdTV0cmI1SHNhOFJ2amRSaVQyUkstb05zRlNjRTg1b3ZCbTEzcGFEU3cta19ORHJON3hzYlhNZg?oc=5",
       "source": "The New York Times",
       "published_at": "2025-10-01T09:02:20.000Z"
-    },
-    {
-      "title": "Everything to know about Taylor Swift's album release, movie and parties - NBC New York",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZHFjX0VGaXFkUDM4X1FsX1loQ1RVczM3QUljQldpTE9NYVRuTVlSQmhxVmtxbGozX2ZCXzlEbnZ1OHlmMGRxR29QNDQ5YnRmTUU4c1h6S1gxVi1hTkJqMlBsVWpBczNubmpHR29IMzEwLUVtRTNMRzhPamtYN0RWNk92bUg3Mk9OTGF5bVBLYTBrVXB0ejk0Q3BDWUJfR0JKY09HOUpKeEdPclk3ZUxuZGlBemNkbk8yZmfSAcIBQVVfeXFMUFJTVWZwV0JtVDR0a1VnRFZlaWgzc2VJeG4yZFZQcUZLNlVKTnNPb0NrenJ6SW1jUEdtZk5QUV9jSG5VWDFTR0FIb1JJb1pybVRodWk1UDBQcnVrVmhFcVhGQUdfR2pGdjQ1ZFR5cXdWMzktTU5BQm1xMUFGSl9rY3lDR3BDQnhYYWR6NkRjZXpCSEFIOGFwcFAycFJRZVJjUnVXRXNFNzAya0p1eU9Da3BPUU1YWG1VaU1TNzdfd01PVUE?oc=5",
-      "source": "NBC New York",
-      "published_at": "2025-09-30T20:11:05.000Z"
-    },
-    {
-      "title": "Taylor Swift course hits the classroom at Michigan State University - WILX",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeWwxcW13TnhFN0g5MkFxU0Fua2ZubWVVaTljYmxiUlA2RVFmVm1OUm9pbl9OQ3YyODZhRlpVaFVVeEpUMmUyNkdKRDE2WUxER3V1RjZYTEtJQ2FSUjVGQWtZNzRZc0NCRFpFVWdyc1pwa0VnVTNHLWFjbkgwT3cxWmlLcDNZNmJoYXgzeVlCR1REcHdfMnNPZw?oc=5",
-      "source": "WILX",
-      "published_at": "2025-09-30T17:48:00.000Z"
-    },
-    {
-      "title": "Taylor Swift is the most famous of all the WAGs, but will she change because of it? We bet not - CNN",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUjhqYVdjRVlTREtQNGlkSjhiajZGLVNpTGVVbmQwR3NveEttUlZxMU1pTlh0UURLb3EzT29pTU0tZnlLS0hoUUZWRWJFRENKTzRRV1dvNm9nM3NHekk4T0pyYVBlR3hueWMzTXBtMXUyTEIxbm5OS1YtM19kMFQ3eA?oc=5",
-      "source": "CNN",
-      "published_at": "2025-09-30T14:47:40.000Z"
     },
     {
       "title": "Taylor Swift: 6 Key Pop Moments on Her Path to ‘The Life of a Showgirl’ - The New York Times",
@@ -44,12 +20,6 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTUY1bGpvWEpTLTJYZXppajdtZHIxZ01JS2VGTkFDc054Sk1oWm1kdzRSZEhpeWJocWtFOHdpWDhIZ0JfSDZHbzFCNE0tWHc2SjdhRFdaT18zdURHOFZsMTNqM0Z5OXA5Uk5PVDZfRUduTXJUQVBhNnV5TVNVdUJGQ05lcThMSHhoWU4wd3RRYm5Vb1prcGVPMEJKNzJ5U3JtWmppSTRyNUNuR21rdl83c2FNN1RpMWZHc3JmRXEtaw?oc=5",
       "source": "NPR",
       "published_at": "2025-09-30T09:00:07.000Z"
-    },
-    {
-      "title": "Taylor Swift Is Staging a TAY/KOVER of Late Night with Seth Meyers - NBC",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZ2VYbTF2N2xMTEh3bmRCcnNWaVFMSlVPR1hPYnpCWEg0ZnhSbUZGLVFKNnRmSU5pV2FpbEtnb1dURVZsYXpXM0piQy1ubEo1WmhneVNZeTNVWExidXQ5WXZoeUMzUW5xTVh6Wm5kUk51Wnc3eFlLQTY3eFk0ekdKdmNUZ3V1aVdLWG5KUWNn?oc=5",
-      "source": "NBC",
-      "published_at": "2025-09-29T20:17:30.000Z"
     },
     {
       "title": "Taylor Swift loves a particular number, so let’s talk about some of her most significant ones - CNN",
@@ -77,7 +47,7 @@
     },
     {
       "title": "Essay | The Misunderstood Genius of Taylor Swift - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxOcGJUeEJHTVdseUMxLWhlUGVqcDlWMGJuVmdFQmpPTGlsUk9VbHMwZE1iLVZoMTVPNXd2LUZWWWxhUWtnLW0xMWJ4U3VReFlOV2RyQV9fazFDSTlKSF9nY2dCVURGbjR2V3MtRXM1cHFRSEIwYlVtRUpDcGdiOV9nUThvMDRaUFhUb090SE0zRmFkWlJqRS1qTVhDSzl2bFh4SmhCcXdaS2FvVGZUc0VVWUJOWUZkdERIejVSbGlOZjlNYWczQ3ZrVE1qbGY5R0lpTENOSU9lVHJWcDFPTXhJTldOXzY5MXktNTR6amlHUGJjcEY1X0QzMnotT2N4YzBQWmtSTjMxdG5rR0liaW1JLUJLRWdqSFZTc2hyTXo0SjByQ3AzQjFTcDJUcWtPdHNfeW9ZM0RYSDlQaS0zRFllbEYwWjVZWFpVSnRaQ1FMWDZ2djBiU3VzN21adno0RTNadk5tTmNpUHZqR3pXQzZZQ254WGJMV2tfQUNSdEVldFl0NFVVUEZvN18zdFdsR0xHdHJOWEZKWQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxQd1AxbV8tODhzbEoybFpDVlZvbzlDTXlOTmhsZ25MWVo4SU02dFpUakV4UENfTkdwU0RlTTFUOXNUV3BSRHMwWVNMcExPcnN0QWJkYzVnWjk5UWJHV0lkRnVxTV9razR2bmRhUUZETGloaDZfSjVyNi14ZWlPWGVyMDdwYnNtY2FVMnh4LTJneXRpcTUyUmU3cEFYcFBtdmdkZlVzU0RvVHBncHlUSTZqZU1TM1YyUklxNTZrUktUZVE2eV9qVnN1LWRGYUptdzZTbV9sSk5XdEZmVEtIVWQyQTNUdXV4Qm1LblVZSno1Y3FpVXRQNWxySldKeHF6bXBPNWlNNmtTNWtuTWRtMmlUWnc4VlJVUElyejBhR0NCOUV5TVQzRHVKMDUtYjg5SmtueWFlY244Y3RILVFid1EweEFWUmZMWGtDZVQ4WFRiTU5aM2V4M1pFbUpMelRYQlRDWVVfdGlwUElqTW1WbGZma29ZVW9DMFpqd0JYSnJvcmhUZW5oUFNzc2RsaWEyTllQTUFLenhpMA?oc=5",
       "source": "The Wall Street Journal",
       "published_at": "2025-09-25T13:56:00.000Z"
     },
@@ -100,12 +70,6 @@
       "published_at": "2025-09-19T07:00:00.000Z"
     },
     {
-      "title": "Where to Celebrate Taylor Swift’s New Album Around DC - Washingtonian",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUTFaVFROejJrcGZkc2ZYUDNNNmc1dDA0WWN5NHVGaUZjTzF4ZHJreGh1RDUwRndDbzUtZEhTeTdxUFR3bjdTQWJPUDJIbVFPOGhfT0tlaDdiQmlkNDRLZllmbEhIR1drcFdTRkN4SUphR1EtM20wcEFvVlFoLU9iQTJiNFdELXBXbWtoeXYwY0lhSjBfM0o2ZTl4VVZYU2liY1NPNzVCbw?oc=5",
-      "source": "Washingtonian",
-      "published_at": "2025-09-16T07:00:00.000Z"
-    },
-    {
       "title": "Taylor Swift Will Not Be Deposed by Justin Baldoni in Blake Lively Case - E! Online",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaUVhWkoxbTRKU1g0ZzF5VTZfSUhWY1lmSjFwN1Z3VFktSnR4WEYxalZONnY0YXpvXzV6dTBBYzZOTVk5aHZWcW50WTlDS0QxTUpYTjA0V0ZfSDdGclM3OGtXWVd1S2ctdng3aVNVNjhMdlVWckdGVzJkNExOVDdKUkxJZWUta3MxVzFWajc2LWFXcDFQbmlSaDY3YTFPQmRy?oc=5",
       "source": "E! Online",
@@ -116,6 +80,12 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdVlmRndnSl9RaVJXN1ZnZ1ZVVDNLQVk0aWNBdHdQblRIMW1rUXdOYkN2MjZDYXRORW5uRGNFQlBxUGQ1eV94VEdTMzNEODJKajBfUl9NZ05vTlRrZVFxV0p2Uy1hb193RG9kSkUyTnBRVks5MlB3SHREdGlOWkJZT2pwYWRmTk0?oc=5",
       "source": "The New York Times",
       "published_at": "2025-09-11T07:00:00.000Z"
+    },
+    {
+      "title": "COLUMN: We know Taylor Swift’s greed ‘All Too Well’ - theappalachianonline.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLUZnaEFDQnNRZWNlVmtFeDFWY0Vxc2V3dklCYktvdnRPZklTbkpYS3ZxZElzdnZQMFdNZmJhdlBHbWRJd0hUQ1BqSHlPNkJ4YlhUUUg5bGZnX240Y1A4X2lpV0tLeFVxRDVQTG5iYTNWS1FrREczV3poc08wYzcxM0k1SHFSN1p0?oc=5",
+      "source": "theappalachianonline.com",
+      "published_at": "2025-09-10T01:58:42.000Z"
     },
     {
       "title": "Learning my daughter’s language through the music of Taylor Swift - Huntington's Disease News",
@@ -136,16 +106,28 @@
       "published_at": "2025-09-06T07:00:00.000Z"
     },
     {
-      "title": "How Did Taylor Swift Convince the World That She’s Relatable? - The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSGoxUXJGZjVZMDZtOXU2bGY3QzVpN3F4SnJMRWJ0NUZNeDhUQkI2REhpenBHdlU3NlJMdHhvSnlad184TlNKZ2ZjUmh0bzJuSi1Gb2JZWm82MW53TjZFM0FXaG5jUDBseUFNQU50YnBoN0h0dFZORTFJQzdTUGxoOGlDbUdybjdGOFhOaE9BYW1UY1ZuMmFZazB3?oc=5",
-      "source": "The Atlantic",
-      "published_at": "2025-09-04T07:00:00.000Z"
+      "title": "Kylie Kelce Reacts To Taylor Swift and Travis Kelce's Engagement - TODAY.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYi1GOVRxNDRleUxKY1pDcFQ4R3VyLXFEVGp6YlZjU2NwaW5pcWdIRWFqcHo0eWFjdXJJWjJhWDEwS01EcDBPazhNd1ZLNlBlWlFnSGR4OVR5MEFwS1k3eFdUU3pCZDVuUU1nM2VZeGs0OW9SQUdvSlY3dTF5a2Z2YzNJblVnNnE0ZWkwRTExMmlvTmRjSF91aWdyWWFLdnhn0gFUQVVfeXFMTXdfYzZubGN4RUFuYjY1X2FjSVBDYUo3ZFJoeEc1QndaanJuMF9Jb285ZUdBODVqZnBmeC01dXNFZFhINWR3d2RSbW9lZ2VvLVk4azNa?oc=5",
+      "source": "TODAY.com",
+      "published_at": "2025-09-05T07:00:00.000Z"
     },
     {
       "title": "Taylor Swift’s engagement news comes with this sobering reality - MSNBC News",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVjRmamVxOG5GSDRaOGkxYTZfNE9BMEpCZktXSl95dGFJRGdEbW9OUUZWM3pockNXZHNvWEFfdjVwMWJ6cFY5dzlVNGptNFZoTEtSM1dzVmFvQVhQc3FMR0FHUExWTjVHTWNEeU81M1NRNXYtZmtvVFd0cEtSMmlDVGlRVmRGZGJjYkhPR2JQTjF4MW56dU9QODNaRXlWSnl3TlHSAVRBVV95cUxPVDlsMFZQWUVQbGhHMHhMTF9nXzFUUFMxbHFzVXpOcHlHam5heVgzSVk0MXYzWTNZYWV3SGFoYk95dzJJYkpIVDFxUzlicU4takU1LTk?oc=5",
       "source": "MSNBC News",
       "published_at": "2025-09-01T07:00:00.000Z"
+    },
+    {
+      "title": "Between Eras: How Taylor Swift’s Work Lives On Without Her - Paste Magazine",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYk9IQ1Q5SHU2VE8wVEFMendmaXFlV09nWGtNNWxfQ19oeTNONTVOdlI5eUlla2Y2Vkh1SzZYa0p3bXp4eUVBbDdGX1J2YnYzZWZUX0gzTnBmZU9tTzBFWjhDandkR0llTlBFVkFsaENUVmRodVpfV3Z6YkZ5VlVWV1k2bjU1V3pPdEx3OFU3SUxtUVZyaFRIS0I2aDdGRlVIRmVmSTV3?oc=5",
+      "source": "Paste Magazine",
+      "published_at": "2025-08-28T07:00:00.000Z"
+    },
+    {
+      "title": "Taylor Swift and Travis Kelce’s Engagement Rollout Was a Master Class - GQ",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd1hsaFI3QlRzdk1aWkt2WjhVcjl6R3Q1bG90UVRwRkg0YmNpOTEwdEVSZWRTSWJEeGlfTnIyT2IzdGUwUExpb2lrRE5VUXF2N1JTV3ZaRU9yeE1EZlpLeld3TDVHWHI1dVJqakpGZ0J6QWhuelhvOUJMQzNnVW1kaDZfNmo0RUtZekFhcjI3d285bjZ2U09xYg?oc=5",
+      "source": "GQ",
+      "published_at": "2025-08-28T07:00:00.000Z"
     },
     {
       "title": "Opinion | Thank You, Taylor and Travis. I Needed This. - The New York Times",
@@ -158,6 +140,24 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVjJEUE5jdEJ4TGV0Njl4cDZxY0Q0cGtJTE9qZXBZVmdtaW5xMjN5dEVaUlFFM2h3R3ZpMFlwNlVxbzJLdGdhTXhVallfVDQ5TzF0VURoNERfUjNacVIySG9SYi14UEtod2lHMmpITzJIVC12WkZfTlR6NzRtaDJZcGNoMVNtUWMzLUNNb1djVl9EcXNTRHZ2UF9n?oc=5",
       "source": "Vogue",
       "published_at": "2025-08-27T07:00:00.000Z"
+    },
+    {
+      "title": "I Baked All of Taylor Swift’s Favorite Sourdough Bread Flavors and They’re Shockingly Good (Yes, Even the Sprinkles!) - Real Simple",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ05YQVhBY2QtSXBUZGdob1JnSndRWm1DdXJlMzdsMFpxN2FySFJTMlFXQ3JNaGdBYXpMcHlvZUVHUUJid3otRDZINkdjVkpabzVxNVl0cjNsbXRGOVVOcEFZS1dTaDd4RktUSS1UaWY4cUdSTnNFRFlYVEhuNzM4M0x4VnJpcjZycFpJ?oc=5",
+      "source": "Real Simple",
+      "published_at": "2025-08-25T07:00:00.000Z"
+    },
+    {
+      "title": "A Taylor Swift Review For People Whose Favorite Folklore Song Is \"Peace\" - Hung Up | Hunter Harris",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE52d0JsYllSUnRnMDJWWWRpUkRKRnRLMUlIcnUtQmNzc21kTERqbDJkekFKbE5kM1JmLWpzQXdfdjB2VXZVXzFIQjhuN1RyYTlhSXBOX21EdkpEc3oxTm93eElzaFpiZHRWVzE1dEQzbE9rd2RUZm4w?oc=5",
+      "source": "Hung Up | Hunter Harris",
+      "published_at": "2025-08-22T07:00:00.000Z"
+    },
+    {
+      "title": "I Made Taylor Swift's Funfetti Sourdough—Here's My Honest Review - Delish",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcnRSZ2tUR2NYM25hX2xaVm9OQWV1c0pXc2lfV2FUbUg4NDV0a3dPX1RXRFRnYmU4VUFTU185d25FcE1nbUNDM1d3el9OUjVVcm96YW50OFRfdF9JWFNVaS1qVlA5V3l3OENjYkRrZTdnYm50bVlGVU0xM29aWVFFVndPMA?oc=5",
+      "source": "Delish",
+      "published_at": "2025-08-20T07:00:00.000Z"
     },
     {
       "title": "'Huge green flag': Taylor Swift opens up about Travis Kelce - CNN",
