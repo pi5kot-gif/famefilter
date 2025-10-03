@@ -1,7 +1,7 @@
 {
   "slug": "miley-cyrus",
   "name": "Miley Cyrus",
-  "updatedAt": "2025-10-03T09:12:28.473Z",
+  "updatedAt": "2025-10-03T09:35:56.303Z",
   "items": [
     {
       "title": "Miley Cyrus is moving back to her Malibu mansion 7 years after it burned down - KATU",
@@ -40,6 +40,12 @@
       "published_at": "2025-09-22T07:00:00.000Z"
     },
     {
+      "title": "Miley Cyrus releases new song for her father featuring Fleetwood Mac artists: Listen - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWlFXek5QdUhBM2VGTEVoSVRPbDB1T0daRUVRZ2ZVTFQ3YWE0Y1hDcm5DbWtjOWthVzkyLXZ0SXJNc3NqTXU0MWRDeGFtd0NfRklzNmg1eFJVZGVSR2twTXpYajVFN0VxQXhWRkxCS3VCM2V1YzJDeE11QkVwS3FkVTE5Skw5aDdR0gGOAUFVX3lxTE5ZVXNFSUxCSDFIQXZjVExaS19HZ1FWalVYS2RxRHhhTm5kYzdHVlRDTmlYREhEMVdRTkZJLVB0Tm9aQk1TUnFFcjNMeE1acW5uck14TGUzWExWLWo2NS1pZXhvUC1fWmQybGgxMUh1UlUyZWUxaU1mUE5TUmpXSzcwcTN6VUhJUHhPd2F6Wmc?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published_at": "2025-09-19T07:00:00.000Z"
+    },
+    {
       "title": "Miley Cyrus has never been 'super consistent.' She told us why that works for her - NPR",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMGVQSXZjUUNYdDJ4czNKRGwtQWpnNDRYdldEc3V6alZvdmlGVjdaVWZHM3otaGhXaTBlekpsNWtOWjM5ZVlKMURTd0FicjVBVF95Q2YtT0cwb1VvenJfbmhuNHlaV2dzZGdoZ25YOWk2X1E0TjdrQnRfREliS01Ba1p0MGtRMG8wTFJWaktVdDNoLW5pelpaUA?oc=5",
       "source": "NPR",
@@ -49,12 +55,6 @@
       "title": "Miley Cyrus Releases Song Dedicated to Dad Billy Ray Cyrus After Mending Rift - E! Online",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNy04MTZfV1VJTFdtalBfOFJrcnFLVV9oSHZORUY5SWgyQ3JnNDNZUVQtanFRM2EzUV93aWNhVWczOWpiR0Z6Qk1Zc3BvX3JrWDBDUTQ2QlFDcnRqUXQ1d01ncU9qSUpUeXpfZG1pZFprdnRTcTVTakN4TDdoM2MyaWN4dDd4REh3MTlKSV9mOHBfaTBaeWxfVTd3?oc=5",
       "source": "E! Online",
-      "published_at": "2025-09-19T07:00:00.000Z"
-    },
-    {
-      "title": "Miley Cyrus releases new song for her father featuring Fleetwood Mac artists: Listen - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWlFXek5QdUhBM2VGTEVoSVRPbDB1T0daRUVRZ2ZVTFQ3YWE0Y1hDcm5DbWtjOWthVzkyLXZ0SXJNc3NqTXU0MWRDeGFtd0NfRklzNmg1eFJVZGVSR2twTXpYajVFN0VxQXhWRkxCS3VCM2V1YzJDeE11QkVwS3FkVTE5Skw5aDdR0gGOAUFVX3lxTE5ZVXNFSUxCSDFIQXZjVExaS19HZ1FWalVYS2RxRHhhTm5kYzdHVlRDTmlYREhEMVdRTkZJLVB0Tm9aQk1TUnFFcjNMeE1acW5uck14TGUzWExWLWo2NS1pZXhvUC1fWmQybGgxMUh1UlUyZWUxaU1mUE5TUmpXSzcwcTN6VUhJUHhPd2F6Wmc?oc=5",
-      "source": "ABC News - Breaking News, Latest News and Videos",
       "published_at": "2025-09-19T07:00:00.000Z"
     },
     {
@@ -100,12 +100,6 @@
       "published_at": "2025-09-17T07:00:00.000Z"
     },
     {
-      "title": "‘Miley Cyrus’ needed thousands in gift cards from online GA ‘relationship’ - WSB-TV",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZlg2dWM2RGFOVUZobGxHeHlVMERkQmVGcXNmd0FWQVc3ZVRaMUFqaXRzQ0RLdXVfelRxUERDY3JtZTEtY0l3ZkNPcFlUcU1tV1FCdHRNQ2g2WGZpOEJCZHJkaFZkcXJ5cHQ3SGFBMExnZktUYTlmc2p5TDZzcFUweWJyb19uOHlZbi0wczBDOWd6ZXh3LURZeVl0Y3NRRHRyQWp0X3UtUm5EOWRqUUppZGR2RmRRcnFoQlVEQk1LZk51UUtDN2dCS0RxMEVJMW8zYzlF0gHnAUFVX3lxTE9RQkNpaW9OZV9QRGtHY0VJbWJ4ZmRERjRUM0l3Z1NRRnZEd2NpQnYybmxNSW00b2k5SlphRi02a1k1ZnVGUG9aUmtFTlZtXzdYQ3ItN3NQb1U1XzNsLU1MM0xoMnFUTGJrRlVySVZTSTVEdENpYjAwaUpEa3Zjbk9qTVRnWXp1SnpRNnNtYWNORlZFY3l2cndCaVhNVjZvSUNWQUNRNFZGZ1FFVGh3NlhnLTRYLVVlS0x2ZW9jVExUNmU1WDRIcDJLd0RWYmFKSHBBU0VzdWRYaTY5UmtBYlFhLXk3RTJWWQ?oc=5",
-      "source": "WSB-TV",
-      "published_at": "2025-09-11T07:00:00.000Z"
-    },
-    {
       "title": "You’ll never guess what Miley Cyrus’ first concert was - 97.9 WRMF",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tcUltSEltd0tFWE5fY05QSjNxbU1HMW5xNzNOSWtMVnY0VTFnYWpsS0hIeXlqWHdxWVJOeVh4ODMwdVFnSlZXcTAtb1ozdkZTT0FDcWJvWUVRb3JSYkVGNGFGbHFWVE9QdkV1ZzlORlM0d1hubGVmbDlLTFlMZm8?oc=5",
       "source": "97.9 WRMF",
@@ -148,10 +142,10 @@
       "published_at": "2025-09-01T07:00:00.000Z"
     },
     {
-      "title": "Miley Cyrus Says Modeling Nothing But Body Paint and Tabi Boots for Margiela “Felt Major” - Harper's BAZAAR",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQelBiUWJDRU9hNXlER0Z2ckgtaFFEd1BpcWRSUk4zR05fcTBKZnk0dkhLbFdXNmdYWVc1M1pkbzFmeHlmZThiMW10UUctVzlKTjdRSEItR3Q0Vm05NFhBUnNnY1NyMlBDTER5aEdSWW9nMVgxZ25fa0t1MXlobkdYdGE1SXVJaHBYMHVDNGFBdmxfbDZ6S01lclNWcmYyM0JNeEdkcmZhWGM0LV9ua2JWb0xXbk1kOUNXSWlZRzJLQ2k?oc=5",
-      "source": "Harper's BAZAAR",
-      "published_at": "2025-08-29T07:00:00.000Z"
+      "title": "Maison Margiela Taps Miley Cyrus For First-Ever Celebrity Campaign - The Business of Fashion",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVFhIZHk5MXdRU2VaRzA2blg3M0tyZFozY01Dcnc5TlRSLWdDYVN4bjZBVERFVmFaSUFKUW1vcmt0OEw5STBlZTR2M1Exem12Rzg0cENfZjE3WVFoQmVWOHpLdHJNeklIMkVidVJWbVk5OEZ0X1ZQTU1VVkFFWnliTUt3c2dUWHFEd0ZGUVpqMHo1OE4tN1h4b2ViQkVOc3JYWXlIXy1ON3ZfLW9IOG1OVGVhdw?oc=5",
+      "source": "The Business of Fashion",
+      "published_at": "2025-08-28T07:00:00.000Z"
     },
     {
       "title": "Miley Cyrus Recruits Fleetwood Mac Members for Special Birthday Song for Dad Billy Ray Cyrus: 'I Love You Mile' - People.com",
@@ -164,6 +158,12 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMjhkcUF3cWdmRjNsNDhXbGg2V1ZvaS1XaGhaOUlsU0pheXp0NVJNbTdEbl85ek54a3huWkVrcFlfUm1YdkgwaXRHdGV2eEpYWUtTenVmNnNMeW5HWUpvREZ5SzlxWTNnWEtmUmhzbkFUV0lfZkpBeUlDZjVURlVTUWZ2M01SN1IzWC1UX1JwYWU1Skpod081TFBCNVc4cE1ENmxV?oc=5",
       "source": "People.com",
       "published_at": "2025-08-23T07:00:00.000Z"
+    },
+    {
+      "title": "“Is It A Trend Not To Have Eyebrows These Days?”: Viral Miley Cyrus Gucci Pic Sparks Social Media Frenzy - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE01SmZ3WmluT3paOTFndFN3TndZRlhDUGNPT1B1LUFOMnFFaWQ3czlnZXBNWlZxbThnODM5X1EyOFlNTmdpd1hiWFVJU1dLSHY3dVFXZEtuWllXWDJ5WkNDZVhpNE96Rmc5dmxSb0thRmlLZw?oc=5",
+      "source": "AOL.com",
+      "published_at": "2025-08-21T07:00:00.000Z"
     },
     {
       "title": "Adult Money And A Hannah Montana Tour In 2026? That'd Be The Best Of Both Worlds - Betches",
