@@ -1,7 +1,7 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-03T18:44:15.811Z",
+  "updatedAt": "2025-10-03T19:09:18.533Z",
   "items": [
     {
       "title": "Taylor Swift: The Life of a Showgirl review – dull razzle-dazzle from a star who seems frazzled - The Guardian",
@@ -10,10 +10,16 @@
       "published_at": "2025-10-03T17:49:00.000Z"
     },
     {
-      "title": "I thought this Taylor Swift song would wreck me. It healed me instead. - USA Today",
+      "title": "I thought Taylor Swift's 'Eldest Daughter' track would wreck me. It healed me instead. - USA Today",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkxYNWlLZjR0bnU5X2J4RmIxeVcwUHJXV2J3aGZaNVpSZkVNVkJSamNiUXQzR3lPdzFaeUlXVl9ZSm01ajlxMk1YOGtFOUVRb1habVFUd1Q5T2N1aUlyeGd1SHk1dUFKYmpSdXJCV3p6dWlEUTREMGVxRVZaQ2NhWFBQYzFUSFoydkNMSFhtWmpZTDFXTUtiTk1jdjhVb29OTTYwYTdNcjNFN2VmT20xeEJ2ZkxWS0h3aUFMM185R2U?oc=5",
       "source": "USA Today",
       "published_at": "2025-10-03T17:18:14.000Z"
+    },
+    {
+      "title": "The Life of a Showgirl Album Review: A Taylor Swift Who Is Unafraid to Fail - Teen Vogue",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWnFKeF9uMDdxZ24yeE5HMThpWXByQTlNQlQ4SDYwcXJ4ZUd4bmhUdWhxWWE5cVFmYy1EbFZiRFByOE9Ob09oS1plNnpkSTZ5V3pNYUJheE5yM3B6UVNsM1FySXd6dFhmOWxnWXRVRG8xZkFqNWFBcVhiQmtkLUVPVnl1VXZGT2s?oc=5",
+      "source": "Teen Vogue",
+      "published_at": "2025-10-03T16:48:21.000Z"
     },
     {
       "title": "The Taylor Swift 'Showgirl' Song I Dreaded Most Wound Up Being Her Best - PureWow",
@@ -26,12 +32,6 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV0xMQVFWZEo3Y2c4V0ZNaUQzRE9OVGdocFVnT1VzYlN3azhQWUpYa29wLWZGcEJEMDFjODV6ZUVKS1Awc1RrekhkeVlVLUVDbXhQTHZIMnJPclZqZGV0cWRmMmdHbGo2YU1GdXhXcWk3RjR4SjU5cndwbHZQUUZOZjc5ZktCMGZjbjFkdmx5NkIteGQ5RDFOSVA2Z2x6TVdVNE5rVVVOLU42NFVlRWc?oc=5",
       "source": "glamour.com",
       "published_at": "2025-10-03T16:14:50.000Z"
-    },
-    {
-      "title": "When Did You Know Taylor Swift Would Be a Pop Superstar? - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR2E1clpzNWM5dVl0R01JTVhZemVtdHVHdEVBWlRWQVB1enlHMVNuOUxaQTVlal9VaHFycjlLNmFsMGh0TjBFZUFsMS1Sd3d0bUxzT25sUDZOUTZzNC1SdVJYQkVrTzZpLXJSNnpNUUtaaU9HRHM5cXY3RnJOa0hISDQ4Vm1PcGc?oc=5",
-      "source": "The New York Times",
-      "published_at": "2025-10-03T15:55:35.000Z"
     },
     {
       "title": "8 takeaways from Taylor Swift's new album, 'The Life of a Showgirl' - NPR",
@@ -76,15 +76,15 @@
       "published_at": "2025-10-03T08:31:59.000Z"
     },
     {
-      "title": "Taylor Swift's 'The Life of a Showgirl',' Taylor Swift Has Made Her First Completely Joyful Record' - variety.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa21URm03a3ZBdEEtQS1hN01XUGdjanNFQ0c4WjJpcVZsTGtQVkFwQ2d0YjJmRmY4cllBaHljRmNSNGJxQ3dqTF96X1kxcjhBa0RQVFp6cTkyaTYwcjVYdTZ0NVhXbTJSVjd4dUt3MUhMam9OWFdiM21XQ0VEVHhxaDVEN2pnMkE5bkFVSmdYbE1vRzJvZnhKT2w0dTRYNlRhcEVn?oc=5",
-      "source": "variety.com",
-      "published_at": "2025-10-03T04:01:00.000Z"
-    },
-    {
       "title": "Taylor Swift Conquers Her Biggest Stage Ever on ‘The Life of a Showgirl’ - Rolling Stone",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOHFrZTlFbENZOGwxTnZmdGFoaUdEX2FBeUQxZ1pmYmZuS051c3dzMzgzNGR2VllQUkhXTW9GTFBIQzdwUmpMTnZZdWpTNW45Z2ZuUjZ2cWc1anRYTEs5cEFDOEhEcktYVnpCRVhvQ3Y5LUFIeEllY2RrWVlGOFZ2LWRVbERGZ3lkT29lSlBTRlBTa3c1VHZYQVBQNjlWa1c2ZEdQRGhnc1dVNFJVeDNINFFIMFBidw?oc=5",
       "source": "Rolling Stone",
+      "published_at": "2025-10-03T04:01:00.000Z"
+    },
+    {
+      "title": "Taylor Swift's 'The Life of a Showgirl',' Taylor Swift Has Made Her First Completely Joyful Record' - variety.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa21URm03a3ZBdEEtQS1hN01XUGdjanNFQ0c4WjJpcVZsTGtQVkFwQ2d0YjJmRmY4cllBaHljRmNSNGJxQ3dqTF96X1kxcjhBa0RQVFp6cTkyaTYwcjVYdTZ0NVhXbTJSVjd4dUt3MUhMam9OWFdiM21XQ0VEVHhxaDVEN2pnMkE5bkFVSmdYbE1vRzJvZnhKT2w0dTRYNlRhcEVn?oc=5",
+      "source": "variety.com",
       "published_at": "2025-10-03T04:01:00.000Z"
     },
     {
@@ -94,12 +94,6 @@
       "published_at": "2025-10-03T04:00:12.000Z"
     },
     {
-      "title": "We Tried Taylor Swift’s Funfetti Sourdough (Sort Of) - The Cut",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeFBMZTZ5YVJTcS1VNmp6Ty1ackJlc1hIdHptckZNRFJwTkN3WTRTc0N3ZEx5OTV3SjAzMTRkbnVLTTJvWnM1YS1DODloZGc4eDRYT28waDk3d3l5M2p4cjNtd0FpdkNlc05rQWptOGhmXy0wSF96ME5GOW54UkgyVkFUdXNrQ2txbDZfUUVJaFc1LTB5?oc=5",
-      "source": "The Cut",
-      "published_at": "2025-10-02T17:55:36.000Z"
-    },
-    {
       "title": "Taylor Swift loves a particular number, so let’s talk about some of her most significant ones - CNN",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9NaVMyYmlibnB0UEdkY0ZUSjlYUnl1Y0NsNElhMVVjdWwtZDFRcmJDTlRoUHByUWV5c3pnR1o2YkhDRmo2bGNfdkVZZnI4aFVkMHh5NWRqN3pxeC12bFZ5SGg5TGF2dXZleDBYNWppM0tXMlk?oc=5",
       "source": "CNN",
@@ -107,7 +101,7 @@
     },
     {
       "title": "Essay | The Misunderstood Genius of Taylor Swift - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxONldzQk1aVktRNnFVc29PQmxVUEQ1QWEtWW5OUVpXT0c2MnBPdXR2YVlabVNIeFlxOXFqTjEzZmhsR3k5RXp2bzQtRzFZaEhYTG1FVmFiRzU1WTdLdmZIaDJNU1luYnRHRTJ2RU56NHBzNk1xVVY5TFRtTXBFMUx2bG5WaTE2YUpQZldNc1RJZ3FrMGJyVDJiUld5VDFyZS1IbU4yUGx3ZXNJdk5FODFyV3BwWS1ObzhyXy1nSkhqRTBzcF9JdkVuNVlzSFpqejNiNkpENTFTdldCOVJacXk1dzhuUHJuSEwxYVpEUFN5TUNWSE1VWFhtb1ZKdXBpUmFvQUJKTTVXT0hMcFktWVZvZDFSVWhfdGs5VWNaSjBUc21WVVNtQ0tsNWE1UnUxVl9FQVBMNHBZYmJOb1c4YUFHak5RVThUSGJQNVdPWjAxenZmeGxIckZldHp5VGd3VklNN2NZYkhDR2VCbjNhT0ZVLS05RGpRT0pPb3lOMVdiUGx2NDdOTFJ4b2ctaGF1WHJCOWJaREhBZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxObWdOb3NYemdXcEExbTc5MWZzRjZRX3dVU0oycmFrV250NEF1OVhiNlFWNTU1bHVRVDFVRUllTm96MHNKUk5qUVlnQldBaTNpcXVvT2ZpcVhuVmd5X3NMY2xqREtUZnlMYlFMSlFwRDBOVDVNRE1DREh6aGZualhHUGhoT2c2cXRFeGdIdzF3SVFQQzZRanFOWTlsTUNwRlZjMHI0YzFZTk4tRUV6Ui1LZUhNQTlmNlpRUnB6THZDckFpc19PaTRfNDFQR240QXJxeFpXcF94Mk9oYXB0T1UxZGdEdDQ0Ri1kX0JaOHpUOThrTVFnZ05YRzBUZWFxZ0FJa2VLQXIxMmVDTmdmVEhRcndlSjFIV2txUHlna2kwaWU0Qkg2NGV3UXZ3eWFYbm1WUVBrVkdheWVKVi0ya0xZN2c5ZWxaNWp0b1Z1aDlzR2pDQVpGQXZvZXBBNWowdFFzQ21STV9MdThXZWFabG5kTkpMTTZINUlHUUJRUjJXTXJ3RVBWRE8tUjR0cThYTFRHWVRSWE1hWQ?oc=5",
       "source": "The Wall Street Journal",
       "published_at": "2025-09-25T13:56:00.000Z"
     },
@@ -169,6 +163,12 @@
       "title": "'Huge green flag': Taylor Swift opens up about Travis Kelce - CNN",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTFZ2cW96Wmdibm15MU9TaUVWeDBTZnpBMUFldnNMSTB5WnA5YTQ1dE12UFkyNk9zd0ZPMHBWVmhUWTRmYmJiTGZheFU0WGtjM0lpdElSRTlkQlBUdGpfbnp1RHVMMXlJRE1zQmlUWUpWZk4wM0tZMWhBQWhCSjJVeXpLUFlCcFBoVXI1MmlRTW90QkZta2dxOWg5aEkxTVo4M016R2ZOQjNUTkJlbm1mREpIM2cySHVTQ3g1X1hQSXM?oc=5",
       "source": "CNN",
+      "published_at": "2025-08-14T07:00:00.000Z"
+    },
+    {
+      "title": "'The Life of a Showgirl': Taylor Swift announces 12th studio album - AP News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSEFWNFprSGxmeHJxMkRlVGViaFd4TW1aY05yWlRVRmpKWGlVQUtucm1zMjFjaVpuZEIxX1YzUnliRFdrR3FyRF95UER4ZFJyT1JOUXhwOEhyQVJ2S1djcXJGUHZ5LVlpZFJ2REw1dzh6Nkh3dkRFclNjcnZsTjRQVVExRnJSWUg0cW0wek1vMktaMkxhUDhwYTlSdG4zeVND?oc=5",
+      "source": "AP News",
       "published_at": "2025-08-14T07:00:00.000Z"
     },
     {
