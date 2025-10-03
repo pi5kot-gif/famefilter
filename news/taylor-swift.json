@@ -1,8 +1,20 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-03T11:10:00.294Z",
+  "updatedAt": "2025-10-03T11:33:57.375Z",
   "items": [
+    {
+      "title": "Starbucks celebrates the release of Taylor Swift’s ‘The Life of a Showgirl’ album - Starbucks",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNanFYdzYtSlNuRkh6aG5hTmMwcWpldVR1NHJkS1VxVkt2NnRPY19GbUwyR2J1c3F6VFhyWXAzVkhHU1hNLU9HdXVYUXhTeEwxRTJjbHN3OFotdW5sR2VZUWtYNHB6aktJUm9oUnZNVWtpVGlROXhBQ0tJejg0aHFqcVFjNWxDLVFVejYxQzFEOGxSVkNZdC01RDdodFFIRFJyYWFyNHNnRUJPWnV5TVJCMTBmbzJCUkRQ?oc=5",
+      "source": "Starbucks",
+      "published_at": "2025-10-03T11:17:03.000Z"
+    },
+    {
+      "title": "When Did You Know Taylor Swift Would Be a Pop Superstar? - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR2E1clpzNWM5dVl0R01JTVhZemVtdHVHdEVBWlRWQVB1enlHMVNuOUxaQTVlal9VaHFycjlLNmFsMGh0TjBFZUFsMS1Sd3d0bUxzT25sUDZOUTZzNC1SdVJYQkVrTzZpLXJSNnpNUUtaaU9HRHM5cXY3RnJOa0hISDQ4Vm1PcGc?oc=5",
+      "source": "The New York Times",
+      "published_at": "2025-10-03T10:45:08.000Z"
+    },
     {
       "title": "Taylor Swift dares to release new album after Trump declares her 'NO LONGER HOT' | Opinion - USA Today",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaTF6X0o5Qk5OOVBmbVMyWUlKeUpoNDNPekxHMURiTzE5cDQwMWVxM1d3Qm10clVmVHkyeEk0cTlUMjVMRDctZXFVRXlaVUkwRXNhTkFWOHExcV93ODE0Zlg0UUFEWV9nZ1Z0LXFCVjlHTFRWNHV1WWR2eEF2RVkyVzBEX0tLSHhUU0JWTjJpanRFb3FCM25vOTZEdC1KZXRIb3dUVkl0bw?oc=5",
@@ -10,22 +22,10 @@
       "published_at": "2025-10-03T08:31:59.000Z"
     },
     {
-      "title": "When Did You Know Taylor Swift Would Be a Pop Superstar? - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR2E1clpzNWM5dVl0R01JTVhZemVtdHVHdEVBWlRWQVB1enlHMVNuOUxaQTVlal9VaHFycjlLNmFsMGh0TjBFZUFsMS1Sd3d0bUxzT25sUDZOUTZzNC1SdVJYQkVrTzZpLXJSNnpNUUtaaU9HRHM5cXY3RnJOa0hISDQ4Vm1PcGc?oc=5",
-      "source": "The New York Times",
-      "published_at": "2025-10-03T07:58:25.000Z"
-    },
-    {
       "title": "On 'The Life of a Showgirl,' Taylor Swift feels love's glow and the spotlight's glare - NPR",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMmxHaUdmRW1vQXphOVRQWERoQTNqM0o4a19OU1VrRVlrVUJxT19pcjYwVXVhMHQxQk1GbnlCMmRQNVFxRGZWeVVpVXJCQmNKdjZqZkQ1d2tjeEVoOEt3WWRmaWppaUJSUXFBRUFieEtZcnh2Q3dFYWMzb0h5dXZlRXQ2c1pFVG44aHM2VlJMZjc?oc=5",
       "source": "NPR",
       "published_at": "2025-10-03T04:03:36.000Z"
-    },
-    {
-      "title": "On ‘The Life of a Showgirl,’ Taylor Swift Has a Lust for Love (and Her Foes) - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUjJDcENrTGNVb0xBVVRFMTJmM3VLaWJiMUIxckd4bnRwWUw4d0ZrWHN3UnhFZW1xYXFZVDdMT0RrRmNmYVk2RVZ3RmUzTmpITnZCTmliYjVnWjI5LXZFSVQwQXB5TXpFdU5JRlZoTG44MzgtbE4zelV5UDNrb3o0THlNLVV6ZGtSVVRxeHFLQTdKUllqUUdCaA?oc=5",
-      "source": "The New York Times",
-      "published_at": "2025-10-03T04:00:12.000Z"
     },
     {
       "title": "Taylor Swift, George Orwell and Dwayne Johnson are in movie theaters. Take your pick - NPR",
@@ -65,7 +65,7 @@
     },
     {
       "title": "Essay | The Misunderstood Genius of Taylor Swift - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxOLWxPbE1kQmh5aHBzVlJ3bEo1ME00dTEtQlRqX041cmNhVWNFU05QeGhZbE5ZUFR3X01RQXZVV3g0NjdCM1Z3em1aOGhwcThlRjJ3ZUE0YUpjRUJGWnVMNjlvQmQzMUo5TmJhZlRlRUhmOVBnbGNWaG5HSVBURElXeWFyLWktMms3ZE9HS0lBemNIZDFNN3RXWENWWDNXeExKOVBaNExoUlY1UmRzSlZuNm1tUXR3TFZYV1lMb0tZUTdySGxUMTUzMUVsSTU1dlNQWmlGNXVmaGZGRWNiTFQ3SkxZV0FhZVRoQlA4OTZXX3NTUzNnOUF2UUZGc2prM1dTRXFUMjBoMDBLUWhtcEFQNjR4VV82ME03SXUtRXk1MWc4N1NNdlZDUU96bHpwQUdtbHlPTVlZYktfYlJWcjB2RUtiWUM3c0JYOTZQTE5WUWdiUG04QW42T2RvdGxvWFM4WUJBMXdBSGFkYVUyZjdpQXJNb2lIN1VIWTl0QmlxQUtEdFVZaXJPMXpIczdQeG1CTU1pX0NBTQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxNUjB6UktLc2dMWjllaDJKQWxOOHNrQ0Rya2ZfaEdibGVSNmlwUldlRW9JVm9sV0ZDNHJ2WlFCUXpfcS1uTEM5c3VkVUQyNndvaERld1hVR0w0NTk0VlQ3cXI2UnlBb1R6NjBTeXRYa3RIdTJPTGpTZ3k3cXI0NDBiaHcxeGFERS1pVXpCUkJwdUM0TGhmandUNVFoTWxXZF9fVEp4S1F1VVpGMjVpN2lUSnd4TEJsWUJmUUFsTlZtYWpEZjNZQnJ2SlBwMTVwaXJwcnlkOWxzMHpDcUs0bUVkd1BwZ1Qwb05oZ3ZIaF9LYzJpOURsdl9BeTZMd2REanZvRmI1YTdqRXY1VVF6WXpSb0lyZGo1QzVZdU1WUjZrNEsza1hmNHpESkFfSHItUlQ5OUlYN2lEUVE2MTl4VGJfS3RIZnpUZExfcEk4UV9iZS1yVkQ1YkRXV294NGZXX0R5bGtLSTJxRkpBQXRqYkl5emRVdzhjZHdJVlM3cHd0WU1KQ2kyWmJmaFJNbmk1V19FeTRuNHJ0RQ?oc=5",
       "source": "The Wall Street Journal",
       "published_at": "2025-09-25T13:56:00.000Z"
     },
