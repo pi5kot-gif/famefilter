@@ -1,13 +1,19 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-03T21:09:50.182Z",
+  "updatedAt": "2025-10-03T21:33:35.482Z",
   "items": [
     {
       "title": "I Don’t Need Taylor Swift’s ‘Showgirl’ Era to Be Kid-Friendly—Here’s Why - The Everymom",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mWFc4Y3dMd3FwdndoS2xfQkNyb3pVazJITlloZzl4VlpWQ0R2a1p5X2lPWWVxRUhwa0NmZ0lVcE55eW5oY0VkVjdYQTFWaTdOdGpuSEVDcWFQN2RTdlIxNVdiWDR2SUZjOEF4SQ?oc=5",
       "source": "The Everymom",
       "published_at": "2025-10-03T18:39:28.000Z"
+    },
+    {
+      "title": "Taylor Swift: The Life of a Showgirl review – dull razzle-dazzle from a star who seems frazzled - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVk4wc1RoTUlfWXRoTG9EUjBRdmFub0VENi1qdHNmeWlNejd3WDkyWXExa0ZnQjJnRnJCS242RDBkaUkzMFdxMFZWck9vODRiRkhLTWdEUHlQaG8xVmlJY0VWSjdwZEFnSnRTczI3MzZ4cVNHbE1MWnVrSHY1S2EwallLUHVqTlE3NU92V1R3N1JXQQ?oc=5",
+      "source": "The Guardian",
+      "published_at": "2025-10-03T17:49:00.000Z"
     },
     {
       "title": "Why Does Taylor Swift Think She’s Cursed? - The New Yorker",
@@ -22,12 +28,6 @@
       "published_at": "2025-10-03T17:18:14.000Z"
     },
     {
-      "title": "The Life of a Showgirl Is No 1989 - The Cut",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM3Z2YzBTaXYxdURnM2tWb2I0cDl0OUJCZVBuZkxJRzM2akkyaTZqazQwNnFRY2VTaWVGVXczNFdiZmlXVllGVVgtbENjTFc2bjBzYVROdUgtZHV4RXI2WFRLdkprTVctWWttb25jSmdBTjNJMi13Qjc0Sm9HZGhZdg?oc=5",
-      "source": "The Cut",
-      "published_at": "2025-10-03T17:02:41.000Z"
-    },
-    {
       "title": "The Life of a Showgirl Album Review: A Taylor Swift Who Is Unafraid to Fail - Teen Vogue",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWnFKeF9uMDdxZ24yeE5HMThpWXByQTlNQlQ4SDYwcXJ4ZUd4bmhUdWhxWWE5cVFmYy1EbFZiRFByOE9Ob09oS1plNnpkSTZ5V3pNYUJheE5yM3B6UVNsM1FySXd6dFhmOWxnWXRVRG8xZkFqNWFBcVhiQmtkLUVPVnl1VXZGT2s?oc=5",
       "source": "Teen Vogue",
@@ -38,6 +38,12 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4bU9EaVlOZ1MyWDJnbzJiaEF5MVgyVmZpcllCV1g4emN4UzZwZlRJdkxLUkQ2c2MwRmgyd2h1dGJudEZIMURFWjdEZ1VjTEpVUzlXZGJzYUhvNExkZDlBV2MxRy1rdGRueF9YdWMtMTBmbWw3X3FhWnZHZkl3Zw?oc=5",
       "source": "PureWow",
       "published_at": "2025-10-03T16:27:24.000Z"
+    },
+    {
+      "title": "Every Single Thought We Had While Listening to Taylor Swift’s New Album 'The Life of a Showgirl' - glamour.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV0xMQVFWZEo3Y2c4V0ZNaUQzRE9OVGdocFVnT1VzYlN3azhQWUpYa29wLWZGcEJEMDFjODV6ZUVKS1Awc1RrekhkeVlVLUVDbXhQTHZIMnJPclZqZGV0cWRmMmdHbGo2YU1GdXhXcWk3RjR4SjU5cndwbHZQUUZOZjc5ZktCMGZjbjFkdmx5NkIteGQ5RDFOSVA2Z2x6TVdVNE5rVVVOLU42NFVlRWc?oc=5",
+      "source": "glamour.com",
+      "published_at": "2025-10-03T16:14:50.000Z"
     },
     {
       "title": "8 takeaways from Taylor Swift's new album, 'The Life of a Showgirl' - NPR",
@@ -82,7 +88,13 @@
       "published_at": "2025-10-03T04:01:00.000Z"
     },
     {
-      "title": "On ‘The Life of a Showgirl,’ Taylor Swift Has a Lust for Love (and Her Foes) - The New York Times",
+      "title": "Taylor Swift's 'The Life of a Showgirl',' Taylor Swift Has Made Her First Completely Joyful Record' - Variety",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa21URm03a3ZBdEEtQS1hN01XUGdjanNFQ0c4WjJpcVZsTGtQVkFwQ2d0YjJmRmY4cllBaHljRmNSNGJxQ3dqTF96X1kxcjhBa0RQVFp6cTkyaTYwcjVYdTZ0NVhXbTJSVjd4dUt3MUhMam9OWFdiM21XQ0VEVHhxaDVEN2pnMkE5bkFVSmdYbE1vRzJvZnhKT2w0dTRYNlRhcEVn?oc=5",
+      "source": "Variety",
+      "published_at": "2025-10-03T04:01:00.000Z"
+    },
+    {
+      "title": "‘The Life of a Showgirl’ Review: Taylor Swift Has a Lust for Love (and Her Foes) - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUjJDcENrTGNVb0xBVVRFMTJmM3VLaWJiMUIxckd4bnRwWUw4d0ZrWHN3UnhFZW1xYXFZVDdMT0RrRmNmYVk2RVZ3RmUzTmpITnZCTmliYjVnWjI5LXZFSVQwQXB5TXpFdU5JRlZoTG44MzgtbE4zelV5UDNrb3o0THlNLVV6ZGtSVVRxeHFLQTdKUllqUUdCaA?oc=5",
       "source": "The New York Times",
       "published_at": "2025-10-03T04:00:12.000Z"
@@ -94,26 +106,14 @@
       "published_at": "2025-10-03T03:50:00.000Z"
     },
     {
-      "title": "We Tried Taylor Swift’s Funfetti Sourdough (Sort Of) - The Cut",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeFBMZTZ5YVJTcS1VNmp6Ty1ackJlc1hIdHptckZNRFJwTkN3WTRTc0N3ZEx5OTV3SjAzMTRkbnVLTTJvWnM1YS1DODloZGc4eDRYT28waDk3d3l5M2p4cjNtd0FpdkNlc05rQWptOGhmXy0wSF96ME5GOW54UkgyVkFUdXNrQ2txbDZfUUVJaFc1LTB5?oc=5",
-      "source": "The Cut",
-      "published_at": "2025-10-02T17:55:36.000Z"
-    },
-    {
       "title": "Taylor Swift loves a particular number, so let’s talk about some of her most significant ones - CNN",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9NaVMyYmlibnB0UEdkY0ZUSjlYUnl1Y0NsNElhMVVjdWwtZDFRcmJDTlRoUHByUWV5c3pnR1o2YkhDRmo2bGNfdkVZZnI4aFVkMHh5NWRqN3pxeC12bFZ5SGg5TGF2dXZleDBYNWppM0tXMlk?oc=5",
       "source": "CNN",
       "published_at": "2025-09-29T15:27:59.000Z"
     },
     {
-      "title": "Sounds Like Martha Stewart Changed Her Mind About Taylor Swift’s Wedding - The Cut",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNDlRTnhSejVPUENjN282TFF6cm5SR1J0dFV5ZjFMb2F1b0dkbDNnQmk5ZFVNMDRpd0hHRWV5N3dEcHYzODBpb1VTUkhCMTFsQ1M3cUF2NHVINVRRUzY2WHhTMHV1ZVRWejVodmJTWVNzU1FBVjJrcnd3RjU5bUF2dllXRWdJUjFqS1ItNA?oc=5",
-      "source": "The Cut",
-      "published_at": "2025-09-26T20:48:13.000Z"
-    },
-    {
       "title": "Essay | The Misunderstood Genius of Taylor Swift - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxPVVotZGhYSGR1WW82d1BZekx5TmJPcWkwT2hpaVA0eDdzQ1FGNmEwcGgwdVpIUDlOSWI1OWRpaUp6OGFMWkdLUHZKQmd6bE9rOGdUbmhVdWh3dGhDSktfdmp1QldaR3ZVZmpKNHBsaE9FZGVIS3Fac01vYnlRMFZ4RzdOb2pvYTY3NmM3QmNXWllpRDJBRGRzRGdGQTR6aGN5TldTV1VoQm9BU09GNDg1MGtHVk1kOVNvOXBvc2JtSy1rV0QwWEpFUXM1RDZmV3hHaHRDU1pvR2hPVnpiWlpjVnJPZjJBWThkOXVKeUhHTXFHWHZLdWxFZGlUZkNJa0F0NXN2WTJrU1lkZk83TU9NbER2eWNnU0M3ZndTTVI2OGlHcDdVOElVMzlEcEVyalNXU3hBUnAtcXpDanlSd0xaSm1pQ0N2dDViZjRxSjRDNS0yaWxqN2NwcHNuR3NmV3FXeDZ1QmJuSkdjMkVyVkx6OUNrUVQ4ZnY2bEFKWm1MZ3BCRDEzWDBUOUVDcmtQWm4yS045WEVrYw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxOR3liM3YzbkQ1Y1J5bkFGT0RjWEZtWXhGUURzY0N3VUp4QVVEV0lzQkU4Z1p3RFIyWTN3OHphSmcxYmQydnQ5QWk4S1FtQUM2MElMLVJPZGlndWxyUkdnVzJ0Mm1FMWVTUUZ3MTl6ajUyS1dibzd2QnJ1Y2ctMlJVcHhGaHVQTy1MZjZKZGZIbkEwekd6dl9RNHVxZ2pyeEVSYXFFWU9rWkRXdnZXWmM2S2NGcDJhMV96eVI1b09fcWR6UlFoUjk5OTRYY3NPSUMwUUdBeXZFN2RFWnY5LUR1YUFVaDMxRUdTdzJuYUhPcjFROGpndmN6WUVkRGUzRXg5X200cE5aNWsxSnRoTGhjRnVqaW9xemFJWXpDTjdMeWo5VU5qNXJmb0NRaGZTd1F4N1hubGJpMGs4aFRVZ1UtUThCTDZNbExVYTlDTnZKZ3QycjFGUnJJWFNrY1g3VWdlMjVmU0pJZWVfTFd4bTM1OWpyQlR5ay1OSnBkRVU4ekI4Z1RBZUlFTGpTOWtXdENfYWtGNGl6OA?oc=5",
       "source": "The Wall Street Journal",
       "published_at": "2025-09-25T13:56:00.000Z"
     },
@@ -130,15 +130,21 @@
       "published_at": "2025-09-24T07:00:00.000Z"
     },
     {
+      "title": "'Taylor Swift: Life of a Showgirl' $15M Box Office Presales, $30M+ Bow - Deadline",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaFc1OUgyS3ExUHVEMGdYOGo2blVxNUE3YkZldU1UdzFYalB1WUFWR0xGN1VYWFJGUjFBYnhTVHNjQ0FaSnUtcElFUlpVeEhrY3R2Yktva3dWS3EwaExUTlhHSlVxV0tiV19MZXZfa3V1dGJPTE5aNWFmU0xXNEt5M1Y5c3h3OTBtNDIwdXF2YXNSclE?oc=5",
+      "source": "Deadline",
+      "published_at": "2025-09-20T07:00:00.000Z"
+    },
+    {
       "title": "TAYLOR SWIFT | THE OFFICIAL RELEASE PARTY OF A SHOWGIRL Comes to AMC Theatres® – AMC Theatres Distribution Also Taking It to Movie Theatres in 100+ Countries, Beginning Friday, October 3, at 3 pm EDT in the U.S. and 18 Other Countries - AMC Entertainment Holdings, Inc.",
       "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxPOFA0MVNBbFI0M1NiT2o1dGxsQVluN1RYZXpOZ1U0dHprRDRQb05aWjNRR200djdseUNZS1MxYkwwSERsVDJwVjZvMFdwbkZxZTQ1WmtxdVZoY3FxeUxNTGJjNjdRclRHaXJ2eXNxeFJKSV9ObFlaMWRmX3p3dUhVbUFyN2lwcTRWQjlNbE1CcGt3NHQ3QUR2WTZzcE1WQnJNTFVqM0kyR3hGWENtVE53ZEI2R3ItSmpOOFNIZDRUSm9jRU5YUGxJN3dTY0UzU0pqOGNFM1U3R0J1NzF4X21MTG02YnVpNkk4eGNVQU1adEJ2QUFVT3BSWGViWnRzQjZtOEJvV2luNWo3bnVSR2xBaE9CZVNYSVY5LVVoRnQ0TnUtVVBvQnlFQ010UWcwMEZwaDFJc1Zid2w0Zi1TdDUwb2lpQlZLWllLVTlsZnBEbUM1N1BXVElCOGllN1VXVTQ5bm1Zd01jdHJaUUJBYTdyLUI4ZEp1Sk04ajhsVDBaSklmaG9GZ3hpQWxHM2RMd21mNlY2eHZFdEF4aWY1bGE5UHRNUUYwZw?oc=5",
       "source": "AMC Entertainment Holdings, Inc.",
       "published_at": "2025-09-19T07:00:00.000Z"
     },
     {
-      "title": "'Taylor Swift: Official Release Party of a Showgirl' to Hit Theaters - variety.com",
+      "title": "'Taylor Swift: Official Release Party of a Showgirl' to Hit Theaters - Variety",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNXzFzbV9rd2V4ZlBBMjRFZ2NZSVdpd2lBcy10cWRza0RkV0g2anRrVHhKQzBSWFozem1HQ0VfUko0b1N1Q0FiOVRZZ1NHYVI5Q3lDaDJaOVNmaGF2bjJlQ3MzSGZYSnVsX0ppU0p2cExTMEJaUkx5Q09KYk1KbExzWExhNjh1TEF0b2pJNDNxTmRqVGQ0SGc?oc=5",
-      "source": "variety.com",
+      "source": "Variety",
       "published_at": "2025-09-19T07:00:00.000Z"
     },
     {
@@ -164,12 +170,6 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTzFNMzFzSGV0U21hVGtWaGFrcmJzTFBwWXl2QUFEeUR0SEU4OGNpbld5MmowYVBtZUZiLUhJbkRacVpOUUNZNHoxVl9BMk94aXE5UGYzUnhiekttenFSZkcxbFVQYjBoNnR2Rm5SVzZjVGhzcDRZU2VHWDc2b1FzXzhQY2ZESzBuMEE4YWxjdWM?oc=5",
       "source": "People.com",
       "published_at": "2025-08-27T07:00:00.000Z"
-    },
-    {
-      "title": "'The Life of a Showgirl': Taylor Swift announces 12th studio album - AP News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSEFWNFprSGxmeHJxMkRlVGViaFd4TW1aY05yWlRVRmpKWGlVQUtucm1zMjFjaVpuZEIxX1YzUnliRFdrR3FyRF95UER4ZFJyT1JOUXhwOEhyQVJ2S1djcXJGUHZ5LVlpZFJ2REw1dzh6Nkh3dkRFclNjcnZsTjRQVVExRnJSWUg0cW0wek1vMktaMkxhUDhwYTlSdG4zeVND?oc=5",
-      "source": "AP News",
-      "published_at": "2025-08-14T07:00:00.000Z"
     },
     {
       "title": "'Huge green flag': Taylor Swift opens up about Travis Kelce - CNN",
