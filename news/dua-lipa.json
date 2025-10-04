@@ -1,7 +1,7 @@
 {
   "slug": "dua-lipa",
   "name": "Dua Lipa",
-  "updatedAt": "2025-10-04T20:11:38.005Z",
+  "updatedAt": "2025-10-04T20:34:40.540Z",
   "items": [
     {
       "title": "Dua Lipa crushes 2-hour show in Dallas, which begs one big question - Fort Worth Star-Telegram",
@@ -46,12 +46,6 @@
       "published_at": "2025-09-27T14:16:41.000Z"
     },
     {
-      "title": "Dua Lipa’s Radical Optimism Tour Takes Over Miami—Full Setlist And What To Expect At The Kaseya Center Shows - Secret Miami",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QR3JtaDM2d19NaS1fTmoxcUY1cVc5WUR3bUNxUGtOUEdmdWlSSjEyMGdpbEF4N2d5cFl0eUJiVnMwOFo2ZU5aVXV0ZUZzT3BDdWdNUWlSNlFIZkRma21ZeHdITjNVa1VuTFBxVWllbUhjZmkyOVlGeUxaenV1V0k?oc=5",
-      "source": "Secret Miami",
-      "published_at": "2025-09-25T22:46:27.000Z"
-    },
-    {
       "title": "Dua Lipa Rips Up Daily Mail, Says Tabloid Exploited a Global Tragedy for “Clickbait” - The Hollywood Reporter",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONXVWcjhvQ1M3VHhXWXlVdTMyUF9vbUdZRWdhb0JUeHVzQ2ZrSUhVTm1uV1p3N0k1VjE5Ni1OSWhNejgyUHJGNVMzZmJodDdLUUxCem1pU2RnLS1GcTBGY0tEc1FSZUJQdzJ2SXdSY3hJZWtYY0x4RkpDcE9vMFBNRHhjVTlINHhPMzdHU0tqVDBaa1djUXRfcXZKWEotUEdMQk5VenE0eWxBT09ydGZ4RFJrOUJ1cmtUUlE?oc=5",
       "source": "The Hollywood Reporter",
@@ -85,6 +79,12 @@
       "title": "Dua Lipa Makes the Bullet Bra Work in the Real World - Vogue",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DbS1JV19wN29VQlNYc0JnSG9mSmNsbmllRGY0Y2I0dWNaSDdUc3ZhdGg4dVpZcHF6aDVNY1lVSlBWcVZsWEFTUmVXU1dOMGZ0bWcwemh6SUxLallBMUMzbXlrcW1vOThNUFBGbg?oc=5",
       "source": "Vogue",
+      "published_at": "2025-09-22T07:00:00.000Z"
+    },
+    {
+      "title": "Dua Lipa fires agent over his purported support for Israel’s war in Gaza - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdDRIRWFJU1pMRDYzdFBnc1B4T1I0cGp2N1QtR0lrQ0lLV1FPM09wTXBMUUo4WmtvTWZuS0tna3A5akdQX19tOThsNzk2d29COHc0WEpiLVZFZXI2enhWU0FxRDJLS2wtZHZ0VF9KNlMtMHNUdFF3UFBYZG44WjZjR19VakRfbHdHZkx6THhzWnlQWEVIYy1QamJMWHBWTW15OEFwbDZxZVdYMTlvUkhLWkR30gG3AUFVX3lxTFA3bnZBanVYUEFwMnkwT0MtNkk0WDlxdGo1SnBxc2pjdkd6bjUzZDdUS0JYb1pfRFJ2MXBYa3E3eXpaV3ZGaHJVbFdGaVljbm5iZEpSVWEwQ0g2NmFVa2ozbGVhSmEzTTBVNjYzVmdQeHI3eklHaHFaV21lNUNtYWdzNVhBbThOOU9sUkFQaml0Rld6REt6M3YxYlAxYlZoNmJSaGVNb2Zxd3JrQWpMTndzYTdlVGp2UQ?oc=5",
+      "source": "Al Jazeera",
       "published_at": "2025-09-22T07:00:00.000Z"
     },
     {
@@ -136,22 +136,16 @@
       "published_at": "2025-09-15T07:00:00.000Z"
     },
     {
-      "title": "Dua Lipa loved this North End restaurant so much she went there twice - Boston.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcl82eFhLRkNqLXl3elUwNmJUTzJKRFZMOWY1enplNV9uTXY1QnpfS3RMajRON1Vod2ZLYlVRaGxzZGIwQUF2OGF4OTZzQl9zbUNuTm12T2dUc1FPMUpmV0lQamFmajBvcXkyaFZOUld2bUZISGVCd1hNZ3dSVkFfTXV3VnRDMXR2cURaa1NOaWNxLWViZHoyQlJkMTFocEp4ZUZpRi1QLXNOS2tVX0szeHBzZVrSAbwBQVVfeXFMUEE0d3ZNXzBPMktkNEFpcHZmRWFlTVFnYnYzUFkyQ1dQNFVjaEZjV3M5MjctdlVsdWxuV0JNZ0YzWmNwYUE4ZXNFQ0w2OFNkN0ZPMmJMd3ZGZWx4UW9rZnlQNnVodlI0TUo5LXJldjZUUFZ0MzhIZmZUdFJyT0NyUDNnR2pPTzhZUVFlakU5THZaU0pLRTRLVXh0Y00tblhkZnVrd00xWEZtU185ZFIxeURXSk1tQ0NSMFF6bng?oc=5",
-      "source": "Boston.com",
-      "published_at": "2025-09-14T07:00:00.000Z"
-    },
-    {
       "title": "Concert Review: Dua Lipa wows Atlanta fans with dance-filled ‘Radical Optimism’ tour - Rough Draft Atlanta",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBhTTJkdHpmWlUzdURCSXdUNzdpLU40STFfRVV6ekRKNDRXZFJTLW1KVDVxVk9KV29kZ0tMcDBnd3JkMWp5bU4yZnktRHZVMGNyTDNzWUZRTC1hc0tFTkJadmsyb1lkaHZncHlVUkFlVW5YRDhxM0xJNGxKMXY?oc=5",
       "source": "Rough Draft Atlanta",
       "published_at": "2025-09-14T07:00:00.000Z"
     },
     {
-      "title": "Radical Optimism Tour: Every Surprise Song Dua Lipa Has Performed So Far - inmusicblog.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdTJzZDlkUXVseWRiUGE3bHNCdEg4aGlfX3dsTkxFcnE4N3Z3VEJPN1R5MEZPa0dYRDdiXzdPUTd1NzZQRFFRcS0wOTI3blg1cXFjamZ5MzQwcGx6ei1SOWNhN2oyYUdudzNMdWFpVWpNQnR3SWFub0RXeUR1Q2kxRGFwc1BNZnV1QlpPME5xOHUyallSaFZRcHl6cG9IRHB1SWtUSk15cjVhRjg?oc=5",
-      "source": "inmusicblog.com",
-      "published_at": "2025-09-13T07:00:00.000Z"
+      "title": "Dua Lipa loved this North End restaurant so much she went there twice - Boston.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcl82eFhLRkNqLXl3elUwNmJUTzJKRFZMOWY1enplNV9uTXY1QnpfS3RMajRON1Vod2ZLYlVRaGxzZGIwQUF2OGF4OTZzQl9zbUNuTm12T2dUc1FPMUpmV0lQamFmajBvcXkyaFZOUld2bUZISGVCd1hNZ3dSVkFfTXV3VnRDMXR2cURaa1NOaWNxLWViZHoyQlJkMTFocEp4ZUZpRi1QLXNOS2tVX0szeHBzZVrSAbwBQVVfeXFMUEE0d3ZNXzBPMktkNEFpcHZmRWFlTVFnYnYzUFkyQ1dQNFVjaEZjV3M5MjctdlVsdWxuV0JNZ0YzWmNwYUE4ZXNFQ0w2OFNkN0ZPMmJMd3ZGZWx4UW9rZnlQNnVodlI0TUo5LXJldjZUUFZ0MzhIZmZUdFJyT0NyUDNnR2pPTzhZUVFlakU5THZaU0pLRTRLVXh0Y00tblhkZnVrd00xWEZtU185ZFIxeURXSk1tQ0NSMFF6bng?oc=5",
+      "source": "Boston.com",
+      "published_at": "2025-09-14T07:00:00.000Z"
     },
     {
       "title": "iPhone Captures a Day in the Life of Dua Lipa - Muse by Clio",
@@ -182,6 +176,12 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPckF1THlnNldDX2hiYzlJbVNXNEpOV0h5X2l3MktyUloyTlVCNFlRQzB1VjI0R1l4aU1vejVqMkxmWVpoMTlDUmxDOTltRzU2RXYxQVZ3WHJYQ29sWU1VcHJMWkt3blh6NVYyUWlDMzVGNjIyV0FlZHZuUFBPRWJUYjRVZzVlcmMwZW9MMUllWGhlTlU3c09rcjln?oc=5",
       "source": "Harper's BAZAAR",
       "published_at": "2025-08-19T07:00:00.000Z"
+    },
+    {
+      "title": "Dua Lipa Is My Summer Makeup Muse—Her Makeup Artist Gave Me These 5 Face Changing Tips - Cosmopolitan",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOakljWi1mZ0RtSlhUZzVRV0wwMWJNQ3NXSk1WYWw3d3AzZXlhZFJEam9sZk1hc0JicVB2MVM5aUE1d01oOTNVc3h3dnJ4V05Kc3JRYVFiT0k5RU1JLWRCZDdwTFcyMkU5MF9vZjhWaVIwcnJVQkt3NjVCRzZ3X2NzZGVTcFU0ZWc?oc=5",
+      "source": "Cosmopolitan",
+      "published_at": "2025-07-07T07:00:00.000Z"
     }
   ]
 }
