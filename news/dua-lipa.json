@@ -1,7 +1,7 @@
 {
   "slug": "dua-lipa",
   "name": "Dua Lipa",
-  "updatedAt": "2025-10-05T08:38:18.449Z",
+  "updatedAt": "2025-10-05T09:10:44.948Z",
   "items": [
     {
       "title": "Dua Lipa crushes 2-hour show in Dallas, which begs one big question - Fort Worth Star-Telegram",
@@ -26,12 +26,6 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVERnSnN2RUVYRWpEZV9qZ1NXLV9xd2hRVDRvQmxPOURIbTJTTE5HNTNpUFozZjdrUEZFWVlxVzh4bUpERWN4QlFYaE1vRUhXeTNCX3FkeGlicklBUjdyX2JfN0hlOW5YY0lZcWF1WXBWLUtVRk4zaUZBT1FsOG9NZ1dtSlh2OURsVTJoZ29UOXhoX1ItVFZHOXl0amZRNF9ROGNQelJZcw?oc=5",
       "source": "billboard.com",
       "published_at": "2025-09-28T20:47:13.000Z"
-    },
-    {
-      "title": "15-Pound Chanel Bodysuits, Stompy Gucci Boots, Schiaparelli Corsetry: A Peek Inside Dua Lipa’s Tour Wardrobe - Vogue",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ncjVEeXVmUENPRmpwNkRDbW83ZE1nX0w0RzVTWFY2T3BiNU91ZUFoSVZpaFN6ZWxFcFBtUHJtYnVYbjFRdkFaNTd2VGNLc3JIRi1vNTlMV0NTS08yUXpCUEpBaWw3QQ?oc=5",
-      "source": "Vogue",
-      "published_at": "2025-09-27T16:00:00.000Z"
     },
     {
       "title": "Review: Dua Lipa Transforms Miami Into Her Personal Dance Paradise - Miami New Times",
@@ -64,15 +58,21 @@
       "published_at": "2025-09-23T07:00:00.000Z"
     },
     {
-      "title": "Can Dua Lipa Convince You to Buy a Reformer? - The Cut",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb09NTXhJakEzR25HNzZQWmpZcHNkSGtUTEpaQlNDRmY2YmtLSHdsS0djZkxhLUNtRVRqakVWZnRtRmxySlZ3T012ZUFXSUNzMnRFRUFJQXdqMWMxczR6dFJybFdfYmV1bW0tTURXVWJYaExkR3lpc0I5UElBYUJPRFJR?oc=5",
-      "source": "The Cut",
-      "published_at": "2025-09-22T07:00:00.000Z"
-    },
-    {
       "title": "Dua Lipa Closes MSG Run With ‘It Ain’t Over ’Til It’s Over’ Duet With Lenny Kravitz - Rolling Stone",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZHgySEFpdkJId2R3RGlsNWJqcDdHRG03RzliV2xoMDZtMmU3dEVDektLR2steFlMdFh6RFBwVkJCMFVaQ0NLTzAxeWVEUGNrcU9pYm1FT1pMTTFCSktVc2lYUVdqX1lPTlJQSGd1bFdMSC1KXzRSNzVMbnI0X1NBVldUZkFGdGI1S3ptanA0SndWV2g5em11NnNJc3RXQQ?oc=5",
       "source": "Rolling Stone",
+      "published_at": "2025-09-22T07:00:00.000Z"
+    },
+    {
+      "title": "Dua Lipa Joins Frame Fitness as Co-Founder and Chief Creative Officer - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWUpPR3ZZOUFqRncybk92YnF6UjRHUUtDYzNfNmQtd3ZIbHM4eUZzbGNBaEc5NWYzNlliVnZQTU1NQTEteXBlRllvUE8xcUtvOVVPMTF5T093dXV6SVAyRFBwRE5DQ0syb3cxN28zTDFLZ3pmZ2RTUGV1UG5BczRmYWF3VGJfc0ozMGhjb0NzNjhwRktrLWpYZHhrME4yeTRDTE5Xb3R1cFBzM3hiOVRMNEdPOXJxQTIzQjd2UGo5RDN0aDg?oc=5",
+      "source": "PR Newswire",
+      "published_at": "2025-09-22T07:00:00.000Z"
+    },
+    {
+      "title": "Can Dua Lipa Convince You to Buy a Reformer? - The Cut",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb09NTXhJakEzR25HNzZQWmpZcHNkSGtUTEpaQlNDRmY2YmtLSHdsS0djZkxhLUNtRVRqakVWZnRtRmxySlZ3T012ZUFXSUNzMnRFRUFJQXdqMWMxczR6dFJybFdfYmV1bW0tTURXVWJYaExkR3lpc0I5UElBYUJPRFJR?oc=5",
+      "source": "The Cut",
       "published_at": "2025-09-22T07:00:00.000Z"
     },
     {
@@ -80,12 +80,6 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdDRIRWFJU1pMRDYzdFBnc1B4T1I0cGp2N1QtR0lrQ0lLV1FPM09wTXBMUUo4WmtvTWZuS0tna3A5akdQX19tOThsNzk2d29COHc0WEpiLVZFZXI2enhWU0FxRDJLS2wtZHZ0VF9KNlMtMHNUdFF3UFBYZG44WjZjR19VakRfbHdHZkx6THhzWnlQWEVIYy1QamJMWHBWTW15OEFwbDZxZVdYMTlvUkhLWkR30gG3AUFVX3lxTFA3bnZBanVYUEFwMnkwT0MtNkk0WDlxdGo1SnBxc2pjdkd6bjUzZDdUS0JYb1pfRFJ2MXBYa3E3eXpaV3ZGaHJVbFdGaVljbm5iZEpSVWEwQ0g2NmFVa2ozbGVhSmEzTTBVNjYzVmdQeHI3eklHaHFaV21lNUNtYWdzNVhBbThOOU9sUkFQaml0Rld6REt6M3YxYlAxYlZoNmJSaGVNb2Zxd3JrQWpMTndzYTdlVGp2UQ?oc=5",
       "source": "Al Jazeera",
       "published_at": "2025-09-22T07:00:00.000Z"
-    },
-    {
-      "title": "See Dua Lipa Bring Out Nile Rodgers to Perform Chic’s ‘Le Freak’ at MSG - Rolling Stone",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSzhEM0ltemdqeVp4Nm1va2FZaUZZYzlpa3pMbWxWVVBBRW9YeEdBZVVneDFRTHFZNWV1YTltczNkemVSSFdZTTV0UjNVNERQRV9TTzJzYnZsdVIzSGdsWUpld0gwYkFvVk9KTWVpNVFEdkZ6eVRGYWw2dko1OVVpYlFkS1d1ZDlLLXhZQm15RTBXQzFtS3BUMnNVWGwzZw?oc=5",
-      "source": "Rolling Stone",
-      "published_at": "2025-09-21T07:00:00.000Z"
     },
     {
       "title": "Dua Lipa Proves This Is the Color of the Season - Harper's BAZAAR",
@@ -182,6 +176,12 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPckF1THlnNldDX2hiYzlJbVNXNEpOV0h5X2l3MktyUloyTlVCNFlRQzB1VjI0R1l4aU1vejVqMkxmWVpoMTlDUmxDOTltRzU2RXYxQVZ3WHJYQ29sWU1VcHJMWkt3blh6NVYyUWlDMzVGNjIyV0FlZHZuUFBPRWJUYjRVZzVlcmMwZW9MMUllWGhlTlU3c09rcjln?oc=5",
       "source": "Harper's BAZAAR",
       "published_at": "2025-08-19T07:00:00.000Z"
+    },
+    {
+      "title": "Guide to Dua Lipa's Radical Optimism Tour at Madison Square Garden - New York Theatre Guide",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM2hQRE91T0t5bTB6clQyc1ZkZjhZZFN0NzlBYVZ4Qi1lRFVnTEhzTzRhOGZFUnFiYUZFYmNHNU9zbkJZSTktclJ0RUZ4QmJrRHlCSTVRMVRuaE1FR044SHViOG5vSG5YazdySkthQ3phY3hGQzNEdXBwdHgyQ2lOTWJHS1NrV29uVXd5dmtUT01FR3o4RW56Slk3MDlPaDVrOWRBZDgtLXVWbTdtaVhydE9QVzVaV0N6d1VR?oc=5",
+      "source": "New York Theatre Guide",
+      "published_at": "2025-08-11T07:00:00.000Z"
     }
   ]
 }
