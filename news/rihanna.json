@@ -1,7 +1,7 @@
 {
   "slug": "rihanna",
   "name": "Rihanna",
-  "updatedAt": "2025-10-06T06:18:58.650Z",
+  "updatedAt": "2025-10-06T06:47:46.109Z",
   "items": [
     {
       "title": "Rihanna Makes First Appearance Since Birth of Rocki for A$AP’s Birthday - ELLE",
@@ -46,12 +46,6 @@
       "published_at": "2025-09-24T07:00:00.000Z"
     },
     {
-      "title": "Rihanna Welcomes Third Child, a Baby Girl, With A$AP Rocky - TODAY.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNlc3UTM0c2hsNDJ2eHhXUXdpV1k3V1F5eHBhQ20ydkUxeFo0cVRXZUdHdFBrM2tTSzc2eGR4Z0NvaGRiMUhxcVM1dDlvVVduZ3NTbUFXTEdhUnpzR3hHWGpTSVVhVXBtZXAta0VMaVNjcldZd1hFMzQzcUdmMmd6cjcwcHN4QdIBVEFVX3lxTE9scFlaYkh6RGhsN2RGWUNESGFOeDdCN2dsYTdjU1gtNXRyV2FER2RuSlR1eTZuRzN6V0RhTkN5aXhUWS1RRl9PQ1dmQW5ZejRVZ3o2bg?oc=5",
-      "source": "TODAY.com",
-      "published_at": "2025-09-24T07:00:00.000Z"
-    },
-    {
       "title": "Rihanna and A$AP Rocky's Baby No. 3 Name Is a Sweet Nod to Dad - E! News",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRm14cFFiSmNPOGdHSEZXS0drVlVyT0hPTTUtYjRZRTM2YW9hbnZZOVJ4TEtSTXlLQjZibHJpVjE2ekxFUl90Z2VhcER3SXUtclJER2ttMjdGa2ludHNhM01oNUkwUWZDbHhSMmlUd3BjWEJGLUFPa1FVVTZJX2VFS2w3Szhydw?oc=5",
       "source": "E! News",
@@ -73,6 +67,12 @@
       "title": "Rihanna Gives Birth, Welcomes Baby No. 3 With A$AP Rocky - E! News",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSnpkRHEwc3hncWFBSkdjTktJTkNfNEFZdnRvUWhFaUZmS3pVX1BMbExHblhOb1FCdlN2b3pWenRsd0x1aEtxMXhpTDNGZHg3RmN1WlotaWpYeGRUWXAzaG5JZTdzbjBEcnpvdmE5emdaeGpSV1hLcTRKRTBmVTA1bkl2Zl93Zw?oc=5",
       "source": "E! News",
+      "published_at": "2025-09-24T07:00:00.000Z"
+    },
+    {
+      "title": "Rihanna Welcomes Third Child, a Baby Girl, With A$AP Rocky - TODAY.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNlc3UTM0c2hsNDJ2eHhXUXdpV1k3V1F5eHBhQ20ydkUxeFo0cVRXZUdHdFBrM2tTSzc2eGR4Z0NvaGRiMUhxcVM1dDlvVVduZ3NTbUFXTEdhUnpzR3hHWGpTSVVhVXBtZXAta0VMaVNjcldZd1hFMzQzcUdmMmd6cjcwcHN4QdIBVEFVX3lxTE9scFlaYkh6RGhsN2RGWUNESGFOeDdCN2dsYTdjU1gtNXRyV2FER2RuSlR1eTZuRzN6V0RhTkN5aXhUWS1RRl9PQ1dmQW5ZejRVZ3o2bg?oc=5",
+      "source": "TODAY.com",
       "published_at": "2025-09-24T07:00:00.000Z"
     },
     {
@@ -100,22 +100,16 @@
       "published_at": "2025-09-24T07:00:00.000Z"
     },
     {
-      "title": "A$AP Rocky Said He and Rihanna Were ‘Praying’ for a Baby Girl—and She Just Arrived - ELLE",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc19YQkJJY1dxYjlVeDZCSlBMeXU4eGt6RW5vZzcxaEZHdkRZakxueERtWGQ3QmNsLXpRczFPeXJvYXprUEVvNW9BT0dvVjVGeHZPRTRmSHZMbllPTHNmd3pZd2hIek1SN0hQQjA2NlEtYUFJZUFpaU1sbjZBNHVMWDBLRm9DTEd5QllOVmhiX1NyZVFmc1lBMVhXdW9WUnFLRWo5aVdEdmZRTnBvUEpzcmhoUVU5ZWxTY3FheA?oc=5",
-      "source": "ELLE",
-      "published_at": "2025-09-24T07:00:00.000Z"
-    },
-    {
       "title": "Rihanna gives birth to first daughter with A$AP Rocky - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZanczLVZleWlzVnozQVBMSDRXbGdHMFdhUlJaT1ozOGZSSUFPVWh5ZmhZOEdWUnFGOVFYT0NOdTE0ajYtOXZCemQ3OFFJM3BCLVlRNHhMTjhqd9IBX0FVX3lxTE1adWMwRjgyRUJxRXE2UlZoSl9samFIU1lROXJOQnloMGN5VmxwZXNIMzJFM09uSHpSTlNqalo0UkFlOWJzaHEwSV9fXzJKcHNRX2dtc0FJYm16NXg4dnRn?oc=5",
       "source": "BBC",
       "published_at": "2025-09-24T07:00:00.000Z"
     },
     {
-      "title": "Are A$AP Rocky and Rihanna Married? He Says… - E! News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNemU0ZkpYaXQtck1ydVV2Z0dDa09wRzMxRnlZcWloRWhjeklXeFZ1M3ZVdkJpVUxnRTFrbEZjV2gzTU1sM2JvOTJxTjNJUHBLSWh6cUJtQktQbEtoVFl5QUJ3NFB0RE5pVTdLNUdqRDZFODhJVGh0cWU2YzVfckFsLQ?oc=5",
-      "source": "E! News",
-      "published_at": "2025-09-23T07:00:00.000Z"
+      "title": "A$AP Rocky Said He and Rihanna Were ‘Praying’ for a Baby Girl—and She Just Arrived - ELLE",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc19YQkJJY1dxYjlVeDZCSlBMeXU4eGt6RW5vZzcxaEZHdkRZakxueERtWGQ3QmNsLXpRczFPeXJvYXprUEVvNW9BT0dvVjVGeHZPRTRmSHZMbllPTHNmd3pZd2hIek1SN0hQQjA2NlEtYUFJZUFpaU1sbjZBNHVMWDBLRm9DTEd5QllOVmhiX1NyZVFmc1lBMVhXdW9WUnFLRWo5aVdEdmZRTnBvUEpzcmhoUVU5ZWxTY3FheA?oc=5",
+      "source": "ELLE",
+      "published_at": "2025-09-24T07:00:00.000Z"
     },
     {
       "title": "Surprise, Babe: Fenty Beauty by Rihanna’s Fam Sale Is Back—Score 25% Off Sitewide - E! News",
@@ -151,6 +145,12 @@
       "title": "Rihanna releases new music in honor of 20 years in music. Well, kind of. - USA Today",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcGxGYUhYTlRCZENqbFNPcjQtTnE5NjVoeGtZMkxWM1NTRFIzcjA0X2xMQ0l2VUh1NUkxNWJaaUN4U1hhc0tZVlc5SzljTllsd2lLVTRJOElBQ2YzQ3NEWTZycXlaMEttQm9GSDZJYmRUa0hwV3lFM3daOFZYRklvaDJtNlZSLVZmWGdsaWdweU5nNFc2dEROVTlDMkF0cndDODdKUEJhaVU?oc=5",
       "source": "USA Today",
+      "published_at": "2025-08-29T07:00:00.000Z"
+    },
+    {
+      "title": "Rihanna Gives ’20 Years Worth of Thanks’ to Anyone Who Took a Chance on Her ‘Before It Was Cool To’ as She Celebrates 2 Decades of Music - Billboard",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0I0ZlA0MVRDX2xrRmZxUkpzbmpvSTdPQ0JTZ1pjR1Ribkdjc0RpVG5GNzV1b2dNUjFMdy15Qk0yWVVLZUJZdUhhZGE1ZEw0M2gzMWpkN0JUX0syRWtGOGlrem1CQnFxYm43SEtNUFJ0Y2NrSmlkdzZhVXBiVGFmMmM5Y1l2THlib0VXbmxxMGl4Z18zUnZfWi1WTk92d29HaGtR?oc=5",
+      "source": "Billboard",
       "published_at": "2025-08-29T07:00:00.000Z"
     },
     {
