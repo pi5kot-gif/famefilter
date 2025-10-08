@@ -1,13 +1,19 @@
 {
   "slug": "katy-perry",
   "name": "Katy Perry",
-  "updatedAt": "2025-10-08T00:54:27.214Z",
+  "updatedAt": "2025-10-08T02:16:54.402Z",
   "items": [
     {
       "title": "Katy Perry Is “Enamored” With Justin Trudeau and They’re Still Dating - Cosmopolitan",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ2pKQ19aTmpsaExReEM0M21jZkNobFlDSVFGNWdkTzcxbjhZOVdQaUVwQ2FnazcwMHgydmpLN3pyM3EzcWhzbUIxTmRpM25IQWloSHFzUzNYWDdadWFjck1vU0lYbS1JS1Y3WWJtT0loUDc1TS12WTAtZ2NqRjRTbEg2NHhFMUJqeWd6bzk2R1gwZ016VjFXX3NtTW5xSDFuakVialRDdjFIWDhH?oc=5",
       "source": "Cosmopolitan",
       "published_at": "2025-10-07T06:43:00.000Z"
+    },
+    {
+      "title": "Video: Katy Perry’s ‘Sneaky Peeky’ Hawaiian Skirt Causes a Stir Online - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc3JCTjBGVmNEVjU4eVUyRmh2MUVhbmdqNnV2RG9PN0RiM0dqMDh3Y3liYTUyQml5bmlXaTR3RHpiWUI4TEh1VE9WVEtHOW9YdkEtak5sWWxlclo3VEN1TjNnWWlQbmw3b2pOMTZFRjYwcFlFclVsQVRkU2o2Z1BFeFRHcV8zUEx0VVdoZzRIWmZOaVV4N243TFFMTQ?oc=5",
+      "source": "Yahoo",
+      "published_at": "2025-10-06T13:55:36.000Z"
     },
     {
       "title": "Katy Perry Turns Head in Mini-Skirt, Says ‘Lil Sneaky Peeky’ - Yahoo",
@@ -20,12 +26,6 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GbklyR1JiRVM3dVVYUmtOeXlldjBEb0E0QnFlVmRhQTBaeF9VMjRMQ1BPQ0tubFItNmpFN2F2ajBYR3JhMDYtWHJqamVhclhwbzhDZU9uRldKd9IBX0FVX3lxTFBNNnlyM2R4cTVaRzRUeE16WHB6a20yeFFoX0MyRkpkZU5xNGNkRnN0Nnk3bUE1WWt3VGNzNlVkMjJ1clI2UXlSblZOc1lkNjBXTnZPZUEtRDlCMExyUklz?oc=5",
       "source": "BBC",
       "published_at": "2025-10-04T05:46:30.000Z"
-    },
-    {
-      "title": "Katy Perry Says She's Done 'Forcing' Things in '143' Anniversary Post - billboard.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSElXN3lNbHNRSVVuM3pqMmJuUXExaVNpb3ZUV20zTXZCM3YxSGRvT0I0NFVzLUZyZEUtd19Fb2lfd3B2TVN0WVZYdDMxZm9ZWVpHcmpjMXJZS2wyWjY4N1ZvNmlqZks0MWNNRENWeUd1NlhERDVhY2FWV3Y4WGU5N0Nza21nY29kNzY1UUdWZHhxYzdYUkFNanctMExhS0RYTnlibF94WUFWQQ?oc=5",
-      "source": "billboard.com",
-      "published_at": "2025-09-23T07:00:00.000Z"
     },
     {
       "title": "Katy Perry 'Taking It Day By Day' With Justin Trudeau As They Have 'Decided To Be Much More Private' - Yahoo",
@@ -64,9 +64,9 @@
       "published_at": "2025-09-13T07:00:00.000Z"
     },
     {
-      "title": "Orlando Bloom Reacts to Sweet Support From Katy Perry After Breakup - E! Online",
+      "title": "Orlando Bloom Reacts to Sweet Support From Katy Perry After Breakup - E! News",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUVcwSy10TUVONjhuNWZiTmItQk5ZOU11OEZVWnhDYjFabzZTNEExRmdlNDRlZk1mS0ktNnpZekFHcUdTU3R4cm5ORHc1WENZczlNTUxCRHdaY0RVZ3pkZDB2R0dUdzQtWTZwWWw4eWdfUkdna3Z0czB6a1hpNEVkN0FpZU4xeW5Oa01JS1VBM2l4anVFT1hhTnhn?oc=5",
-      "source": "E! Online",
+      "source": "E! News",
       "published_at": "2025-09-08T07:00:00.000Z"
     },
     {
@@ -94,15 +94,15 @@
       "published_at": "2025-09-05T07:00:00.000Z"
     },
     {
-      "title": "Orlando Bloom Breaks Silence on Katy Perry Breakup - E! Online",
+      "title": "Orlando Bloom Breaks Silence on Katy Perry Breakup - E! News",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNXI3a0U5ZF9DZDRXU05ENjNaQVdkVHNOVmlzVkd0UzBLZUVvOXBvbjJvN3ZxRWxGQkVmY2tPSE1FblQxVDVPU3loQXhKNlI4RTdVRzFTd0xyWUwwLWlSc1N1RmVhT3hWTUE3MWc5cTV1bUNNTDlCNmdWdG10d3QzSXBKVXBqMlFESExfQnZia05Qb2dMQThCOTdR?oc=5",
-      "source": "E! Online",
+      "source": "E! News",
       "published_at": "2025-09-05T07:00:00.000Z"
     },
     {
-      "title": "Orlando Bloom’s Ex-Wife Miranda Kerr Reveals Where He and Katy Perry Stand After Split - E! Online",
+      "title": "Orlando Bloom’s Ex-Wife Miranda Kerr Reveals Where He and Katy Perry Stand After Split - E! News",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR05DVTVRdi1OVUd5VzN6bVo3LTVzdDFockJBN0hZTjhMb2hBa2tXTkJtMTVRTExYbjBUWWk5QzZ5R0JkRDFza0hMZGtyVm1hTzlpdlgydmpiVy1MMU84MGNDTmtFWDd4WjRNNVpnenNVZGZVLVI0QnZrSlBhZC15dEVMQWdHVldBblEzWWVqdTk?oc=5",
-      "source": "E! Online",
+      "source": "E! News",
       "published_at": "2025-09-04T07:00:00.000Z"
     },
     {
