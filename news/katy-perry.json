@@ -1,7 +1,7 @@
 {
   "slug": "katy-perry",
   "name": "Katy Perry",
-  "updatedAt": "2025-10-08T09:13:20.569Z",
+  "updatedAt": "2025-10-08T09:38:32.853Z",
   "items": [
     {
       "title": "Katy Perry Is “Enamored” With Justin Trudeau and They’re Still Dating - Cosmopolitan",
@@ -26,6 +26,12 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GbklyR1JiRVM3dVVYUmtOeXlldjBEb0E0QnFlVmRhQTBaeF9VMjRMQ1BPQ0tubFItNmpFN2F2ajBYR3JhMDYtWHJqamVhclhwbzhDZU9uRldKd9IBX0FVX3lxTFBNNnlyM2R4cTVaRzRUeE16WHB6a20yeFFoX0MyRkpkZU5xNGNkRnN0Nnk3bUE1WWt3VGNzNlVkMjJ1clI2UXlSblZOc1lkNjBXTnZPZUEtRDlCMExyUklz?oc=5",
       "source": "BBC",
       "published_at": "2025-10-04T05:46:30.000Z"
+    },
+    {
+      "title": "Katy Perry Says She's Done 'Forcing' Things in '143' Anniversary Post - billboard.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSElXN3lNbHNRSVVuM3pqMmJuUXExaVNpb3ZUV20zTXZCM3YxSGRvT0I0NFVzLUZyZEUtd19Fb2lfd3B2TVN0WVZYdDMxZm9ZWVpHcmpjMXJZS2wyWjY4N1ZvNmlqZks0MWNNRENWeUd1NlhERDVhY2FWV3Y4WGU5N0Nza21nY29kNzY1UUdWZHhxYzdYUkFNanctMExhS0RYTnlibF94WUFWQQ?oc=5",
+      "source": "billboard.com",
+      "published_at": "2025-09-23T07:00:00.000Z"
     },
     {
       "title": "Katy Perry 'Taking It Day By Day' With Justin Trudeau As They Have 'Decided To Be Much More Private' - Yahoo",
@@ -112,15 +118,15 @@
       "published_at": "2025-08-27T07:00:00.000Z"
     },
     {
-      "title": "Review: In Tampa, Katy Perry marvels in complex and demanding concert for 14,000 fans - Creative Loafing Tampa",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbEdRcUNjSFUzaGE1Z1NnaW1LUHo4R0ZJMGFtd1VtOV8xVGkybmlFU0JIdlR4LTl6eGl5di1jZ2hCY2drcXo5OEp4bXFzcHVtX0dMb3FiX2VhOGxCTk1mWkJyV1FIeWQtZVkxdVhuNnJDWnJ1dVhBQ2dFX2FXcElpRjVMcU5uOENJZEFEMGJoNll2anFiUHpyT1JYblhjOVd5dGwzTS04UW5XX1g3eDlBWmNYX2dtRGF2Y2xpWHZEWGRhUQ?oc=5",
-      "source": "Creative Loafing Tampa",
-      "published_at": "2025-08-26T07:00:00.000Z"
-    },
-    {
       "title": "Katy Perry testifies that she’s seeking ‘justice’ at trial over $15 million mansion - AP News",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQWZQdElHNzU5M3hxeFY4T3NYa1J4VGs4ZmptY2J0c3JpNW5DWFRuZ201R3FKR1YxMUtjdlRMM3lEQ0FuNExjcTNOZjY1THY2emJWZDJxeHdxc1hwcnlpdWd1akx2ZUZ6Q0RDSFl2c1NrankxTzUtTmNKUGpwNkZZdlhNNmJIZGJHcVVjcw?oc=5",
       "source": "AP News",
+      "published_at": "2025-08-26T07:00:00.000Z"
+    },
+    {
+      "title": "Review: In Tampa, Katy Perry marvels in complex and demanding concert for 14,000 fans - Creative Loafing Tampa",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbEdRcUNjSFUzaGE1Z1NnaW1LUHo4R0ZJMGFtd1VtOV8xVGkybmlFU0JIdlR4LTl6eGl5di1jZ2hCY2drcXo5OEp4bXFzcHVtX0dMb3FiX2VhOGxCTk1mWkJyV1FIeWQtZVkxdVhuNnJDWnJ1dVhBQ2dFX2FXcElpRjVMcU5uOENJZEFEMGJoNll2anFiUHpyT1JYblhjOVd5dGwzTS04UW5XX1g3eDlBWmNYX2dtRGF2Y2xpWHZEWGRhUQ?oc=5",
+      "source": "Creative Loafing Tampa",
       "published_at": "2025-08-26T07:00:00.000Z"
     },
     {
@@ -134,12 +140,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQUNiVzVVaEZaMi1ub2w0d3pCQjVhblBjaG9JTXEtUXFaTXlyb2RXY01vZXFKaGl4RnRVT195Mnd6eTc1RlFDT05Wd09PUHczTjBhYldfVW12RTRMR3BGZElUUy13UVVWNGJ2Q3lud2RZeDJZYnM0U2JQVUY1WHRwMGk3YlFfSDRzM2psU0dlWjBPM0Q4dDRlT3RQbGZmaU56X1lnelVwNDlITVNYcW1Wb0FSZFdhaWhUc1VhVFczYWhXZw?oc=5",
       "source": "Realtor.com",
       "published_at": "2025-08-25T07:00:00.000Z"
-    },
-    {
-      "title": "I Witnessed Katy Perry’s Lifetimes Tour in Person—and It’s Actually Worth Seeing - ELLE",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRlNaSDZXM0U3YlhsaTQ0Rm9uSVlRYUZzN1Q2MFlINE5nZzd3ZjJWU3dySDFtSWRnSDZacHotMHEwVkQ3VmtWMGpzNXlSdkxoQ2VwZVZBdDR4REdnRjZGMXpzb2F4ZXBmYi0zeDk0Z1lVWHMxaXNkQzZxMVZvUFFXWUw0R2pVX0x0NGtV?oc=5",
-      "source": "ELLE",
-      "published_at": "2025-08-22T07:00:00.000Z"
     },
     {
       "title": "It's easy to be a Katy Perry fan. It's harder to be Katy Perry. - Yahoo",
@@ -166,16 +166,16 @@
       "published_at": "2025-07-29T07:00:00.000Z"
     },
     {
-      "title": "Katy Perry and Justin Trudeau Get a Table for 2, Inviting a Serving of Speculation - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLUcwVE9IOFJ4bWh1cUozOTl1X0twNFhwZWZvMk1aT2kwTkxMa2QtN25xZk1COGNZNk15NVA5U3ZNdHc2ZnJoblZ1eVMyRnY2Qk5OTi1heFJzNXBVa0pmTll4WG1xVTVuU2dPOHpNNTZUbUh4cmhpX1YtamxqNF9abjUyOHphaV83V1EwZVJ3?oc=5",
-      "source": "The New York Times",
-      "published_at": "2025-07-29T07:00:00.000Z"
-    },
-    {
       "title": "Review: Katy Perry soars into Seattle for her 'Lifetimes Tour' at Climate Pledge Arena - Seattle Refined",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOdV9FcFJKUkRLYnpHUWpxblFfWDJuU1BsVnlGVWJ0X3Bta2ZWQ1RDd3JMWTJTNEpWWk5ETHpfeXdtSTRxcDNrNHp1MUoyZGlUMklaRUVDWjVCUmRYZmJtZnlWVHJQYTlFRzVZRk45bnJuVUFDOVljVkhKY2VELVhoLTVtWF9XNzZTcnpVaDRndk13Q29sckpXT0ZTbFFpV0wybHd3OHNKM3F5SVJsdUxCZTlLaW41UzB2Si0wUVJNTi1EUGZicmo0ZEZVczJKNGYxdWtzcTREYkI5RzN2RjZXVmpPRlZVemZkZFVSS0k5aTBNVDhNdWowaA?oc=5",
       "source": "Seattle Refined",
       "published_at": "2025-07-22T07:00:00.000Z"
+    },
+    {
+      "title": "Katy Perry experiences frightening midair mishap during concert at San Francisco's Chase Center - ABC7 Los Angeles",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQc1h1VFkxcnJIYW9VR0FobnBNMFRtM2VQLW04a0Z3MTFBUmxwMm9wZmpSTmZMWWRSRkYwY0pGN1JMVzJVbXZiQ2NpN1hDZG5XYnNuN0o3VUg1VWc2S0Nzb1F4UzNpcXFjWkZRY0FkT0Z1Vi13TUZKUlpyYzhlbERkUTdYNkw4QVMwVC1GQzYzSnZPQkFYdzM5WU45TGs1UEdNdnYzeWZzTmZZSEcxZFI1Q25QU3QzVElXRUV1cVVuR0ZOMThWOU44VGtTU0V2T2hPLVhUVjc4S1lhYzRrSDEzQVVUV2xfNWJXVXZyY3d3?oc=5",
+      "source": "ABC7 Los Angeles",
+      "published_at": "2025-07-20T07:00:00.000Z"
     },
     {
       "title": "Katy Perry’s Phoenix show was a dystopian spectacle - Phoenix New Times",
