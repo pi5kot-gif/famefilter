@@ -1,20 +1,8 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-09T20:38:33.658Z",
+  "updatedAt": "2025-10-09T21:10:48.237Z",
   "items": [
-    {
-      "title": "I miss Taylor Swift - Massachusetts Daily Collegian",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9PU21tY0xQS0hCWXNHVncwTTZXRHl4WG9hUlB3WGJRbGltVnVNczIzVjZaaGFqTFR2bU03SnYwMTZPZzZ6RGp3d0I1S0RBRFJZbVptaHlxLVRUWGNRRFZMWWpSU1hJdw?oc=5",
-      "source": "Massachusetts Daily Collegian",
-      "published_at": "2025-10-09T05:45:32.000Z"
-    },
-    {
-      "title": "Review: Taylor Swift's new album falls short — even for a longtime fan - Daily Tar Heel",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSVN2aExYSnVvcHRsT1hZdzdkZGpxMTNkWU5yRE4taVlLM0hocDJnNzNjX3k3bGdMM3BWMlBEZm5uNjBsc05OQ1RqQWVCOWVDR29zdkpJNmU4cjBLRDlNMWxqV3BEWklia2tpaXdTTVNNSnFVU1VXcGxZUWY0dTA1eW1XZF81Nm1F?oc=5",
-      "source": "Daily Tar Heel",
-      "published_at": "2025-10-09T04:10:56.000Z"
-    },
     {
       "title": "Taylor Swift Makes Showgirls of Us All - Christianity Today",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vNGdaSktiZmhWc05lR0FSMl9qNm5pWnQtVDY0ZzYwak4tZDlUSmZSeDlCSmEwdkQ5WUVUaDRFOEJhcmZ6c09IaTlNalFsMjZDd0lCZll2MHdWcnRRNUh1bHZsSVl4R1RmdW9QRy1XM0ZBMGF6UGJON2txOW5CRWM?oc=5",
@@ -32,6 +20,12 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLVlDRlYwY0NVRUxSd0RJNGNReGd6Qkk5bEpSVS1WLWtjVFRGbXczSzl1WTBhWjRJQmFFMVAxWktpWm1teXZjSnZuUkVEWTk1N2paUFhrTGNyb1B4TnZEeXgtZ0EwZTc3Vi1GczU5RlRiTEE4dU1uaXMtS2RDOEVBQnFvY2E3RWE5X3RDOW5B?oc=5",
       "source": "SFGATE",
       "published_at": "2025-10-07T21:23:44.000Z"
+    },
+    {
+      "title": "Which Song on Taylor Swift's ‘The Life of a Showgirl’ Are You, Based on Your Zodiac Sign? - Cosmopolitan",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQckE5Nm9jbnU0a3hDN3BpSGVPUFZWMjNwdFY2cnVhaFJlNzFBZVZVSFJUcHFKczFHd1BLMVozaWRXb3ZpSkdXZWVkZU1SOXRTS3NNQzFvYUVFdThOZUJ5QTFoRUt3SThueUI1TmFHSno2RUo2TUd5SUE1YUVKckF2R2VmX2pCcWc?oc=5",
+      "source": "Cosmopolitan",
+      "published_at": "2025-10-07T20:57:23.000Z"
     },
     {
       "title": "RANT: Calling Taylor Swift MAGA is why the left loses - The.Ink | Anand Giridharadas",
@@ -88,6 +82,12 @@
       "published_at": "2025-10-03T19:45:00.000Z"
     },
     {
+      "title": "Why Does Taylor Swift Think She’s Cursed? - The New Yorker",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdktKUm1vMnJxb2haVTE0QnlLTk12Z0haZ2pQN2hMR1lzYjl0MzMyNmk5Ql9abjYwREt4ckFxZmZValk3b2tLR2g1YkVfbmtNaVRRb3RRT1RQSDkyQkhzUTJZQmhWX2NORXNQMmIwOWN0amVLYjNMU09oTXZ2aUpPTkdXd2ZfamdpcmR5WGpB?oc=5",
+      "source": "The New Yorker",
+      "published_at": "2025-10-03T17:48:56.000Z"
+    },
+    {
       "title": "The Life of a Showgirl Album Review: A Taylor Swift Who Is Unafraid to Fail - Teen Vogue",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWnFKeF9uMDdxZ24yeE5HMThpWXByQTlNQlQ4SDYwcXJ4ZUd4bmhUdWhxWWE5cVFmYy1EbFZiRFByOE9Ob09oS1plNnpkSTZ5V3pNYUJheE5yM3B6UVNsM1FySXd6dFhmOWxnWXRVRG8xZkFqNWFBcVhiQmtkLUVPVnl1VXZGT2s?oc=5",
       "source": "Teen Vogue",
@@ -136,16 +136,16 @@
       "published_at": "2025-10-03T08:32:48.000Z"
     },
     {
-      "title": "Taylor Swift loves a particular number, so let’s talk about some of her most significant ones - CNN",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9NaVMyYmlibnB0UEdkY0ZUSjlYUnl1Y0NsNElhMVVjdWwtZDFRcmJDTlRoUHByUWV5c3pnR1o2YkhDRmo2bGNfdkVZZnI4aFVkMHh5NWRqN3pxeC12bFZ5SGg5TGF2dXZleDBYNWppM0tXMlk?oc=5",
-      "source": "CNN",
-      "published_at": "2025-09-29T07:00:00.000Z"
+      "title": "Taylor Swift Dreams Of The Trad Life In Her Newest Album \"Life Of A Showgirl\" - Evie Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBhMmtHTUVlT2ZsV01WbU1ISU9FY3VVT0hTdUg4OFFrdkdzak1ETkZNbVNBUXpZVXpJQ1NiajBqWnJFNkFnb0Z6Q3IyZWF1VlZlSEhWVzJabzZ2MVk0Q05ldF9XVlVIalR0UGVjWS1YeW9kY0VBVVBxS3p3?oc=5",
+      "source": "Evie Magazine",
+      "published_at": "2025-10-03T05:00:00.000Z"
     },
     {
-      "title": "What many conservatives get wrong about marriage that Taylor Swift gets right | Opinion - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORkVnMzBZZ1R5VFZlemYtZXFKWWZud29hOWd5eXNsM2g4bWFHNUtPbEJISHQ5X1NfY3hBbUR5Q1JqRjRtckFjU0F5SF82Y1k0WlBhTC1vNkJhdUFBb056TzlmOWNIMzZiNzNXd05DWlBYWlNRYkRNZ1ZDa0JqZVFTWFQza05sdWhtUVFZckwxaUJ1bFRsbGp3cnB5QkRaT2w5Y2lQbm9vb1ZUcVhSUGVlLTdlTG5PTDRMdXZzTXJ1OGNrTy11TFE?oc=5",
-      "source": "USA Today",
-      "published_at": "2025-09-28T07:00:00.000Z"
+      "title": "Taylor Swift’s record release is a party - CNN",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVWVkb2xrM0NzT1AxV1ZYLUZ2R2VYeFZUUWpBV0ZXN0I5Q2NQWWl4d0RhVWE5eUl4TGl4SzJEdmhmd0VVQjcxUm5vSDlEVHNKM0s1dTEyNXp2eUNlS01WYWM1UEhNakNoMTVVVmRyQUx0d0FTT2RQOGp0V2RZNk1ZdA?oc=5",
+      "source": "CNN",
+      "published_at": "2025-10-03T04:00:26.000Z"
     },
     {
       "title": "Spotify Celebrates Taylor Swift’s Most Anticipated Album Yet With an Immersive Fan Experience in NYC - Spotify",
