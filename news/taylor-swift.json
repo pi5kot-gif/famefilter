@@ -1,14 +1,8 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-14T18:18:38.510Z",
+  "updatedAt": "2025-10-14T18:45:46.482Z",
   "items": [
-    {
-      "title": "Taylor Swift Takes Top 12 Spots on Billboard Hot 100, Led by ‘The Fate of Ophelia’ - Billboard",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSlV0Y09seG1RQUtyQ0NjVG40UXNfUURLazdrYkxLTFRreUJlQXp3V3JhNXNsbzZocVd3Y0hnekpLdjgyWGdVcnViZnJQbmszbjdrWm5RMlVSMkNrNTBsQmRTYkdELVhMMkhLR2tveGFNMGZ1bEY2QUV3RTFKMk56RWNIY29JbTA?oc=5",
-      "source": "Billboard",
-      "published_at": "2025-10-13T18:01:16.000Z"
-    },
     {
       "title": "‘The Life of a Showgirl’ Doesn’t Even Feel Like a Taylor Swift Album - The Everygirl",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xZG9wSW1UbWJfMnhibzY4UUd0TTZCSmQxeWRHOVJWZFdVUmxpU2xleHRXVlRId0c3dU1HM1Q3ZVhMTDNuckxDMUwyREN1ZnMzSDJSME5XTDV3MkFIV3hIaEFvSTZ2S1NKbWVUbQ?oc=5",
@@ -82,27 +76,21 @@
       "published_at": "2025-10-03T11:17:03.000Z"
     },
     {
-      "title": "Taylor Swift’s Fairy Tale Is Over - The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRUNCdmV0MUJ1ZDJ4eEh6OV9fZFpzcW5HbTlRLS1TT2tsNkcyVkYzcHM0ZmQ3Y1FtQlNRZXR0NVN6b0RKSmJCR1V6NlByYmp5SkFQOWR4aVhxbVlHU3lEVVIzanh2SFZqQm5BenpXQldHVVVBeEp2ZHdfaXl4VU1oTXdtaWFuRGhSb19rMmoxZ0l3Z3Bybl84TlFpMWRSaXRSc2c?oc=5",
-      "source": "The Atlantic",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
       "title": "Did Taylor Swift's New Album Deliver? Well, Don't @ Me, But... - PureWow",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeENnQ3dwX1Q2Z09HTjRraWFzWExSLWFLTmxPWVd6VWt5TjJXUnBuQ2NXU09KWmJRZXBTbU9WSnZVdWJYaDg2bnJ4T2I1aExkM1VyVVVreVpYUUU3UEg0WlVqU2pRTmpEZVgyOS12Um5ZOE9RR21pUU8xSC1hMmxmNVp1VXRaVHM?oc=5",
       "source": "PureWow",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
-      "title": "The Life of a Showgirl Album Review: A Taylor Swift Who Is Unafraid to Fail - Teen Vogue",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWnFKeF9uMDdxZ24yeE5HMThpWXByQTlNQlQ4SDYwcXJ4ZUd4bmhUdWhxWWE5cVFmYy1EbFZiRFByOE9Ob09oS1plNnpkSTZ5V3pNYUJheE5yM3B6UVNsM1FySXd6dFhmOWxnWXRVRG8xZkFqNWFBcVhiQmtkLUVPVnl1VXZGT2s?oc=5",
-      "source": "Teen Vogue",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
       "title": "I thought Taylor Swift's 'Eldest Daughter' track would wreck me. It healed me instead. - USA Today",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkxYNWlLZjR0bnU5X2J4RmIxeVcwUHJXV2J3aGZaNVpSZkVNVkJSamNiUXQzR3lPdzFaeUlXVl9ZSm01ajlxMk1YOGtFOUVRb1habVFUd1Q5T2N1aUlyeGd1SHk1dUFKYmpSdXJCV3p6dWlEUTREMGVxRVZaQ2NhWFBQYzFUSFoydkNMSFhtWmpZTDFXTUtiTk1jdjhVb29OTTYwYTdNcjNFN2VmT20xeEJ2ZkxWS0h3aUFMM185R2U?oc=5",
       "source": "USA Today",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
+      "title": "The Life of a Showgirl Album Review: A Taylor Swift Who Is Unafraid to Fail - Teen Vogue",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWnFKeF9uMDdxZ24yeE5HMThpWXByQTlNQlQ4SDYwcXJ4ZUd4bmhUdWhxWWE5cVFmYy1EbFZiRFByOE9Ob09oS1plNnpkSTZ5V3pNYUJheE5yM3B6UVNsM1FySXd6dFhmOWxnWXRVRG8xZkFqNWFBcVhiQmtkLUVPVnl1VXZGT2s?oc=5",
+      "source": "Teen Vogue",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
@@ -151,6 +139,18 @@
       "title": "Taylor Swift Sounds Stuck - The New Yorker",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5oNFBMdW5lNmxMVjVpNW90VGhIM3Q2NEdMLS0wdU41VGJGREFhc2tKWXRfMjdRWW9kRGRjR3REWVZDYmdtVU02Skw0b1I0cWhDcEE0TWJRWmRHQjBzS3l0MHFvYjVCVll6MEMxYUozZlduWnVBanI4YTdNNTI?oc=5",
       "source": "The New Yorker",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
+      "title": "Why Does Taylor Swift Think She’s Cursed? - The New Yorker",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdktKUm1vMnJxb2haVTE0QnlLTk12Z0haZ2pQN2hMR1lzYjl0MzMyNmk5Ql9abjYwREt4ckFxZmZValk3b2tLR2g1YkVfbmtNaVRRb3RRT1RQSDkyQkhzUTJZQmhWX2NORXNQMmIwOWN0amVLYjNMU09oTXZ2aUpPTkdXd2ZfamdpcmR5WGpB?oc=5",
+      "source": "The New Yorker",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
+      "title": "Vogue’s Resident Swifties React to Taylor Swift’s ‘The Life of a Showgirl’ - Vogue",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4Vm1tZkd5a1FxRzlKRXBVNGQwWWFjR0JLYkY4a1JqdmhNM01FU3BfZlYzTFNvMlZrTFVzc2VCNW1heDJUY3Fwd0htNHd4eWRPZjF6Mk1XZGd1TGlFYndvUkQ4T2djVXlFNnNOdUdtaW4wSWYwclpSYQ?oc=5",
+      "source": "Vogue",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
