@@ -1,26 +1,8 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-15T07:37:42.551Z",
+  "updatedAt": "2025-10-15T08:17:39.237Z",
   "items": [
-    {
-      "title": "Roundtable Discussion: A Review of Taylor Swift’s ‘The Life of a Showgirl’ - Atwood Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTjRZY0NRZzJLUWRlY05BQUJObmZnWVU1RlNKR0VqS2xHSF9WUGV6d2JsS0hoX1pxam9leEtCYXRabUs3N1Y3TkVBamxaV0JIT19oTDNlbWxtV0FyX0JSODB5MUM3UEtmd0p2QjR1ekFteUNnaHo4MDd6ZDJoTEZyVkJxNHd2NlozSVh2encyRE9TOE9CUEZTdUdCSDJ5ZHY5cENB?oc=5",
-      "source": "Atwood Magazine",
-      "published_at": "2025-10-09T19:30:49.000Z"
-    },
-    {
-      "title": "I miss Taylor Swift - Massachusetts Daily Collegian",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9PU21tY0xQS0hCWXNHVncwTTZXRHl4WG9hUlB3WGJRbGltVnVNczIzVjZaaGFqTFR2bU03SnYwMTZPZzZ6RGp3d0I1S0RBRFJZbVptaHlxLVRUWGNRRFZMWWpSU1hJdw?oc=5",
-      "source": "Massachusetts Daily Collegian",
-      "published_at": "2025-10-09T05:45:32.000Z"
-    },
-    {
-      "title": "Review: Taylor Swift's new album falls short — even for a longtime fan - Daily Tar Heel",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSVN2aExYSnVvcHRsT1hZdzdkZGpxMTNkWU5yRE4taVlLM0hocDJnNzNjX3k3bGdMM3BWMlBEZm5uNjBsc05OQ1RqQWVCOWVDR29zdkpJNmU4cjBLRDlNMWxqV3BEWklia2tpaXdTTVNNSnFVU1VXcGxZUWY0dTA1eW1XZF81Nm1F?oc=5",
-      "source": "Daily Tar Heel",
-      "published_at": "2025-10-09T04:10:56.000Z"
-    },
     {
       "title": "‘The Life of a Showgirl’ Doesn’t Even Feel Like a Taylor Swift Album - The Everygirl",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xZG9wSW1UbWJfMnhibzY4UUd0TTZCSmQxeWRHOVJWZFdVUmxpU2xleHRXVlRId0c3dU1HM1Q3ZVhMTDNuckxDMUwyREN1ZnMzSDJSME5XTDV3MkFIV3hIaEFvSTZ2S1NKbWVUbQ?oc=5",
@@ -58,12 +40,6 @@
       "published_at": "2025-10-06T16:33:27.000Z"
     },
     {
-      "title": "Taylor Swift’s new record unfortunately delivers profound mediocrity - The Tartan",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNU85Mm1WX0ppT2ItcTZfeGExUEZKVHZTRUd2ZnpsYVNjN04tcXVFd3E0RS0ycnBLcHE4Q1EzaWQtZXJWVXhYeXpDSmExcEUzZnQ4aUNWaW5QdHd3cjMyaWt1S0pWbk9MZkMzZFAyWHlJZ0d5NjlzZERCRW1HZXhyaXlpaVpLeDVTN1RSWVAwYjNvXzkxdDRkNERPSFJXV3JvNHJZXw?oc=5",
-      "source": "The Tartan",
-      "published_at": "2025-10-06T07:00:00.000Z"
-    },
-    {
       "title": "It’s becoming clear: Taylor Swift has a bad language problem - Angelus News",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVMF9lWnMzMXEzSGd3R0N2Mmg1VlB0MXdWbzNVcTdfVDNDSHItSFFkMExUTm8yRGdpNWdyc0gxWkFCaHZWLWVCS1RjdWxDU2lpblA5MXk3V0l3N0szTU41RHJn?oc=5",
       "source": "Angelus News",
@@ -92,6 +68,12 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOGg4S0FhWVhvZFhrSXloZzlDRHZWeTJTWDY5b0RiLWM2Ymh3VFlaQTh1WW5MWVpRcVl0RVFyUFZYbktzSzVqR3VMOXBJVnNYNmpkMFZYUUplUXNaUG9CV1VqUDFpY3FudUpCTlZSLVhPbkpQMkxra3BidHNFMVA0dFJwc0tMSV93V05iU25ueDA?oc=5",
       "source": "Slate",
       "published_at": "2025-10-04T07:00:00.000Z"
+    },
+    {
+      "title": "Taylor Swift - The Life of a Showgirl - Northern Transmissions",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9UMk53bVhHRXVkYUtjbzdGRVhUSzdfSkJpbWx4ZE1RSDJCLWo2WndLN050NTQ3TzExU2h2NUVfM2FGS1VnRmg3M1ZOTVprcmgwak96VjhnRURFbnBFZFZqTEZJZXpkczA1eXpHQTZCRHUxTHhmZHZRQ3pB?oc=5",
+      "source": "Northern Transmissions",
+      "published_at": "2025-10-03T14:55:15.000Z"
     },
     {
       "title": "Starbucks celebrates the release of Taylor Swift’s ‘The Life of a Showgirl’ album - Starbucks",
@@ -130,6 +112,12 @@
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
+      "title": "Album Review: Taylor Swift – ‘The Life of a Showgirl’ - The Alternative",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeG9lZ0hHTzVOaHNXYzBiZGh2UkFnS0pfVGY0U2FIaGNON0c3dTF4NDJsekhuNzBsbEdocGRzMkJxdTlGdDdjUXdrLXQyWTh0QzhuWjM4SmJmcnNQVi1scVBKNEk5T09jYWNYSWRfaVQwY3RlWEh4ZU16WXFKVUdjRi10UE1idUE?oc=5",
+      "source": "The Alternative",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
       "title": "I Snuck Out of Work to See the Taylor Swift 'Life of a Showgirl' Movie - PureWow",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMWprdVd3OEp6UVhQMnN6NUFkeS1SQVlNT29QV1VXV1lsZ2dsbVBLeEloS3dVTkFKMkFnRDZpamtQVVBOSVZ3UlRDTGd0S1A0TmgzcDd1dmhuZWhqMERybTg5cGtMWXF2MVVhZ1MtQnJHY2s4SndXRXd5cWFRWlBBRlln?oc=5",
       "source": "PureWow",
@@ -148,21 +136,21 @@
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
-      "title": "Album Review: Taylor Swift – ‘The Life of a Showgirl’ - The Alternative",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeG9lZ0hHTzVOaHNXYzBiZGh2UkFnS0pfVGY0U2FIaGNON0c3dTF4NDJsekhuNzBsbEdocGRzMkJxdTlGdDdjUXdrLXQyWTh0QzhuWjM4SmJmcnNQVi1scVBKNEk5T09jYWNYSWRfaVQwY3RlWEh4ZU16WXFKVUdjRi10UE1idUE?oc=5",
-      "source": "The Alternative",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "Taylor Swift’s Fairy Tale Is Over - The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRUNCdmV0MUJ1ZDJ4eEh6OV9fZFpzcW5HbTlRLS1TT2tsNkcyVkYzcHM0ZmQ3Y1FtQlNRZXR0NVN6b0RKSmJCR1V6NlByYmp5SkFQOWR4aVhxbVlHU3lEVVIzanh2SFZqQm5BenpXQldHVVVBeEp2ZHdfaXl4VU1oTXdtaWFuRGhSb19rMmoxZ0l3Z3Bybl84TlFpMWRSaXRSc2c?oc=5",
-      "source": "The Atlantic",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
       "title": "What a Class on Taylor Swift Reveals About Us - UC San Diego Today",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QNWNUMkhMMGxkdTd2RmM5SmhTMWtDOUFjRFBRcG9fcE9ISkk5Q3k4NUVRUnhydGZxYlBsZWZIODVJYlZwOUk5TDBhaU9sN1lURGVXX2JTMTJmWFBNZ0xEY2NtVFFFYnI4S3hYUjVKWjBUSmYxUXZzT003Y0ppMm8?oc=5",
       "source": "UC San Diego Today",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
+      "title": "Why Does Taylor Swift Think She’s Cursed? - The New Yorker",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdktKUm1vMnJxb2haVTE0QnlLTk12Z0haZ2pQN2hMR1lzYjl0MzMyNmk5Ql9abjYwREt4ckFxZmZValk3b2tLR2g1YkVfbmtNaVRRb3RRT1RQSDkyQkhzUTJZQmhWX2NORXNQMmIwOWN0amVLYjNMU09oTXZ2aUpPTkdXd2ZfamdpcmR5WGpB?oc=5",
+      "source": "The New Yorker",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
+      "title": "The Taylor Swift Album You Are, Based on Your Zodiac Sign - The Everygirl",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HOGxhNE51cFpEU0l5c0lELTQ5bWxOT25KcC1MeFA4SlhfTjJrVWdfVWV4NzFIQWhoR29sa21GVWozNDZHRFNwdFpDNFlnMGxNQW4zSEJKcFMtOGhoblI5R2lmekxsNWtvWl9zNg?oc=5",
+      "source": "The Everygirl",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
@@ -172,10 +160,22 @@
       "published_at": "2025-10-02T04:05:26.000Z"
     },
     {
+      "title": "Spotify Celebrates Taylor Swift’s Most Anticipated Album Yet With an Immersive Fan Experience in NYC - Spotify",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMTlWZm5ZLVVhMmxoRHBZMTlJaW1fb1JZSXI3OElmUWZKMHFHOW1UVU9mcWE3SlU3WXVRYlV4T3pzZDFqOGVrVWZraWI1UmN2RG9XQjFoc2xOcW5fY3hodnhTejFJTU9vb3llaTJMMkRNX0gxV1NWLWh2QjRMcDN1a0hGUm8?oc=5",
+      "source": "Spotify",
+      "published_at": "2025-09-25T07:00:00.000Z"
+    },
+    {
       "title": "Opinion | Thank You, Taylor and Travis. I Needed This. - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZVJLU0pCZXhlY1phWE9LZWdySGhPRGVYSjEtNldDc1BfdGFwTHc2WXk1N2ZxTklVNmpNUFN0M2ZKN1ZWclNXRUZLemNtcExadFc3eVZJSjlSRlJ1c3UxTHVhNHNSR1NMSXhTWVktSXF5c2xUSGdHeW9xNy04LXRoS290c1BUOGlTSzZQYQ?oc=5",
       "source": "The New York Times",
       "published_at": "2025-08-27T07:00:00.000Z"
+    },
+    {
+      "title": "'Huge green flag': Taylor Swift opens up about Travis Kelce - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTFZ2cW96Wmdibm15MU9TaUVWeDBTZnpBMUFldnNMSTB5WnA5YTQ1dE12UFkyNk9zd0ZPMHBWVmhUWTRmYmJiTGZheFU0WGtjM0lpdElSRTlkQlBUdGpfbnp1RHVMMXlJRE1zQmlUWUpWZk4wM0tZMWhBQWhCSjJVeXpLUFlCcFBoVXI1MmlRTW90QkZta2dxOWg5aEkxTVo4M016R2ZOQjNUTkJlbm1mREpIM2cySHVTQ3g1X1hQSXM?oc=5",
+      "source": "CNN",
+      "published_at": "2025-08-14T07:00:00.000Z"
     },
     {
       "title": "Taylor Swift Reveals New Album on Kelce's 'New Heights' Podcast - TODAY.com",
