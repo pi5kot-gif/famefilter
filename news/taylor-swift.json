@@ -1,7 +1,7 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-14T23:33:33.136Z",
+  "updatedAt": "2025-10-15T00:56:56.446Z",
   "items": [
     {
       "title": "Taylor Swift Takes Top 12 Spots on Billboard Hot 100, Led by ‘The Fate of Ophelia’ - Billboard",
@@ -26,6 +26,12 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS0Q5ZUJzc3lTQkhlbFpLUFplTzlTOTFQWTB1WXM4SXNfNVdRX0l5MWY0ZVlSaGFfNEp3Y0xSWHdFNzVCTDdMN1Y0SmNDbTlRWThXalRlRGtvY0xSTHBTcFRmd3FhY2pjNWM0eWgwZnNGeU5Gb0JfOTlwa2FlQjlLS1RQMTJqRFRTVFpmVg?oc=5",
       "source": "The Free Press",
       "published_at": "2025-10-09T01:11:41.000Z"
+    },
+    {
+      "title": "‘The Life of a Showgirl’ Doesn’t Even Feel Like a Taylor Swift Album - The Everygirl",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xZG9wSW1UbWJfMnhibzY4UUd0TTZCSmQxeWRHOVJWZFdVUmxpU2xleHRXVlRId0c3dU1HM1Q3ZVhMTDNuckxDMUwyREN1ZnMzSDJSME5XTDV3MkFIV3hIaEFvSTZ2S1NKbWVUbQ?oc=5",
+      "source": "The Everygirl",
+      "published_at": "2025-10-08T20:30:07.000Z"
     },
     {
       "title": "Taylor Swift Makes Showgirls of Us All - Christianity Today",
@@ -82,15 +88,15 @@
       "published_at": "2025-10-04T07:00:00.000Z"
     },
     {
-      "title": "Taylor Swift’s Fairy Tale Is Over - The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRUNCdmV0MUJ1ZDJ4eEh6OV9fZFpzcW5HbTlRLS1TT2tsNkcyVkYzcHM0ZmQ3Y1FtQlNRZXR0NVN6b0RKSmJCR1V6NlByYmp5SkFQOWR4aVhxbVlHU3lEVVIzanh2SFZqQm5BenpXQldHVVVBeEp2ZHdfaXl4VU1oTXdtaWFuRGhSb19rMmoxZ0l3Z3Bybl84TlFpMWRSaXRSc2c?oc=5",
-      "source": "The Atlantic",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
       "title": "The Life of a Showgirl Album Review: A Taylor Swift Who Is Unafraid to Fail - Teen Vogue",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWnFKeF9uMDdxZ24yeE5HMThpWXByQTlNQlQ4SDYwcXJ4ZUd4bmhUdWhxWWE5cVFmYy1EbFZiRFByOE9Ob09oS1plNnpkSTZ5V3pNYUJheE5yM3B6UVNsM1FySXd6dFhmOWxnWXRVRG8xZkFqNWFBcVhiQmtkLUVPVnl1VXZGT2s?oc=5",
       "source": "Teen Vogue",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
+      "title": "🎬 Taylor Swift Has Everything. But the Oscar She Wants - The Ankler.",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1mNnRtRGpVbnN2RlZYdmNwUXFvTk1FZGtRYkVKaDRlaC1ORlJySW9mSkRiazhWOHoxN3Z2OVF0ek4wZnZqNFZveTVsT2pwR2pTb2RmOTB6RnJqRUhEdVlrMXNlN3JVcjg0WUpn?oc=5",
+      "source": "The Ankler.",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
@@ -115,12 +121,6 @@
       "title": "The Taylor Swift 'Showgirl' Song I Dreaded Most Wound Up Being Her Best - PureWow",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4bU9EaVlOZ1MyWDJnbzJiaEF5MVgyVmZpcllCV1g4emN4UzZwZlRJdkxLUkQ2c2MwRmgyd2h1dGJudEZIMURFWjdEZ1VjTEpVUzlXZGJzYUhvNExkZDlBV2MxRy1rdGRueF9YdWMtMTBmbWw3X3FhWnZHZkl3Zw?oc=5",
       "source": "PureWow",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "🎬 Taylor Swift Has Everything. But the Oscar She Wants - The Ankler.",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1mNnRtRGpVbnN2RlZYdmNwUXFvTk1FZGtRYkVKaDRlaC1ORlJySW9mSkRiazhWOHoxN3Z2OVF0ek4wZnZqNFZveTVsT2pwR2pTb2RmOTB6RnJqRUhEdVlrMXNlN3JVcjg0WUpn?oc=5",
-      "source": "The Ankler.",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "title": "Essay | The Misunderstood Genius of Taylor Swift - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxPd1AzZHhVWGNsVURtQlRNYzhONTVLSC1TT2gzVVEtd01mS0VJbXRIRjlQU0RERVRHMVZzdzJ0aWFWb3p4eHJfZlBFUUJWRkhHMmlsdjVpRzViWGhPR3EyLXlOaTI3aEV0bFB3LTVpMHFUeENlMWtQeGdoOV9iaS1mZWJWcmZGUDlydnRJQk1NTnlMdEdJZWxoTGx5U3gzbUlwb2NsNU43b3JlaHBlWENaOEN5QWRiQlgyR1hXSmJqQlRpYVQtbUJ3NnFmSGU3dTU2UWMzZHNoaEpGTzAyeWZpZzBOSWc0RFl6M2JEam1GaTdKT1lPTmRaYWpIUmNyeXVTM0NPN3BuMzZOTTZlM0k1Z3VSaUl1LWdCMl9vMWRiOEU5Z2JJenZuWFBvNWRKYWNicXA1T2RrOHBHa3lMWlliMS1NMU1kNENfVmVTYWVMcGhMeEN5SDEwOG9hT3hLR1lYLWd2MHYzanp1a0hmOVM3LXZpVWRfS2dWMjNVa0dqUVJ1NUk3a054WU1IZElLSFFuWV9JTFJkMA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxONk5XVzUwSFJZdUdjWHdHeHlNeDhFaEVtYXFYc0xCYmZlYUdKNzFQWWt0Sk9DY1VMWjNiVDJFMGpuZjZrN3QtVmFzZjFvc2IxeUR0a2tZSlFFUHpuVXlXb3RrRzVGaGdFdm15NFp6enRkQXpvMXN2Y0dkZVVlZExzdXVSV0lRWkZJZnRKcm45TDlDcU1uTW1KeWNvWkhJeXQyVHl1em8tcExzZG80bTUzZkFFWEt1UWw5QkZQU3ZqWjl6d1Z3VTdha0FRVzA5ek4tbkMwamZNaXRjTURObURibkNvUU1WWEtGNzRPaUFLM25TOVcxWEt0dXNxMkMzNW56MWtxdlUzNW5wN1EzR2o1WUNsbTg2VE9IS0dXeDFETWF2OHRLcW03aEZXbTNHQXBYRmlDNnBMLVIxQTF0VHZZZV9sVUswck9TZ2dENFRlMmpVV2NxRUFodXVjUU5faXFFVzNUVTIxVzIxc0F1N3ZCYlcxc0NvRmM3YXZXb0JySWpNUkFoVmttMTljZHR6VnlfZGdqcFVqZw?oc=5",
       "source": "The Wall Street Journal",
       "published_at": "2025-09-25T07:00:00.000Z"
     },
