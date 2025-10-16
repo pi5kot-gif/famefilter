@@ -1,19 +1,13 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-16T20:13:50.118Z",
+  "updatedAt": "2025-10-16T20:38:45.319Z",
   "items": [
     {
       "title": "When your English teacher writes a book on Taylor Swift - Harvard Gazette",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMHczVnhtQmlNR3RzTk9iMW5PalpjcEZubS1HR1ZVZjJEU3hSTE1vM3lJeHJIc0ZPWWZ2TFFkdUNxd1BTNFA3V1RGTG9jMUNRenRQVVdxU3llQWZ6WUF6QnZtVkhPNFlxTklsTjFpaDEzRnpLNlU3czdRY01BMFE5S2hxNUNKNXhDOHRNY2ZGTG1tRldkZjVYNElXWDFBRHhGallTSml3?oc=5",
       "source": "Harvard Gazette",
       "published_at": "2025-10-15T20:07:21.000Z"
-    },
-    {
-      "title": "Is “The Life of a Showgirl” Taylor Swift’s worst era? Why fans shouldn’t be so quick to judge - Northeastern Global News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNckdoODZ6eHlRVVNxeVBkdUZ6ZVMyQjZ2TmhYckIzRlAtQXBONFV3NlhKWUJtYmRlQWo5Z1FRLThXdUJCR3YtbDBOdC04blBtMVAyeG9hQXdzQTNEVGNHdzhGNjgtb1Jtd2I3VEdhbFFvcTlrVW41aGJnckpoRzk0QXUwZw?oc=5",
-      "source": "Northeastern Global News",
-      "published_at": "2025-10-15T15:40:19.000Z"
     },
     {
       "title": "The Life of a Showgirl: holding Taylor to higher standards - meer.com",
@@ -70,10 +64,16 @@
       "published_at": "2025-10-07T07:00:00.000Z"
     },
     {
-      "title": "Stan Expectation &amp; The Allure Of Cultural Clout: Why Has The Reaction To The Life Of A Showgirl Been So Heated? - Refinery29",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaWJJV1VXb1NyVUtaQWhrc2Q5ZXYxSHJGMVBnTmloVTE2cl9KX2VYVnQtSEpJR2psa1hBVEpPQklfN21Ndi1wRnpabG5Fb2J2ZUxVNWZOdlktSktwcEt6NVMtaVY4bE5iT3dpTTJyaVZRYTFkME5pZ3R0dnBBdUVGLXRKek56VzVYOWRkSUtYTC1CblZCVm5WVWpxVVZCSVFtN2FfZkhibmg?oc=5",
-      "source": "Refinery29",
+      "title": "Taylor Swift Reacts to ‘The Life of a Showgirl’ Critics: ‘I Welcome the Chaos’ - glamour.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeEJFSzVrc21qVjF6YVhJdU43TWhRWTN1WEgtY0Y5RTZGOGF1MVl6aVRXNXhCN0JjekxRb1VWbnkxUF9xZ2hvQVRlNlJsaWN6Y0tfSzducTBiSG42LXR0NWpUSkd0WVdnVG1rZXdfVURCODZJQ2hQZ3duMFV4V09kYWNia0xJdjJ5TFhn?oc=5",
+      "source": "glamour.com",
       "published_at": "2025-10-07T07:00:00.000Z"
+    },
+    {
+      "title": "Taylor Swift’s new record unfortunately delivers profound mediocrity - The Tartan",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNU85Mm1WX0ppT2ItcTZfeGExUEZKVHZTRUd2ZnpsYVNjN04tcXVFd3E0RS0ycnBLcHE4Q1EzaWQtZXJWVXhYeXpDSmExcEUzZnQ4aUNWaW5QdHd3cjMyaWt1S0pWbk9MZkMzZFAyWHlJZ0d5NjlzZERCRW1HZXhyaXlpaVpLeDVTN1RSWVAwYjNvXzkxdDRkNERPSFJXV3JvNHJZXw?oc=5",
+      "source": "The Tartan",
+      "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
       "title": "It’s becoming clear: Taylor Swift has a bad language problem - Angelus News",
@@ -106,6 +106,12 @@
       "published_at": "2025-10-05T07:00:00.000Z"
     },
     {
+      "title": "People are Getting the Taylor Swift Album Very Wrong - Ahead of the Kirb",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zUUlCRE16c0FsRTljcm9Qck5WM3l0RDA0ZUs1OGtVUWNxX2lwVGtLOVo2Qk9vcWtMUTJ6SFg0aWJYT2Nxcm1LZXp3aEJra1FRczY4elNMVlpYeDNTUk83emNrZngxa0pmcm9BUDFXNlNkZw?oc=5",
+      "source": "Ahead of the Kirb",
+      "published_at": "2025-10-04T07:00:00.000Z"
+    },
+    {
       "title": "In a dark theater showing The Official Release Party of a Showgirl , I had some unfortunate revelations. - Slate",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOGg4S0FhWVhvZFhrSXloZzlDRHZWeTJTWDY5b0RiLWM2Ymh3VFlaQTh1WW5MWVpRcVl0RVFyUFZYbktzSzVqR3VMOXBJVnNYNmpkMFZYUUplUXNaUG9CV1VqUDFpY3FudUpCTlZSLVhPbkpQMkxra3BidHNFMVA0dFJwc0tMSV93V05iU25ueDA?oc=5",
       "source": "Slate",
@@ -124,27 +130,21 @@
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
-      "title": "Taylor Swift dares to release new album after Trump declares her 'NO LONGER HOT' | Opinion - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaTF6X0o5Qk5OOVBmbVMyWUlKeUpoNDNPekxHMURiTzE5cDQwMWVxM1d3Qm10clVmVHkyeEk0cTlUMjVMRDctZXFVRXlaVUkwRXNhTkFWOHExcV93ODE0Zlg0UUFEWV9nZ1Z0LXFCVjlHTFRWNHV1WWR2eEF2RVkyVzBEX0tLSHhUU0JWTjJpanRFb3FCM25vOTZEdC1KZXRIb3dUVkl0bw?oc=5",
-      "source": "USA Today",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
       "title": "The Life of a Showgirl Album Review: A Taylor Swift Who Is Unafraid to Fail - teenvogue.com",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWnFKeF9uMDdxZ24yeE5HMThpWXByQTlNQlQ4SDYwcXJ4ZUd4bmhUdWhxWWE5cVFmYy1EbFZiRFByOE9Ob09oS1plNnpkSTZ5V3pNYUJheE5yM3B6UVNsM1FySXd6dFhmOWxnWXRVRG8xZkFqNWFBcVhiQmtkLUVPVnl1VXZGT2s?oc=5",
       "source": "teenvogue.com",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
-      "title": "Did Taylor Swift's New Album Deliver? Well, Don't @ Me, But... - PureWow",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeENnQ3dwX1Q2Z09HTjRraWFzWExSLWFLTmxPWVd6VWt5TjJXUnBuQ2NXU09KWmJRZXBTbU9WSnZVdWJYaDg2bnJ4T2I1aExkM1VyVVVreVpYUUU3UEg0WlVqU2pRTmpEZVgyOS12Um5ZOE9RR21pUU8xSC1hMmxmNVp1VXRaVHM?oc=5",
-      "source": "PureWow",
+      "title": "Taylor Swift dares to release new album after Trump declares her 'NO LONGER HOT' | Opinion - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaTF6X0o5Qk5OOVBmbVMyWUlKeUpoNDNPekxHMURiTzE5cDQwMWVxM1d3Qm10clVmVHkyeEk0cTlUMjVMRDctZXFVRXlaVUkwRXNhTkFWOHExcV93ODE0Zlg0UUFEWV9nZ1Z0LXFCVjlHTFRWNHV1WWR2eEF2RVkyVzBEX0tLSHhUU0JWTjJpanRFb3FCM25vOTZEdC1KZXRIb3dUVkl0bw?oc=5",
+      "source": "USA Today",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
-      "title": "I thought Taylor Swift's 'Eldest Daughter' track would wreck me. It healed me instead. - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkxYNWlLZjR0bnU5X2J4RmIxeVcwUHJXV2J3aGZaNVpSZkVNVkJSamNiUXQzR3lPdzFaeUlXVl9ZSm01ajlxMk1YOGtFOUVRb1habVFUd1Q5T2N1aUlyeGd1SHk1dUFKYmpSdXJCV3p6dWlEUTREMGVxRVZaQ2NhWFBQYzFUSFoydkNMSFhtWmpZTDFXTUtiTk1jdjhVb29OTTYwYTdNcjNFN2VmT20xeEJ2ZkxWS0h3aUFMM185R2U?oc=5",
-      "source": "USA Today",
+      "title": "Did Taylor Swift's New Album Deliver? Well, Don't @ Me, But... - PureWow",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeENnQ3dwX1Q2Z09HTjRraWFzWExSLWFLTmxPWVd6VWt5TjJXUnBuQ2NXU09KWmJRZXBTbU9WSnZVdWJYaDg2bnJ4T2I1aExkM1VyVVVreVpYUUU3UEg0WlVqU2pRTmpEZVgyOS12Um5ZOE9RR21pUU8xSC1hMmxmNVp1VXRaVHM?oc=5",
+      "source": "PureWow",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
