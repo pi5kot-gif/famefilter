@@ -1,7 +1,7 @@
 {
   "slug": "cristiano-ronaldo",
   "name": "Cristiano Ronaldo",
-  "updatedAt": "2025-10-17T11:10:16.928Z",
+  "updatedAt": "2025-10-17T11:34:15.857Z",
   "items": [
     {
       "title": "The World’s Highest-Paid Soccer Players 2025 - Forbes",
@@ -76,15 +76,15 @@
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
-      "title": "Cristiano Ronaldo becomes first billionaire soccer player, report says - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcV91TGhvUFRzenBKOWlfXzlmd0kzOG91ZzFKZG5NUEVTa1hpN19QbkpPVktoN0EwTEd5RjhsVXVtZl85ak9mN01aWVF5ZjZlNnlGNEFpeTRNXy1sRGl0MmUtMHdpZDlaNjk5SHRnVXVmWXFneDJpazh2MllhZFNiWlZBOHZ3NE8zZGtpdk03bUYySDRSNld4TtIBngFBVV95cUxNZWEyaXo0ODJzanE5RU03b0R2dEY2V0FzRS0wRVY5MDc5ZXJfR1lwMWE1eHN5TUtMUjRXUWRnZUVsSkxoZDlSTEhYOHhCUWlheUVQdGJWR3VmUHhST2xoU2JETGRoT18tU0RsNTlwQ2JDNGxkUi1VV2p6STJ0c0V5ZEN2Wm9Tc3BRN19CSkE4QVZfM3JXeEpJZHJpZmFtQQ?oc=5",
-      "source": "CBS News",
-      "published_at": "2025-10-08T07:00:00.000Z"
-    },
-    {
       "title": "Cristiano Ronaldo reveals the only team he ever wanted to play for, and it’s not Real Madrid or Manchester Uni - Diario AS",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOaUFHem9oVy14aV8xQklaVnVGMWMtNnlBdHgwcUxVek5tMkZGU2x3TjBZNzhudzNRby00ODdNcTU5amFyamMtOURVN0xJTzJJeEFWRUZtczJtVjBPY0tiVnBvMkM4QVpya2VTYmg0VHVLemktZDMydzZna2hBVXJ6cXI4VEdVMUJoSTdmRHRjRnE0dk5SQmZKMHhpeHZtYS1CWUJ0cmNYX01GZjI1a1hSdlQ5S3ZSaUFyX3I1eXNoSUwyMnZiaWtVMnlHZVFDNnRIQ3dPdlBn0gHqAUFVX3lxTFA0Q2ZfTXZvWHZ3X2pFa1NpUUY1RUJsVkV5QXUxbjBadmw1R0x2WWUtbG1KaXFzN1hwMGJXSkczUHVqamZqSVVqMEF1bmZ5dlNrZ3E5OVZSY0t6eDFNVHNhUVYzaDdJd1BtUERqNS05Y19aTzBrOEpGbDBhV3JmXy1uVW01SVJ5VUI2bGFIemFqckkyYTNUMEhGZVNRUnFGbzF4MUNNTGxXQWpJaVBKSEdBWnZ3Q1hIQzJIWGJJNXFJVkx2aFl5ODRWUHlqWnZJa1NvTUwwcnItTjBCVzNYTHBZY3hBb2FGRlFkdw?oc=5",
       "source": "Diario AS",
+      "published_at": "2025-10-08T07:00:00.000Z"
+    },
+    {
+      "title": "Cristiano Ronaldo becomes first billionaire soccer player, report says - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcV91TGhvUFRzenBKOWlfXzlmd0kzOG91ZzFKZG5NUEVTa1hpN19QbkpPVktoN0EwTEd5RjhsVXVtZl85ak9mN01aWVF5ZjZlNnlGNEFpeTRNXy1sRGl0MmUtMHdpZDlaNjk5SHRnVXVmWXFneDJpazh2MllhZFNiWlZBOHZ3NE8zZGtpdk03bUYySDRSNld4TtIBngFBVV95cUxNZWEyaXo0ODJzanE5RU03b0R2dEY2V0FzRS0wRVY5MDc5ZXJfR1lwMWE1eHN5TUtMUjRXUWRnZUVsSkxoZDlSTEhYOHhCUWlheUVQdGJWR3VmUHhST2xoU2JETGRoT18tU0RsNTlwQ2JDNGxkUi1VV2p6STJ0c0V5ZEN2Wm9Tc3BRN19CSkE4QVZfM3JXeEpJZHJpZmFtQQ?oc=5",
+      "source": "CBS News",
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
@@ -114,12 +114,6 @@
     {
       "title": "Ronaldo Becomes First Football Billionaire With Big Saudi Contract - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT2c0SVNpT3ZHcmwyV1NyZDdZTzB6X3JEVDd5MUg4SldHblc2UzZFZnItcEhuRjhpdDR6SjlrQ0VvY3F6VXJ0STNVcHNpc1MzOFhoTkFmNGxGVTdZaUlnZENwc0pfN04xYUVDejNfbjBNQ21lWTY4UHFOM2hqblJsZ0YxNFB4dXZyd1JScTVTSXhWN1o1V0tkWnFBVXlwX0sxeVBNV003TlRnc2hWVnpHdnhiN3NWcllxa1ZnNC01VUFRUQ?oc=5",
-      "source": "Bloomberg.com",
-      "published_at": "2025-10-07T07:00:00.000Z"
-    },
-    {
-      "title": "Watch Cristiano Ronaldo Is First Billionaire Football Player - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZjZjQ1U1RGllYWlzTnBkaEc0M1BEQXRBZENtQmpEenFtYngzbGMzd0dRdlN1WjBLV0RhMlRqU0VpcnhFSlNLb29pTmE4b29oRjBmNDF0Qkx4NEJDRmprWGlSclF3TnU2dlhPdVZfMHYyMGpIeUpKY21FcS02bko1RVh5dGpjSHhad3NwMTVtVXBtVDcyNngxNDg2UHcyTWZPbFBnMVlOc0pOSlRFbXc?oc=5",
       "source": "Bloomberg.com",
       "published_at": "2025-10-07T07:00:00.000Z"
     },
@@ -160,9 +154,9 @@
       "published_at": "2025-09-11T07:00:00.000Z"
     },
     {
-      "title": "Ronaldo equals WCQ goal record in Portugal win - ESPN",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN0JTQnJKaDkzcXV6MlZ5V3lhMTJBWENEYlpTeVUyeDZOT0NHTWZXNnQ0ZWJqc0NuUlNLOVVaVUstLUhDTmd1bXBKR0NTaU40dlJlV3huaGgxUXBhNzRwRkNZTVNEdm5GeVYwU09xMzQ2LUVHZkNtR2NicmJwX05ZemxKdURVcUMwdGw4cnk4YlFWOHZMNzdfOHlkM1hnQUpScFB6Q0g2Q0ZsWkRvbGlVRW9n?oc=5",
-      "source": "ESPN",
+      "title": "How Cristiano Ronaldo inspired young Kylian Mbappe: Real Madrid star’s mother makes heartfelt six-word conf... - World Soccer Talk",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRnZHZHlmU3IyLXhiT2YycWVzaks0Tk1JUzFtTDdESElNY1FuRnd1LThzUzNyS3ROYTJhUlZkZnJqUUZ3WjRQVWNKdzJINU1UYkRUYXluZl82MlRHMktta1hkMWxsZWIxNTJmQTN2Vl91OWJwMmstZkJpSEhwU18xV2VwbW0ySGNkaUV5RFRNcjFiWnRBT0hScUlHbEctSjB0LWhTR3REbTRjWFhLajRjUzVhMUdYTWNFQ1ZCQzlSUnJTdnhFLWM1X1pPbWkzX0VaZHpDOW9ZZlRPVHN2TlHSAeMBQVVfeXFMUEFoLU83OFNoSVpyaXFQWDk4U0oyTldUQ0twVmhoSFlDanpzSldYMkhTdjVnYnplUWctc3A0M2U1TkVYQi1KMVF6NXJ5MTVLLThZNElOUmJEdjRWbXE1VERnQ0dFd3Y3cG1jNDBQQ1lhRWRZaF85WkhvMU9VOE5TT2I4eDVicG0tMHVkeEt0TlFMYTA2WDlieC1wckFFT3pkZjRUOE5LTzFCOTNkUUZlUTNYMlVEVWNlNDRaanZmZFpreEl0UWg0c0VGRFFlczB4clBzc1hfV3VwVjNXMXRNa0lhVHM?oc=5",
+      "source": "World Soccer Talk",
       "published_at": "2025-09-10T07:00:00.000Z"
     },
     {
@@ -176,6 +170,12 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY01CWHg2Nm91d1dwY0hoWndiLVNIVW1QaFJZMXEzVFVCaEcwOHdUNVctSEI5QjAtYmtlX1dfaWcxUmlON3A1a1Z4aGJZVkRvSVlpOHdObFdEM3JHbWVlem1MS2t3amI1WHo4UEhkeVctQjZMQ2p5cGViNmtSOFdVVExnMlc5RXZIV2U5NlR0d2RNMkU?oc=5",
       "source": "ESPN",
       "published_at": "2025-09-09T07:00:00.000Z"
+    },
+    {
+      "title": "Martinez on Ronaldo: Still 'hungry to be the best' - ESPN",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbGc4NUI2dElfZFB2djRSV3FzVk5RdG5ya0ZTUUJoZnlrNzlsd1JBbW9aTVlETk9qVlF2Ukx1enBONXI0MUtVS2RiUnJEX2V4X0tmUmc1X0R4Vk13LWhYODV4SUFRSkV3Q09IRlFTZ3RzUUJIbUVuREstbnV6a2NqUS1PRHBsWWlKY1N4ajdpVGxlQVBCUTBMNi1BYw?oc=5",
+      "source": "ESPN",
+      "published_at": "2025-09-08T07:00:00.000Z"
     },
     {
       "title": "Cristiano Ronaldo and Georgina Rodríguez announce their engagement - CNN",
