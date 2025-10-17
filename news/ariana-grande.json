@@ -1,7 +1,7 @@
 {
   "slug": "ariana-grande",
   "name": "Ariana Grande",
-  "updatedAt": "2025-10-17T10:40:29.210Z",
+  "updatedAt": "2025-10-17T11:10:15.830Z",
   "items": [
     {
       "title": "Spotify’s New In-App Experience Lets You Rank Your Favorite Ariana Grande Songs - Spotify",
@@ -28,6 +28,12 @@
       "published_at": "2025-10-01T07:00:00.000Z"
     },
     {
+      "title": "White House attacks Ariana Grande with her song titles after she shares criticism of Trump - MSNBC News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR2J4Y2xrQ3JNdDM1Qm1TbWNNc1d3Q0hWWUJXVlhHMldyWUlueVNZZ2l3WVlvUTV0V2hmSXVDdDFBaVF3ZUlvTnBVSzFaZFlyWW9ENFM4U0E1UjVNMFhRZDdIYXJOMTRGZVAxN2RWNHliSlBQNnNCc016T3JPQzZQQW8wMElwemJOXzUxdm92d0FrZU8yS09SSTZjRnptbURUWFI5RGpHanFrd9IBc0FVX3lxTE1CUEstOEVhQU5oYi1sdkprUGl6bmRsTFNBNGRRSVQ4S1J0SVdWeDBVWTZVNFIxeWpiS2FUQWZyaDZPOHRHSWNSaXRCcDlNM3dlOEk4Mk1NM3dsbXdNa2p6cl9uMTE5TDFDdjk4c0ZCbnBLVlU?oc=5",
+      "source": "MSNBC News",
+      "published_at": "2025-09-30T07:00:00.000Z"
+    },
+    {
       "title": "White House Rages at Ariana Grande for Questioning Donald Trump’s Success - The Daily Beast",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbHhQODBhcllHaWdneTFNQ0dhd20tMEFtdExfeWhfQ3pUcjJlOEdtWFVERy1STmhQYjJ1TjF0V0xuellzZzNDSGkwaXhVN1BQSWZ2VlJJRHRzWi1qdUJEOEdCaVNWVkVsZ3ZUTFJGU0ZJUTlWbDJvV3E1UFFTVUFSTVpyR1d5TU93bVFFcU1BVnktM1UzdDJybEwydWVNelo0VG1TSi1B?oc=5",
       "source": "The Daily Beast",
@@ -52,15 +58,15 @@
       "published_at": "2025-09-29T07:00:00.000Z"
     },
     {
-      "title": "Ariana Grande blasts Trump voters in scathing message: ‘Has your life gotten better?’ - New York Post",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV0tvZXR5dG53RTlaY3d1VnhaWUFMRXdWamJlVXZXT3pzTUZDUndGUmd2TDc2T2FaeElrZndZZXhSVFdEQm5nX3RNZ0NDX3VxZ0d0cVY4MHEzTTVoTkZCOHBBUzdFMjZlM1dHbFF5QkdfVUk3WTVGR2tUejBUT2ljNFprTW0tU3ZpaVZyU3JYYjAzRkh3MWVxWncxVGVqQlcxbERWLUFrY2lBOHc?oc=5",
-      "source": "New York Post",
-      "published_at": "2025-09-29T07:00:00.000Z"
-    },
-    {
       "title": "How to Get Ariana Grande Tickets: Chicago, Atlanta, Los Angeles, and More - Business Insider",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ1JWZjhyQTJ3aG5SbDJTWjc0MXRKZnp6YzgzSHR1UlU4S0RPb09yODk1Y25pWnVwZEo2akFuOFZWR1NOdkFVUmtSSVV6YTFKTU96UzZqdmREV2gtOGNnRFp2R1hycldzcEotUFpxOVFMaVVQYU5UT28wdDl3OEhvVDZDOWJZNF9JakJXQkFYUGxJa1B6c29V?oc=5",
       "source": "Business Insider",
+      "published_at": "2025-09-29T07:00:00.000Z"
+    },
+    {
+      "title": "Ariana Grande blasts Trump voters in scathing message: ‘Has your life gotten better?’ - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV0tvZXR5dG53RTlaY3d1VnhaWUFMRXdWamJlVXZXT3pzTUZDUndGUmd2TDc2T2FaeElrZndZZXhSVFdEQm5nX3RNZ0NDX3VxZ0d0cVY4MHEzTTVoTkZCOHBBUzdFMjZlM1dHbFF5QkdfVUk3WTVGR2tUejBUT2ljNFprTW0tU3ZpaVZyU3JYYjAzRkh3MWVxWncxVGVqQlcxbERWLUFrY2lBOHc?oc=5",
+      "source": "New York Post",
       "published_at": "2025-09-29T07:00:00.000Z"
     },
     {
@@ -80,18 +86,6 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb3F5d3JvdDB3QjBvNUU2RWtOb0JZc1duazZOVlhuWXFfTWRBampSME5XY0g1dnZ6eDJycVpPWFloeGM2Wi1YM08yZmU3RUxnRlUtTjhveTl0b1JoY05LWUpzNEUzbWtEc3FBSlVBU3BMU2p3WElvZW1QR1NmMC1pQW9ITEVRY0hRa0xqbWI2dVkwNjdvemdBNTNQWEgwQ1B5RlJNLQ?oc=5",
       "source": "cosmopolitan.com",
       "published_at": "2025-09-19T07:00:00.000Z"
-    },
-    {
-      "title": "Ariana Grande Named Songwriter of the Year at 2025 SESAC LA Music Awards - Variety",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSGs2WkN6MVlnZmhPY1I0YWdTQjJVN2RsZ3JwcUUtOWV5Znp2RHlaYk83d0VTQVpPdDRlb1FqeVZtUVNuYkM1YXV6RFhTbkMzZ1dpa3Q3elBRX09mTEpyVGwtZ0tKNEJsQi1LSXRuQ1gyVnVJcDdNREtVa1hGV1B6VUxhZlUzLTM1ckRMVGViRkZUSU5CeW1NYVhDTF90X1ZURjk5Qg?oc=5",
-      "source": "Variety",
-      "published_at": "2025-09-18T07:00:00.000Z"
-    },
-    {
-      "title": "Ariana Grande To Ticket Resellers: ‘It’s Not Right’ - Pollstar News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeVdqenVKZmx6cDZKMXFvcnpnWmI3NjdoTGtGOGYyOW4tX0hXU2pjb0sydEVwS3JiWEZ6OVR1ZWhsMmpNWnNXNFVkV2wyZFQtOUhWbl93UFZYbHVTdmt1STZNeEJBUjlGVXdIbko2N0pTa2RWZW5hWDUzZ2Y0dmZMc2RRM1RtRE5hOFE2MEtjM1J0cEZPZERFd2JwNkhTc1F1?oc=5",
-      "source": "Pollstar News",
-      "published_at": "2025-09-15T07:00:00.000Z"
     },
     {
       "title": "Ethan Slater Reacts to Fans Unable to Buy Ariana Grande Tour Tickets (Exclusive) - People.com",
@@ -136,15 +130,15 @@
       "published_at": "2025-09-10T07:00:00.000Z"
     },
     {
-      "title": "Ariana Grande Spares Fans from the Perils of Dynamic Pricing - PAPER Magazine",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LU2pLMmwtMDQ3MGFaOFNzV1VwNFBtelBmcXJOUzRQV2lOMGx6bHhpWDVUUVNrQ1FIdk5mTWY4c2VYTFlsSndmSDhCNXdGUnJWcmVnMl9BU1h1Vi1hNXllZ250YzFwb2pHWS1YRQ?oc=5",
-      "source": "PAPER Magazine",
-      "published_at": "2025-09-09T07:00:00.000Z"
-    },
-    {
       "title": "Missed the Ariana Grande presale? Here's what time general sale is for her 2026 tour - The Desert Sun",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRHFwUGxYY2VSMkliNmhId0ExWldEOHR5S0VpdWdXY3pTNWV0aU0yUUQ4b2NZa2JScDU3aUFCMFdOS3VOdVdiMHBQcko1ZnBBSldDMEtTSFpraUNDSnI5djlTWkdoS2NmbE9tSEw0OFgwM1B1WUJjUDhrUGpkZHpFUjF5cWk2ZmpxLUFHOU9BbG84a3pVX3ZiUTRaNENRQ2JhcmlmanpCMXFCMGRIbWpYSGo5cXg3UGs1M1V6V1BXRTZnRnJuVFh1NE50anptYUk2anlsSA?oc=5",
       "source": "The Desert Sun",
+      "published_at": "2025-09-09T07:00:00.000Z"
+    },
+    {
+      "title": "Ariana Grande Spares Fans from the Perils of Dynamic Pricing - PAPER Magazine",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LU2pLMmwtMDQ3MGFaOFNzV1VwNFBtelBmcXJOUzRQV2lOMGx6bHhpWDVUUVNrQ1FIdk5mTWY4c2VYTFlsSndmSDhCNXdGUnJWcmVnMl9BU1h1Vi1hNXllZ250YzFwb2pHWS1YRQ?oc=5",
+      "source": "PAPER Magazine",
       "published_at": "2025-09-09T07:00:00.000Z"
     },
     {
@@ -164,6 +158,12 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQXJ1eU54OTdwU0FlZm5YM0pfSTdZcjhBcG9DN21GSlV4YnN0N1FPaGJSWDlEOGc2Qmo2cC1QcnRzd3BRYS1QdWxmS0dvWURMUnlaWjFTUnhLRDhzV3puZE0yeTZ6MUxmZXRwa1ZGb2ZpZWcwZEdOYkVFajRkZmYzUUFlMS1UWEhVeVFCbEl1bw?oc=5",
       "source": "Campus Times",
       "published_at": "2025-09-08T07:00:00.000Z"
+    },
+    {
+      "title": "Ariana Grande Looks Like a Literal Loofah in 4th VMAs Dress as She Accepts Biggest Award of the Night - instyle.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMzJqZWxQcGhtQXpjUXNoQ2VJVkc4TzBEbzNzbmJkc0d3cVpNZS16QUxxODFTbjdSNXBzZE9Ia2dnSG82MW90d2hXTXpmSUVZUzg2cXJqNkJlQ1EtcjM0VTR2a2lzY3RvQ3pnZnk0a2lhMkMwaXVGYUZqNy0wS0Y2NVlibXVDSUlYWTFuR1FBV3BqNUJ4dG43Sg?oc=5",
+      "source": "instyle.com",
+      "published_at": "2025-09-07T07:00:00.000Z"
     },
     {
       "title": "Ariana Grande to Return to the Stage With 2026 Tour - Pitchfork",
