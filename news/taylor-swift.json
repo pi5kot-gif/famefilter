@@ -1,7 +1,7 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-17T06:18:05.228Z",
+  "updatedAt": "2025-10-17T06:46:32.238Z",
   "items": [
     {
       "title": "I'm officially resigning as a Swiftie - Business Insider",
@@ -26,12 +26,6 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcmdUMEVYRXduNWJSalVxZnltbm5MRl9aYXdLbGo5S2tyNU5Ca0hLS2UxajItQ09wNzBQWTg2d1VpSTMyTlhVTUFaaV8xbHd2NThleXNUdzhxLWpxeGdwb05pWldEQnZOb2d1NVVjcG5BV0Z3UHBnWkJVRG05ZElHamlJUFEwdFRPeFBidFBIcWQ?oc=5",
       "source": "meer.com",
       "published_at": "2025-10-15T12:02:28.000Z"
-    },
-    {
-      "title": "Why a Tennessee mom believes Taylor Swift's 'Ruin the Friendship' is about her son - The Tennessean",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRmphbGIxZXNmYk42WXRwNUpUeTItWk9lWjRHVDNHVDJHMG9qNVpqVEFqU1JjVkQ0SVdRWXpUOS1EQUN6YmVpSEtFNTZwUURXZXpGcU5LMnpFT09ESzNKRWhBYk55enlvRlE5WEFrb1RQOEJTbm1DQnhhOXItaUxXd1lrZ3ROOWJIMC0zM2tGY3pVZ0NHVGtkeTZITHRwejVrWjZaSFVLTWJ1MmRVSFBVSVVobmpnS05FNm12U1hn?oc=5",
-      "source": "The Tennessean",
-      "published_at": "2025-10-10T10:05:45.000Z"
     },
     {
       "title": "‘The Life of a Showgirl’ Doesn’t Even Feel Like a Taylor Swift Album - The Everygirl",
@@ -100,6 +94,12 @@
       "published_at": "2025-10-04T07:00:00.000Z"
     },
     {
+      "title": "Taylor Swift - The Life of a Showgirl - Northern Transmissions",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9UMk53bVhHRXVkYUtjbzdGRVhUSzdfSkJpbWx4ZE1RSDJCLWo2WndLN050NTQ3TzExU2h2NUVfM2FGS1VnRmg3M1ZOTVprcmgwak96VjhnRURFbnBFZFZqTEZJZXpkczA1eXpHQTZCRHUxTHhmZHZRQ3pB?oc=5",
+      "source": "Northern Transmissions",
+      "published_at": "2025-10-03T14:55:15.000Z"
+    },
+    {
       "title": "Did Taylor Swift's New Album Deliver? Well, Don't @ Me, But... - PureWow",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeENnQ3dwX1Q2Z09HTjRraWFzWExSLWFLTmxPWVd6VWt5TjJXUnBuQ2NXU09KWmJRZXBTbU9WSnZVdWJYaDg2bnJ4T2I1aExkM1VyVVVreVpYUUU3UEg0WlVqU2pRTmpEZVgyOS12Um5ZOE9RR21pUU8xSC1hMmxmNVp1VXRaVHM?oc=5",
       "source": "PureWow",
@@ -124,9 +124,21 @@
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
+      "title": "The Taylor Swift 'Showgirl' Song I Dreaded Most Wound Up Being Her Best - PureWow",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4bU9EaVlOZ1MyWDJnbzJiaEF5MVgyVmZpcllCV1g4emN4UzZwZlRJdkxLUkQ2c2MwRmgyd2h1dGJudEZIMURFWjdEZ1VjTEpVUzlXZGJzYUhvNExkZDlBV2MxRy1rdGRueF9YdWMtMTBmbWw3X3FhWnZHZkl3Zw?oc=5",
+      "source": "PureWow",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
       "title": "I Snuck Out of Work to See the Taylor Swift 'Life of a Showgirl' Movie - PureWow",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMWprdVd3OEp6UVhQMnN6NUFkeS1SQVlNT29QV1VXV1lsZ2dsbVBLeEloS3dVTkFKMkFnRDZpamtQVVBOSVZ3UlRDTGd0S1A0TmgzcDd1dmhuZWhqMERybTg5cGtMWXF2MVVhZ1MtQnJHY2s4SndXRXd5cWFRWlBBRlln?oc=5",
       "source": "PureWow",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
+      "title": "What a Class on Taylor Swift Reveals About Us - UC San Diego Today",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QNWNUMkhMMGxkdTd2RmM5SmhTMWtDOUFjRFBRcG9fcE9ISkk5Q3k4NUVRUnhydGZxYlBsZWZIODVJYlZwOUk5TDBhaU9sN1lURGVXX2JTMTJmWFBNZ0xEY2NtVFFFYnI4S3hYUjVKWjBUSmYxUXZzT003Y0ppMm8?oc=5",
+      "source": "UC San Diego Today",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
@@ -145,12 +157,6 @@
       "title": "The Taylor Swift Album You Are, Based on Your Zodiac Sign - The Everygirl",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HOGxhNE51cFpEU0l5c0lELTQ5bWxOT25KcC1MeFA4SlhfTjJrVWdfVWV4NzFIQWhoR29sa21GVWozNDZHRFNwdFpDNFlnMGxNQW4zSEJKcFMtOGhoblI5R2lmekxsNWtvWl9zNg?oc=5",
       "source": "The Everygirl",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "Vogue’s Resident Swifties React to Taylor Swift’s ‘The Life of a Showgirl’ - Vogue",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4Vm1tZkd5a1FxRzlKRXBVNGQwWWFjR0JLYkY4a1JqdmhNM01FU3BfZlYzTFNvMlZrTFVzc2VCNW1heDJUY3Fwd0htNHd4eWRPZjF6Mk1XZGd1TGlFYndvUkQ4T2djVXlFNnNOdUdtaW4wSWYwclpSYQ?oc=5",
-      "source": "Vogue",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
@@ -176,12 +182,6 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORS1WSEVHSDRTSE1RSk9hbUxDempmUG9DLU5pWGRwTERmSEJDRzNJVEMzbFF4NmVGVEpHUFlKNXlwMng1V2x4eVZIQ2VvM3hPNHYybVZRbXRNOUhuaEdVR1JGMG0tQUE2Ymc3dGM5ZzJwTlRsdksxNm1YcFBBVWRFV3NvX0MtamN1TVZicnIwLUxYcG9QMVdFYmdZQlBka2ZtNm5sWtIBZEFVX3lxTE1KTzRYeDRHX21kWHFINVg5Z2l3SmFoSTB2QjBCRVdKXzQ3aWFPS1pSUENpb1VraEltcHQzbUxRSUY2RGpkcjl4dUlWVXJ1YklFME1MTHBCZmJFdFVnb1RBWHNBckE?oc=5",
       "source": "TODAY.com",
       "published_at": "2025-08-12T07:00:00.000Z"
-    },
-    {
-      "title": "Taylor Swift Turned Me Straight - Defector",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGR2FvaWhINVdjeGxXUXZ2SkVFYkhvYzdNT3hxeGRGRTdVVG44TllKbldwSlpHdFVmLWdfWnE0UmhidXV5UkdVMm5BOFYwQTN4dEZuQXI4bmY0RnR5cjdwc1N3?oc=5",
-      "source": "Defector",
-      "published_at": "2025-08-11T07:00:00.000Z"
     }
   ]
 }
