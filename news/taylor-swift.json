@@ -1,7 +1,7 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-17T13:03:07.773Z",
+  "updatedAt": "2025-10-17T13:42:13.337Z",
   "items": [
     {
       "title": "I'm officially resigning as a Swiftie - Business Insider",
@@ -40,16 +40,22 @@
       "published_at": "2025-10-09T19:33:14.000Z"
     },
     {
-      "title": "Review: Taylor Swift's new album falls short — even for a longtime fan - Daily Tar Heel",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSVN2aExYSnVvcHRsT1hZdzdkZGpxMTNkWU5yRE4taVlLM0hocDJnNzNjX3k3bGdMM3BWMlBEZm5uNjBsc05OQ1RqQWVCOWVDR29zdkpJNmU4cjBLRDlNMWxqV3BEWklia2tpaXdTTVNNSnFVU1VXcGxZUWY0dTA1eW1XZF81Nm1F?oc=5",
-      "source": "Daily Tar Heel",
-      "published_at": "2025-10-09T07:00:00.000Z"
-    },
-    {
       "title": "I miss Taylor Swift - Massachusetts Daily Collegian",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9PU21tY0xQS0hCWXNHVncwTTZXRHl4WG9hUlB3WGJRbGltVnVNczIzVjZaaGFqTFR2bU03SnYwMTZPZzZ6RGp3d0I1S0RBRFJZbVptaHlxLVRUWGNRRFZMWWpSU1hJdw?oc=5",
       "source": "Massachusetts Daily Collegian",
       "published_at": "2025-10-09T05:45:32.000Z"
+    },
+    {
+      "title": "Review: Taylor Swift's new album falls short — even for a longtime fan - Daily Tar Heel",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSVN2aExYSnVvcHRsT1hZdzdkZGpxMTNkWU5yRE4taVlLM0hocDJnNzNjX3k3bGdMM3BWMlBEZm5uNjBsc05OQ1RqQWVCOWVDR29zdkpJNmU4cjBLRDlNMWxqV3BEWklia2tpaXdTTVNNSnFVU1VXcGxZUWY0dTA1eW1XZF81Nm1F?oc=5",
+      "source": "Daily Tar Heel",
+      "published_at": "2025-10-09T04:10:56.000Z"
+    },
+    {
+      "title": "‘The Life of a Showgirl’ Doesn’t Even Feel Like a Taylor Swift Album - The Everygirl",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xZG9wSW1UbWJfMnhibzY4UUd0TTZCSmQxeWRHOVJWZFdVUmxpU2xleHRXVlRId0c3dU1HM1Q3ZVhMTDNuckxDMUwyREN1ZnMzSDJSME5XTDV3MkFIV3hIaEFvSTZ2S1NKbWVUbQ?oc=5",
+      "source": "The Everygirl",
+      "published_at": "2025-10-08T20:30:07.000Z"
     },
     {
       "title": "Taylor Swift Makes Showgirls of Us All - Christianity Today",
@@ -74,12 +80,6 @@
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeEJFSzVrc21qVjF6YVhJdU43TWhRWTN1WEgtY0Y5RTZGOGF1MVl6aVRXNXhCN0JjekxRb1VWbnkxUF9xZ2hvQVRlNlJsaWN6Y0tfSzducTBiSG42LXR0NWpUSkd0WVdnVG1rZXdfVURCODZJQ2hQZ3duMFV4V09kYWNia0xJdjJ5TFhn?oc=5",
       "source": "glamour.com",
       "published_at": "2025-10-07T07:00:00.000Z"
-    },
-    {
-      "title": "Taylor Swift’s new record unfortunately delivers profound mediocrity - The Tartan",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNU85Mm1WX0ppT2ItcTZfeGExUEZKVHZTRUd2ZnpsYVNjN04tcXVFd3E0RS0ycnBLcHE4Q1EzaWQtZXJWVXhYeXpDSmExcEUzZnQ4aUNWaW5QdHd3cjMyaWt1S0pWbk9MZkMzZFAyWHlJZ0d5NjlzZERCRW1HZXhyaXlpaVpLeDVTN1RSWVAwYjNvXzkxdDRkNERPSFJXV3JvNHJZXw?oc=5",
-      "source": "The Tartan",
-      "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
       "title": "It’s becoming clear: Taylor Swift has a bad language problem - Angelus News",
@@ -130,15 +130,21 @@
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
+      "title": "The Life of a Showgirl Album Review: A Taylor Swift Who Is Unafraid to Fail - teenvogue.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWnFKeF9uMDdxZ24yeE5HMThpWXByQTlNQlQ4SDYwcXJ4ZUd4bmhUdWhxWWE5cVFmYy1EbFZiRFByOE9Ob09oS1plNnpkSTZ5V3pNYUJheE5yM3B6UVNsM1FySXd6dFhmOWxnWXRVRG8xZkFqNWFBcVhiQmtkLUVPVnl1VXZGT2s?oc=5",
+      "source": "teenvogue.com",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
       "title": "🎬 Taylor Swift Has Everything. But the Oscar She Wants - The Ankler.",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1mNnRtRGpVbnN2RlZYdmNwUXFvTk1FZGtRYkVKaDRlaC1ORlJySW9mSkRiazhWOHoxN3Z2OVF0ek4wZnZqNFZveTVsT2pwR2pTb2RmOTB6RnJqRUhEdVlrMXNlN3JVcjg0WUpn?oc=5",
       "source": "The Ankler.",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
-      "title": "The Life of a Showgirl Album Review: A Taylor Swift Who Is Unafraid to Fail - teenvogue.com",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWnFKeF9uMDdxZ24yeE5HMThpWXByQTlNQlQ4SDYwcXJ4ZUd4bmhUdWhxWWE5cVFmYy1EbFZiRFByOE9Ob09oS1plNnpkSTZ5V3pNYUJheE5yM3B6UVNsM1FySXd6dFhmOWxnWXRVRG8xZkFqNWFBcVhiQmtkLUVPVnl1VXZGT2s?oc=5",
-      "source": "teenvogue.com",
+      "title": "Every Single Thought We Had While Listening to Taylor Swift’s New Album, ‘The Life of a Showgirl’ - glamour.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV0xMQVFWZEo3Y2c4V0ZNaUQzRE9OVGdocFVnT1VzYlN3azhQWUpYa29wLWZGcEJEMDFjODV6ZUVKS1Awc1RrekhkeVlVLUVDbXhQTHZIMnJPclZqZGV0cWRmMmdHbGo2YU1GdXhXcWk3RjR4SjU5cndwbHZQUUZOZjc5ZktCMGZjbjFkdmx5NkIteGQ5RDFOSVA2Z2x6TVdVNE5rVVVOLU42NFVlRWc?oc=5",
+      "source": "glamour.com",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
@@ -151,12 +157,6 @@
       "title": "I Snuck Out of Work to See the Taylor Swift 'Life of a Showgirl' Movie - PureWow",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMWprdVd3OEp6UVhQMnN6NUFkeS1SQVlNT29QV1VXV1lsZ2dsbVBLeEloS3dVTkFKMkFnRDZpamtQVVBOSVZ3UlRDTGd0S1A0TmgzcDd1dmhuZWhqMERybTg5cGtMWXF2MVVhZ1MtQnJHY2s4SndXRXd5cWFRWlBBRlln?oc=5",
       "source": "PureWow",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "Every Single Thought We Had While Listening to Taylor Swift’s New Album, ‘The Life of a Showgirl’ - glamour.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV0xMQVFWZEo3Y2c4V0ZNaUQzRE9OVGdocFVnT1VzYlN3azhQWUpYa29wLWZGcEJEMDFjODV6ZUVKS1Awc1RrekhkeVlVLUVDbXhQTHZIMnJPclZqZGV0cWRmMmdHbGo2YU1GdXhXcWk3RjR4SjU5cndwbHZQUUZOZjc5ZktCMGZjbjFkdmx5NkIteGQ5RDFOSVA2Z2x6TVdVNE5rVVVOLU42NFVlRWc?oc=5",
-      "source": "glamour.com",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
