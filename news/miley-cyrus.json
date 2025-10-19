@@ -1,7 +1,7 @@
 {
   "slug": "miley-cyrus",
   "name": "Miley Cyrus",
-  "updatedAt": "2025-10-19T19:08:43.767Z",
+  "updatedAt": "2025-10-19T19:33:57.633Z",
   "items": [
     {
       "title": "Miley Cyrus on achieving \"Something Beautiful\" - CBS News",
@@ -13,6 +13,12 @@
       "title": "Miley Cyrus Thinks She May Be the First Person to Ever Be “Canceled” - The Hollywood Reporter",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMDBXTGc1UkkyRDVkcC01UUNsQmJxd1ktZVZwZ2R6U2tKT0wwQ25xaDdIeU5hVnNOVlJSbUJyUWxDRnZGSmoyVmpNb05FbUM2cTdHMENId0g0bGRnN19nOUozY0E5eF9Lb2F5elJvTGpCWXp1M3M5U21jRm5mWFVmVzNScDQ0SlVZWnEtOWZQWlVhNXA1eFZfQ0x5WV8?oc=5",
       "source": "The Hollywood Reporter",
+      "published_at": "2025-10-02T07:00:00.000Z"
+    },
+    {
+      "title": "Miley Cyrus Reflects on Early Controversies and Being First Person to ‘Ever Be Canceled’ - Billboard",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUGRPLUc1N1RRdDdlTzRlWXE0OENlc1cxcVdPOERJZVVhVHY1d3A0U2hJMmVHa1JraDc0bXNmcUlmamNFMm9Xc2NmT1FjMjJWcTZZOFM2dUdCZlFQMmEyTFpxaU9VajVUbUctU1NQREU4aGVPajdZV041T2hyb01QZDVZc2phdlJGbnhoYjh4a0lyRWxjZi01YmQwRVg4OXppaWxCeTBFV0lDb3N3elE?oc=5",
+      "source": "Billboard",
       "published_at": "2025-10-02T07:00:00.000Z"
     },
     {
@@ -70,12 +76,6 @@
       "published_at": "2025-09-25T07:00:00.000Z"
     },
     {
-      "title": "Miley Cyrus Reimagined The Maybelline Jingle - nylon.com",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lemFSNFNkYkRMUXhnTmh4UnF0Vk5lVVl0REdvSGtwMXN1elFwY0J1TkZ6TTNwbFRsRGd2TU8yN1lQZ2VtM2h5VWdPalZadmdSNkNLRkNFaDhjSWhCXzR3Y2Q0NHB5QUNGd1E?oc=5",
-      "source": "nylon.com",
-      "published_at": "2025-09-25T07:00:00.000Z"
-    },
-    {
       "title": "Maybe Miley Cyrus Was Actually Born With It - Vogue",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBlVFhEWVg4U3BKVTEtU1dkMXNzTlRTcl90eXNVeHFfa3NfTzBPR3BRMGI1ajJJTGxZbHZBLUFaRkN0WTFKVU9tOUk5WjBVSm9xSkU0Uzd0Qnhwd2lhSjl6WDNtVldfYkVVRGpxdXRuVQ?oc=5",
       "source": "Vogue",
@@ -112,15 +112,15 @@
       "published_at": "2025-09-19T07:00:00.000Z"
     },
     {
-      "title": "Miley Cyrus and Her Dad Didn’t Speak for Years. Music Brought Them Back Together. - Biography",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQzhQU3hodHRTWlBCNEhrcHJYbGJmRVBHRWt6anN5aVpVNjIxckx3RmdTak81VHJuS2xSbW85UUlGbHl2VzQyUm1salJfdEtTODJiMXdKWjN5RUlIaE9Xb2otMVpYeV9RR0tXcGNqeGExV3lxZ2N4UUN3Z1dRWU1HaWRUNVFUWlJ2QXQ2UWhsTQ?oc=5",
-      "source": "Biography",
-      "published_at": "2025-09-19T07:00:00.000Z"
-    },
-    {
       "title": "Miley Cyrus' \"Secrets\" &amp; More Of This Week's Best New Music - nylon.com",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcGl0Wll3a3oyVmR0eWVkSWNMVkttU0FDeHhxTl9teHlTczMtd0dmc2lqWDRaR1FsVDgyMnkwcWNYOUc4UzhHaTNrSjcwaDl3X24xbmVONUVfMGZIZndDQUJaeUtPQ2xRQkpobmUxX2NpLXRJRXNIdUdIaW9IYXU3Tk4wN1o?oc=5",
       "source": "nylon.com",
+      "published_at": "2025-09-19T07:00:00.000Z"
+    },
+    {
+      "title": "Miley Cyrus and Her Dad Didn’t Speak for Years. Music Brought Them Back Together. - Biography",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQzhQU3hodHRTWlBCNEhrcHJYbGJmRVBHRWt6anN5aVpVNjIxckx3RmdTak81VHJuS2xSbW85UUlGbHl2VzQyUm1salJfdEtTODJiMXdKWjN5RUlIaE9Xb2otMVpYeV9RR0tXcGNqeGExV3lxZ2N4UUN3Z1dRWU1HaWRUNVFUWlJ2QXQ2UWhsTQ?oc=5",
+      "source": "Biography",
       "published_at": "2025-09-19T07:00:00.000Z"
     },
     {
