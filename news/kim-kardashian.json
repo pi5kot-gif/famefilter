@@ -1,19 +1,13 @@
 {
   "slug": "kim-kardashian",
   "name": "Kim Kardashian",
-  "updatedAt": "2025-10-19T20:12:27.058Z",
+  "updatedAt": "2025-10-19T20:36:41.676Z",
   "items": [
     {
       "title": "Kim Kardashian covers entire face with 'strange' nude mask at Academy Museum Gala, sparks online mystery - Fox News",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUXRLdHVpUi0tdllFYk1fQnVZXzFPMFlZMHVsVk5aZFlZSWw1VGRLckRvUFZrTWRmdU1FSjluaFNSay16UzU3WUNDVlVGNDhlOGxJYWV0T29ROVNfRzBNOVZJNkpqNEkzaTQ0NlpkOGFaWGNLVThBNWs5dVZHdWZVQjk5SWtfLWY4SExxLVI4TXFvQUVBemk3S1k5b215eFXSAaQBQVVfeXFMUDV5QWtseFdxaUVNWjk5ZmNId3dZTGFOVkZzWDdyWkFlcW9qS3pyMGdmOWJ2TkhEZW92TXhBZFk3ZnJiMnAwSGV2bk5OWFdBamtLZUcwRGNWQWZLN3RkOTA3N1o1eDZNSHM1dFZmVHlzcnd3WlkwWnQ3cnI3TzlXbndEalFjUFg5eTNiOWllVUkwc3ROMjBwaVhrNlB1dDM3d2NzSzg?oc=5",
       "source": "Fox News",
       "published_at": "2025-10-19T18:09:59.000Z"
-    },
-    {
-      "title": "Why Kim Kardashian Covered Her Face at the Academy Museum Gala - elle.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOamktcDFNdnN0ZDJFdUlvUlJOVnM2cmV4UEx2T085SUg2OUxpR2dpZ0g1UjNyUVRFZFVDZGFKZXUweHFwRzFVY0FDcjV2UEJ6ajA1X25ya2NsRWJQNTBfRkc2eVVCT045UExXRXdxcVlXSng2SXA3RUVkZmNkM1FvR1JQVThFbW95R0JQNHdIWGM0Mk9wUGVONjhZLUVzWl9UYkFwUk9R?oc=5",
-      "source": "elle.com",
-      "published_at": "2025-10-19T16:02:00.000Z"
     },
     {
       "title": "Kim Kardashian Breaks Down Her Academy Museum Gala Face Mask Look - Variety",
@@ -46,6 +40,12 @@
       "published_at": "2025-10-16T21:25:28.000Z"
     },
     {
+      "title": "Why Kim Kardashian Says Past Photoshoot With Justin Bieber Was “Inappropriate” - E! Online",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVkNFT09aLVhORDNpakI0NUZCZ1NwblZTU2k1VlB4eUx0WGR2Z0hXUHJUZy1UZGdiLS1oLTlaQ0VzcFI3cWRRNXhwTmM5OWhJSDg1TUl2WTZzY01iUUx5MmMzSGJ2M3hHVWFTTGtFRTdRTmM3Sm9ia3dMTkNmU0JCLWhFS3NEVk45THZaUWlNVnRFZWM?oc=5",
+      "source": "E! Online",
+      "published_at": "2025-10-16T17:46:00.000Z"
+    },
+    {
       "title": "Kim Kardashian hits back at parenting police after 12-year-old daughter's fashion sparks criticism - Fox News",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNd1JVZ3U5NGlyYXM1cHVMODFkZ3hRNDc3NmN0NTZjVTRYVEo0Rl9FRmZFc3hRbXFsa2ktTU9kY3B5RDIzUkEtdkZuVmlMVl8yVUJsaDlabDhyM1ZaRExHeHpzYlZDRW9VRVpUVHpwR0p0NlpjX2plcTZ4NHBVZG42c04yNjE0T1NZUVd0NEk2WVNWR01nbTNxazhEalJyal9LOTZ4b0JVc1ZiWmpaRjlQckVpWFNBQUVNRm5CXzItWHVHZlJic0IxSHRudnfSAdIBQVVfeXFMUHZwQzkxN1lJU3l1MXJkX3dLSzlYQ2hFb2l5angwRndpSGsxUmNIQURwb1B0R2VPUFQzLU1tUW94S3hidnladHlaT3R3TFlxYjRyWEN0LUxrWHNubThhcmJlYmxBdEZ0bW9zTFFnUzRfUE1tYk50MWxzanh2d29qMEV5SFRWb2hocjljQlVJNVpuVnNuSWE0SUtDZGt3S0U4NmVzZ1U4R1JCaUNMaXV1OEloMUVOVi00RDBnSE5USGNRVmhDUmJVV1VxbE9yaWN6OU1n?oc=5",
       "source": "Fox News",
@@ -56,12 +56,6 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNHJESzVYTmJyR0NHSXdsdU95Y1pMRUdLTWhrVzBtODVRNFlnSE0yd2V4N1NYME1FZHA2N3k1dC1wNWRQVnlBdlVEVzhrUG5GMzR0OGdZS1kyeDlsRklybldlN25hakYyYjFYTWJCZkU3YUdzc244dTFxaGg4TDlqdF9keW81aHNZS3Q3UnBJbmR6b2FvR0hMLUh3TjU5bDB5a2NJ?oc=5",
       "source": "E! Online",
       "published_at": "2025-10-15T21:34:00.000Z"
-    },
-    {
-      "title": "Kim Kardashian Admits She Doesn't Have a \"Concept\" of What a \"Milk Carton\" Costs - E! Online",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBMTk1HbXpMT0hXeEFaWE9iS1BKdkFDVGtBN29wbTJwcjRJSnh0dU9jbnpwT3VKc1VMcGF6UHFINkFvRC02cnRrRDRvUHQzaXRjcUU0WFdsdVM4a1BvR2QwekJQaEpjZTlkeGRPRXRveDNhN1ZmTzJ0Q1hXeGw?oc=5",
-      "source": "E! Online",
-      "published_at": "2025-10-15T20:26:00.000Z"
     },
     {
       "title": "Kim Kardashian Disputes Kanye West’s Social Media Rants On Podcast - Forbes",
@@ -182,6 +176,12 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQXhKUHh1OFIzQWVwOVVLVUlsVjlyRDhfakpYTTQ2R0pJMTUzeDRORmZDTDZ4NFZ1SURYTWVacHI0ZnB1cjRVZHVrZEFnaEoxZWV2QzNfZzJrWW5QMWlHTV81eHZvX2o0NGJiUDVzUWNKR3BoWkJhTjU3V3UwQ3d2eDQzdGYyREdTbWtpVUt3?oc=5",
       "source": "People.com",
       "published_at": "2025-09-04T07:00:00.000Z"
+    },
+    {
+      "title": "Inside Kris Humphries and Kim Kardashian's Whirlwind Romance and His Private Life After Their Divorce - E! Online",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdERSUHYtTU9LVXJ0T1BKeEoyNXgxaE5zNDU2enZLMExmU25ZOXNwR0h1X2hrNzlYRUpJczAyZU5JWkxuRkxCNkwxS0M4Vm0xZm1TVWo1aUVNakdad0ppekJuc3Ntd3B3d3JQcUY1LXVEXzRNalljYXFyVVRfbkV0czVOeWgway1nT2hNUERkSlluRTViTmQ2Q2ljZ2Fkakk?oc=5",
+      "source": "E! Online",
+      "published_at": "2025-08-20T07:00:00.000Z"
     }
   ]
 }
