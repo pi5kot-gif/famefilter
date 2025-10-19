@@ -1,7 +1,7 @@
 {
   "slug": "cristiano-ronaldo",
   "name": "Cristiano Ronaldo",
-  "updatedAt": "2025-10-19T07:10:44.290Z",
+  "updatedAt": "2025-10-19T07:33:27.188Z",
   "items": [
     {
       "title": "Ronaldo tops highest-paid list; Yamal at No. 10 - ESPN",
@@ -88,15 +88,15 @@
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
-      "title": "Cristiano Ronaldo reveals the only team he ever wanted to play for, and it’s not Real Madrid or Manchester Uni - Diario AS",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOaUFHem9oVy14aV8xQklaVnVGMWMtNnlBdHgwcUxVek5tMkZGU2x3TjBZNzhudzNRby00ODdNcTU5amFyamMtOURVN0xJTzJJeEFWRUZtczJtVjBPY0tiVnBvMkM4QVpya2VTYmg0VHVLemktZDMydzZna2hBVXJ6cXI4VEdVMUJoSTdmRHRjRnE0dk5SQmZKMHhpeHZtYS1CWUJ0cmNYX01GZjI1a1hSdlQ5S3ZSaUFyX3I1eXNoSUwyMnZiaWtVMnlHZVFDNnRIQ3dPdlBn0gHqAUFVX3lxTFA0Q2ZfTXZvWHZ3X2pFa1NpUUY1RUJsVkV5QXUxbjBadmw1R0x2WWUtbG1KaXFzN1hwMGJXSkczUHVqamZqSVVqMEF1bmZ5dlNrZ3E5OVZSY0t6eDFNVHNhUVYzaDdJd1BtUERqNS05Y19aTzBrOEpGbDBhV3JmXy1uVW01SVJ5VUI2bGFIemFqckkyYTNUMEhGZVNRUnFGbzF4MUNNTGxXQWpJaVBKSEdBWnZ3Q1hIQzJIWGJJNXFJVkx2aFl5ODRWUHlqWnZJa1NvTUwwcnItTjBCVzNYTHBZY3hBb2FGRlFkdw?oc=5",
-      "source": "Diario AS",
-      "published_at": "2025-10-08T07:00:00.000Z"
-    },
-    {
       "title": "Cristiano Ronaldo football's first billionaire player - report - ESPN",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb3Jtek9zcmhPU1lMLWdGZ2hrWlMtMTB2dmFSZ015dDNnRzE0d2lCbFYwREFsV2JKS2hqZlIwc203X253cXZaYnVmNTNEUG16ajVlUXpjUGJDZlY5NkMzbXBiYkNWaGppR1VYN1pGUVhodVB2cHJZRkdDRUcwSklHRTlxcEpsYS1WUGdjaC1sQXRuaURueUhTWGxZSkx5TXk1RHB5am5fSXdvQQ?oc=5",
       "source": "ESPN",
+      "published_at": "2025-10-08T07:00:00.000Z"
+    },
+    {
+      "title": "Cristiano Ronaldo reveals the only team he ever wanted to play for, and it’s not Real Madrid or Manchester Uni - Diario AS",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOaUFHem9oVy14aV8xQklaVnVGMWMtNnlBdHgwcUxVek5tMkZGU2x3TjBZNzhudzNRby00ODdNcTU5amFyamMtOURVN0xJTzJJeEFWRUZtczJtVjBPY0tiVnBvMkM4QVpya2VTYmg0VHVLemktZDMydzZna2hBVXJ6cXI4VEdVMUJoSTdmRHRjRnE0dk5SQmZKMHhpeHZtYS1CWUJ0cmNYX01GZjI1a1hSdlQ5S3ZSaUFyX3I1eXNoSUwyMnZiaWtVMnlHZVFDNnRIQ3dPdlBn0gHqAUFVX3lxTFA0Q2ZfTXZvWHZ3X2pFa1NpUUY1RUJsVkV5QXUxbjBadmw1R0x2WWUtbG1KaXFzN1hwMGJXSkczUHVqamZqSVVqMEF1bmZ5dlNrZ3E5OVZSY0t6eDFNVHNhUVYzaDdJd1BtUERqNS05Y19aTzBrOEpGbDBhV3JmXy1uVW01SVJ5VUI2bGFIemFqckkyYTNUMEhGZVNRUnFGbzF4MUNNTGxXQWpJaVBKSEdBWnZ3Q1hIQzJIWGJJNXFJVkx2aFl5ODRWUHlqWnZJa1NvTUwwcnItTjBCVzNYTHBZY3hBb2FGRlFkdw?oc=5",
+      "source": "Diario AS",
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
@@ -110,12 +110,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT2c0SVNpT3ZHcmwyV1NyZDdZTzB6X3JEVDd5MUg4SldHblc2UzZFZnItcEhuRjhpdDR6SjlrQ0VvY3F6VXJ0STNVcHNpc1MzOFhoTkFmNGxGVTdZaUlnZENwc0pfN04xYUVDejNfbjBNQ21lWTY4UHFOM2hqblJsZ0YxNFB4dXZyd1JScTVTSXhWN1o1V0tkWnFBVXlwX0sxeVBNV003TlRnc2hWVnpHdnhiN3NWcllxa1ZnNC01VUFRUQ?oc=5",
       "source": "Bloomberg.com",
       "published_at": "2025-10-07T07:00:00.000Z"
-    },
-    {
-      "title": "Cristiano Ronaldo back in action for Portugal: Al-Nassr star set to break another record in 2026 World Cup ... - World Soccer Talk",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcEYwRVNXWGNLLWhIbDkwN0Fka2JwTDBxOWRyNkdOZ1FmXzNGQVFjUHdZQ01LRXZBMzZIb2RYSEZRUnpjZmxtY1pMbWl4SnZvcWx6N25TWl9FSDFUS1VIc1hBTnJmRjVZMjVZMmhtN2NrNFV6bWhCR1NzTkltR1hnXy12S2ZFMmJkeDBBbjdlMzNrQy1hZlFoX0liVDhyUFNiT1NNYThZME5aU2VFMS1ySHRKTnI3U1gyUzVLOWM5R01SU0NKWVAxVDdtVFVHSnpPV2M5MlpTRVIwM2JiOTM2OVVnRGzSAeoBQVVfeXFMUFo4QWJTamhlWEgwTFZfVk0wd2gtckh2VGhFOFZwR3NFMjdZUU9qRWZ5ZDdwUU5FbllZOTFIR3hRVnR6akp2cUlxNnNTQWFSbTBSWEpPZVR0THE1T1NaTFRCZ0lpUjZrM0NxQmdvZnZRTHlWcjQ0andkcUlmRkdoNVo4LVNncDMzMEk0TDNZUTNPcHpsV0I4Q19xZ2tLcnAzaE5BRlpVM3h5T0NzTlhnTlN3OWxDNFNBYXpLUDJTSFd3Y0xFSTVWYzJYTlBNamJrSU1yS2VyV0N2UnZqMVk3Z2lhUWpZbkJmOTFn?oc=5",
-      "source": "World Soccer Talk",
-      "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
       "title": "Why Has Cristiano Ronaldo Been Left Out of Al Nassr's Squad to Face Al Zawraa? - Sports Illustrated",
@@ -176,6 +170,12 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbGc4NUI2dElfZFB2djRSV3FzVk5RdG5ya0ZTUUJoZnlrNzlsd1JBbW9aTVlETk9qVlF2Ukx1enBONXI0MUtVS2RiUnJEX2V4X0tmUmc1X0R4Vk13LWhYODV4SUFRSkV3Q09IRlFTZ3RzUUJIbUVuREstbnV6a2NqUS1PRHBsWWlKY1N4ajdpVGxlQVBCUTBMNi1BYw?oc=5",
       "source": "ESPN",
       "published_at": "2025-09-08T07:00:00.000Z"
+    },
+    {
+      "title": "Cristiano Ronaldo surpasses Lionel Messi and closes in on World Cup qualifiers all-time record - World Soccer Talk",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeXE3YzVRb2hZaG9Pamc4STRFQ3BGbnYwNlpSV3F6NVpGTXpkdzVTbWV1RGNPQk05bHBRai10TnVCSXkxQ19ZT3V4YlRuUk1jSzRmNnFMVE9MNWxhWjVGN2RSQmFHMXlHSV8wMXJqc0xLd1I3U01ybEtOaVI3cU9LNDZRVU41MWxxLXRNMWw2X1ZhMGd2ZTlQaEtzYlVjUHZEdmNEdVJRRExoOFNwaE1wZzVZaUF1Z0ctZkdPdUZCdXpDVUl5eDBV0gHMAUFVX3lxTE8tek8tTzctNW8zQUpDV0lOakVkcHRRbWVYRkRvdUFScGhhZWNqY0xuVVdNdVNVMXE2WVpVMmJCSlgxT0JVTWFFdk8xWDZoVUV3Q1V0c1hRWWZhbkEwWHFNODFIbWttSl8xVjlFVHN4bE5qTldmUjcxRDFfOGJBbWhaeXVpeU8xSDdicjEwRzAxbDd6cklFRlU0YXd3QUk0dms1c014YzNDMm9xcmRTbzE5NU16LXo0T3NsS2QxdVVsVUwzclBTa3VpSnFCRQ?oc=5",
+      "source": "World Soccer Talk",
+      "published_at": "2025-09-06T07:00:00.000Z"
     },
     {
       "title": "Cristiano Ronaldo and Georgina Rodríguez announce their engagement - CNN",
