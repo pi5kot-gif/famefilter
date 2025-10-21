@@ -1,8 +1,14 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-21T22:36:47.807Z",
+  "updatedAt": "2025-10-21T23:11:52.453Z",
   "items": [
+    {
+      "title": "Opinion | Taylor Swift’s ‘Life of a Showgirl’ Is a Fitting Text for the Trump Era - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUklUUGd6QXktNV9KMHpLU2ZfZUxFN1V1eE1sS0NST25lMHAzd0hOQjVSYmp1Skl2V0VLTjliS3NhVklSa3V3bUZidnQwb3RoN2FiVjFoSnc5R2oycWdYcHFqS2ItdWY4MUp2NWdXeW1LZWRqUXFmY1luQnpDMks2N3F6elFQeGhUZlRWd3ZYRVc?oc=5",
+      "source": "The New York Times",
+      "published_at": "2025-10-21T21:00:03.000Z"
+    },
     {
       "title": "How We’ve Misunderstood Taylor Swift - The Yale Review",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwa2oxa2FfcDByUmxMd052Q0JlMEZwWmhnZmVVUUtyNURuQTZBUVRVRVphbjBFdzd2Qmx4aDN3OUx1eVZRdEE0LTltSk81d2pYdktLX2RLNjFWU1o1Y2tCeHVBNmtOS2FRc3c?oc=5",
@@ -64,12 +70,6 @@
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
-      "title": "‘The Life of a Showgirl’ Doesn’t Even Feel Like a Taylor Swift Album - The Everygirl",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xZG9wSW1UbWJfMnhibzY4UUd0TTZCSmQxeWRHOVJWZFdVUmxpU2xleHRXVlRId0c3dU1HM1Q3ZVhMTDNuckxDMUwyREN1ZnMzSDJSME5XTDV3MkFIV3hIaEFvSTZ2S1NKbWVUbQ?oc=5",
-      "source": "The Everygirl",
-      "published_at": "2025-10-08T07:00:00.000Z"
-    },
-    {
       "title": "Taylor Swift wrote a song about Travis Kelce's penis. Here is my review. - SFGATE",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLVlDRlYwY0NVRUxSd0RJNGNReGd6Qkk5bEpSVS1WLWtjVFRGbXczSzl1WTBhWjRJQmFFMVAxWktpWm1teXZjSnZuUkVEWTk1N2paUFhrTGNyb1B4TnZEeXgtZ0EwZTc3Vi1GczU5RlRiTEE4dU1uaXMtS2RDOEVBQnFvY2E3RWE5X3RDOW5B?oc=5",
       "source": "SFGATE",
@@ -106,21 +106,9 @@
       "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
-      "title": "It’s becoming clear: Taylor Swift has a bad language problem - Angelus News",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVMF9lWnMzMXEzSGd3R0N2Mmg1VlB0MXdWbzNVcTdfVDNDSHItSFFkMExUTm8yRGdpNWdyc0gxWkFCaHZWLWVCS1RjdWxDU2lpblA5MXk3V0l3N0szTU41RHJn?oc=5",
-      "source": "Angelus News",
-      "published_at": "2025-10-06T07:00:00.000Z"
-    },
-    {
       "title": "Do We Still Like Taylor Swift When She’s Happy? - The New Yorker",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWTgxcWcxX21SamlFakFjQklweFJYNUdYblpDZndDSDRQby1vOEFCNnJEMG1xeDI1Y2k2LTM5cFpLbW9NYTdHSldHdHplWThkXzdLRXBKallnaEJJX1E3cS01Nzh1T1JoSXkyWG5xR29yTHl5cG9FWGhzUXR2c1RqU0hWcDhXOGZSQTd3TjhFSHNEaVV6R09ybklqWnM?oc=5",
       "source": "The New Yorker",
-      "published_at": "2025-10-05T07:00:00.000Z"
-    },
-    {
-      "title": "Things Worth Remembering: Taylor Swift’s Greatest Song - The Free Press",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWWhld0FBLXFSMDcwY1A4WG1yTGlmRUZnVkVzSlUtQ1VPSmJWeEV5dU41MmlEbW9oMzhsdFc5OEN6RjRPZ195MFFOWnVSSV82cm14MFp2S1ByNlJ3TG9aOVFlUGdlUk1ickx4a3k4WTFMazRvWTQ0V0xmZ3VmVXNWRllB?oc=5",
-      "source": "The Free Press",
       "published_at": "2025-10-05T07:00:00.000Z"
     },
     {
@@ -134,6 +122,12 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zUUlCRE16c0FsRTljcm9Qck5WM3l0RDA0ZUs1OGtVUWNxX2lwVGtLOVo2Qk9vcWtMUTJ6SFg0aWJYT2Nxcm1LZXp3aEJra1FRczY4elNMVlpYeDNTUk83emNrZngxa0pmcm9BUDFXNlNkZw?oc=5",
       "source": "Ahead of the Kirb",
       "published_at": "2025-10-04T07:00:00.000Z"
+    },
+    {
+      "title": "Taylor Swift - The Life of a Showgirl - Northern Transmissions",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9UMk53bVhHRXVkYUtjbzdGRVhUSzdfSkJpbWx4ZE1RSDJCLWo2WndLN050NTQ3TzExU2h2NUVfM2FGS1VnRmg3M1ZOTVprcmgwak96VjhnRURFbnBFZFZqTEZJZXpkczA1eXpHQTZCRHUxTHhmZHZRQ3pB?oc=5",
+      "source": "Northern Transmissions",
+      "published_at": "2025-10-03T14:55:15.000Z"
     },
     {
       "title": "I Don’t Need Taylor Swift’s ‘Showgirl’ Era to Be Kid-Friendly—Here’s Why - The Everymom",
@@ -162,6 +156,12 @@
     {
       "title": "The Taylor Swift 'Showgirl' Song I Dreaded Most Wound Up Being Her Best - PureWow",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4bU9EaVlOZ1MyWDJnbzJiaEF5MVgyVmZpcllCV1g4emN4UzZwZlRJdkxLUkQ2c2MwRmgyd2h1dGJudEZIMURFWjdEZ1VjTEpVUzlXZGJzYUhvNExkZDlBV2MxRy1rdGRueF9YdWMtMTBmbWw3X3FhWnZHZkl3Zw?oc=5",
+      "source": "PureWow",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
+      "title": "Did Taylor Swift's New Album Deliver? Well, Don't @ Me, But... - PureWow",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeENnQ3dwX1Q2Z09HTjRraWFzWExSLWFLTmxPWVd6VWt5TjJXUnBuQ2NXU09KWmJRZXBTbU9WSnZVdWJYaDg2bnJ4T2I1aExkM1VyVVVreVpYUUU3UEg0WlVqU2pRTmpEZVgyOS12Um5ZOE9RR21pUU8xSC1hMmxmNVp1VXRaVHM?oc=5",
       "source": "PureWow",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
