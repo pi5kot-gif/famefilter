@@ -1,7 +1,7 @@
 {
   "slug": "dua-lipa",
   "name": "Dua Lipa",
-  "updatedAt": "2025-10-22T10:14:16.038Z",
+  "updatedAt": "2025-10-22T10:43:34.448Z",
   "items": [
     {
       "title": "Review | The Radical Optimism Tour with Dua Lipa - The Santa Barbara Independent",
@@ -40,12 +40,6 @@
       "published_at": "2025-10-14T13:34:42.000Z"
     },
     {
-      "title": "'I love this band for so many reasons': Dua Lipa brings out Green Day frontman at San Francisco show - SFGATE",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ0lNNy01eE95ZXM1UDVVSTNfRV9rcHduNDFFc3pOd1NNdm55MGZHa2diQ0VtMTZKdlNWRTFvUkFsQnV0ZXktMzA0U0hQR1NpN1E1eVpuNDZqTUIxekFIWm9ydEhlczVpQnNkZlYzLTZpSEFCeHN6YURLX2VKLTNzSnNpTE9sNFYwS05DckRqbkNjejlJcVZB?oc=5",
-      "source": "SFGATE",
-      "published_at": "2025-10-13T07:00:00.000Z"
-    },
-    {
       "title": "Dua Lipa surprises fans with Billie Joe Armstrong for Green Day duet in San Francisco - San Francisco Chronicle",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQm9RTFBBaVJIQ0RzV3NvYjFvWWdIRXBXVV9PWXZfTWw0M0ZIcE1zVlppbUNrTm1oRFJxOTNuNHJQNlFrNXBzTXp0X3hsZ0c0amJtYy1fRkF0eTJSc2VZLV95Mno2WFZaRHB1SGM4VUhEMUt4S01TeGgtRkYwc0VHMnhqNm1fTk9tTi1Cc0llcXM4Mnh6TTlR?oc=5",
       "source": "San Francisco Chronicle",
@@ -74,6 +68,12 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTzE5ZkdhSXRkSHdrSVU5OHgtandNdHNJblFsQ0hCTFVwY2pnbEhfTkZwQkFLaTZablE3SFVSV0tlYXc3N2VkcTJYM0hxZmJIazhQQkNtS1JabHlpYktKU1F0VDZNdC1CY3lHcl9RaWNaTE12aXV3U29rWnB4RG5Gd19nZXh2T3U2eHY3Q0V2NEZRSExsajlvcnpCLWRFa09fNlE?oc=5",
       "source": "Rolling Stone",
       "published_at": "2025-10-08T07:00:00.000Z"
+    },
+    {
+      "title": "Dua Lipa Brings Must-See ‘Radical Optimism’ Tour to L.A.’s Kia Forum - The Hollywood Reporter",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTkoyZlVnVnkxTFRvd1VuUW9QSzlSUGprcU5QM3c5QnBFQm9ud2c5R0hoeG11algwTFN0SktYWjVQOUhBSExUQjZsdzZhTUJUZmx0SW9hQUk4aTlsQzhpSEtqalZyWXZZUXhoZkRLbnYtSDRuOGtMd043YjRHUEg3SXNtdTJBbG9XWjFiTm5kN012RUViaWc1bU0yNk02X3BGTFFlbDh5bzk?oc=5",
+      "source": "The Hollywood Reporter",
+      "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
       "title": "Dua Lipa, pop’s disco sophisticate, rides her ‘Radical Optimism’ into the Forum - Los Angeles Times",
@@ -130,12 +130,6 @@
       "published_at": "2025-09-23T07:00:00.000Z"
     },
     {
-      "title": "Dua Lipa Joins Frame Fitness as Co-Founder and Chief Creative Officer - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWUpPR3ZZOUFqRncybk92YnF6UjRHUUtDYzNfNmQtd3ZIbHM4eUZzbGNBaEc5NWYzNlliVnZQTU1NQTEteXBlRllvUE8xcUtvOVVPMTF5T093dXV6SVAyRFBwRE5DQ0syb3cxN28zTDFLZ3pmZ2RTUGV1UG5BczRmYWF3VGJfc0ozMGhjb0NzNjhwRktrLWpYZHhrME4yeTRDTE5Xb3R1cFBzM3hiOVRMNEdPOXJxQTIzQjd2UGo5RDN0aDg?oc=5",
-      "source": "PR Newswire",
-      "published_at": "2025-09-22T07:00:00.000Z"
-    },
-    {
       "title": "Dua Lipa fires agent over his purported support for Israel’s war in Gaza - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdDRIRWFJU1pMRDYzdFBnc1B4T1I0cGp2N1QtR0lrQ0lLV1FPM09wTXBMUUo4WmtvTWZuS0tna3A5akdQX19tOThsNzk2d29COHc0WEpiLVZFZXI2enhWU0FxRDJLS2wtZHZ0VF9KNlMtMHNUdFF3UFBYZG44WjZjR19VakRfbHdHZkx6THhzWnlQWEVIYy1QamJMWHBWTW15OEFwbDZxZVdYMTlvUkhLWkR30gG3AUFVX3lxTFA3bnZBanVYUEFwMnkwT0MtNkk0WDlxdGo1SnBxc2pjdkd6bjUzZDdUS0JYb1pfRFJ2MXBYa3E3eXpaV3ZGaHJVbFdGaVljbm5iZEpSVWEwQ0g2NmFVa2ozbGVhSmEzTTBVNjYzVmdQeHI3eklHaHFaV21lNUNtYWdzNVhBbThOOU9sUkFQaml0Rld6REt6M3YxYlAxYlZoNmJSaGVNb2Zxd3JrQWpMTndzYTdlVGp2UQ?oc=5",
       "source": "Al Jazeera",
@@ -170,6 +164,12 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSmhST1Z5LVZ5dF9qVFRFeE9aMDN2VUhMWS05azNvYTB3eENOYThhckdqQVJSYkxNcjJNQlZTVDRSaGdQS3ZObzdqdDZpSWl6ZXljNkJoSk9SQTNOWUhZbmtKTVlyVXRBMHNINUE3ZW9jeGRfUlphdWJpWF9tcWNQVm5qVTR0RWEyaVVpR0JxNl9pWmNCUkZIM05SMy0?oc=5",
       "source": "People.com",
       "published_at": "2025-09-11T07:00:00.000Z"
+    },
+    {
+      "title": "iPhone Captures a Day in the Life of Dua Lipa - Muse by Clio",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTTE1VGM3WVI3YUp0MVYtbGJjVFJNSVZqaUx1LVNzVmEzZU1mVzBzSjY4Mmw4bG43Y0ZDSlVhTkNyMmNBVUs3UDdlQk91bzlFQUJNSlVDb1liT0VrLXlILUdtcU9DNVJCMkRKcjB6eEFuSTlPMl9QckhOMEFSdUhWeE5n?oc=5",
+      "source": "Muse by Clio",
+      "published_at": "2025-09-10T07:00:00.000Z"
     },
     {
       "title": "Dua Lipa Confirms She’s Working on New Album and Teases Collab With Mark Ronson - inmusicblog.com",
