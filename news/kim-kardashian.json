@@ -1,7 +1,7 @@
 {
   "slug": "kim-kardashian",
   "name": "Kim Kardashian",
-  "updatedAt": "2025-10-22T05:12:53.368Z",
+  "updatedAt": "2025-10-22T05:40:15.005Z",
   "items": [
     {
       "title": "See Inside Kim Kardashian's Massive 45th Birthday Party in Paris - E! News",
@@ -28,6 +28,12 @@
       "published_at": "2025-10-19T16:02:00.000Z"
     },
     {
+      "title": "Kim Kardashian Is Literally Unrecognizable With Nude Mask at Academy Museum Gala 2025 - E! News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYXRIUV9iMld6Z3NWalFIZlA4N1Zjd0lhMEg4UzlGWEJ6VUIwNk5YV01yQTBjT3V0cC0wMFFqYzlTUC1VaXFZQXdncGtjT1hCckZGc2JpZFlMdVJ2eEZMM1NlbFpaOFZaNmczV3pObUs2dGRZX3lNdHRrdS00MGc4ekhHMkI4SDh1d0RHaFVWOUVHWGRr?oc=5",
+      "source": "E! News",
+      "published_at": "2025-10-19T15:18:00.000Z"
+    },
+    {
       "title": "Kim Kardashian’s new Skims underwear launch is capitalism at its worst - MSNBC News",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNkhrQnR0dHlrTk9xNWZBdi13czYxM2ttMmtKeEJNNHFFTXZvQXZWeXBIUk93aEtpVWRtTGhQb2N5MXczaEttcGcxSDFNdWpVc3hRQ09BT3FSUy03UGV2ejZUbl92TldTS0Robk54OVhwNmdKWDFrTE1WM0RoZFoxRWRTYXV1eXl3OWhkQ29HZFptc3JNU2ZCM29OM0Q5ZjNIUDBqZEh5a05fVnZsTUhSQkhnRdIBVEFVX3lxTE13SnpBLVBWX3MzN3ZWTGQ5YVZLcWMxZWhhQmZ5U3VJaWh2ZlMwY3RyRU14eXpCSHNManNlcVBtQnFtc3d3VVVTRTRzWkE4XzljMm1yXw?oc=5",
       "source": "MSNBC News",
@@ -44,12 +50,6 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYVJrRFV1NFF1VHYtMjBGbFQ0QUxwVUhKY1ZmQXBqazlGNy1sSWxEb0FQSnNxTWpMeDBlRmYwdzYxMlBhZlNSbnh1UEZxWnJoU3M5aUMtZ3V6X1hrZUVUTWI2T0laUVd0QlhhNlBSZmVlYjV4RUZPR1B3b2R3aGh2azZramFOSnlFT2hOSWpGaXFLUUFJc2FmLQ?oc=5",
       "source": "CNN",
       "published_at": "2025-10-17T00:36:00.000Z"
-    },
-    {
-      "title": "Kim Kardashian opens up about decision to divorce Kanye West - CNN",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU3BsejNnM2d2Tkd5MmVwam9ubW01Z2d5elYwbHI4RHlPZTRmTXVqVzZnbVQ4a3prNWZQNjhuZXpZY0hwcEVDTXR2NzUtRzdpRkpKS21VcDFxS040dFdwZzRnSFd0eFZpTVhVQnEzWWZJV2NpLVlSS3pkb0pFYnFXMXIwU1dlc0dqajVLV0dEekIyNDlYcUlUMlIzMTNCcWJ4dm43UQ?oc=5",
-      "source": "CNN",
-      "published_at": "2025-10-16T11:36:43.000Z"
     },
     {
       "title": "Kim Kardashian hits back at parenting police after 12-year-old daughter's fashion sparks criticism - Fox News",
@@ -154,6 +154,12 @@
       "published_at": "2025-10-01T07:00:00.000Z"
     },
     {
+      "title": "Kim Kardashian Reveals ‘Someone Extremely Close’ to Her ‘Put a Hit Out on My Life’ - People.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX2FsMzVMczhLVHg5dFMtYnAyR1ZTNVM5WGxraXZ4eEFkeUhDY2k3VjNrcE13Wlh3cEVaS1JvdEJHdXVnaFkwRWFOVm1uUlpGZzVqYWtLeDgzd3JDbXgwVHZfQXpvR3UzYW9LVWxUSFNUZ1N0bWVDWkFSZExGQklKUTNGdGtVRkNiMjJfcExlR0tKWkgyQlI2Q2FPcllZRU5HM1h3?oc=5",
+      "source": "People.com",
+      "published_at": "2025-10-01T07:00:00.000Z"
+    },
+    {
       "title": "Kim Kardashian Says Someone 'Close' to Her Put a Hit on Her Life - TMZ",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RN09yd2Q1M3dvQldDbE9CT1lObzB4NEVxT0tPT2UtLVZINXhtY2hlT0lzZ0p6WHpxemNOVXJOVUJNd2tOc0JVNG9Nby1VZmV4YTVEOVN0UWQ3N2ZleWpvVEl4MHphejM3cWZOeWxFSHh5Nlo2UjVJb2pOWm7SAXxBVV95cUxPLVdOeDJ3eHBNcndnNmlMSlFCLV9rWkswd0hNdVA5UEF6MEVlZldRWmFSZkxTbUF0T1k5c2l4UTM3cHVoeVlNTmt5bmEtUEFjN1REZUdYYjdvQjh1OW1ITUZ3cTJmdldZVDM2aVV2WnFDOGdBLXpwRjIyc01D?oc=5",
       "source": "TMZ",
@@ -164,12 +170,6 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOVc3YzlaRkh0MUNrWVFhZ2Y2NHlnQ2FaNms3X3VsSnFPb0JTNjdxb3d0cmc2SHBMR2QzNzgxV0pxOF84ek5QcWpjMGlhMXM4bFNVc0w2THQ2MFNVUUhMR01wMWZjdEFxVjZSOGpqNGhlaktocU9KZlhiNHliTUdlSU5aYzlidw?oc=5",
       "source": "People.com",
       "published_at": "2025-10-01T07:00:00.000Z"
-    },
-    {
-      "title": "Kim Kardashian says North West has ditched the \"girly outfits\" - HOLA",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdm9qQnYyN0VQSUJrN184empPQUFrSXhnTG5FMklKWUhMWlNSZVppM2lYU2tWblBjbkNtWEtFTzJkZHV1bjdPeEp3YllkOVd0bUJFMUsyM1BhV21jeFVwb3dscjE0LUdhaEhFYndmdEM4OUhOcm9vTW93eE5yeVpQTUVCVGpDd2ZRQ1RlbTdwblg0MkF3anlHT3FrWXpFX1kw0gGvAUFVX3lxTE1vRWE2U1Z2NEF4bXBtYjhEaVI4LVk3QjRva3JBZGdaZ3ZSandIZUpjRl9FNDhyMFJWMGd4Qm9UdmE1TWpLV2F0RU1QNF9Sekhhd0NqRjdVMU5SX3Mxb2JST0xFWksxX1dnaENaU0dCZ1lrYUpPYUFWX19EVjBuNEpnZEFQOHdGbS1WMWIwSlVvbTFYRDdydm9OX3hndXhvSzlIaXlrRVJOdlptRXhIZU0?oc=5",
-      "source": "HOLA",
-      "published_at": "2025-09-30T07:00:00.000Z"
     },
     {
       "title": "Kim Kardashian Praises Daughter North's 'Unique Style', Says She Loves Seeing Her 'Know Herself So Much' - People.com",
