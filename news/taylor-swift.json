@@ -1,7 +1,7 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-23T07:12:43.692Z",
+  "updatedAt": "2025-10-23T07:36:45.833Z",
   "items": [
     {
       "title": "Opinion | Taylor Swift’s ‘Life of a Showgirl’ Is Both Coarse and Conservative - The New York Times",
@@ -14,6 +14,12 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwa2oxa2FfcDByUmxMd052Q0JlMEZwWmhnZmVVUUtyNURuQTZBUVRVRVphbjBFdzd2Qmx4aDN3OUx1eVZRdEE0LTltSk81d2pYdktLX2RLNjFWU1o1Y2tCeHVBNmtOS2FRc3c?oc=5",
       "source": "The Yale Review",
       "published_at": "2025-10-20T10:06:02.000Z"
+    },
+    {
+      "title": "Taylor Swift’s Hollow Gematria - Tablet Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcWJaNDVXeUd5OWE2RzZ5LVIyem5YVnp5YzVSSDlRU3Y0dFFVRnVKYWdDS3dIdWYxUTl3TEFoemVpQzEzNnFpY2hkT2hWMmh6ZU1zeTc2Q3ZUZnhkNDRldVF1WFNWczVOYVVTdzZjY29MdVAzdXh5b25IdV9jTlRGeENPRnpKRFAwcmc?oc=5",
+      "source": "Tablet Magazine",
+      "published_at": "2025-10-20T04:52:30.000Z"
     },
     {
       "title": "Harvard’s Taylor Swift Scholar on “The Life of a Showgirl” - The Harvard Crimson",
@@ -44,12 +50,6 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNckdoODZ6eHlRVVNxeVBkdUZ6ZVMyQjZ2TmhYckIzRlAtQXBONFV3NlhKWUJtYmRlQWo5Z1FRLThXdUJCR3YtbDBOdC04blBtMVAyeG9hQXdzQTNEVGNHdzhGNjgtb1Jtd2I3VEdhbFFvcTlrVW41aGJnckpoRzk0QXUwZw?oc=5",
       "source": "Northeastern Global News",
       "published_at": "2025-10-15T15:40:19.000Z"
-    },
-    {
-      "title": "The downfall of a showgirl: An analysis of Taylor Swift’s newest album - The Auburn Plainsman",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOV94OUJ0Z3QycGpMSG9lSkZpVXd6d1FZeFJSZzgwRGZFTTZyZWQ3Tk1GbUZEcVlNRURmeW45OTR3R3lBaHVvVDlIVWI1MFJSRWw5NkVLLS1KV0VRbUcxVVVGRkZIQmlFa0o3UEZ3Qjg2QTYtTDdsMzgwSFEzTGFvak9nSExUd2VqTTlPWHRZQlZqRnFmcHpIdEtYcWlpd1BwdUJpMFNPMTNyTGF2Zk5GMWpJZw?oc=5",
-      "source": "The Auburn Plainsman",
-      "published_at": "2025-10-15T04:59:00.000Z"
     },
     {
       "title": "I miss Taylor Swift - Massachusetts Daily Collegian",
@@ -94,9 +94,21 @@
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
+      "title": "Taylor Swift Reacts to ‘The Life of a Showgirl’ Critics: ‘I Welcome the Chaos’ - glamour.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeEJFSzVrc21qVjF6YVhJdU43TWhRWTN1WEgtY0Y5RTZGOGF1MVl6aVRXNXhCN0JjekxRb1VWbnkxUF9xZ2hvQVRlNlJsaWN6Y0tfSzducTBiSG42LXR0NWpUSkd0WVdnVG1rZXdfVURCODZJQ2hQZ3duMFV4V09kYWNia0xJdjJ5TFhn?oc=5",
+      "source": "glamour.com",
+      "published_at": "2025-10-07T07:00:00.000Z"
+    },
+    {
       "title": "Taylor Swift wrote a song about Travis Kelce's penis. Here is my review. - SFGATE",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLVlDRlYwY0NVRUxSd0RJNGNReGd6Qkk5bEpSVS1WLWtjVFRGbXczSzl1WTBhWjRJQmFFMVAxWktpWm1teXZjSnZuUkVEWTk1N2paUFhrTGNyb1B4TnZEeXgtZ0EwZTc3Vi1GczU5RlRiTEE4dU1uaXMtS2RDOEVBQnFvY2E3RWE5X3RDOW5B?oc=5",
       "source": "SFGATE",
+      "published_at": "2025-10-07T07:00:00.000Z"
+    },
+    {
+      "title": "Stan Expectation &amp; The Allure Of Cultural Clout: Why Has The Reaction To The Life Of A Showgirl Been So Heated? - Refinery29",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaWJJV1VXb1NyVUtaQWhrc2Q5ZXYxSHJGMVBnTmloVTE2cl9KX2VYVnQtSEpJR2psa1hBVEpPQklfN21Ndi1wRnpabG5Fb2J2ZUxVNWZOdlktSktwcEt6NVMtaVY4bE5iT3dpTTJyaVZRYTFkME5pZ3R0dnBBdUVGLXRKek56VzVYOWRkSUtYTC1CblZCVm5WVWpxVVZCSVFtN2FfZkhibmg?oc=5",
+      "source": "Refinery29",
       "published_at": "2025-10-07T07:00:00.000Z"
     },
     {
@@ -109,12 +121,6 @@
       "title": "In Which I Have a Thought on Taylor Swift and Her Latest Album - whatever.scalzi.com",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ2dHbUFfR0g5dkMySGtUR1h5WDFrLWpSQ1RhSEl5Ym0tamxSaDVXTHMxVHBkelhsU1JEemdEZkVMTDNwSFRiYk14aHBmYkt4dUhjMlF1Y0VyNlBFbmg0ejBtdjNwazRQeHhjRTl1X0dkRjVQbElxaU5wa1phNW1iR0dFU0dDa09DaEIwbXRVcEYtOXdIYzc5alpmVXdPa0lGSlNhMg?oc=5",
       "source": "whatever.scalzi.com",
-      "published_at": "2025-10-06T07:00:00.000Z"
-    },
-    {
-      "title": "It’s becoming clear: Taylor Swift has a bad language problem - Angelus News",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVMF9lWnMzMXEzSGd3R0N2Mmg1VlB0MXdWbzNVcTdfVDNDSHItSFFkMExUTm8yRGdpNWdyc0gxWkFCaHZWLWVCS1RjdWxDU2lpblA5MXk3V0l3N0szTU41RHJn?oc=5",
-      "source": "Angelus News",
       "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
@@ -136,12 +142,6 @@
       "published_at": "2025-10-05T07:00:00.000Z"
     },
     {
-      "title": "Things Worth Remembering: Taylor Swift’s Greatest Song - The Free Press",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWWhld0FBLXFSMDcwY1A4WG1yTGlmRUZnVkVzSlUtQ1VPSmJWeEV5dU41MmlEbW9oMzhsdFc5OEN6RjRPZ195MFFOWnVSSV82cm14MFp2S1ByNlJ3TG9aOVFlUGdlUk1ickx4a3k4WTFMazRvWTQ0V0xmZ3VmVXNWRllB?oc=5",
-      "source": "The Free Press",
-      "published_at": "2025-10-05T07:00:00.000Z"
-    },
-    {
       "title": "In a dark theater showing The Official Release Party of a Showgirl , I had some unfortunate revelations. - Slate",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOGg4S0FhWVhvZFhrSXloZzlDRHZWeTJTWDY5b0RiLWM2Ymh3VFlaQTh1WW5MWVpRcVl0RVFyUFZYbktzSzVqR3VMOXBJVnNYNmpkMFZYUUplUXNaUG9CV1VqUDFpY3FudUpCTlZSLVhPbkpQMkxra3BidHNFMVA0dFJwc0tMSV93V05iU25ueDA?oc=5",
       "source": "Slate",
@@ -160,15 +160,15 @@
       "published_at": "2025-09-11T07:00:00.000Z"
     },
     {
-      "title": "Opinion | Thank You, Taylor and Travis. I Needed This. - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZVJLU0pCZXhlY1phWE9LZWdySGhPRGVYSjEtNldDc1BfdGFwTHc2WXk1N2ZxTklVNmpNUFN0M2ZKN1ZWclNXRUZLemNtcExadFc3eVZJSjlSRlJ1c3UxTHVhNHNSR1NMSXhTWVktSXF5c2xUSGdHeW9xNy04LXRoS290c1BUOGlTSzZQYQ?oc=5",
-      "source": "The New York Times",
-      "published_at": "2025-08-27T07:00:00.000Z"
-    },
-    {
       "title": "Why Are We So Personally Invested in Taylor Swift and Travis Kelce’s Engagement? - Vogue",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVjJEUE5jdEJ4TGV0Njl4cDZxY0Q0cGtJTE9qZXBZVmdtaW5xMjN5dEVaUlFFM2h3R3ZpMFlwNlVxbzJLdGdhTXhVallfVDQ5TzF0VURoNERfUjNacVIySG9SYi14UEtod2lHMmpITzJIVC12WkZfTlR6NzRtaDJZcGNoMVNtUWMzLUNNb1djVl9EcXNTRHZ2UF9n?oc=5",
       "source": "Vogue",
+      "published_at": "2025-08-27T07:00:00.000Z"
+    },
+    {
+      "title": "Opinion | Thank You, Taylor and Travis. I Needed This. - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZVJLU0pCZXhlY1phWE9LZWdySGhPRGVYSjEtNldDc1BfdGFwTHc2WXk1N2ZxTklVNmpNUFN0M2ZKN1ZWclNXRUZLemNtcExadFc3eVZJSjlSRlJ1c3UxTHVhNHNSR1NMSXhTWVktSXF5c2xUSGdHeW9xNy04LXRoS290c1BUOGlTSzZQYQ?oc=5",
+      "source": "The New York Times",
       "published_at": "2025-08-27T07:00:00.000Z"
     },
     {
