@@ -1,7 +1,7 @@
 {
   "slug": "lebron-james",
   "name": "LeBron James",
-  "updatedAt": "2025-10-22T23:33:40.924Z",
+  "updatedAt": "2025-10-23T00:57:14.436Z",
   "items": [
     {
       "title": "Why is Lebron James not playing in the NBA and what is sciatica? - Al Jazeera",
@@ -14,6 +14,12 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPT3g0dV9FVjBUNXpPUDg2YXdfYnN2aUxYWXlfZ0FlQ2ZiSTNLdktqSGRTekVKZkR4WkptNFN2dmxOOGdLVkFVZkVQUC1EZnBJTnN1aTE2ZFZIQ2JOajZfcE9rWlRxM1prZWVzaHZIU2hmSTlxSUFQbXk4cWdXT05kaUpKU2dhUWFsTEpiRnl1MDBscmJBTVpsc1JCTjVyaWl2WlRWdGc2aw?oc=5",
       "source": "The Ringer",
       "published_at": "2025-10-20T14:12:22.000Z"
+    },
+    {
+      "title": "With LeBron James out, Lakers lean on Luka Doncic to open season - Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZFFRYWxNbFdRS1VsbndXektjUnJUNzVKR0t0SDljNE51d3l3dG5fTGxEUUp2QWRaa1lWcVJweG9pUDlNQnNkYjFuLTJqUklGNTlnQkNRS210MDFKakVyLUJpaHg3QUlhRWg4VmdUOGt6N2NBVGE3LXVrVmZkSElBOTZUV3pNdFlLc1d3d1htaVBJQQ?oc=5",
+      "source": "Los Angeles Times",
+      "published_at": "2025-10-20T11:00:00.000Z"
     },
     {
       "title": "Opinion | LeBron James is defined by his hometown. Now he’s reshaping it. - The Washington Post",
@@ -49,12 +55,6 @@
       "title": "LeBron James to miss start of 2025-26 season due to sciatica - NBA",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VajlQYjNPbVhUOUxRdktEZS1XWWFoSVZIWkhRblFlYmlTUlNrdTJVMldsc0twU0ZHMXNnNVk3bllaSjRmSUwwcXp5MXlQSW9ZVU9GU3piU1plQWFiVEFsQjRHOEtaOVVIWHhaQzl3?oc=5",
       "source": "NBA",
-      "published_at": "2025-10-10T07:00:00.000Z"
-    },
-    {
-      "title": "Four ways LeBron James' unprecedented 23rd NBA season could go - ESPN",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZWJHRjdoV01vZ3ZpYm5nenRyd2tXZ0xrVUFLMlBDS1E4S2I1d2I2YkVIaUlEVnhWSkxKcjVnY09paEptZW9xMElzUTQ4bzZyZnhPX3NxNjJlYUpuVjdEdzZ5Szh5UlhYdUFaY29qTHZZdDVNT1hxYzdCcEFVMjlKci1Md3p2cXBrdjlaN1llb3luV2dnbmdBWUFWRnI3TTlzQWc?oc=5",
-      "source": "ESPN",
       "published_at": "2025-10-10T07:00:00.000Z"
     },
     {
@@ -136,12 +136,6 @@
       "published_at": "2025-10-07T07:00:00.000Z"
     },
     {
-      "title": "LeBron James turns retirement tease into a joke, but some NBA fans probably aren't in a laughing mood - CBS Sports",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWC1sUFB1VFhSN3F0YUltSkpzbExMR0N2azBVdFl5dkNNOXFWZXhqcll2bFVUWUYtNXVfbC0wZ2hxVC1EcG5yVVotQlA5VGI0US1Oc0lBNVIyUmRyZlV6MTFXQ1ZlYWN4TjBXRkcyWFRFbFpmZ09ha3FNS2xQNzBVN0gzQk1aTHdXM0RPZXBESHlKdlFBRlpBcHN1VkN4dU1QR2ZZYlNsS2c2S2VyTEtVLUhNR2ZRVC1yT0hCWnZmM1JLNHhRUXZNMFJyWERZVGN2?oc=5",
-      "source": "CBS Sports",
-      "published_at": "2025-10-07T07:00:00.000Z"
-    },
-    {
       "title": "LeBron James' viral 'decision' turns out to be an ad, not retirement - ABC News - Breaking News, Latest News and Videos",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNnIxeFpaOUQwUWxPbkh4aGVncWJFSXhycEVnTmhQTUZlTVpqejBWaGllMnkxZmtqNWlsYXRjQ2lsMHpRVE5zWnhXOE1McUl4a2pfQWlLSHRfZWc4d0FfY1RwZFoyaEZtWWEyNVZFZWlRbUp5dENibGNZXzhDbHdSZU9nSHdRR1lOQVhQZ21lOUZZb0dWUzRkZ29hMmJJRV8w0gGmAUFVX3lxTE1LZDJaV285LXBRU0Nic2hsVFZjN09JYkUwUHVOZXRYOTZRQS1IZWhndjY2OGd0UUlPbFJTQUh6aWotNTJwMXl4MFdoX1JJR0hHTmctT05GamRBdzBQXzJYWXM1QnJsUlV6dW05QkFZNmRwbUpoY1hqYURaaTh6V1hOenp6cGx5cWFQdUhKaFd5OVg5MGtUNjlSMlVFeXR6RW1UR2h1aXc?oc=5",
       "source": "ABC News - Breaking News, Latest News and Videos",
@@ -176,6 +170,12 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU09ibVdWS20xeFZESV9WendFbTJtZENaZ2NoaTVMTlJ2SzV5VGxFdE5KRzhidG00QXdDa1kzZjNiLV9ld2ZTbHM5X1BEdUFIMWdtS0s5dElmRVgyODh0MmNPVGRXYWoxaXRRcWcwUVVNelhRblQwSHY0dDM0U2NGcGJ0bmVsNVdnSHRudDFKTUNNbTFoOWFlRjZDdGxhcTBvdnc?oc=5",
       "source": "ESPN",
       "published_at": "2025-09-25T07:00:00.000Z"
+    },
+    {
+      "title": "LeBron James story withdrawn; AP issues correction - ESPN",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbHR2em1Vak5UQmZvOXRnM2xsOHNSVDVjZnRKR2ZKWndVQm9nX2lyc29tMkVfcFlsZUo3MnRPbXJ5NVBvaXlEUlZxck5MbnZsRDJNN1ZhcXpfS29ZdFdqY3B5aVJGb2M4MWRwMk1uNlNiM0lGRXJYYTQyYVRGTGJlNjFhWXF4OXhMMDZPSS13c2h4bV9McUU2NA?oc=5",
+      "source": "ESPN",
+      "published_at": "2025-09-09T07:00:00.000Z"
     },
     {
       "title": "LeBron James Returns to China for 20th Anniversary Forever King Tour - About Nike",
