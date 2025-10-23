@@ -1,7 +1,7 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-23T11:34:48.537Z",
+  "updatedAt": "2025-10-23T12:25:27.568Z",
   "items": [
     {
       "title": "Opinion | Taylor Swift’s ‘Life of a Showgirl’ Is Both Coarse and Conservative - The New York Times",
@@ -34,12 +34,6 @@
       "published_at": "2025-10-16T20:58:00.000Z"
     },
     {
-      "title": "When your English teacher writes a book on Taylor Swift - Harvard Gazette",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMHczVnhtQmlNR3RzTk9iMW5PalpjcEZubS1HR1ZVZjJEU3hSTE1vM3lJeHJIc0ZPWWZ2TFFkdUNxd1BTNFA3V1RGTG9jMUNRenRQVVdxU3llQWZ6WUF6QnZtVkhPNFlxTklsTjFpaDEzRnpLNlU3czdRY01BMFE5S2hxNUNKNXhDOHRNY2ZGTG1tRldkZjVYNElXWDFBRHhGallTSml3?oc=5",
-      "source": "Harvard Gazette",
-      "published_at": "2025-10-15T20:07:21.000Z"
-    },
-    {
       "title": "Don’t rush to judge Taylor Swift’s ‘The Life of a Showgirl’ - Northeastern Global News",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNckdoODZ6eHlRVVNxeVBkdUZ6ZVMyQjZ2TmhYckIzRlAtQXBONFV3NlhKWUJtYmRlQWo5Z1FRLThXdUJCR3YtbDBOdC04blBtMVAyeG9hQXdzQTNEVGNHdzhGNjgtb1Jtd2I3VEdhbFFvcTlrVW41aGJnckpoRzk0QXUwZw?oc=5",
       "source": "Northeastern Global News",
@@ -49,6 +43,12 @@
       "title": "The Life of a Showgirl: holding Taylor to higher standards - meer.com",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcmdUMEVYRXduNWJSalVxZnltbm5MRl9aYXdLbGo5S2tyNU5Ca0hLS2UxajItQ09wNzBQWTg2d1VpSTMyTlhVTUFaaV8xbHd2NThleXNUdzhxLWpxeGdwb05pWldEQnZOb2d1NVVjcG5BV0Z3UHBnWkJVRG05ZElHamlJUFEwdFRPeFBidFBIcWQ?oc=5",
       "source": "meer.com",
+      "published_at": "2025-10-15T07:00:00.000Z"
+    },
+    {
+      "title": "When your English teacher writes a book on Taylor Swift - Harvard Gazette",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMHczVnhtQmlNR3RzTk9iMW5PalpjcEZubS1HR1ZVZjJEU3hSTE1vM3lJeHJIc0ZPWWZ2TFFkdUNxd1BTNFA3V1RGTG9jMUNRenRQVVdxU3llQWZ6WUF6QnZtVkhPNFlxTklsTjFpaDEzRnpLNlU3czdRY01BMFE5S2hxNUNKNXhDOHRNY2ZGTG1tRldkZjVYNElXWDFBRHhGallTSml3?oc=5",
+      "source": "Harvard Gazette",
       "published_at": "2025-10-15T07:00:00.000Z"
     },
     {
@@ -100,6 +100,12 @@
       "published_at": "2025-10-07T07:00:00.000Z"
     },
     {
+      "title": "Taylor Swift wrote a song about Travis Kelce's penis. Here is my review. - SFGATE",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLVlDRlYwY0NVRUxSd0RJNGNReGd6Qkk5bEpSVS1WLWtjVFRGbXczSzl1WTBhWjRJQmFFMVAxWktpWm1teXZjSnZuUkVEWTk1N2paUFhrTGNyb1B4TnZEeXgtZ0EwZTc3Vi1GczU5RlRiTEE4dU1uaXMtS2RDOEVBQnFvY2E3RWE5X3RDOW5B?oc=5",
+      "source": "SFGATE",
+      "published_at": "2025-10-07T07:00:00.000Z"
+    },
+    {
       "title": "Taylor Swift’s new record unfortunately delivers profound mediocrity - The Tartan",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNU85Mm1WX0ppT2ItcTZfeGExUEZKVHZTRUd2ZnpsYVNjN04tcXVFd3E0RS0ycnBLcHE4Q1EzaWQtZXJWVXhYeXpDSmExcEUzZnQ4aUNWaW5QdHd3cjMyaWt1S0pWbk9MZkMzZFAyWHlJZ0d5NjlzZERCRW1HZXhyaXlpaVpLeDVTN1RSWVAwYjNvXzkxdDRkNERPSFJXV3JvNHJZXw?oc=5",
       "source": "The Tartan",
@@ -133,12 +139,6 @@
       "title": "Do We Still Like Taylor Swift When She’s Happy? - The New Yorker",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWTgxcWcxX21SamlFakFjQklweFJYNUdYblpDZndDSDRQby1vOEFCNnJEMG1xeDI1Y2k2LTM5cFpLbW9NYTdHSldHdHplWThkXzdLRXBKallnaEJJX1E3cS01Nzh1T1JoSXkyWG5xR29yTHl5cG9FWGhzUXR2c1RqU0hWcDhXOGZSQTd3TjhFSHNEaVV6R09ybklqWnM?oc=5",
       "source": "The New Yorker",
-      "published_at": "2025-10-05T07:00:00.000Z"
-    },
-    {
-      "title": "Things Worth Remembering: Taylor Swift’s Greatest Song - The Free Press",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWWhld0FBLXFSMDcwY1A4WG1yTGlmRUZnVkVzSlUtQ1VPSmJWeEV5dU41MmlEbW9oMzhsdFc5OEN6RjRPZ195MFFOWnVSSV82cm14MFp2S1ByNlJ3TG9aOVFlUGdlUk1ickx4a3k4WTFMazRvWTQ0V0xmZ3VmVXNWRllB?oc=5",
-      "source": "The Free Press",
       "published_at": "2025-10-05T07:00:00.000Z"
     },
     {
