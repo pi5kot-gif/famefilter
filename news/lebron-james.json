@@ -1,13 +1,19 @@
 {
   "slug": "lebron-james",
   "name": "LeBron James",
-  "updatedAt": "2025-10-24T14:42:18.746Z",
+  "updatedAt": "2025-10-24T15:12:44.585Z",
   "items": [
     {
       "title": "Source: Bettors allegedly given LeBron injury info - ESPN",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNHhKN0NkaHFJUkN0SUx0QjZJQXdRWHFUN0lkNDEzSU5LdF9BMDVnYW91d2gzOFU5ZjJHN0x0ak5jRmEzcGJERDJnZEMtWWxUMmpvSGdvZ0JUM1dXMzAzdmR6M0ZJX3lsMklCQ0RBamlwTGxlT2hQakJMc21CaVQwZTgyTGFMSUcxbHFMaWEtNDRya2RGUDlWRkVtcjl0MWJO?oc=5",
       "source": "ESPN",
       "published_at": "2025-10-23T19:35:00.000Z"
+    },
+    {
+      "title": "LeBron James dragged into NBA gambling scandal after friend sold injury details: feds - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWU5aVmFoVndBeVg4dmM1RGh4LUI1VWE0TFdIVEViVXVSNWRzdnpXR2FTZnBEUjBxWk5nSWpXbWpkM3o5S1lSUi1XWmVJMnNscW0xeTBUZHk0T0hiVUoyN0ZiUm5sSEFzQklpck5nZUo1cUdzNE5sNDF2RTB5U1Y2SVd2d3pNVkw3QUpBUkd1SE1Ra2dSYTBPME1hd1o3Y0FFMGJBWk9LS2o3QWVfc3FjaHotT3M2NWV1ekFpV1I3VQ?oc=5",
+      "source": "New York Post",
+      "published_at": "2025-10-23T18:11:15.000Z"
     },
     {
       "title": "Damon Jones alleged to have traded info on LeBron James missing 2023 Lakers game - The Athletic - The New York Times",
@@ -40,12 +46,6 @@
       "published_at": "2025-10-11T07:00:00.000Z"
     },
     {
-      "title": "Did LeBron James Write for a Communist Paper? No, but China Said He Did. - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kT0Z2bUdudC1Ibm9FWS1rV2NYQ19RSDV4blFkZ3VrYVg5Y1ViaGMxZkFRU2FVNHdHd3A4YWs5X004c0FEQTlPNHZtV0lkVk9aWEw2Mk9VcU5PMEtiS3MtWmNEZ2ZZSG1SZkp2dHk3OU1MSW5Uc2c?oc=5",
-      "source": "The New York Times",
-      "published_at": "2025-10-11T07:00:00.000Z"
-    },
-    {
       "title": "LeBron James to miss start of 2025-26 season due to sciatica - NBA",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VajlQYjNPbVhUOUxRdktEZS1XWWFoSVZIWkhRblFlYmlTUlNrdTJVMldsc0twU0ZHMXNnNVk3bllaSjRmSUwwcXp5MXlQSW9ZVU9GU3piU1plQWFiVEFsQjRHOEtaOVVIWHhaQzl3?oc=5",
       "source": "NBA",
@@ -54,12 +54,6 @@
     {
       "title": "Four ways LeBron James' unprecedented 23rd NBA season could go - ESPN",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZWJHRjdoV01vZ3ZpYm5nenRyd2tXZ0xrVUFLMlBDS1E4S2I1d2I2YkVIaUlEVnhWSkxKcjVnY09paEptZW9xMElzUTQ4bzZyZnhPX3NxNjJlYUpuVjdEdzZ5Szh5UlhYdUFaY29qTHZZdDVNT1hxYzdCcEFVMjlKci1Md3p2cXBrdjlaN1llb3luV2dnbmdBWUFWRnI3TTlzQWc?oc=5",
-      "source": "ESPN",
-      "published_at": "2025-10-10T07:00:00.000Z"
-    },
-    {
-      "title": "Why LeBron James is the hardest player to rank in fantasy basketball this season - ESPN",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZUJiNnZOaDZqalhkRzRLbHBMbHE4ZjdmbF9zdzZnU2JTMGZiQ2tBdGNIVFVoUWZsNERHeXN6NFEzbEJxMGxCOGhDdFhHN1RWcWJIR1FQeHhxRTdFcWNIWkIzYWMwNkV2NzhfU0pwZFJIeVhia1d0SUdzaWRQUEIxbEk4OU1UZVhubHpLQXBUYVkzSF95WDRJRVBIY3JBbTdTQk56azlPM3gzSlVtU1NYYWtFVDF6eFF3?oc=5",
       "source": "ESPN",
       "published_at": "2025-10-10T07:00:00.000Z"
     },
@@ -152,6 +146,12 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOG1TbWR0ZVFpeFdmZGZ4bmdJYXVLYm1zaVFud3BxUkFwS09hNmdJalJOa0R0dGVST0l6Y2Y2QjJLWTIwSllhMHlwRDN2WndveE1lU3dwM1hPa1dsakdKYmtzcnZKd0ZtRkJFeEJyQmg5YWE5YkxMcnUzRU8wMTNCUE5oWVhEbDZhRWo1aVRodENDbWh5OFcwUnN1Qlp4aUdqekRSczBtaF83NjItQTdtMzVOMHF5TDZu?oc=5",
       "source": "ESPN",
       "published_at": "2025-10-07T07:00:00.000Z"
+    },
+    {
+      "title": "LeBron James' Second Decision: Three announcements Lakers star could conceivably make after big tease - CBS Sports",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeGVZdjNvNW1kTDlmOVNaaENLdDVLdF9BV1pNWG1BYUhhSGFnRmJrU0dGMHFhcUJjZ09DTU1PNTl4RzZpOWs5VFEzQnV4NE5Mc0JOd3dpU2R6UFdiQ1BNMmFaZmdOcEdvUkNubzdtV0tHZ1R6eVlndlB4bGJGMElzQTZMa0dER0NBLU5QMXhjRXlxblplRXFub0tsYW1yVjA0dVhOZklaTVhXMDR0OVc4SGNULXVQU3Z3Rl9aRkpuWGZ6QXpSUms3WUlEZm93ZjRD?oc=5",
+      "source": "CBS Sports",
+      "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
       "title": "LeBron James not thinking about retirement as 23rd NBA season begins - NBA",
