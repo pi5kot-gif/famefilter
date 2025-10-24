@@ -1,7 +1,7 @@
 {
   "slug": "lebron-james",
   "name": "LeBron James",
-  "updatedAt": "2025-10-24T11:10:55.499Z",
+  "updatedAt": "2025-10-24T11:35:36.522Z",
   "items": [
     {
       "title": "Source: Bettors allegedly given LeBron injury info - ESPN",
@@ -26,6 +26,12 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVDduZ3NFQTEwUHlEdUFnY29IMFdIR0RPV1RlYUNNeFhmbDZXbEtOSTFlRjNYelhzZGF4cnFUMTlyc1JrWHU3RjVwQ1hDN3gtTzJYUEZvYWloeDdjMnd3QnAzcTg1ZjFwQ2dwcU5DdGs2Q3F3dHNWT09PMHh2WlpMSUlsQ2hpWG9qaXEyMmx6dmNoZHNSR3Bla3pCdExZMjJQdDB0UkJWNE02V1HSAbABQVVfeXFMTzRpVjBsS2I5elFyeW8yRlhhdlhVeE9pTFU5VVVjQUh5OW9aRDVvRDNPN25vQ1BSNFAwMFU4R3dPMXJ4Q1B5VEZnZS1oS1VCZm52RDNrSS1OZ2JOTEtVT2hzMzk0dkpEbU1KTHluQUZQdnJ5dTlXQWtURWp3S0J4NW1OZWkxa0xveURRNms0a0phQmQ1S2dNbmtLaWF2TTJoOWJjX0d5RURFNzF4WF9OZ0Y?oc=5",
       "source": "Al Jazeera",
       "published_at": "2025-10-22T08:26:15.000Z"
+    },
+    {
+      "title": "With LeBron James out, Lakers lean on Luka Doncic to open season - Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZFFRYWxNbFdRS1VsbndXektjUnJUNzVKR0t0SDljNE51d3l3dG5fTGxEUUp2QWRaa1lWcVJweG9pUDlNQnNkYjFuLTJqUklGNTlnQkNRS210MDFKakVyLUJpaHg3QUlhRWg4VmdUOGt6N2NBVGE3LXVrVmZkSElBOTZUV3pNdFlLc1d3d1htaVBJQQ?oc=5",
+      "source": "Los Angeles Times",
+      "published_at": "2025-10-20T11:00:00.000Z"
     },
     {
       "title": "Opinion | LeBron James is defined by his hometown. Now he’s reshaping it. - The Washington Post",
@@ -124,15 +130,15 @@
       "published_at": "2025-10-07T07:00:00.000Z"
     },
     {
-      "title": "'The Second Decision': LeBron's cryptic post drives Lakers ticket spike - ESPN",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOG1TbWR0ZVFpeFdmZGZ4bmdJYXVLYm1zaVFud3BxUkFwS09hNmdJalJOa0R0dGVST0l6Y2Y2QjJLWTIwSllhMHlwRDN2WndveE1lU3dwM1hPa1dsakdKYmtzcnZKd0ZtRkJFeEJyQmg5YWE5YkxMcnUzRU8wMTNCUE5oWVhEbDZhRWo1aVRodENDbWh5OFcwUnN1Qlp4aUdqekRSczBtaF83NjItQTdtMzVOMHF5TDZu?oc=5",
-      "source": "ESPN",
-      "published_at": "2025-10-07T07:00:00.000Z"
-    },
-    {
       "title": "LeBron James' 'Second Decision' announcement had fans so mad - USA Today",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcWJBdE9tZmhiZFZSUHhRTEgxd2FpaEFMVXlFYXlQZjVjaXpzVkFOLXE2TmtvZG0xRHlaS0k3QmxQSEJLVVZ4REVwSEFYaXBBNC1WYTYwWXVsYVhLdDh0dGRsdmtsNk5nMVZhUVBzNE5YX1R4SHp5NHhJektWbUpkR1Z1WHB1S0RSSTA0RFNuMUVzSW1iWlNremRPU2RGSXJvN3JnMzBwbzVEQ2h6b0ktbnFQQVpvN0NYSXNhdQ?oc=5",
       "source": "USA Today",
+      "published_at": "2025-10-07T07:00:00.000Z"
+    },
+    {
+      "title": "'The Second Decision': LeBron's cryptic post drives Lakers ticket spike - ESPN",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOG1TbWR0ZVFpeFdmZGZ4bmdJYXVLYm1zaVFud3BxUkFwS09hNmdJalJOa0R0dGVST0l6Y2Y2QjJLWTIwSllhMHlwRDN2WndveE1lU3dwM1hPa1dsakdKYmtzcnZKd0ZtRkJFeEJyQmg5YWE5YkxMcnUzRU8wMTNCUE5oWVhEbDZhRWo1aVRodENDbWh5OFcwUnN1Qlp4aUdqekRSczBtaF83NjItQTdtMzVOMHF5TDZu?oc=5",
+      "source": "ESPN",
       "published_at": "2025-10-07T07:00:00.000Z"
     },
     {
@@ -176,12 +182,6 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5EX2Jjbkh4Qms0UXlFWHBSclVqV0JXeVl0X0tkQ0pyLW9XazZ3aFZoeGJyNmhyeWRNcWxYa1BzMFNXdXhQVnJPSWVIcWQ4czdIWS11MExsVWVZaFE1RWZPQTFNaGx3ZUY5LUR2V3dXLWl3ZlloWFduMlFjQUUtcWM?oc=5",
       "source": "About Nike",
       "published_at": "2025-09-06T07:00:00.000Z"
-    },
-    {
-      "title": "Journey of an Icon: 20 Years of LeBron James in China - About Nike",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MdzM3bnRCekJmWklvSDZwV1hzSzU4V0wzb3lpNndUTlRvUXpGQlY4UG9mOVJvYklTSDdQc01aY1g4ZE92NnotaVlyYnl6SXMwTmUwS1pkYVhFZ0VHZkZiRnQ3ejA3YUtFZTlTTXV4NGRMUFJ1dnc?oc=5",
-      "source": "About Nike",
-      "published_at": "2025-09-03T07:00:00.000Z"
     }
   ]
 }
