@@ -1,7 +1,7 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-25T03:14:50.148Z",
+  "updatedAt": "2025-10-25T03:47:17.737Z",
   "items": [
     {
       "title": "Opinion | Taylor Swift’s Latest Reinvention Is Both Coarse and Conservative - The New York Times",
@@ -14,6 +14,12 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwa2oxa2FfcDByUmxMd052Q0JlMEZwWmhnZmVVUUtyNURuQTZBUVRVRVphbjBFdzd2Qmx4aDN3OUx1eVZRdEE0LTltSk81d2pYdktLX2RLNjFWU1o1Y2tCeHVBNmtOS2FRc3c?oc=5",
       "source": "The Yale Review",
       "published_at": "2025-10-20T10:06:02.000Z"
+    },
+    {
+      "title": "Harvard’s Taylor Swift Scholar on “The Life of a Showgirl” - The Harvard Crimson",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBRaTUzc0YxRkhzd1JvWWNpdXNuaGZvX2VvQ2JOaFowQ3dTNHE3eW56dGdnbFdzcVJFRmd1azdMYmtxVHlDb1IwdFNmMnNZOVE0UmlRVmtvdVBRak4yRlZ2M2NfaUVXRl9ueDhGdFlJQjF3ckQtZ2VyTVFOOHBSQQ?oc=5",
+      "source": "The Harvard Crimson",
+      "published_at": "2025-10-18T07:00:00.000Z"
     },
     {
       "title": "I Listened to Taylor's New Album 8 More Times and Maybe...I’ve Slightly Changed My Mind - PureWow",
@@ -118,21 +124,15 @@
       "published_at": "2025-10-04T07:00:00.000Z"
     },
     {
+      "title": "People are Getting the Taylor Swift Album Very Wrong - Ahead of the Kirb",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zUUlCRE16c0FsRTljcm9Qck5WM3l0RDA0ZUs1OGtVUWNxX2lwVGtLOVo2Qk9vcWtMUTJ6SFg0aWJYT2Nxcm1LZXp3aEJra1FRczY4elNMVlpYeDNTUk83emNrZngxa0pmcm9BUDFXNlNkZw?oc=5",
+      "source": "Ahead of the Kirb",
+      "published_at": "2025-10-04T07:00:00.000Z"
+    },
+    {
       "title": "🎬 Taylor Swift Has Everything. But the Oscar She Wants - The Ankler.",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1mNnRtRGpVbnN2RlZYdmNwUXFvTk1FZGtRYkVKaDRlaC1ORlJySW9mSkRiazhWOHoxN3Z2OVF0ek4wZnZqNFZveTVsT2pwR2pTb2RmOTB6RnJqRUhEdVlrMXNlN3JVcjg0WUpn?oc=5",
       "source": "The Ankler.",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "I Don’t Need Taylor Swift’s ‘Showgirl’ Era to Be Kid-Friendly—Here’s Why - The Everymom",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mWFc4Y3dMd3FwdndoS2xfQkNyb3pVazJITlloZzl4VlpWQ0R2a1p5X2lPWWVxRUhwa0NmZ0lVcE55eW5oY0VkVjdYQTFWaTdOdGpuSEVDcWFQN2RTdlIxNVdiWDR2SUZjOEF4SQ?oc=5",
-      "source": "The Everymom",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "Review: Taylor Swift’s “The Life of a Showgirl” wants to feel good, but other feelings keep getting in the way. Also, is this not the superstar who once encouraged all of humanity to shake it off? - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONmxtU3pwR2lxTnNidkpxLUhTUWtVeHVFVkpiWFhmeTBYbC1YTEtaUmZ4TlI4a0o3QUxGa3U4LXEyVjhGVlpMaW1xaEFUbU90ZjIxSkplbUhzN1ZnejZFUEtSRExRbjQ0cTdBY2tzVmFnU1JZdG1OVnpBdVVBai1nMzhUT0RhSjhndW14NkVqc0d4dHBWUTR5aEwyX0RndnA3eWYwTUdVS3JfcVlqTGk2OHItV1NEVWJBUnhncnhNSmh2dFl2REpZY1lsT2c0Z3UxelJSbm9GN0x6S0lk?oc=5",
-      "source": "facebook.com",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
@@ -142,21 +142,21 @@
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
-      "title": "I thought Taylor Swift's 'Eldest Daughter' track would wreck me. It healed me instead. - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkxYNWlLZjR0bnU5X2J4RmIxeVcwUHJXV2J3aGZaNVpSZkVNVkJSamNiUXQzR3lPdzFaeUlXVl9ZSm01ajlxMk1YOGtFOUVRb1habVFUd1Q5T2N1aUlyeGd1SHk1dUFKYmpSdXJCV3p6dWlEUTREMGVxRVZaQ2NhWFBQYzFUSFoydkNMSFhtWmpZTDFXTUtiTk1jdjhVb29OTTYwYTdNcjNFN2VmT20xeEJ2ZkxWS0h3aUFMM185R2U?oc=5",
-      "source": "USA Today",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "The Taylor Swift 'Showgirl' Song I Dreaded Most Wound Up Being Her Best - PureWow",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4bU9EaVlOZ1MyWDJnbzJiaEF5MVgyVmZpcllCV1g4emN4UzZwZlRJdkxLUkQ2c2MwRmgyd2h1dGJudEZIMURFWjdEZ1VjTEpVUzlXZGJzYUhvNExkZDlBV2MxRy1rdGRueF9YdWMtMTBmbWw3X3FhWnZHZkl3Zw?oc=5",
-      "source": "PureWow",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
       "title": "I Snuck Out of Work to See the Taylor Swift 'Life of a Showgirl' Movie - PureWow",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMWprdVd3OEp6UVhQMnN6NUFkeS1SQVlNT29QV1VXV1lsZ2dsbVBLeEloS3dVTkFKMkFnRDZpamtQVVBOSVZ3UlRDTGd0S1A0TmgzcDd1dmhuZWhqMERybTg5cGtMWXF2MVVhZ1MtQnJHY2s4SndXRXd5cWFRWlBBRlln?oc=5",
       "source": "PureWow",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
+      "title": "The Life of a Showgirl Album Review: A Taylor Swift Who Is Unafraid to Fail - Teen Vogue",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWnFKeF9uMDdxZ24yeE5HMThpWXByQTlNQlQ4SDYwcXJ4ZUd4bmhUdWhxWWE5cVFmYy1EbFZiRFByOE9Ob09oS1plNnpkSTZ5V3pNYUJheE5yM3B6UVNsM1FySXd6dFhmOWxnWXRVRG8xZkFqNWFBcVhiQmtkLUVPVnl1VXZGT2s?oc=5",
+      "source": "Teen Vogue",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
+      "title": "I'm a Mom and a Swiftie—Why I'm OK With 'The Life of a Showgirl' Being Her Most Mature Album Yet - Parents",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNV0J5Q0tOR0pIY0IyN2ItOG5TQlBYY3BEbzlGYXpxQ055anJYSUlmdkp1SFZDWnhlb0ptcFViVFNkRTJVQ0JDdUlhQkltVE1OY0V4eWxpUmZPak9kejBNNk1qd2VXVk1HRDVOWDNfVk5weWZmNWpBeEZtVlg1NGk4blllN0NlNmRSZjhnTjBUclQ?oc=5",
+      "source": "Parents",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
