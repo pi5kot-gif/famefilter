@@ -1,14 +1,8 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-25T06:43:56.363Z",
+  "updatedAt": "2025-10-25T07:11:39.593Z",
   "items": [
-    {
-      "title": "Taylor Swift - The Life of a Showgirl - Northern Transmissions",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9UMk53bVhHRXVkYUtjbzdGRVhUSzdfSkJpbWx4ZE1RSDJCLWo2WndLN050NTQ3TzExU2h2NUVfM2FGS1VnRmg3M1ZOTVprcmgwak96VjhnRURFbnBFZFZqTEZJZXpkczA1eXpHQTZCRHUxTHhmZHZRQ3pB?oc=5",
-      "source": "Northern Transmissions",
-      "published_at": "2025-10-24T22:48:11.000Z"
-    },
     {
       "title": "Opinion | Taylor Swift’s Latest Reinvention Is Both Coarse and Conservative - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUklUUGd6QXktNV9KMHpLU2ZfZUxFN1V1eE1sS0NST25lMHAzd0hOQjVSYmp1Skl2V0VLTjliS3NhVklSa3V3bUZidnQwb3RoN2FiVjFoSnc5R2oycWdYcHFqS2ItdWY4MUp2NWdXeW1LZWRqUXFmY1luQnpDMks2N3F6elFQeGhUZlRWd3ZYRVc?oc=5",
@@ -20,6 +14,18 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwa2oxa2FfcDByUmxMd052Q0JlMEZwWmhnZmVVUUtyNURuQTZBUVRVRVphbjBFdzd2Qmx4aDN3OUx1eVZRdEE0LTltSk81d2pYdktLX2RLNjFWU1o1Y2tCeHVBNmtOS2FRc3c?oc=5",
       "source": "The Yale Review",
       "published_at": "2025-10-20T10:06:02.000Z"
+    },
+    {
+      "title": "Harvard’s Taylor Swift Scholar on “The Life of a Showgirl” - The Harvard Crimson",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBRaTUzc0YxRkhzd1JvWWNpdXNuaGZvX2VvQ2JOaFowQ3dTNHE3eW56dGdnbFdzcVJFRmd1azdMYmtxVHlDb1IwdFNmMnNZOVE0UmlRVmtvdVBRak4yRlZ2M2NfaUVXRl9ueDhGdFlJQjF3ckQtZ2VyTVFOOHBSQQ?oc=5",
+      "source": "The Harvard Crimson",
+      "published_at": "2025-10-18T07:00:00.000Z"
+    },
+    {
+      "title": "Fine. I’ll talk about Taylor Swift. - dailyuw.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xeTQwZXdyM0l4eEZ3Vk85S3ZYVkswNk1EZzlVeHRDWjVacTJmQVQtWWFXNll5TnRXdEpxRVF1T0xOenNMTFNDeC1QXzVLc1hVZnpWVVlBdlRIbHA2aEZJQ1lhNWpoQ2xHRk0xaGpjOXBtOEVTXzhsOG8yNTlRdzA?oc=5",
+      "source": "dailyuw.com",
+      "published_at": "2025-10-17T18:48:53.000Z"
     },
     {
       "title": "I Listened to Taylor's New Album 8 More Times and Maybe...I’ve Slightly Changed My Mind - PureWow",
@@ -76,6 +82,12 @@
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
+      "title": "Why Taylor Swift and Mel Robbins are so popular - Denison Forum",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa3BMNE51SXZ6NzBVWXlkNG5NS1J0ZDAyZDEwdWUxQy1vc1JadENWUC1icjBYbFlwWTNid25za09SeE1tbzg5cWR6SHNjNDFpNl85WlRNZXAxWG9FamhBOTB5WmxxR3I4ZHByOUx5VFlEckhMc1NGd1BTY0NMS1NPdzRDdWNUZExVUmlFTEk1bDdVMFRFcEE?oc=5",
+      "source": "Denison Forum",
+      "published_at": "2025-10-08T07:00:00.000Z"
+    },
+    {
       "title": "Review: Taylor Swift has Showgirled too close to the sun - The New School Free Press -",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0lPM29yeGtrMWZwQXNfWVdvNXljdnNjNXBjZUNMMzl5SUxOU0N6X2ZUS3kxQ2JXTHR0aHZwdnJyZmFhVnR2c1dGbDN0ZkZFaUxKMGwwWDU4aFFRT0F5b0lfZlhSOUZuaTFKaFBFellZb2lKajZLSExrd1NCa2lkcGNBRGhFTy15R09vby1LRHdqejJxaFl1dTVhNDY5dlI5ek92LXFwMWU?oc=5",
       "source": "The New School Free Press -",
@@ -100,15 +112,21 @@
       "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
+      "title": "'The Life of a Showgirl': A Shell of an Icon - The Rotunda Online",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeW9rVXh1ckQ2aUJJS0o5SU5uTDRGUS1ySk9ad0lEMmdEcDIzWVZzMVkxN21CM0hwaXdzSlZaUTFxVGxFRk90M3NnNUpESWpOcU9oWmVRNGdRakt5MlZFbHhiLUxTZWdYYk12ckNMZV9wVVlkaEtScV8yZFlNUS16eDRvU1FpYzhrVnV1eHNZeW9YblU5?oc=5",
+      "source": "The Rotunda Online",
+      "published_at": "2025-10-06T07:00:00.000Z"
+    },
+    {
       "title": "Taylor Swift takes Pittsburgh Targets and theaters by storm - The Tartan",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU2hxa00yVW9iR3JWY1VNZmp0ZDZRbW5jNFBVc1ZvdHpTN3VKM1ZaWjR2RkZNUjZVdXlhdmotVVlBZ2tEWkdxcEdoeE16RmFGT3BXWE9DYUgzV0xBRk9JMFNGbm9DRWV0S2RrS2hYZG5vNWlQcXhpS2I4cGREc0lSQUwwVlY4eE1WbkpVVHoyNFM1RC1LcUF4WnNB?oc=5",
       "source": "The Tartan",
       "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
-      "title": "'The Life of a Showgirl': A Shell of an Icon - The Rotunda Online",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeW9rVXh1ckQ2aUJJS0o5SU5uTDRGUS1ySk9ad0lEMmdEcDIzWVZzMVkxN21CM0hwaXdzSlZaUTFxVGxFRk90M3NnNUpESWpOcU9oWmVRNGdRakt5MlZFbHhiLUxTZWdYYk12ckNMZV9wVVlkaEtScV8yZFlNUS16eDRvU1FpYzhrVnV1eHNZeW9YblU5?oc=5",
-      "source": "The Rotunda Online",
+      "title": "The Taylor Swift \"Life Of A Showgirl\" Hate Is Way Overblown - BuzzFeed",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZTJJaHkteDhZaEdOdXZpZFhlWV8zdDh0SU5rbnhCcUs4QWVNam1UdkFoX0ZHc3duVnBQcS1tZkFydDhiZng4V1phMV9qWG82UnZ0Szh6bU92b3MteC1VMVhYX09oQlhFU2xRZHBrR1ZORjJtT21CWXlFM2hWcDhjVDM1YTk?oc=5",
+      "source": "BuzzFeed",
       "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
@@ -124,40 +142,10 @@
       "published_at": "2025-10-04T07:00:00.000Z"
     },
     {
-      "title": "🎬 Taylor Swift Has Everything. But the Oscar She Wants - The Ankler.",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1mNnRtRGpVbnN2RlZYdmNwUXFvTk1FZGtRYkVKaDRlaC1ORlJySW9mSkRiazhWOHoxN3Z2OVF0ek4wZnZqNFZveTVsT2pwR2pTb2RmOTB6RnJqRUhEdVlrMXNlN3JVcjg0WUpn?oc=5",
-      "source": "The Ankler.",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "I Don’t Need Taylor Swift’s ‘Showgirl’ Era to Be Kid-Friendly—Here’s Why - The Everymom",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mWFc4Y3dMd3FwdndoS2xfQkNyb3pVazJITlloZzl4VlpWQ0R2a1p5X2lPWWVxRUhwa0NmZ0lVcE55eW5oY0VkVjdYQTFWaTdOdGpuSEVDcWFQN2RTdlIxNVdiWDR2SUZjOEF4SQ?oc=5",
-      "source": "The Everymom",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "Review: Taylor Swift’s “The Life of a Showgirl” wants to feel good, but other feelings keep getting in the way. Also, is this not the superstar who once encouraged all of humanity to shake it off? - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONmxtU3pwR2lxTnNidkpxLUhTUWtVeHVFVkpiWFhmeTBYbC1YTEtaUmZ4TlI4a0o3QUxGa3U4LXEyVjhGVlpMaW1xaEFUbU90ZjIxSkplbUhzN1ZnejZFUEtSRExRbjQ0cTdBY2tzVmFnU1JZdG1OVnpBdVVBai1nMzhUT0RhSjhndW14NkVqc0d4dHBWUTR5aEwyX0RndnA3eWYwTUdVS3JfcVlqTGk2OHItV1NEVWJBUnhncnhNSmh2dFl2REpZY1lsT2c0Z3UxelJSbm9GN0x6S0lk?oc=5",
-      "source": "facebook.com",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "\"The Life of a Showgirl\" and Taylor Swift on Screen - Hung Up | Hunter Harris",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sdGRqOHBLcnBkckZBVFYtZ1VRazdMNGJOQXd2eUR2U000ZTVwM29leUR4ZDl1NzNrNi1OOEpPTWpyQ1Z2eWZtUEhVVHktUHNSM05IcHlBMlpPNTR0TktIenZkczRVeWpRSml1QUdLcGJIdjdFY0FsdjZMcFQ?oc=5",
-      "source": "Hung Up | Hunter Harris",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "I thought Taylor Swift's 'Eldest Daughter' track would wreck me. It healed me instead. - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkxYNWlLZjR0bnU5X2J4RmIxeVcwUHJXV2J3aGZaNVpSZkVNVkJSamNiUXQzR3lPdzFaeUlXVl9ZSm01ajlxMk1YOGtFOUVRb1habVFUd1Q5T2N1aUlyeGd1SHk1dUFKYmpSdXJCV3p6dWlEUTREMGVxRVZaQ2NhWFBQYzFUSFoydkNMSFhtWmpZTDFXTUtiTk1jdjhVb29OTTYwYTdNcjNFN2VmT20xeEJ2ZkxWS0h3aUFMM185R2U?oc=5",
-      "source": "USA Today",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "The Taylor Swift 'Showgirl' Song I Dreaded Most Wound Up Being Her Best - PureWow",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4bU9EaVlOZ1MyWDJnbzJiaEF5MVgyVmZpcllCV1g4emN4UzZwZlRJdkxLUkQ2c2MwRmgyd2h1dGJudEZIMURFWjdEZ1VjTEpVUzlXZGJzYUhvNExkZDlBV2MxRy1rdGRueF9YdWMtMTBmbWw3X3FhWnZHZkl3Zw?oc=5",
-      "source": "PureWow",
-      "published_at": "2025-10-03T07:00:00.000Z"
+      "title": "People are Getting the Taylor Swift Album Very Wrong - Ahead of the Kirb",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zUUlCRE16c0FsRTljcm9Qck5WM3l0RDA0ZUs1OGtVUWNxX2lwVGtLOVo2Qk9vcWtMUTJ6SFg0aWJYT2Nxcm1LZXp3aEJra1FRczY4elNMVlpYeDNTUk83emNrZngxa0pmcm9BUDFXNlNkZw?oc=5",
+      "source": "Ahead of the Kirb",
+      "published_at": "2025-10-04T07:00:00.000Z"
     },
     {
       "title": "The Life of a Showgirl Album Review: A Taylor Swift Who Is Unafraid to Fail - Teen Vogue",
@@ -166,10 +154,10 @@
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
-      "title": "Opinion | Thank You, Taylor and Travis. I Needed This. - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZVJLU0pCZXhlY1phWE9LZWdySGhPRGVYSjEtNldDc1BfdGFwTHc2WXk1N2ZxTklVNmpNUFN0M2ZKN1ZWclNXRUZLemNtcExadFc3eVZJSjlSRlJ1c3UxTHVhNHNSR1NMSXhTWVktSXF5c2xUSGdHeW9xNy04LXRoS290c1BUOGlTSzZQYQ?oc=5",
+      "title": "Stephanie Burt on Taylor Swift and Some Other Favorite Geniuses - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdVlmRndnSl9RaVJXN1ZnZ1ZVVDNLQVk0aWNBdHdQblRIMW1rUXdOYkN2MjZDYXRORW5uRGNFQlBxUGQ1eV94VEdTMzNEODJKajBfUl9NZ05vTlRrZVFxV0p2Uy1hb193RG9kSkUyTnBRVks5MlB3SHREdGlOWkJZT2pwYWRmTk0?oc=5",
       "source": "The New York Times",
-      "published_at": "2025-08-27T07:00:00.000Z"
+      "published_at": "2025-09-11T07:00:00.000Z"
     },
     {
       "title": "Why Are We So Personally Invested in Taylor Swift and Travis Kelce’s Engagement? - Vogue",
@@ -178,9 +166,21 @@
       "published_at": "2025-08-27T07:00:00.000Z"
     },
     {
-      "title": "Taylor Swift Reveals New Album on Kelce's 'New Heights' Podcast - TODAY.com",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORS1WSEVHSDRTSE1RSk9hbUxDempmUG9DLU5pWGRwTERmSEJDRzNJVEMzbFF4NmVGVEpHUFlKNXlwMng1V2x4eVZIQ2VvM3hPNHYybVZRbXRNOUhuaEdVR1JGMG0tQUE2Ymc3dGM5ZzJwTlRsdksxNm1YcFBBVWRFV3NvX0MtamN1TVZicnIwLUxYcG9QMVdFYmdZQlBka2ZtNm5sWtIBZEFVX3lxTE1KTzRYeDRHX21kWHFINVg5Z2l3SmFoSTB2QjBCRVdKXzQ3aWFPS1pSUENpb1VraEltcHQzbUxRSUY2RGpkcjl4dUlWVXJ1YklFME1MTHBCZmJFdFVnb1RBWHNBckE?oc=5",
-      "source": "TODAY.com",
+      "title": "Opinion | Thank You, Taylor and Travis. I Needed This. - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZVJLU0pCZXhlY1phWE9LZWdySGhPRGVYSjEtNldDc1BfdGFwTHc2WXk1N2ZxTklVNmpNUFN0M2ZKN1ZWclNXRUZLemNtcExadFc3eVZJSjlSRlJ1c3UxTHVhNHNSR1NMSXhTWVktSXF5c2xUSGdHeW9xNy04LXRoS290c1BUOGlTSzZQYQ?oc=5",
+      "source": "The New York Times",
+      "published_at": "2025-08-27T07:00:00.000Z"
+    },
+    {
+      "title": "'Huge green flag': Taylor Swift opens up about Travis Kelce - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTFZ2cW96Wmdibm15MU9TaUVWeDBTZnpBMUFldnNMSTB5WnA5YTQ1dE12UFkyNk9zd0ZPMHBWVmhUWTRmYmJiTGZheFU0WGtjM0lpdElSRTlkQlBUdGpfbnp1RHVMMXlJRE1zQmlUWUpWZk4wM0tZMWhBQWhCSjJVeXpLUFlCcFBoVXI1MmlRTW90QkZta2dxOWg5aEkxTVo4M016R2ZOQjNUTkJlbm1mREpIM2cySHVTQ3g1X1hQSXM?oc=5",
+      "source": "CNN",
+      "published_at": "2025-08-14T07:00:00.000Z"
+    },
+    {
+      "title": "Taylor Swift announces her next era: 'The Life of a Showgirl' - NPR",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaFNsRHZnN0pYc3ozeWtGSGNNS1czR3dHZlpZWXdRbUNGV0NRZ3FaQkpPTVpYMVAxT0J1YUtmT19iN1dZa3FiVzNJS1BjTjcxYlpmejR0ZjZhb2lvMDU2TGI0bVgyWmJqZmtrbzhjOEUwS1RzbnZtR0JkbExFYTMxZVpmazJzc0h5?oc=5",
+      "source": "NPR",
       "published_at": "2025-08-12T07:00:00.000Z"
     }
   ]
