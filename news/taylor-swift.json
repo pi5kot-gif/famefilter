@@ -1,14 +1,8 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-26T16:41:49.319Z",
+  "updatedAt": "2025-10-26T17:10:15.048Z",
   "items": [
-    {
-      "title": "Taylor Swift - The Life of a Showgirl - Northern Transmissions",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9UMk53bVhHRXVkYUtjbzdGRVhUSzdfSkJpbWx4ZE1RSDJCLWo2WndLN050NTQ3TzExU2h2NUVfM2FGS1VnRmg3M1ZOTVprcmgwak96VjhnRURFbnBFZFZqTEZJZXpkczA1eXpHQTZCRHUxTHhmZHZRQ3pB?oc=5",
-      "source": "Northern Transmissions",
-      "published_at": "2025-10-24T07:00:00.000Z"
-    },
     {
       "title": "Opinion | Taylor Swift’s Latest Reinvention Is Both Coarse and Conservative - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUklUUGd6QXktNV9KMHpLU2ZfZUxFN1V1eE1sS0NST25lMHAzd0hOQjVSYmp1Skl2V0VLTjliS3NhVklSa3V3bUZidnQwb3RoN2FiVjFoSnc5R2oycWdYcHFqS2ItdWY4MUp2NWdXeW1LZWRqUXFmY1luQnpDMks2N3F6elFQeGhUZlRWd3ZYRVc?oc=5",
@@ -112,6 +106,12 @@
       "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
+      "title": "Taylor Swift takes Pittsburgh Targets and theaters by storm - The Tartan",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU2hxa00yVW9iR3JWY1VNZmp0ZDZRbW5jNFBVc1ZvdHpTN3VKM1ZaWjR2RkZNUjZVdXlhdmotVVlBZ2tEWkdxcEdoeE16RmFGT3BXWE9DYUgzV0xBRk9JMFNGbm9DRWV0S2RrS2hYZG5vNWlQcXhpS2I4cGREc0lSQUwwVlY4eE1WbkpVVHoyNFM1RC1LcUF4WnNB?oc=5",
+      "source": "The Tartan",
+      "published_at": "2025-10-06T07:00:00.000Z"
+    },
+    {
       "title": "Do We Still Like Taylor Swift When She’s Happy? - The New Yorker",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWTgxcWcxX21SamlFakFjQklweFJYNUdYblpDZndDSDRQby1vOEFCNnJEMG1xeDI1Y2k2LTM5cFpLbW9NYTdHSldHdHplWThkXzdLRXBKallnaEJJX1E3cS01Nzh1T1JoSXkyWG5xR29yTHl5cG9FWGhzUXR2c1RqU0hWcDhXOGZSQTd3TjhFSHNEaVV6R09ybklqWnM?oc=5",
       "source": "The New Yorker",
@@ -148,15 +148,15 @@
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
-      "title": "Did Taylor Swift's New Album Deliver? Well, Don't @ Me, But... - PureWow",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeENnQ3dwX1Q2Z09HTjRraWFzWExSLWFLTmxPWVd6VWt5TjJXUnBuQ2NXU09KWmJRZXBTbU9WSnZVdWJYaDg2bnJ4T2I1aExkM1VyVVVreVpYUUU3UEg0WlVqU2pRTmpEZVgyOS12Um5ZOE9RR21pUU8xSC1hMmxmNVp1VXRaVHM?oc=5",
-      "source": "PureWow",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
       "title": "I thought Taylor Swift's 'Eldest Daughter' track would wreck me. It healed me instead. - USA Today",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkxYNWlLZjR0bnU5X2J4RmIxeVcwUHJXV2J3aGZaNVpSZkVNVkJSamNiUXQzR3lPdzFaeUlXVl9ZSm01ajlxMk1YOGtFOUVRb1habVFUd1Q5T2N1aUlyeGd1SHk1dUFKYmpSdXJCV3p6dWlEUTREMGVxRVZaQ2NhWFBQYzFUSFoydkNMSFhtWmpZTDFXTUtiTk1jdjhVb29OTTYwYTdNcjNFN2VmT20xeEJ2ZkxWS0h3aUFMM185R2U?oc=5",
       "source": "USA Today",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
+      "title": "The Taylor Swift 'Showgirl' Song I Dreaded Most Wound Up Being Her Best - PureWow",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4bU9EaVlOZ1MyWDJnbzJiaEF5MVgyVmZpcllCV1g4emN4UzZwZlRJdkxLUkQ2c2MwRmgyd2h1dGJudEZIMURFWjdEZ1VjTEpVUzlXZGJzYUhvNExkZDlBV2MxRy1rdGRueF9YdWMtMTBmbWw3X3FhWnZHZkl3Zw?oc=5",
+      "source": "PureWow",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
