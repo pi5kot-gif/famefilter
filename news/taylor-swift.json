@@ -1,8 +1,14 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-26T06:16:59.690Z",
+  "updatedAt": "2025-10-26T06:45:28.929Z",
   "items": [
+    {
+      "title": "Taylor Swift - The Life of a Showgirl - Northern Transmissions",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9UMk53bVhHRXVkYUtjbzdGRVhUSzdfSkJpbWx4ZE1RSDJCLWo2WndLN050NTQ3TzExU2h2NUVfM2FGS1VnRmg3M1ZOTVprcmgwak96VjhnRURFbnBFZFZqTEZJZXpkczA1eXpHQTZCRHUxTHhmZHZRQ3pB?oc=5",
+      "source": "Northern Transmissions",
+      "published_at": "2025-10-24T07:00:00.000Z"
+    },
     {
       "title": "Opinion | Taylor Swift’s Latest Reinvention Is Both Coarse and Conservative - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUklUUGd6QXktNV9KMHpLU2ZfZUxFN1V1eE1sS0NST25lMHAzd0hOQjVSYmp1Skl2V0VLTjliS3NhVklSa3V3bUZidnQwb3RoN2FiVjFoSnc5R2oycWdYcHFqS2ItdWY4MUp2NWdXeW1LZWRqUXFmY1luQnpDMks2N3F6elFQeGhUZlRWd3ZYRVc?oc=5",
@@ -14,12 +20,6 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwa2oxa2FfcDByUmxMd052Q0JlMEZwWmhnZmVVUUtyNURuQTZBUVRVRVphbjBFdzd2Qmx4aDN3OUx1eVZRdEE0LTltSk81d2pYdktLX2RLNjFWU1o1Y2tCeHVBNmtOS2FRc3c?oc=5",
       "source": "The Yale Review",
       "published_at": "2025-10-20T10:06:02.000Z"
-    },
-    {
-      "title": "Harvard’s Taylor Swift Scholar on “The Life of a Showgirl” - The Harvard Crimson",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBRaTUzc0YxRkhzd1JvWWNpdXNuaGZvX2VvQ2JOaFowQ3dTNHE3eW56dGdnbFdzcVJFRmd1azdMYmtxVHlDb1IwdFNmMnNZOVE0UmlRVmtvdVBRak4yRlZ2M2NfaUVXRl9ueDhGdFlJQjF3ckQtZ2VyTVFOOHBSQQ?oc=5",
-      "source": "The Harvard Crimson",
-      "published_at": "2025-10-18T07:00:00.000Z"
     },
     {
       "title": "I Listened to Taylor's New Album 8 More Times and Maybe...I’ve Slightly Changed My Mind - PureWow",
@@ -154,16 +154,16 @@
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
-      "title": "The Taylor Swift 'Showgirl' Song I Dreaded Most Wound Up Being Her Best - PureWow",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4bU9EaVlOZ1MyWDJnbzJiaEF5MVgyVmZpcllCV1g4emN4UzZwZlRJdkxLUkQ2c2MwRmgyd2h1dGJudEZIMURFWjdEZ1VjTEpVUzlXZGJzYUhvNExkZDlBV2MxRy1rdGRueF9YdWMtMTBmbWw3X3FhWnZHZkl3Zw?oc=5",
+      "title": "Did Taylor Swift's New Album Deliver? Well, Don't @ Me, But... - PureWow",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeENnQ3dwX1Q2Z09HTjRraWFzWExSLWFLTmxPWVd6VWt5TjJXUnBuQ2NXU09KWmJRZXBTbU9WSnZVdWJYaDg2bnJ4T2I1aExkM1VyVVVreVpYUUU3UEg0WlVqU2pRTmpEZVgyOS12Um5ZOE9RR21pUU8xSC1hMmxmNVp1VXRaVHM?oc=5",
       "source": "PureWow",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
-      "title": "Stephanie Burt on Taylor Swift and Some Other Favorite Geniuses - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdVlmRndnSl9RaVJXN1ZnZ1ZVVDNLQVk0aWNBdHdQblRIMW1rUXdOYkN2MjZDYXRORW5uRGNFQlBxUGQ1eV94VEdTMzNEODJKajBfUl9NZ05vTlRrZVFxV0p2Uy1hb193RG9kSkUyTnBRVks5MlB3SHREdGlOWkJZT2pwYWRmTk0?oc=5",
-      "source": "The New York Times",
-      "published_at": "2025-09-11T07:00:00.000Z"
+      "title": "The Taylor Swift 'Showgirl' Song I Dreaded Most Wound Up Being Her Best - PureWow",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4bU9EaVlOZ1MyWDJnbzJiaEF5MVgyVmZpcllCV1g4emN4UzZwZlRJdkxLUkQ2c2MwRmgyd2h1dGJudEZIMURFWjdEZ1VjTEpVUzlXZGJzYUhvNExkZDlBV2MxRy1rdGRueF9YdWMtMTBmbWw3X3FhWnZHZkl3Zw?oc=5",
+      "source": "PureWow",
+      "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
       "title": "Opinion | Thank You, Taylor and Travis. I Needed This. - The New York Times",
