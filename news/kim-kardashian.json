@@ -1,7 +1,7 @@
 {
   "slug": "kim-kardashian",
   "name": "Kim Kardashian",
-  "updatedAt": "2025-10-27T17:11:00.646Z",
+  "updatedAt": "2025-10-27T17:37:46.145Z",
   "items": [
     {
       "title": "Kim Kardashian’s brain aneurysm highlights silent health threat - Western Mass News",
@@ -64,6 +64,12 @@
       "published_at": "2025-10-23T17:22:09.000Z"
     },
     {
+      "title": "Kim Kardashian diagnosed with brain aneurysm that doctors attribute to stress following Kanye West divorce - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU2hZaFNoVWJ3Q2ltQ1lMMHBQaEdFbk1hbEJYSk1nWXo0a2pEdzdRNmlQZ1p4SkJYVXNlOWNEV1lsWGJTUHRWcnJSbUtxQXBpZElDU29CYUJnZjVyWDhMNC1HV2taOExteF9XbHYwVzZkX19KQkFZak1rQzdzNjgtd05JUnhrcUVUdGxBbzZRcDd3U3BMSktkWkgwS3h2MGZfbWRETEQxZWtQdkZlZ2VGcUY2QzVTMnNKQzhXVTlNYjcwM3lXdUt5bUw4TdIB0AFBVV95cUxPdTI1ak5XNUp0eEp4N2Z4eUJxQWxOMHpCWWJ5Uk9ZeVBYSklGU1VaTThIT2tVS1A2Xy1MZnIyMFBzUDFsaFZBZ3p3SGZnOENRaFZXMlJQYTZsNmV6cXFyTEM3dFo1WnExcThxc2kzWUNuRmZGb243SDBNckplcHBtWU8yQkhOLXZPTWNHb3dBc1haSGdtNURvRDNtc3hWVHhoQURnOE5uUDdJWDA4Y1hTRlBXTHMzY3dwbjg0d1BWZGJPZ0hYTXAyUVg4NVJLSzZf?oc=5",
+      "source": "Fox News",
+      "published_at": "2025-10-23T16:34:05.000Z"
+    },
+    {
       "title": "Tearful Kim Kardashian Shares Doctors Found Brain Aneurysm - E! News",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRlhUR1ZMZ0hoNEkzcjF5SlBoSmJiRDNXa2RhZjluUG5tSTdpSC1CTDZ3eGxKdnR5Rnd4cjZBcFUyd1drQVMxd3BLb1BpMmpGdzNVMlJrR0h6M2xYeEQtblRSS2FPT1dZbXFIbUxaTzFpbm10bk0wZm5NejZzdEVGWnVPYmdEdFEwTkFjTkVsMWhPVUtrNGJnQVA1RQ?oc=5",
       "source": "E! News",
@@ -112,12 +118,6 @@
       "published_at": "2025-10-16T07:00:00.000Z"
     },
     {
-      "title": "Kim Kardashian opens up about decision to divorce Kanye West - CNN",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU3BsejNnM2d2Tkd5MmVwam9ubW01Z2d5elYwbHI4RHlPZTRmTXVqVzZnbVQ4a3prNWZQNjhuZXpZY0hwcEVDTXR2NzUtRzdpRkpKS21VcDFxS040dFdwZzRnSFd0eFZpTVhVQnEzWWZJV2NpLVlSS3pkb0pFYnFXMXIwU1dlc0dqajVLV0dEekIyNDlYcUlUMlIzMTNCcWJ4dm43UQ?oc=5",
-      "source": "CNN",
-      "published_at": "2025-10-16T07:00:00.000Z"
-    },
-    {
       "title": "Kim Kardashian Talks Co-Parenting With Kanye West on Alex Cooper's 'Call Her Daddy' - TODAY.com",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPekNKalZxbUZwVlJOUzR2TkFobVNLZmVGUmpVR1c3UVBFbWZHZmhqTHIxNkZPVERsbGRIbmpPZl9Pd1NteHB3dTBiUlpWRWxubjRjY0RIVHNHa0Y4dFA2Z3d4a21KcTd3M1J0a3QxM1l3VTJxNERZbEwxTG9abnFXcURXQ3VpMW9fRHVhNzZlaVR5Wk1tN2puWjZGUldZV1BGVUk3Q2RPc9IBVEFVX3lxTE1JMlRtUzQyWHYzZGFSYzJaNHUyWG9fcndrMTdSSlRjZFptNmY5TXFBQjM3R3NKeUZhQWxER25famJPa3B4cGFjcV9FRVU4VTQxcWtOVg?oc=5",
       "source": "TODAY.com",
@@ -154,15 +154,15 @@
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
-      "title": "Even Kim Kardashian’s getting in on the showgirl fashion craze after Taylor Swift’s album release - Page Six",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNS3dXZlZ3RzB0Y2NsbjdDMVhiM3FacExrTkRscktEdjFOaEdoYWtRYm1TTVBvYUI4UzNxdnAxd0JYcTRGc0pkQWdESmJVMHRfMUdDeU84LWl6Smk4RmlHSHBKMDdqdHhfWHFtdVlXSjUzUzMtYTdvRG1HdExvMjZOS282YVk2bTZtc0M5eGJJaGx0SS1pbXBtbk84MUpQWktib2hXZlBqb29IQzJpZ3RTT1I2eTZ0RUhHWVJrNklfUnBoY1NoNFBGSnJfVzJsdTlT?oc=5",
-      "source": "Page Six",
-      "published_at": "2025-10-08T07:00:00.000Z"
-    },
-    {
       "title": "Kim Kardashian and Sarah Paulson Go to Battle in ‘All’s Fair’ Trailer - The Hollywood Reporter",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcUk4bDdPUWxzVXAtYU9ONnY1SkQyWlc1eS15SVJKV0NpbEU4UU5vTVNfQi1vVkVSUkFvVmhKd1Fhbi1TUFhOWVZ6dmhSNFFjQjBkUDF3R2pyV2pMdVh3bWtwTnhYaEc2X2JLVWlxVFVlV0g4alNfSkZmRl9fUmtNUmU0VTFTVEdCRWJMdlQxQm9kNm1qMDRFQnhPSV9jWEM1OVVWRXdkZ0tOYTVJYXY4?oc=5",
       "source": "The Hollywood Reporter",
+      "published_at": "2025-10-08T07:00:00.000Z"
+    },
+    {
+      "title": "Even Kim Kardashian’s getting in on the showgirl fashion craze after Taylor Swift’s album release - pagesix.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNS3dXZlZ3RzB0Y2NsbjdDMVhiM3FacExrTkRscktEdjFOaEdoYWtRYm1TTVBvYUI4UzNxdnAxd0JYcTRGc0pkQWdESmJVMHRfMUdDeU84LWl6Smk4RmlHSHBKMDdqdHhfWHFtdVlXSjUzUzMtYTdvRG1HdExvMjZOS282YVk2bTZtc0M5eGJJaGx0SS1pbXBtbk84MUpQWktib2hXZlBqb29IQzJpZ3RTT1I2eTZ0RUhHWVJrNklfUnBoY1NoNFBGSnJfVzJsdTlT?oc=5",
+      "source": "pagesix.com",
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
