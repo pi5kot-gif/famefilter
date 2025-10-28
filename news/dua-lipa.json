@@ -1,13 +1,19 @@
 {
   "slug": "dua-lipa",
   "name": "Dua Lipa",
-  "updatedAt": "2025-10-28T19:09:52.626Z",
+  "updatedAt": "2025-10-28T19:33:45.242Z",
   "items": [
     {
       "title": "Review | The Radical Optimism Tour with Dua Lipa - The Santa Barbara Independent",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa0MtcEF4Z2o5LUh6OWtzYnoyYTZHdzFBMmhmaFFJbXF5T2pIX1B0ejU2ZDQ4SVlsTXBkemxsclo1MDdKOURvWGdWU2xYOGdYNG9BMTd6NTZ0aHBHTHFYbk1CZTV6WVRPZG81aVFBMjlRZkxnYU8yOEU5M3ZycXlUdmFrV2tvZkZSSUxQYXdob9IBlwFBVV95cUxQOXhNUnFkZU5UNDR5WmFSdUtpR3RNOVl6V0hhdG5RZDBpUG90UEM5aTlPQUhNYzhMZkRSbzMxa2dKbVRyUmRTeVJqcldEWW0zV2JwT0F1a1pOZlNxSVMxSmFQX3ZDZVhwcUkxZU9hSklmTWFsUEh5TmQxM1h3TTVOTGZ5RWpESzYyTVJ3eHNLa1Bhcld3SlZr?oc=5",
       "source": "The Santa Barbara Independent",
       "published_at": "2025-10-21T17:21:55.000Z"
+    },
+    {
+      "title": "Callum Turner reveals his meet-cute moment with fiancée Dua Lipa - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVW5vQktLbFRpU213cEhLcVdpcjdyRmRBMUtUcVdSeTI1am5fWWVabXgtTHpqVEJua0FpNU1XVndPRUNvSi0zMEtvYVR0TFJqTUJ6NHdReTZmdUpHNFdYek5vaW1wME9LRHR0YzJZZHNMRzJTS25RVTVNTUZkcnVxS3daUHhWRXBEeXdodWVPVC1qdGktS0hlTmhSXzNJNXEzajRiVldoa3dnRkxoalZXNVNHbDlmRnRDd041c3FKLUZZYmtr?oc=5",
+      "source": "USA Today",
+      "published_at": "2025-10-20T07:00:00.000Z"
     },
     {
       "title": "Dua Lipa on the 57 Cover Versions She’s Played on the ‘Radical Optimism’ Tour, From Green Day to TLC to AC/DC - Variety",
@@ -34,15 +40,15 @@
       "published_at": "2025-10-14T07:00:00.000Z"
     },
     {
-      "title": "Dua Lipa Covers Green Day Song with Surprise Guest Billie Joe Armstrong: Watch - Consequence of Sound",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOM2RGbFFXR1diai1xNlVITy1KdUEtdlVsY29VWTVLVy1sRVpXMnQ4Wjc1dG42TzNOWktZLURoOVFwamRKMzFaM25ETVZEcVZwSEU2bjZtMGNzYi1TSjNQM05lQVNQTTA2R1M5UEhCdXRPVl96el9ndUZ6clAwSy11TThZYVJ0QkloR2VxUA?oc=5",
-      "source": "Consequence of Sound",
-      "published_at": "2025-10-13T07:00:00.000Z"
-    },
-    {
       "title": "'I love this band for so many reasons': Dua Lipa brings out Green Day frontman at San Francisco show - SFGATE",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ0lNNy01eE95ZXM1UDVVSTNfRV9rcHduNDFFc3pOd1NNdm55MGZHa2diQ0VtMTZKdlNWRTFvUkFsQnV0ZXktMzA0U0hQR1NpN1E1eVpuNDZqTUIxekFIWm9ydEhlczVpQnNkZlYzLTZpSEFCeHN6YURLX2VKLTNzSnNpTE9sNFYwS05DckRqbkNjejlJcVZB?oc=5",
       "source": "SFGATE",
+      "published_at": "2025-10-13T07:00:00.000Z"
+    },
+    {
+      "title": "Dua Lipa Covers Green Day Song with Surprise Guest Billie Joe Armstrong: Watch - Consequence of Sound",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOM2RGbFFXR1diai1xNlVITy1KdUEtdlVsY29VWTVLVy1sRVpXMnQ4Wjc1dG42TzNOWktZLURoOVFwamRKMzFaM25ETVZEcVZwSEU2bjZtMGNzYi1TSjNQM05lQVNQTTA2R1M5UEhCdXRPVl96el9ndUZ6clAwSy11TThZYVJ0QkloR2VxUA?oc=5",
+      "source": "Consequence of Sound",
       "published_at": "2025-10-13T07:00:00.000Z"
     },
     {
@@ -92,6 +98,12 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTzE5ZkdhSXRkSHdrSVU5OHgtandNdHNJblFsQ0hCTFVwY2pnbEhfTkZwQkFLaTZablE3SFVSV0tlYXc3N2VkcTJYM0hxZmJIazhQQkNtS1JabHlpYktKU1F0VDZNdC1CY3lHcl9RaWNaTE12aXV3U29rWnB4RG5Gd19nZXh2T3U2eHY3Q0V2NEZRSExsajlvcnpCLWRFa09fNlE?oc=5",
       "source": "Rolling Stone",
       "published_at": "2025-10-08T07:00:00.000Z"
+    },
+    {
+      "title": "Concert review: Dua Lipa’s ‘Radical Optimism Tour’ has attendees levitating - Daily Bruin",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZU1HZ1VHQUFlYWphOXk2ZE9ONmxTM2tjd3N6OTFzYmEzZGRWMkJkc0RZbk1SWWQ2VVJETHF0T1ROcnJKU0ZKR0pQWmRyeFR5dVdKTzhFbnc3WjJFY0dTNGw0dHpKcEFaaEoxQjlQY3kyT1FLV3piSng3Zk9iRHdzMFk1WV9SSFNxT2Myc1ZiaGpaQzVWNEt0WG4yNndYXzNMU3UzR291Tno?oc=5",
+      "source": "Daily Bruin",
+      "published_at": "2025-10-07T07:00:00.000Z"
     },
     {
       "title": "Dua Lipa Brings Must-See ‘Radical Optimism’ Tour to L.A.’s Kia Forum - The Hollywood Reporter",
@@ -164,18 +176,6 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xTkRSYURRbFBkNUROcjhpX0FMNFBGamhab0gtLW1SY2JOM1VUWV9Tb2h4MUl5YmtlUnItYk5heU5OWDJsVnZxTE00NHo2RjVFNzYxNVctc1NiZk0?oc=5",
       "source": "Vogue",
       "published_at": "2025-09-19T07:00:00.000Z"
-    },
-    {
-      "title": "Dua Lipa recently spent a day off in the North End. Here's where she went - The Patriot Ledger",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeW1KREdkWW9TaTc0S3dnbUFRM3M4M0t4Y2ZNeV9TUUZObnVMeVU0ajkxeUhNWl9DWGI0ZWp0NVU5S3ZaTFVSNVFUbm15YVE1Nk1zZmNkSldOaFJIUjc4Q0NVNnV0Yi1USngzWWpIRHRaM2lQX20wdHlzUkdKb0hJZWZVc1l0RjhRblA1QUNGSWN4ZEZjWGF3bVdWNG83Zm5iVFpDX2N2LThROUxDUk54NFY0REZwZU5Ka3JQdUxxNzhMbEFuTlVhd25VQ1lzOHBFXzhMNUpaZTAwY3ZXOUE?oc=5",
-      "source": "The Patriot Ledger",
-      "published_at": "2025-09-16T07:00:00.000Z"
-    },
-    {
-      "title": "Concert Review: Dua Lipa wows Atlanta fans with dance-filled ‘Radical Optimism’ tour - Rough Draft Atlanta",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBhTTJkdHpmWlUzdURCSXdUNzdpLU40STFfRVV6ekRKNDRXZFJTLW1KVDVxVk9KV29kZ0tMcDBnd3JkMWp5bU4yZnktRHZVMGNyTDNzWUZRTC1hc0tFTkJadmsyb1lkaHZncHlVUkFlVW5YRDhxM0xJNGxKMXY?oc=5",
-      "source": "Rough Draft Atlanta",
-      "published_at": "2025-09-14T07:00:00.000Z"
     },
     {
       "title": "Dua Lipa Loves Love - Harper's BAZAAR",
