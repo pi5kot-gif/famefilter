@@ -1,14 +1,8 @@
 {
   "slug": "ariana-grande",
   "name": "Ariana Grande",
-  "updatedAt": "2025-10-29T14:13:10.620Z",
+  "updatedAt": "2025-10-29T14:43:09.901Z",
   "items": [
-    {
-      "title": "Law Roach Teases Ariana Grande’s Wicked: For Good Press Tour Looks: ‘Oh, Baby, There’s a Mood Board’ (Exclusive) - People.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVTBKRDUwQVIwQTVaWXlfc09yeXF3dmhlWnFWT1NtWkhUdE9jY2xwbHIwUmFUS3lfTk92elNBOE1xQUpDdHllalliR1NZTHZoUFFZLUd4U1F1bVlheHY5Q3M2ci12OVhFd3I0VUFZLU1sbHpVaERvVkx4UlpPMlZid3Rqc0l6Z3o3b0RDWkRuN0VIZGhiWmFNTW52LVRaN0x6Z1hXWVJqeVZWMENmZlE?oc=5",
-      "source": "People.com",
-      "published_at": "2025-10-27T00:30:00.000Z"
-    },
     {
       "title": "Ariana Grande Remembers How Madonna Gave Her a 'Warm Welcome' When She Got Famous - Rolling Stone",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMzk3cVVIVnFYbXJ6Tk84VkdKRUtyN3NOM3BtSGJvTW5YeTNMU1VHVlNwa0JKendVOUlTTU1IQjNiRjZkMmFma0E2NG1TNW56MnN5Y3A5SU16UVdNWWJrSXVORFRpckhLdE01VUw2V1h1STVpUkV1QmJqZUMtdzZQcEE5TllXS2RNZDVtdmJ4Ui1xZjlTSDliRGZXUk5DWG5qekMyUXg5TGI?oc=5",
@@ -38,6 +32,12 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42ODJpQUZnYkpJSkNZVk91cm1objlHSE5ibTd3NU1PVDBnYjJsZHhTUXI1QThFaVFWYk5TVG9fOG5KV3NOME41dDg3TDYzRTE0ZVBTRXpXTmFKX0xKUXNCdWpEbHlicUhCRl8td09EM0ZEUzVjanBOV2xn?oc=5",
       "source": "instyle.com",
       "published_at": "2025-10-22T17:27:02.000Z"
+    },
+    {
+      "title": "Ariana Grande’s Boyfriend ‘Feeling Small’ Due to Her Career — Source - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcjZWSU1TeUdQalZjZVlINmRvNG9NYm1fS1JKVHlTYTBhXzJkRjJHcHMyYXNjMUMzWEtfSlp2dHhWTWF2TGdnUU5udm85Ty12dXl0bDl2bFlfUURnMi11SnVUcVJwdC1jU0g1WWl4Z1Ixb0hNMFpPUEx2R1NOUHFGNUV4UlZfLVQ1VnV5Qll6RlhTVW5JcEtGSUlPUUdKdGR0SGFXenVxQ2Q3azg?oc=5",
+      "source": "Yahoo",
+      "published_at": "2025-10-22T06:24:00.000Z"
     },
     {
       "title": "Ticketmaster sparks outrage among Ariana Grande fans after canceling tickets - MySA",
@@ -112,15 +112,15 @@
       "published_at": "2025-10-01T07:00:00.000Z"
     },
     {
-      "title": "White House tells Ariana Grande 'save your tears’ after singer rips admin via social media - The National Desk",
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNTW5lamo5d3ZVOWVmSU95aVl5MzVncnNfWnVIZlA4bGhuS1pOVV8wOEdycEFpTlBEOXgwVXRrR1BBdW1kNXdTaFhEdGVETVhwRDlYdlZwMHNJU3p3WUhSOUpQT3AyMDFONzFFN2JpZkYxa2Q4ZENvUU9aRElWeGJxZS1JazVyN2k4SFdmT3BfWE43a3FXeFBJNTUtaWtxLVZPVVJzcDc5U2FXWW82cXg3R05kcmtBVV9SQmlYVjhKY0tqZ04xSWkwbThBN1JrdnZmNGh1VUlCUFdVWEZlcl9JazVOVmF6VmY2QWtJZXFZQU9USm1vV2J1cDdiR3dNcldLdlpJaWs1WkMycmRzTzRWVHc5aw?oc=5",
-      "source": "The National Desk",
-      "published_at": "2025-09-30T07:00:00.000Z"
-    },
-    {
       "title": "White House attacks Ariana Grande with her song titles after she shares criticism of Trump - MSNBC News",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR2J4Y2xrQ3JNdDM1Qm1TbWNNc1d3Q0hWWUJXVlhHMldyWUlueVNZZ2l3WVlvUTV0V2hmSXVDdDFBaVF3ZUlvTnBVSzFaZFlyWW9ENFM4U0E1UjVNMFhRZDdIYXJOMTRGZVAxN2RWNHliSlBQNnNCc016T3JPQzZQQW8wMElwemJOXzUxdm92d0FrZU8yS09SSTZjRnptbURUWFI5RGpHanFrd9IBc0FVX3lxTE1CUEstOEVhQU5oYi1sdkprUGl6bmRsTFNBNGRRSVQ4S1J0SVdWeDBVWTZVNFIxeWpiS2FUQWZyaDZPOHRHSWNSaXRCcDlNM3dlOEk4Mk1NM3dsbXdNa2p6cl9uMTE5TDFDdjk4c0ZCbnBLVlU?oc=5",
       "source": "MSNBC News",
+      "published_at": "2025-09-30T07:00:00.000Z"
+    },
+    {
+      "title": "White House tells Ariana Grande 'save your tears’ after singer rips admin via social media - The National Desk",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNTW5lamo5d3ZVOWVmSU95aVl5MzVncnNfWnVIZlA4bGhuS1pOVV8wOEdycEFpTlBEOXgwVXRrR1BBdW1kNXdTaFhEdGVETVhwRDlYdlZwMHNJU3p3WUhSOUpQT3AyMDFONzFFN2JpZkYxa2Q4ZENvUU9aRElWeGJxZS1JazVyN2k4SFdmT3BfWE43a3FXeFBJNTUtaWtxLVZPVVJzcDc5U2FXWW82cXg3R05kcmtBVV9SQmlYVjhKY0tqZ04xSWkwbThBN1JrdnZmNGh1VUlCUFdVWEZlcl9JazVOVmF6VmY2QWtJZXFZQU9USm1vV2J1cDdiR3dNcldLdlpJaWs1WkMycmRzTzRWVHc5aw?oc=5",
+      "source": "The National Desk",
       "published_at": "2025-09-30T07:00:00.000Z"
     },
     {
@@ -140,6 +140,18 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN0NGbDM3QU96SWpuenhOOE1OOFp3WnVPUVJNLVhycjAtUkROOFhfWElJaEU2d21LLTJaeUxocnhUeXNqSGZVMmtyVFFDSXRXOUlyaXR0VnlWNkIyQkZYcEJGRXRwaWJMNXRtZmNDaDd4RjFDeGZhQzhCTUtQYThMWV9TdnFEYVJDeUxxZXFaRFNLd9IBkgFBVV95cUxON1hMVzR0N0Q2VHlyX281R09oMlR1QnBiN2MxNWlHNHdEajVnZU43dWNnY2NIMElabjlQd2pEZkJobmdLNEtzd0NzY0htZjFlU1NvX3JMUDNVdVFHLXNzNkFUb1NSQUhTMHEzd1FtRW1YS2gzcWl3NzVJSTA1UVhoUHdicmJkSW1FRGpTMkVaaDRBdw?oc=5",
       "source": "TMZ",
       "published_at": "2025-09-29T07:00:00.000Z"
+    },
+    {
+      "title": "Ariana Grande Triggers Response From White House After Calling Out Trump Voters: 'Save Your Tears' - TheWrap",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ2RTTkV5Q2oxdTdvSFktaW1EdXBua0tIODZfaXpoenlIMmRybjBiRVRFRS1VRE1WelEyY2Q4OGhubERpVEVUNWZGWWhZbnRXakpiNnZ0aEU4UkdGS2lwTXJNbXVCLU1TVlVHTkxmQ1lobnNkZ0hEcVdzdUFKRGwzSlQ4V3NTWDRr?oc=5",
+      "source": "TheWrap",
+      "published_at": "2025-09-29T07:00:00.000Z"
+    },
+    {
+      "title": "Ariana Grande To Ticket Resellers: ‘It’s Not Right’ - Pollstar News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeVdqenVKZmx6cDZKMXFvcnpnWmI3NjdoTGtGOGYyOW4tX0hXU2pjb0sydEVwS3JiWEZ6OVR1ZWhsMmpNWnNXNFVkV2wyZFQtOUhWbl93UFZYbHVTdmt1STZNeEJBUjlGVXdIbko2N0pTa2RWZW5hWDUzZ2Y0dmZMc2RRM1RtRE5hOFE2MEtjM1J0cEZPZERFd2JwNkhTc1F1?oc=5",
+      "source": "Pollstar News",
+      "published_at": "2025-09-15T07:00:00.000Z"
     },
     {
       "title": "Ethan Slater Comments on 'Really Intense' Push for Girlfriend Ariana Grande’s Concert Tickets - ELLE",
@@ -164,18 +176,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LU2pLMmwtMDQ3MGFaOFNzV1VwNFBtelBmcXJOUzRQV2lOMGx6bHhpWDVUUVNrQ1FIdk5mTWY4c2VYTFlsSndmSDhCNXdGUnJWcmVnMl9BU1h1Vi1hNXllZ250YzFwb2pHWS1YRQ?oc=5",
       "source": "PAPER Magazine",
       "published_at": "2025-09-09T07:00:00.000Z"
-    },
-    {
-      "title": "How Ethan Slater Subtly Shut Down Ariana Grande Breakup Rumors After Skipping the 2025 MTV VMAs - Oprah Daily",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYkZibFV0YV92cmZwMUY5aU93UktfWWdRXzlxN1JGN3oyUTNuSFhCMUxtWVVUQkNoNFdBZU1tYWVZUThtaHNpbG1RSXJkYWtWbHgwekdneDdWUkZPQmk3Q2JhX1pRR2RRek1hdk4zS1gzeWo0RjQwekM2UEotTlAzOXJ1R2UxOEc2UDlIWkJnbnZHUlBBOWpyNHd6NFVNZUFwbUdtNFpxc0o?oc=5",
-      "source": "Oprah Daily",
-      "published_at": "2025-09-09T07:00:00.000Z"
-    },
-    {
-      "title": "Ariana Grande Breaks Free from her tour hiatus - Campus Times",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQXJ1eU54OTdwU0FlZm5YM0pfSTdZcjhBcG9DN21GSlV4YnN0N1FPaGJSWDlEOGc2Qmo2cC1QcnRzd3BRYS1QdWxmS0dvWURMUnlaWjFTUnhLRDhzV3puZE0yeTZ6MUxmZXRwa1ZGb2ZpZWcwZEdOYkVFajRkZmYzUUFlMS1UWEhVeVFCbEl1bw?oc=5",
-      "source": "Campus Times",
-      "published_at": "2025-09-08T07:00:00.000Z"
     },
     {
       "title": "Ariana Grande Announces 2026 ‘Eternal Sunshine’ Tour Dates - Variety",
