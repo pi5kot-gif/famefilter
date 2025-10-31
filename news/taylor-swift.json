@@ -1,7 +1,7 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-31T06:18:59.231Z",
+  "updatedAt": "2025-10-31T06:48:42.410Z",
   "items": [
     {
       "title": "I Tried Taylor Swift's Favorite Pumpkin Chocolate Chip Cookies and They're My New Go-To Fall Treat - parade.com",
@@ -32,12 +32,6 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBRaTUzc0YxRkhzd1JvWWNpdXNuaGZvX2VvQ2JOaFowQ3dTNHE3eW56dGdnbFdzcVJFRmd1azdMYmtxVHlDb1IwdFNmMnNZOVE0UmlRVmtvdVBRak4yRlZ2M2NfaUVXRl9ueDhGdFlJQjF3ckQtZ2VyTVFOOHBSQQ?oc=5",
       "source": "The Harvard Crimson",
       "published_at": "2025-10-18T07:00:00.000Z"
-    },
-    {
-      "title": "Fine. I’ll talk about Taylor Swift. - dailyuw.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xeTQwZXdyM0l4eEZ3Vk85S3ZYVkswNk1EZzlVeHRDWjVacTJmQVQtWWFXNll5TnRXdEpxRVF1T0xOenNMTFNDeC1QXzVLc1hVZnpWVVlBdlRIbHA2aEZJQ1lhNWpoQ2xHRk0xaGpjOXBtOEVTXzhsOG8yNTlRdzA?oc=5",
-      "source": "dailyuw.com",
-      "published_at": "2025-10-17T18:48:53.000Z"
     },
     {
       "title": "I Listened to Taylor's New Album 8 More Times and Maybe...I’ve Slightly Changed My Mind - PureWow",
@@ -148,6 +142,12 @@
       "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
+      "title": "Travis Kelce &amp; Taylor Swift Might Have Chosen a Wedding Date, Rumors Suggest - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ05NS0dfcXlBM0lvMEdCWVZkV2RQNVF1UUlwTWx0dEJWT0dWU0F0N29CMHhLSF8yU09xYkNEQjZibUdPdmpKQ1dya19zSGMtS1FQWWo0U3ppc0VxV21VRWFOTDZLdEN3UXhKemxNN1Z4ZGpqRm1NTjNOSzZ6amw5VkxTM0ozeTVhSXItVUR6aVdseXJmbzhQdUNhaHBhWG5KTUE0?oc=5",
+      "source": "Yahoo",
+      "published_at": "2025-10-06T07:00:00.000Z"
+    },
+    {
       "title": "Do We Still Like Taylor Swift When She’s Happy? - The New Yorker",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWTgxcWcxX21SamlFakFjQklweFJYNUdYblpDZndDSDRQby1vOEFCNnJEMG1xeDI1Y2k2LTM5cFpLbW9NYTdHSldHdHplWThkXzdLRXBKallnaEJJX1E3cS01Nzh1T1JoSXkyWG5xR29yTHl5cG9FWGhzUXR2c1RqU0hWcDhXOGZSQTd3TjhFSHNEaVV6R09ybklqWnM?oc=5",
       "source": "The New Yorker",
@@ -155,7 +155,7 @@
     },
     {
       "title": "Essay | The Misunderstood Genius of Taylor Swift - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxQdFlTZkM3WlJtaDA4LVI1OFNySzh2eWZOOHVUX3hlYXpDVEQ1dGhSbWcwaDlubEQzVDllUlZmclVHVnRlTWJzUEhJSW05ekl5U255Y0hseEpYbUlHSS1DY3R3WmpvdFZ6MlhfSEw4c0tDT2VZZ3dWR2NRUG85cXA1czVDUWdaNFNaSS12cTZUc1pzcTlOMjhwdnREUV85cUg0YUlsMlBxUVJHRUlVb0V4dXR3TkdRZW15X01DYzdlVWpFLVZienJMa2FHa0xKM0lCenZ1Q0RYa09vd3Nad2Z5M28wMy1YLUcyd2JHWXNfdk4wZUdPM3hrWG8wSTVLcTZ5WVdIMFNoaENJaGJBYTZrSTJsQUVLaXp6bzJaTmlMb1hSQlhkR2hfRU85ZWh6SFVxam9ic1NoUGRuajBZNUo4QS15VWhSNXBHbHpmMmpZb0lCN2ViWUFNaWlGS1EyekFDY0ZuX3ktU3U5T3JDX20yeThLQjR4WHV4MkF4Mk0zcENGeUE5enNGMHhQT1FmQ29KVWhVMlh5WQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxPc2xxbTNxNnZRdWRTQ3JaaGNKMmFfM3BlS3M3VWtsMl9GdG9uc2tpeHVpOTVyYUhOcU5ZclFFbWhmeHl2di1wc2liNk1jU01fVTE4UjkySTQ2cVAzaFZoYWJueDNmM2FaMGh2ZlN6N1Z2djdUb2tJd3RjVFJ6WlhJNEtINHFwQmNsbnhIbm5kU1pERUZ6MzFMMFFpblRyLWpwc1hHQTZyTkdMckFqcG94alRnUU5GTEI4cDczVExwd1g2bEUwbUNGdlh0UEJGVjk1NDRYemkyOGd0a19sbDR2cWpaM21QZ1BEM2haRm9BbkxqSXFrQUc5UF9scm5rbVd4OUUtUkppZFhWcFpLLW5kbWFpWXNpTC1raEM4WE54TlVHODQzZW1KSFNzYUZjS21Ra3JYb1VzMFlrcnhQak5ndHA5eUVRWmMzU1Q0d2k4VEJRZVZmaTJVTFQ2UlotYm4wVmtmWEtrVmR4UlUyWDY2TElBQ0I3VzhKQnRRYlVxclJITmdidG4xSVc0MW4tZklsMFhXRmlyRQ?oc=5",
       "source": "The Wall Street Journal",
       "published_at": "2025-09-25T07:00:00.000Z"
     },
