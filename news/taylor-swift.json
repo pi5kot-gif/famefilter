@@ -1,14 +1,8 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-10-31T05:13:21.794Z",
+  "updatedAt": "2025-10-31T05:40:02.979Z",
   "items": [
-    {
-      "title": "I Tried Taylor Swift's Favorite Pumpkin Chocolate Chip Cookies and They're My New Go-To Fall Treat - parade.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR1FSSXJrNVlyYVJDWmRZbXRtckIxaHc5OVFPZmhnOE5DY3NOeEJXRmN2Q1NINjR4V2phNUstMDN4dzdlWWdkc21zbWtFd2dqRkxSZVNab2h1a2hoeUtuY1ZleWVKZDFIY1pjZUxwUE9rRTdrcU0ybmlfa1lzZ1BBVnRlZUFZeTBveWxwemFjQkhWZjBr?oc=5",
-      "source": "parade.com",
-      "published_at": "2025-10-23T20:13:00.000Z"
-    },
     {
       "title": "Opinion | Taylor Swift’s Latest Reinvention Is Both Coarse and Conservative - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUklUUGd6QXktNV9KMHpLU2ZfZUxFN1V1eE1sS0NST25lMHAzd0hOQjVSYmp1Skl2V0VLTjliS3NhVklSa3V3bUZidnQwb3RoN2FiVjFoSnc5R2oycWdYcHFqS2ItdWY4MUp2NWdXeW1LZWRqUXFmY1luQnpDMks2N3F6elFQeGhUZlRWd3ZYRVc?oc=5",
@@ -37,12 +31,6 @@
       "title": "I Listened to Taylor's New Album 8 More Times and Maybe...I’ve Slightly Changed My Mind - PureWow",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZ0c5VFRuV3I4TVpTQlE3Y2FheTRDX0kwTjdqWUhGekwzQUZhN2tqVU9aLXpxY1RqWFRQbnd2UWRsMkJEMk9QMXlxQUJmX2xBcWlLamozU3hZMjRzWHdHWFBjVFpNU2k5UHFEZWQwQnVnZmlMQ1lYZUlST05iM3JMbnlqMlFyQVREMC1Dc0FqaFk?oc=5",
       "source": "PureWow",
-      "published_at": "2025-10-17T07:00:00.000Z"
-    },
-    {
-      "title": "Taylor Swift Is Our Biggest Cinematic Universe. But the Magic Is Fading. - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS2tYazNUM19ySzd2OWJRT2RCaExNUF85X0h6eW5yTWlaTjVGcUJuNkVxaWZjY1Y2YmFjemRUd2lkdFQ0NXptRmlQSHpNak5Ub1BuQTVxNnRFbGtMc0FoQmlBVDNiY3o0TmViRkVZb1FKc3d1S21XTmJ3aklNM2x3WTBDWFU0ZzA?oc=5",
-      "source": "The New York Times",
       "published_at": "2025-10-17T07:00:00.000Z"
     },
     {
@@ -94,16 +82,16 @@
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
+      "title": "Why Taylor Swift and Mel Robbins are so popular - Denison Forum",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa3BMNE51SXZ6NzBVWXlkNG5NS1J0ZDAyZDEwdWUxQy1vc1JadENWUC1icjBYbFlwWTNid25za09SeE1tbzg5cWR6SHNjNDFpNl85WlRNZXAxWG9FamhBOTB5WmxxR3I4ZHByOUx5VFlEckhMc1NGd1BTY0NMS1NPdzRDdWNUZExVUmlFTEk1bDdVMFRFcEE?oc=5",
+      "source": "Denison Forum",
+      "published_at": "2025-10-08T07:00:00.000Z"
+    },
+    {
       "title": "Review: Taylor Swift has Showgirled too close to the sun - The New School Free Press -",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0lPM29yeGtrMWZwQXNfWVdvNXljdnNjNXBjZUNMMzl5SUxOU0N6X2ZUS3kxQ2JXTHR0aHZwdnJyZmFhVnR2c1dGbDN0ZkZFaUxKMGwwWDU4aFFRT0F5b0lfZlhSOUZuaTFKaFBFellZb2lKajZLSExrd1NCa2lkcGNBRGhFTy15R09vby1LRHdqejJxaFl1dTVhNDY5dlI5ek92LXFwMWU?oc=5",
       "source": "The New School Free Press -",
       "published_at": "2025-10-07T07:00:00.000Z"
-    },
-    {
-      "title": "Taylor Swift’s new record unfortunately delivers profound mediocrity - The Tartan",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNU85Mm1WX0ppT2ItcTZfeGExUEZKVHZTRUd2ZnpsYVNjN04tcXVFd3E0RS0ycnBLcHE4Q1EzaWQtZXJWVXhYeXpDSmExcEUzZnQ4aUNWaW5QdHd3cjMyaWt1S0pWbk9MZkMzZFAyWHlJZ0d5NjlzZERCRW1HZXhyaXlpaVpLeDVTN1RSWVAwYjNvXzkxdDRkNERPSFJXV3JvNHJZXw?oc=5",
-      "source": "The Tartan",
-      "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
       "title": "In Which I Have a Thought on Taylor Swift and Her Latest Album - John Scalzi's Whatever",
@@ -112,15 +100,21 @@
       "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
-      "title": "It’s becoming clear: Taylor Swift has a bad language problem - Angelus News",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVMF9lWnMzMXEzSGd3R0N2Mmg1VlB0MXdWbzNVcTdfVDNDSHItSFFkMExUTm8yRGdpNWdyc0gxWkFCaHZWLWVCS1RjdWxDU2lpblA5MXk3V0l3N0szTU41RHJn?oc=5",
-      "source": "Angelus News",
+      "title": "Taylor Swift’s new record unfortunately delivers profound mediocrity - The Tartan",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNU85Mm1WX0ppT2ItcTZfeGExUEZKVHZTRUd2ZnpsYVNjN04tcXVFd3E0RS0ycnBLcHE4Q1EzaWQtZXJWVXhYeXpDSmExcEUzZnQ4aUNWaW5QdHd3cjMyaWt1S0pWbk9MZkMzZFAyWHlJZ0d5NjlzZERCRW1HZXhyaXlpaVpLeDVTN1RSWVAwYjNvXzkxdDRkNERPSFJXV3JvNHJZXw?oc=5",
+      "source": "The Tartan",
       "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
       "title": "RANT: Calling Taylor Swift MAGA is why the left loses - The.Ink | Anand Giridharadas",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GYUxCS09ydk9mcDhTWGVrdzBjSmJ1YXBUcE5YRVhja29QdnViOUVSaFluSGVnYURocmNxd3lScDNkbXpENE14SmExbTc2Y2p2QVZTQlRGQ28xMWlSRFRCQw?oc=5",
       "source": "The.Ink | Anand Giridharadas",
+      "published_at": "2025-10-06T07:00:00.000Z"
+    },
+    {
+      "title": "It’s becoming clear: Taylor Swift has a bad language problem - Angelus News",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVMF9lWnMzMXEzSGd3R0N2Mmg1VlB0MXdWbzNVcTdfVDNDSHItSFFkMExUTm8yRGdpNWdyc0gxWkFCaHZWLWVCS1RjdWxDU2lpblA5MXk3V0l3N0szTU41RHJn?oc=5",
+      "source": "Angelus News",
       "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
@@ -136,12 +130,6 @@
       "published_at": "2025-10-05T07:00:00.000Z"
     },
     {
-      "title": "Review: Taylor Swift’s “The Life of a Showgirl” wants to feel good, but other feelings keep getting in the way. Also, is this not the superstar who once encouraged all of humanity to shake it off? - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONmxtU3pwR2lxTnNidkpxLUhTUWtVeHVFVkpiWFhmeTBYbC1YTEtaUmZ4TlI4a0o3QUxGa3U4LXEyVjhGVlpMaW1xaEFUbU90ZjIxSkplbUhzN1ZnejZFUEtSRExRbjQ0cTdBY2tzVmFnU1JZdG1OVnpBdVVBai1nMzhUT0RhSjhndW14NkVqc0d4dHBWUTR5aEwyX0RndnA3eWYwTUdVS3JfcVlqTGk2OHItV1NEVWJBUnhncnhNSmh2dFl2REpZY1lsT2c0Z3UxelJSbm9GN0x6S0lk?oc=5",
-      "source": "facebook.com",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
       "title": "🎬 Taylor Swift Has Everything. But the Oscar She Wants - The Ankler.",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1mNnRtRGpVbnN2RlZYdmNwUXFvTk1FZGtRYkVKaDRlaC1ORlJySW9mSkRiazhWOHoxN3Z2OVF0ek4wZnZqNFZveTVsT2pwR2pTb2RmOTB6RnJqRUhEdVlrMXNlN3JVcjg0WUpn?oc=5",
       "source": "The Ankler.",
@@ -154,6 +142,12 @@
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
+      "title": "Review: Taylor Swift’s “The Life of a Showgirl” wants to feel good, but other feelings keep getting in the way. Also, is this not the superstar who once encouraged all of humanity to shake it off? - facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONmxtU3pwR2lxTnNidkpxLUhTUWtVeHVFVkpiWFhmeTBYbC1YTEtaUmZ4TlI4a0o3QUxGa3U4LXEyVjhGVlpMaW1xaEFUbU90ZjIxSkplbUhzN1ZnejZFUEtSRExRbjQ0cTdBY2tzVmFnU1JZdG1OVnpBdVVBai1nMzhUT0RhSjhndW14NkVqc0d4dHBWUTR5aEwyX0RndnA3eWYwTUdVS3JfcVlqTGk2OHItV1NEVWJBUnhncnhNSmh2dFl2REpZY1lsT2c0Z3UxelJSbm9GN0x6S0lk?oc=5",
+      "source": "facebook.com",
+      "published_at": "2025-10-03T07:00:00.000Z"
+    },
+    {
       "title": "I Don’t Need Taylor Swift’s ‘Showgirl’ Era to Be Kid-Friendly—Here’s Why - The Everymom",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mWFc4Y3dMd3FwdndoS2xfQkNyb3pVazJITlloZzl4VlpWQ0R2a1p5X2lPWWVxRUhwa0NmZ0lVcE55eW5oY0VkVjdYQTFWaTdOdGpuSEVDcWFQN2RTdlIxNVdiWDR2SUZjOEF4SQ?oc=5",
       "source": "The Everymom",
@@ -161,7 +155,7 @@
     },
     {
       "title": "Essay | The Misunderstood Genius of Taylor Swift - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxOSzU3NWkxRlE5VlppUnpwcURFZjhXaTFDTzRGXzFSQ2tDV050Q1ZyRUZqWldGbnVIOExXLUNybFRBbk5xRU1TSnh6VWhyVlBBTUpUajMtbGg2bHJxY2dYQ0RzQmxGd0R4X0gtYk9saWt3QUpteVZFcmJxeWx1LThEMVBBX3BmTmU2Zm4zMUZYS1Nnd1F5RDJRbnVqWk5ndDhKRTAzc2UxZ2Z6eEdjUzZnYVl3OWRQZXRtUTZHcjN6dkZtbnlpTU13UlpGam9JZGRhRm93bFZORklVZEFJOVZxMGxVRlNSTGtSS0YzQWRuaTB5clpuRE95dzE5VU1mMWZYOVNnZ1FidjU4cWszcC1ibGFOWkdDb2REbUp3a3VvWXkteUpHNU9nZmx2OUJwVFJQbjJpUTVxaWNTeVl6cFFyYXFXYl9XQmRJc1FiM3Z4cWEyT2J5UWEtcTA2Q1hucHNxcFVhemE2RWMtbkZNM0M4NlE1S3FpejVmQ2dCZzhCVDFULUtnbm1IZzlLNUw1YVg4SVBjUVQzVQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxQZEEwcXhTNFNSNjRqU1RrSVVjZ2dGeHk2VmdtcTBjdjVrOFZvU0tHd05oUlFGSDdoazRwaWtlZnFQcTlxS09kZVpDNlZvMWRkNG5oLTRVOG9zdUdRVlNMNnFtVHE0czRlbUxtRGlHN2ZsQXdHeDVnMHNXNUIzMFB4OW0wZ2t6MW5ra1Q4cmk5aHlGYm5xZ0ZSbkpBWkZiTDdxaS1IM0Zfa3BfaU1RU3RPZjV0d2hHanJxVUtsR2hwUjdrUS02YkRxc0oxMjBZQVUyb2x4NU5MOXZCOFdTVVZGSDBMUWVwVXdZcHlRczBmYUg3WnhMRkJWN2EwanVNRkhqU2pPRnlvNEhLVkFWRmYzRHBiVEpuR1lKVTBtR0NaZFZLVnpSdERiMlVtcEJfakN5YUJuYm9fS2RvTWxBTDZIbkhiTlk3M3lVMjAyWjRPdGFCS0RPWXNOejdyY0NEYzhhQV9iUUtiQmFVdDJxQzh6Q2RBdkl0NU51WW0xdDFUWVNyN2NYS09XdkJuYTRoOHhjdFRCMHE1cw?oc=5",
       "source": "The Wall Street Journal",
       "published_at": "2025-09-25T07:00:00.000Z"
     },
@@ -182,6 +176,12 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVjJEUE5jdEJ4TGV0Njl4cDZxY0Q0cGtJTE9qZXBZVmdtaW5xMjN5dEVaUlFFM2h3R3ZpMFlwNlVxbzJLdGdhTXhVallfVDQ5TzF0VURoNERfUjNacVIySG9SYi14UEtod2lHMmpITzJIVC12WkZfTlR6NzRtaDJZcGNoMVNtUWMzLUNNb1djVl9EcXNTRHZ2UF9n?oc=5",
       "source": "Vogue",
       "published_at": "2025-08-27T07:00:00.000Z"
+    },
+    {
+      "title": "Taylor Swift Reveals New Album on Kelce's 'New Heights' Podcast - TODAY.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORS1WSEVHSDRTSE1RSk9hbUxDempmUG9DLU5pWGRwTERmSEJDRzNJVEMzbFF4NmVGVEpHUFlKNXlwMng1V2x4eVZIQ2VvM3hPNHYybVZRbXRNOUhuaEdVR1JGMG0tQUE2Ymc3dGM5ZzJwTlRsdksxNm1YcFBBVWRFV3NvX0MtamN1TVZicnIwLUxYcG9QMVdFYmdZQlBka2ZtNm5sWtIBZEFVX3lxTE1KTzRYeDRHX21kWHFINVg5Z2l3SmFoSTB2QjBCRVdKXzQ3aWFPS1pSUENpb1VraEltcHQzbUxRSUY2RGpkcjl4dUlWVXJ1YklFME1MTHBCZmJFdFVnb1RBWHNBckE?oc=5",
+      "source": "TODAY.com",
+      "published_at": "2025-08-12T07:00:00.000Z"
     }
   ]
 }
