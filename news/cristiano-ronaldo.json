@@ -1,7 +1,7 @@
 {
   "slug": "cristiano-ronaldo",
   "name": "Cristiano Ronaldo",
-  "updatedAt": "2025-11-01T17:09:27.262Z",
+  "updatedAt": "2025-11-01T17:34:08.352Z",
   "items": [
     {
       "title": "Cristiano Ronaldo Jr. debuts for Portugal U16s in win over Turkey - ESPN",
@@ -40,12 +40,6 @@
       "published_at": "2025-10-22T14:40:07.000Z"
     },
     {
-      "title": "Erling Haaland Breaks Cristiano Ronaldo Goal Record With Latest Strike - Sports Illustrated",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNazhTM1ljdFZsYVhNOVBhcUNzblpyOEZuR0VQVHlvTk9nN1lEdXowWnl4OHJRME94Z2NlM3VveFUxN1dkcmhQYmRtSmJQaHZIUzhiU3g0WU1GRXRKam5MZ0VqRTBfTWR0eVk3Q2Z6TUYwbTBWdkM0YzN4MlYtSlI2V0dnRHA1OFVlVlZJTm9mRE96STZyU1E?oc=5",
-      "source": "Sports Illustrated",
-      "published_at": "2025-10-22T07:00:00.000Z"
-    },
-    {
       "title": "Cristiano Ronaldo's son earns first Portugal U16s callup - ESPN",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPc0xvZUE4eUxBWlBuMDdZbTFQbVRzVlZKa05XbUJJLWlRaS1vRk9KMTZTN0pqWk8wbTVtcEpLMlIxRjNfa2FXWUZFdlFzajJQOHEwUnQ3a2hKdU95bXZ4V1JCajZEMWZTOUE2dW96eVVVcHE5VkdwVEN4WTh6cTFhT3k1RVNta3V3WnQxX2hTYWd0ODV4d1E?oc=5",
       "source": "ESPN",
@@ -62,6 +56,12 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcHhMRGFQTnBjOUdPVDFEYUw4UHV3RW9pQXZCeng3bWg4XzdPSm5EOVlIelZpeE01Zm9OZS0wLVlwenpZcU5NXzhUQlJUT3NMUkV2Wno4OGV6ZWFRRXdwU3ZpQzRRSldMSTBtN3JsaHMzWE84OVVvWl9wNllPZHRSNWd2Nl9BME5mWlBEdDJBZDQ?oc=5",
       "source": "Sports Illustrated",
       "published_at": "2025-10-19T07:00:00.000Z"
+    },
+    {
+      "title": "Cristiano Ronaldo’s Fiancée Georgina Rodriguez Wears Bodysuit That Demands Attention - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU2theHpEN29nblpYVno1NW9VbnFSbk9vbFpSd1VLRWRkVVhGYnd4cmhsY2Myb2xFX0ZLRkJWRklhNm1RS0pmRmlrTE5SZFNjeko1NGUtQUtPc1B5U2RTYURrVHR4SDRnVUtUWFVoM3kzb2pMbVFIWlV2NG8xeHBCUm1JV0xxX0FwakhhT3lnVXV5YXJoUk9JbV9jZy0zRHRmX3dmS21pTQ?oc=5",
+      "source": "Yahoo",
+      "published_at": "2025-10-17T07:00:00.000Z"
     },
     {
       "title": "Ronaldo tops highest-paid list; Yamal at No. 10 - ESPN",
@@ -166,16 +166,16 @@
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
-      "title": "Cristiano Ronaldo Reportedly Becomes 1st Billionaire Soccer Player, Net Worth Revealed - Bleacher Report",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVW5EdHkxTnRKWHVuUE5EM2hqbFd2QkNjZ29ISDlCcWpmZjZSVDgzemVwSmJxQTNGUFpSbGpzNHgwYUY4UFpkVFdUYWNxbkdtM04xajVpNUg0NmVmYmpqQW9OTHpfUmtzX1hBM0lIeWpIeDlSU05MLVhncFVpaXdscHhkbE9hUkhadzBCd3lUVTJDVVA3UU1LMUQ0c2c2Ql9BNXh4SWRvV21aajN3cFJDT1JmZVR3NlZSck5fUzhqZU5tWnlFRVBsaDBR?oc=5",
-      "source": "Bleacher Report",
-      "published_at": "2025-10-08T07:00:00.000Z"
+      "title": "Cristiano Ronaldo hit hard: Vital Portugal teammate withdraws from October’s 2026 World Cup Qualifiers due ... - World Soccer Talk",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeGNMaHF4RXd5alBkU2doQlE1Z0h1V196RkJ5OEJLOGNXWmctWDFpbXNIdks5THhHS05VblNEbXlCQ3B3ejVyY1IyWXc3bUFqa2xRcTRNSkpKeWdZenlCZHl1MzZyYS00Qm83YVA4QW1ZeXZfMklDel9vNlE2bkM5ejdoUjNjQ1VuNE5fZGxIQzdiS0pEcnJZWXp0ZFozRXlBY3FCQ2l0ZHQteWI2RkMyb0tEdzhDTG9MeVFtSVIxQXNORm45dFE0dUs1M3phb0xSNXFYTFJvMEJuaEZHSHkxVS1n0gHnAUFVX3lxTE9UUTQycHFKOENWSmdrSXo5bGQwbTM1TFJqWjgtcFJPcEJDM25mWVdxeTVDQ3FzM3Z6b1M3VkttRkxFd1ZFTW43N19Td2VZUGllc3pGQkxnZGNNOHlxSnBmTVdHQmEzVUhrMnEwQnhtR292QXVGYXdvUVFsMEhIc0hEUUF0b3BfUWs3djJHZWg5T0JKZUpQTHZSUlh6UzkzRGdkeU9hamhhdThtWW82aUJ1WlhIMjZfZVRWTHhoNkpDLWp0SVJHQ1hURmdWalJ4OEtqRG5NeUY5Q3ZLa2dzLWtDY3RrejlBSQ?oc=5",
+      "source": "World Soccer Talk",
+      "published_at": "2025-10-07T07:00:00.000Z"
     },
     {
-      "title": "Cristiano Ronaldo becomes first billionaire footballer - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSjJ0ZHBvWkFsQTl3M0NXdW9HSTBZeTJnVGhhUnRnSng4TE1lUDRRbHdTWmc2YVRUcEMtR3MyQ2QyeFhiQnVXdXFvdXNTUWlBTHBfTVpmcnc4aE9sN2tDLUdIZTNiMW45SF9wSk56OHBjVVU1VnAyVVlpdzhER3dpc2ZfVkZaVUZzV0pHc000YVQ2U3hZaVJXdlRad2N5UdIBowFBVV95cUxORlFhZ0FiODdOT0R5TExIdWFlbjVsLTVMMjVPdFVDc1BOUlRHWGt5eHhuMkVYdkxjM19IM1RVemFFRHZZdHo0cmtNbkZwMVlRLUMzWlJTXy01LUI0TDM1NVMyVEh4d1lOM3NwS25EaUJYRmJEMHFmclNzS2VyM0FiTi1oVGl0VjhtcjVoWFZPaXNSdWF6SkI3VEFlREFLd0tqeG1Z?oc=5",
-      "source": "Al Jazeera",
-      "published_at": "2025-10-08T07:00:00.000Z"
+      "title": "Paul Scholes Reveals the Man Utd Game That Changed Cristiano Ronaldo - Sports Illustrated",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTkU4MTZxMWhLSXZGcTZocjlFRDJQQ2pOZUtLVmNjWGQ1TVNaSTJLYlBwWHRiVERHUjBSRXJrRzRRNS1HbUlnU3pNTEJRNVlLT3Fvay1GbVdidEd6MWl0STNrcURJWkZBZlhZT0Q2LWR1cUY4cFMyZk44VThMM21WbDdVb24xRG1aVldNU2RR?oc=5",
+      "source": "Sports Illustrated",
+      "published_at": "2025-10-07T07:00:00.000Z"
     },
     {
       "title": "Cristiano Ronaldo and Georgina Rodríguez announce their engagement - CNN",
