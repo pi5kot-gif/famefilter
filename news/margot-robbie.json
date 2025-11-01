@@ -1,7 +1,7 @@
 {
   "slug": "margot-robbie",
   "name": "Margot Robbie",
-  "updatedAt": "2025-11-01T05:38:17.374Z",
+  "updatedAt": "2025-11-01T06:16:33.100Z",
   "items": [
     {
       "title": "New American Psycho Movie Won't Gender-Swap Serial Killer Protagonist or Star Margot Robbie - IGN",
@@ -20,6 +20,12 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTGQ1eE41ejRrWmFNU3MwMGd3ZDlERkR6U1Q0Ums5VW1aUzJkeXF1QXVvaHJjdllISG9HcktLeVJGa3JxQ1AwOUt0ZmhRMGFCcUNSejVqUHE3bHJYMk1hTnNUMk5SdjdpamU0TGRzQXNISGFrWVBrVWZieEdaLXVwM19zakY0bFhRbHlMSWlFcFM1TEEzc29VU0t2UQ?oc=5",
       "source": "Collider",
       "published_at": "2025-10-16T07:00:00.000Z"
+    },
+    {
+      "title": "Bradley Cooper in Talks to Join Margot Robbie in “Ocean’s Eleven” Prequel - Motion Picture Association",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUi1EZ1lXSS02ZjZkYnRYZFJRNWJGVU5XYWozNmRYV3pHV3k0dUF6Z3U2STJ3cm5uQmJSTnlEZllqSTBsSWNYdVlvOTZtQzg5dWswb3ZsaWpXSTh0VFUwek5iTTYwTnp1bGhnVzRBeURyM3c1dVB3Yzg4WkJvU2tJMVFlSUVhMmNXdkk0MkRWQW42OTI4T0FQNEU0UHpERkNKSnJJTTBEYUhfdzJEVS13?oc=5",
+      "source": "Motion Picture Association",
+      "published_at": "2025-10-10T07:00:00.000Z"
     },
     {
       "title": "Margot Robbie’s Marriage to Tom Ackerley Under Pressure, Pair Have ‘A Lot Riding’ on Their Next Film - Yahoo",
@@ -50,12 +56,6 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYlR4UmdQRVBxS29SRkFUVEtVYWthc3dsZ2FUdGUxZ0N2Y0VNUmlVV045ZlJIcnBZUlhsWkpRSXpQZzY5VEFYNjlhaDdPM0VqYXUyOVF5YUVsYTBfS2gwdVRFYlZPN2Fwd01VemZUTGtNSWNkeGRlcjg0dVlJTTZKdGY4ZHN4anVnT2c0REo5cFFKSHc?oc=5",
       "source": "Numéro Magazine",
       "published_at": "2025-10-08T07:00:00.000Z"
-    },
-    {
-      "title": "At Chanel, Margot Robbie Let Her Bra Be the Star of the Front Row - Harper's BAZAAR",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUmszY3ZmdldIcF9uWHNnS25pNW51d2p3cm5lbm9Pb3YyWkRKcHVMMXpoVndIRGtBNHVsTm40a1ktQUstOWtiWVR6cGF3dlFYYklwaTYxaHlCRXhwTktmRTZpalhKTEF6Y3VQQWs3bElYNGhtbk1yd0VSbVZySFpqWWVKa0RDWFNFMW1sSHFFYnlvbzZHYTZxRU9FeHptdm81LXhaaUZFcHZqWUg5eGE2U2phLWxjLUNJZjZPSGcwWQ?oc=5",
-      "source": "Harper's BAZAAR",
-      "published_at": "2025-10-07T07:00:00.000Z"
     },
     {
       "title": "Margot Robbie Embraces Peek-a-Boo Trend at Paris Fashion Week - Sports Illustrated Lifestyle",
@@ -142,15 +142,15 @@
       "published_at": "2025-09-16T07:00:00.000Z"
     },
     {
-      "title": "Margot Robbie Stuns in a Sexy Gown with Dramatic Slits Before Changing Into a Little Black Dress - elle.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUEpXQzJUMFhrVGFnOXJlVG1hbWtvZm5TR2JXVWk0RWROVmRjb2VZYURVb2NmWUFwVU5vcG9tV0tLQnBPYk1ER1dPX2pOMEM1QWF3S3JMWFp5NEN4Y0IwNGl3LTRIYWp4eXZVZTl1S1RqMnJrNzVnSUVFcVFEbndQWVBIclpDcEhHZ1JaeERYNW9TZGhLekNPVU9QendvWFdCS3gtSk9zUC1fdURrUndOZFllVERnbHB3Rzh2NlZiOA?oc=5",
-      "source": "elle.com",
-      "published_at": "2025-09-16T07:00:00.000Z"
-    },
-    {
       "title": "Colin Farrell Shares Chippy Sandwich He Made for Margot Robbie - TODAY.com",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQY3Y3UWJSMW9lZ3REZUJfLUpGT2RrT09kSkNGc0tGdDJhOVJJaExBLUsyUERKR0dhb1pQMVdiVW1sODdQYTJxY2NTQ3BzX2o3ZEVZLVBKNUhXallLQWdJZmtoVHBqSl82aXJUMDJMZkkxbTRBMmR2QWw3U2FfSjZ0aG9ZT3dha25tMC1JZDJxMHczODg3cEhMWUwyaVhMU1FLR1ZWMG1B0gFkQVVfeXFMTklNelItdnBacklyVUEzb0ZFM3I0ckxsei02dXh2WVpDQmRTamFPT0s2dVFxSkhnWHdWRWF3VThpcEJRYlA5S19uVHMxOGwyeldTVThYZ2FUUUtZaXlILTVLUDhibQ?oc=5",
       "source": "TODAY.com",
+      "published_at": "2025-09-16T07:00:00.000Z"
+    },
+    {
+      "title": "Margot Robbie Stuns in a Sexy Gown with Dramatic Slits Before Changing Into a Little Black Dress - elle.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUEpXQzJUMFhrVGFnOXJlVG1hbWtvZm5TR2JXVWk0RWROVmRjb2VZYURVb2NmWUFwVU5vcG9tV0tLQnBPYk1ER1dPX2pOMEM1QWF3S3JMWFp5NEN4Y0IwNGl3LTRIYWp4eXZVZTl1S1RqMnJrNzVnSUVFcVFEbndQWVBIclpDcEhHZ1JaeERYNW9TZGhLekNPVU9QendvWFdCS3gtSk9zUC1fdURrUndOZFllVERnbHB3Rzh2NlZiOA?oc=5",
+      "source": "elle.com",
       "published_at": "2025-09-16T07:00:00.000Z"
     },
     {
