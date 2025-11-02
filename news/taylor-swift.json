@@ -1,7 +1,7 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-11-02T07:11:21.048Z",
+  "updatedAt": "2025-11-02T07:33:58.357Z",
   "items": [
     {
       "title": "Dan + Shay Cover Taylor Swift’s “Back To December” (A Rant) - - Saving Country Music",
@@ -26,12 +26,6 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwa2oxa2FfcDByUmxMd052Q0JlMEZwWmhnZmVVUUtyNURuQTZBUVRVRVphbjBFdzd2Qmx4aDN3OUx1eVZRdEE0LTltSk81d2pYdktLX2RLNjFWU1o1Y2tCeHVBNmtOS2FRc3c?oc=5",
       "source": "The Yale Review",
       "published_at": "2025-10-20T07:00:00.000Z"
-    },
-    {
-      "title": "Taylor Swift’s Hollow Gematria - Tablet Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcWJaNDVXeUd5OWE2RzZ5LVIyem5YVnp5YzVSSDlRU3Y0dFFVRnVKYWdDS3dIdWYxUTl3TEFoemVpQzEzNnFpY2hkT2hWMmh6ZU1zeTc2Q3ZUZnhkNDRldVF1WFNWczVOYVVTdzZjY29MdVAzdXh5b25IdV9jTlRGeENPRnpKRFAwcmc?oc=5",
-      "source": "Tablet Magazine",
-      "published_at": "2025-10-19T07:00:00.000Z"
     },
     {
       "title": "Harvard’s Taylor Swift Scholar on “The Life of a Showgirl” - The Harvard Crimson",
@@ -142,6 +136,12 @@
       "published_at": "2025-10-07T07:00:00.000Z"
     },
     {
+      "title": "In Which I Have a Thought on Taylor Swift and Her Latest Album - John Scalzi's Whatever",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ2dHbUFfR0g5dkMySGtUR1h5WDFrLWpSQ1RhSEl5Ym0tamxSaDVXTHMxVHBkelhsU1JEemdEZkVMTDNwSFRiYk14aHBmYkt4dUhjMlF1Y0VyNlBFbmg0ejBtdjNwazRQeHhjRTl1X0dkRjVQbElxaU5wa1phNW1iR0dFU0dDa09DaEIwbXRVcEYtOXdIYzc5alpmVXdPa0lGSlNhMg?oc=5",
+      "source": "John Scalzi's Whatever",
+      "published_at": "2025-10-06T07:00:00.000Z"
+    },
+    {
       "title": "Do We Still Like Taylor Swift When She’s Happy? - The New Yorker",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWTgxcWcxX21SamlFakFjQklweFJYNUdYblpDZndDSDRQby1vOEFCNnJEMG1xeDI1Y2k2LTM5cFpLbW9NYTdHSldHdHplWThkXzdLRXBKallnaEJJX1E3cS01Nzh1T1JoSXkyWG5xR29yTHl5cG9FWGhzUXR2c1RqU0hWcDhXOGZSQTd3TjhFSHNEaVV6R09ybklqWnM?oc=5",
       "source": "The New Yorker",
@@ -155,7 +155,7 @@
     },
     {
       "title": "Essay | The Misunderstood Genius of Taylor Swift - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxQemMxLXJjZDVxTU0ycFduMWQxeExWLUZlWjV1VDhBOGtKYTBmODFSYmpKMVFGZFlGS0tSTHZxRXppdS01VEpfZDJuUzNRUjl2QmQyMmwzVUZnTU10LTRTWmlPaWFmS19EOUNvZGFFR3VjZXFqQ1V3dnRCMFV5VXVWZjZadlRTYnpsT1ZkMk8yR0h5TkxNNFZ6R0xYRHRJajUxZHAwUG9uUFpRRTh2c2tyUkUzRUxrMXRiVk1GWHBCX2JaaUxmdU8tZGFraWFzUUdQOFVOTzBqTVpNWXk2d0hOa1ZmNFVEdFdESmFBMnoxUzlnSlNfSnJTbERpT3NBLVdWY2haWlBqUWM4clpyay1haEl6M3hnaHFHREZpS1RZaGRocXdnd2FuSUZOOFVyWFB3bjFWLTVqU3ZYMnZmTDdNS0dBOERzVWpMQzhrWkNxQUQzTG85RGlWQ1FUYU1PazVwcnVLSC1GX3lmN0g5eV9JU3ZDREo2WFpnX09vNFJoV3pmNmVlNTh0RlQwNy04MFI2NUNuNWVhbw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxOVmh0VzRrUFdsLXRaTmx5eVB5UW1tWnB3N2JmR0FIM0c1UnhUMXpvWDR6NWNDb2U3bVpWYi1xZzdINml6YkM0YWpwVDR1UDdxdC1xVDhBZENlOF9majU5aGstZzN6d2txaWE1MC1XSTlPTW0zTlBRN3hsZlFEaTNLWmlydjE4VGFHRjQ2M2RlLW1ZR2t0aTg1YmhUeThyMmRSdWp6U2lJekJCMEZMZTI5YVlGMFVRRWo0WXZIdTh1emFRcHpBaVNEUHMwQlFEMlJWcERjQU8zZV91X1ZESzRYMDRRWTFNOWlJQXpha2tPX3VnbmFBNkU4Umo3VFJ3eC1kVm1iamVIOXZmSWFCY21Xd3o1OHk0UmV5WXZQZjdxMDBkUHFxUG9jQ1NBY0F2alFUc0tfQ09NYzBoM0cteXF0TWZCanpHOEU1YUtmNF82aTQ1aWRZS0xrSGw4ZExRbWNkX1k2Q0tHcmd3S0sxc3UxOFNUZzNoeGJsNDlSSDc2TzlKQ3hsVjBmd2dlUXVsYkFZc2xuTW5ZMA?oc=5",
       "source": "The Wall Street Journal",
       "published_at": "2025-09-25T07:00:00.000Z"
     },
