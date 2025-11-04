@@ -1,19 +1,13 @@
 {
   "slug": "margot-robbie",
   "name": "Margot Robbie",
-  "updatedAt": "2025-11-04T19:10:06.357Z",
+  "updatedAt": "2025-11-04T19:34:01.579Z",
   "items": [
     {
       "title": "New American Psycho Movie Won't Gender-Swap Serial Killer Protagonist or Star Margot Robbie - IGN",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSFlFTnZKTHcyUnFXcVl4TnNoQzJsNVFvbnRzVm5WenBxbl9vTVVYdVFHcG5mZU5WTVdDbU9TdHZ1LTV3aW92ZzludWEwTnRsdENnbm9uTGQtUUR0T1ppMkZMUk5iVnBkRjlXcllJR1BidzFHdWJBOEpyN2p5M2NScWRSQXZ0QXpiSE1PQ016eFM0OU54U2h1dVZQM040eHg1M2NTeFZ4RGZ0WlMyQU9YR1pQcGRDTjZRU09z?oc=5",
       "source": "IGN",
       "published_at": "2025-10-28T19:53:21.000Z"
-    },
-    {
-      "title": "RUMOR: Margot Robbie to Star in Luca Guadagnino’s ‘American Psycho’? Patrick Bateman Gender-Swapped? - World of Reel",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TS0JhUFNBUU1UU0lmNzFzRlhDZ0h5RkxsckNyT0tsWjd1REI0MGV3bkNoQjFmdEktVjNNaUtfMUF1bm1GdjllajFBbkJjOEIyU1Zva0N3OGVMWHlNVm01aE5fQ24waUZKWnYyR2xHbDR3d3l2TGJqaFByQXl6Rnc?oc=5",
-      "source": "World of Reel",
-      "published_at": "2025-10-27T12:53:44.000Z"
     },
     {
       "title": "After a Disastrous Box Office Run, Margot Robbie’s Romantic Fantasy Debuts at Home - Collider",
@@ -37,6 +31,12 @@
       "title": "Bradley Cooper to Star in ‘Ocean’s Eleven’ Prequel With Margot Robbie - Variety",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdEZnbzkxaTUxV09lcmJ3RFd6LS1KWjNHTGMxWVM5bFc0WEc5aHowclRyVnJEb19ReWpQQzh4YjFzNmZGQ01FTlZQdERQaV9vbUdRTURqanJHdlpNcGlfRGl2UlppVzVGdTF2NG5QN3RHZExjVTNMWF8wMk5PcE9WdEF4U2pnWFMyeWs1LWhxcldtZVFwVHl4WWRSNkQ2QQ?oc=5",
       "source": "Variety",
+      "published_at": "2025-10-09T07:00:00.000Z"
+    },
+    {
+      "title": "Bradley Cooper to Star Opposite Margot Robbie in ‘Ocean’s’ Prequel - The Hollywood Reporter",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeWcxMFQ2MnFVSXNNQUxSNVBMdHQ1TkNyU01xQ3RQNU5LN1YweDRqZnlKTkdvSmxMMWVpdGFOLVl0dnRQcU9xc0p6Q3ZzcWhzdjVJY05NUkxIaWNzb21LUWNfNkpQeEVzelBnS0ZUUlF5dHVFd2xMNXpla09UZWVuLXRYbFdJaWxOYnZmR3VmTUxlOFlab0s1Qms1YlUyaE9xZTl6Sk43UXo3WUE?oc=5",
+      "source": "The Hollywood Reporter",
       "published_at": "2025-10-09T07:00:00.000Z"
     },
     {
@@ -160,6 +160,12 @@
       "published_at": "2025-09-15T07:00:00.000Z"
     },
     {
+      "title": "Margot Robbie Agrees 'You Should Be Careful' With Men Who Love 'The Wolf of Wall Street' | Video - TheWrap",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPV0RBX29TM3B3dWlMNVpkQjJaZ0lFendhS0hlZE9kNWJWS0x0ckxYZVRvX0xFX2VPZU1FOXJtYTkxdVMxTW1WMUtNd1ZKREdFUTJ4dWpXZkdYaVFwMlBhVDBvbFdCVnhoWGNkMFJCTGtGQlhWR0dZeDdMVGFKTmlvSjBJSWY5RXdkRFE?oc=5",
+      "source": "TheWrap",
+      "published_at": "2025-09-15T07:00:00.000Z"
+    },
+    {
       "title": "Margot Robbie Steps Out Wearing Her Riskiest Look Yet - E! News",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEbG9Tb2ZkMTBFb2s4M1hPSHRaQ0JHVkVzMWZ1Zkd5QTdrS0ZmZ09Jdzh3OU5EX2QtbEdQX3RjXzYzdnNBQ3RMZlJRcUg0aXB6OS1rVDhHaTZXWHBmUjBRZDItazdmMlNaVUNzcjhfUEx5UDdaZ0ppaTd3?oc=5",
       "source": "E! News",
@@ -170,12 +176,6 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTG53ZDNIR09jN3BTZjVERks1ZjZ1NUFXeEI5UVZ0djgwRXZYZkhxMkliRVdoUXZFdkwteUxCSndodXg1NUdoN0tsbGFKUnFETmpNWlRJSGVMTlQwMTZESGR5cFJiUVVyUUZkYkNtVXNDS1ZmSFdsTkJjWHNGbzVfOEhSbjdlX243dDJuV2FoTkhNV3VOMTFEb0N0cVp3dTFWNjhpWVh3M2pKY19teWZfZU1R0gGyAUFVX3lxTE5MbndkM0hHT2M3cFNmNURGSzVmNnU1QVd4QjlRVnR2ODBFdlhmSHEySWJFV2hRdkV2TC15TEJKd2h1eDU1R2g3S2xsYUpScUROak1aVElIZUxOVDAxNkRIZHlwUmJRVXJRRmRiQ21Vc0NLVmZIV2xOQmNYc0ZvNV84SFJuN2Vfbjd0Mm5XYWhOSE1XdU4xMURvQ3RxWnd1MVY2OGlZWHczakpjX215Zl9lTVE?oc=5",
       "source": "The Nerds of Color",
       "published_at": "2025-09-03T07:00:00.000Z"
-    },
-    {
-      "title": "Margot Robbie, Colin Farrell on a 'Hot' Harley Quinn-Penguin Crossover - Variety",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYnhHdW9NcjRnNFNKTkdqNERlTzdERWEtVDJEaUs0emQtZjVfQ3k3MXZmeHM5WGlwd1BJU0xZdGVwUjhxU2VHaUw3ekp3YlpOQTU2N3c2Ml9NSmNmT2d6bTNMS2lBYlU5V2NVblJ1LW9nNVFSd2puVDVFX0RyQXVlTVZQd0sxUkxwLXNVNGQ0QUlpN3lLSGFTcFlVc21oRW1LT3k3SmFpbVhvcHF2Q1UwRURkenoxa05CeWtGeFBJYTQ4WE1UUDZXU1RBZTZCZExiR01Zc202RjNVSmxjMlE?oc=5",
-      "source": "Variety",
-      "published_at": "2025-08-22T07:00:00.000Z"
     },
     {
       "title": "James Gunn Addresses Margot Robbie's Future In New DC Universe &amp; The 'Suicide Squad' Actor He Wants To Bring Back - Deadline",
