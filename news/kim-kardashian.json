@@ -1,7 +1,7 @@
 {
   "slug": "kim-kardashian",
   "name": "Kim Kardashian",
-  "updatedAt": "2025-11-05T09:41:23.405Z",
+  "updatedAt": "2025-11-05T10:14:20.156Z",
   "items": [
     {
       "title": "Kim Kardashian Says ChatGPT Made Her Fail Law Exams: “They’re Always Wrong” - The Hollywood Reporter",
@@ -20,6 +20,12 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnNIbUVhRFZGNGQyRVI3TlY4TXdORHY2MHJpSzBJR2xoY3d4b1RlY1BCRFQweUNnQ2pVTnZMSWVyX2pFamVLQlh0VERGVnJvY3A2QzlpWGVOekxsTy03dDhzNVVhc0xpTXI3dUNVaFNBcTd3am1rcm84MDFXTXlWWWJzc1BIWFc4NXZGUEFiZWx4eDJpdXFXQjJIYUFnRkZDSEZIZmktVmNtT1FzUGpaQXU4b0thUERrLVBubkN0ejczbmpCZ3ZyUHFVb0hkei1XcGRUMw?oc=5",
       "source": "The Guardian",
       "published_at": "2025-11-04T18:09:00.000Z"
+    },
+    {
+      "title": "Kim Kardashian Rang in Her 45th Birthday With a $7 Million Gift for Herself - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KUTBUcFEya09LaWpiTFZ4Q2dERG96bHRxUkZHSG9Jcy1zTTFEb0JtZkt3VHlucVpmbXZudGs1Q2tiYm8wNk56ZVdrOUZfTDFGWnhvQlFfaC1sOUlwcXUwbGkyWUVKenZYa0Y0MjQzdWhYZFI0Vk1mWHFNdl8?oc=5",
+      "source": "AOL.com",
+      "published_at": "2025-11-04T02:46:58.000Z"
     },
     {
       "title": "Kim Kardashian on her leading acting role in All's Fair - BBC",
@@ -44,12 +50,6 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcVR5c3J3ZjNYRk1ZMEwzdWlWT1VTb3lKMm4zcXRfc3hKNUNDM2JhTFZ5M1V1VkRmRnBaemlYNjNYZ2lYeGtlYmZSVDZKWXJPb1FmbEtid0tCYWktY3M4Z2Y0Sk4ySTRQWjFYMll5blEyeUctOE84MkttSHpqRHc4MmR2OEFFZmp2NTJ4RElZVDJpUQ?oc=5",
       "source": "Reuters",
       "published_at": "2025-10-31T20:54:18.000Z"
-    },
-    {
-      "title": "What Kim Kardashian Said About the Moon Landing - TODAY.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdjk2OXE5dGpqWnRPRmtuSnA4SnhUTlRZMl9Zd3djeXVTa3FOUGZKQk0wSXRMYmRzSHdGY3pyOWRWS05BZ2xPaW9HbnV4bTA4ckF4OWUzZ0pFZlNmckN2MGFIWGFfaUtwMHFzeFd6UGxFSjVFdFdCWmZuSTE5Ml9WZUZ4clNTZXVnRGNYeUhQcEh0Z21rcGRreWhGZzXSAVRBVV95cUxPTnR4azlmendQNkdxWjFCNDZhSzN3c3F4a2I2cHhZWUJWQWZMeGxkWG9RQ3FVUjF2QWZNeEt0Y19OVktCdzF1Y0VZeGJMTU5JbGxPdjY?oc=5",
-      "source": "TODAY.com",
-      "published_at": "2025-10-31T14:49:01.000Z"
     },
     {
       "title": "Kim Kardashian, We Have Indeed Been to the Moon, NASA Says - The New York Times",
@@ -97,12 +97,6 @@
       "title": "Kim Kardashian Doesn’t Know The Price Of Milk. Must Be Nice. - scarymommy.com",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNGp2cFZ3RzRtWHhlanJqOG03T0tSQ1NEWkllTHU2TENGd2VjZzJmaVpPcWExblBuczhQLVR3dFlTbW94YnFEYjZadzZVX2xTWVdBcTY4VmNzdmZXcGZWS3g4SDlVTzFtS2dYUXFQY0FsYnRvYlVsdmtIdGU5RTctaDY0NEcxMENsWGFfczhvQW4?oc=5",
       "source": "scarymommy.com",
-      "published_at": "2025-10-16T07:00:00.000Z"
-    },
-    {
-      "title": "Kim Kardashian Asks For 'Grace' After North's Controversial Outfit Choices - HuffPost",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbHozbnNEMnhHdzU0RzlSZUMzNHBkOFBNd1lwT19EZ1lXVHo0RmRBc0xoZ05yWElhVDBwbGRxcFBLTW9WaDU4aVdBRlJzN0FTLXBFYjBVVW9HeXcxdmItVWMwbWVsOExiaGFFRmxtbWVNeEVGcENwbnRHcXZ3WUhsOHJWQTdIWHJJRWdxVzl0c9IBlAFBVV95cUxQZUFjVTVjMU4yUUd3b2pMc0xoUWkyVm5KZ0dFMTdQVTdOS2tKOXAydzZ2OE1heGNmdkUzVm4tNUd6NTFsc0hTODRfN0REUzF3ODEyRjFpZk5jUWtVdDAzOTU5bGdNSlVZQTFTRU0wY2Y4VkRWdFlsR1RKd1llMWNwVnpJUEhCMV9JdnhjMmREVURWaUQ1?oc=5",
-      "source": "HuffPost",
       "published_at": "2025-10-16T07:00:00.000Z"
     },
     {
@@ -170,6 +164,12 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPXzJyWV80ZXgxUWxoRWcteGEtYlFIMndkYnFzcGhNOE9jRWNrb2hvRmtBMW5CR1BRaGE2b0RROERDZE9xTko4LUtOcExKa0hIR1J5ZGxGa1dielBwdXR5bE5xTHlEVGhzY041Nm9Mc3ZWMGt3Q1JNdHY0VVFKbFZIY0x2R19GakFUNExEQURFWERtUUNCYkl6Zjg3aS1Jdw?oc=5",
       "source": "instyle.com",
       "published_at": "2025-10-07T07:00:00.000Z"
+    },
+    {
+      "title": "Kim Kardashian’s Translucent Tube Top Leaves Little to the Imagination - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ01Nb21pR0FVRWoxY2dGWWZpZ1ZCQkl5eFZ1LWJaSEFQY1NUUjRxSjduSW91Yk5jOFBrWnBVTEN6eDhlYUN0d1phWEZZR0YteWl5c01XOXlhbklmZWVlMlZMYWNseDdCVlEzMThXRjQ5MmgzOV9lTW5PMGhmYkJGbEF1RnloSUc5WTFKa0cyRF9od3B0T0VmbllBczhqV2ZGRVJReWZ5Vlc?oc=5",
+      "source": "Yahoo",
+      "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
       "title": "Kim Kardashian Channels Mom Kris Jenner With Pixie Cut Hair Transformation at Paris Fashion Week 2025 - E! News",
