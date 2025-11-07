@@ -1,7 +1,7 @@
 {
   "slug": "scarlett-johansson",
   "name": "Scarlett Johansson",
-  "updatedAt": "2025-11-07T11:35:10.070Z",
+  "updatedAt": "2025-11-07T12:23:56.166Z",
   "items": [
     {
       "title": "Scarlett Johansson speaks on newly-directed Holocaust film - The Jerusalem Post",
@@ -40,12 +40,6 @@
       "published_at": "2025-10-20T07:00:00.000Z"
     },
     {
-      "title": "See Scarlett Johansson, Mark Hamill hit the red carpet at Newport Beach Film Festival - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcm8ycTgxa0xPZ1pNbS03X1R3ZmFCOGRGb3ZSS0dxdmN2cU9FVW9yOHBvSVZhRVlYbnNHNDFOQ3ZwNHZKYWZhaWMyR041MTJHQUtraHRtZUxrNWxYekNWREV1T0syTDhtT09lSUg3bXc1VDctREJWOFJZMzYzY2FIa1R5WkltcTl5LWtaOUhxYkJwOVZIeVUxVTA1T3FkNFYzMnItNEhDWlI2TVM1N2oyc0pHRzVLTVNmT21idkpCVHhXMUlyd2dNVm9Lc2YwSnU1ZGc?oc=5",
-      "source": "USA Today",
-      "published_at": "2025-10-20T07:00:00.000Z"
-    },
-    {
       "title": "Legends and Groundbreaker Honoree Scarlett Johansson’s Career: From Breaking Out in ‘Ghost World’ to Directing ‘Eleanor the Great’ - Variety",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY192Nk1UVUhGY29BT3J5dG0xQmpVVy1IWENsdDBFNERUN1kwRG5BbFMxa2wtTmFCaVZkZWhGSEdxN3BYMkpWZDFyZnFRWklsTmNTV19mUHNsdDlEN25hZEJYNi1wdm0xaG5fZGVKUkE5NkxQaXI2U2VpY25mSmVpU0RLOTRPWnNjTVZoWmN0VHZ2MTc1Zm5WNlZCOE1jWjdF?oc=5",
       "source": "Variety",
@@ -80,6 +74,12 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVWR1MmJMQkMwZTNTZmJReVFhQUtrdW9LLVh6Y1lIREtkancyMDQtZTI0TkpRZml0eUozajJpSG9FLW5SYlVPYlhwUHhzVm91d2dJOXpENEFsZlFTVDdGX1pfNUh2VXNBYkpLV2RGNE13bmtKbnNnZTZsSi1UdFRBNGF5ZlF6SE9JNXFYZ2Rn?oc=5",
       "source": "The New York Times",
       "published_at": "2025-09-30T07:00:00.000Z"
+    },
+    {
+      "title": "Scarlett Johansson on why now was the 'right time' to make her directorial debut - The National Desk",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ3UtM0dKekZPbmVHc2xQUktpS1RZWUtYaW9oeU13dzQyTlAzcV92Z0xUU3RjYlBHYXpKbDNuLWZQYmVfWkMzS2tic1VXSDNzUklSWGVXYnFqYlBDZm1nZWNadEU2VzFhbVdYaDBLRFpfR3NZS0Z2azJObzIzNDZBTm55V1ByOXVta0syVnBsSjRGaUlZYUYxYkt4b0ZpN0pxZEdibkFKOHZra2VvV25JUFlkY3NhWlB3NmhhcXJaWXIxNkE?oc=5",
+      "source": "The National Desk",
+      "published_at": "2025-09-29T07:00:00.000Z"
     },
     {
       "title": "Scarlett Johansson says her daughter, 11, is 'super-supportive' of her Hollywood goals - USA Today",
@@ -160,15 +160,15 @@
       "published_at": "2025-09-19T07:00:00.000Z"
     },
     {
+      "title": "See Scarlett Johansson and Colin Jost’s Red Carpet Rebirth at Emmys 2025 - E! News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYzVHeGtqRmJjT0xyNVhMNk0tSkliSTBHZzVWNTJWV1NHWS1FQk9HYVdNQkdqcVNVbUdodkhXZnpuYUJ5XzJNTnA0a2Z4SmNQYzVVWjdiMTlCTTJZVkdTcjVMcVZtdmdUVkYxWEs1clJrWm9Va3VGVE5WaWNTY2NwUUt4M0V0VmRZcFhNZGlvd3diNzVBZXVmYlFPYlE3SmM?oc=5",
+      "source": "E! News",
+      "published_at": "2025-09-14T07:00:00.000Z"
+    },
+    {
       "title": "TIFF Review: 'Eleanor the Great' is a Stirringly Effective, Emotional, and Entertaining Directorial Debut from Scarlett Johansson with Impeccable Work From June Squibb - Awards Radar",
       "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQWXlzMDV0Y251YUxfRUp1MnV3ZVl3dDlGU0pNWnpzNml5Um5LU29QRGRFWEFNXzJYbUcycTJWS0VzclUzTWlYaEtOeHVZcU5yemo1MDlVTXN3a3pubWFPVDhwa19iRExYQ2tFT3pjU0pJZE5KRmRuM0w3LVRIalpkblJ6a2s2WndfNnR3VVliUTczZXVDVHdsaGY0dk1aeXhyS3ZILUU4dVZVRll3Ymkwejd5QXN0SjlLN3FUNlZuUXRCbnVBelVBYUhuXzRHOEYtTmEyeVcwcUs0OG5IQlpNMTJKbnlVdVlWdi05bDBYRTAyVEFRVl9wUjFlMzFhdkFlaHMzQUZkUU96emM1UnZveFh6RlJDV3p5YmRwZXJKa04zQnk0?oc=5",
       "source": "Awards Radar",
-      "published_at": "2025-09-10T07:00:00.000Z"
-    },
-    {
-      "title": "'Eleanor the Great' Review: Scarlett Johansson's Directorial Debut is a Moving Meditation on Grief, Enhanced by a Sublime June Squibb - Rendy Reviews",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhM0c1eGdadkw3azZMR0tEczJBWE9rTEp3UFNmMkNtSVJmOUxCZThmRGw0VlEtM0V4UEV1TGtjYjhTWTE5Yk5ka2djWHBJbDJ2SVdNdFNMbkplR0xFS0JmUFNpNWdybmMwcmtVQzZYbVNfUDdiZnc?oc=5",
-      "source": "Rendy Reviews",
       "published_at": "2025-09-10T07:00:00.000Z"
     },
     {
