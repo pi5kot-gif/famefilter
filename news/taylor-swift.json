@@ -1,14 +1,8 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-11-07T06:49:04.699Z",
+  "updatedAt": "2025-11-07T07:12:31.004Z",
   "items": [
-    {
-      "title": "OPINION: The flop of Taylor Swift? - The Muhlenberg Weekly",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWk9kRjVoZjBnMTJndVVYREdPYVRtZ0JQV3YxVEFLV2RWMkpwX2k5aGxYemlHMVJ4NWRxUHpqbER5eGo0b1VZZk1xX0xIS3dTSmc1NlB6UU5sb2hKU2FqNm55Rk5SaEhzYVBEbFVNaXI4Y0ZGTXB0aldVcVZGdkJraDVB?oc=5",
-      "source": "The Muhlenberg Weekly",
-      "published_at": "2025-11-06T13:00:00.000Z"
-    },
     {
       "title": "I’m Tired of Hearing about Taylor Swift - The Bottom Line UCSB",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZGpUOE9vYzE2TzNMNDVzRUQtZ2JmNnZkdnlrYmRnUDVwcjVIcWVfMmFLa3prNTRBcnBzUXBLOEgyTmw5ZjZEcWozeTNVQXViRmtLN2hfZ2JQczhRUWlzZ3BhTU5tRzZZWmZ0azNCS2xqZEVGRkpQRzVzd1FxMmo5b3I5X2pLaW8?oc=5",
@@ -26,6 +20,12 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNa21WMXZpWnV6VDl2eGpSWG1xNlRkMWFlWmVWRHlOb0I3NVVYdnYzOXFGeTM1NG5SR1N3S3M5NnF0MjhWM0ZseWRWbTU1Mmoxek14OXV6MENIVlcyWm9HM005Rm1kTE5iNW9mbFVuY2lhOER4Tm82akNvdWdZZ2gxS204NzlIN1BhWlhuOUFMOUJYdVc5M1h5cVdyb01WcmpWRUtkbFB1LUZhU012NHJ4Y2s5aENJQ3pPYWlUY2FhT0FXdWljRUNLRkNtYUpWelFDa2hV?oc=5",
       "source": "facebook.com",
       "published_at": "2025-11-02T05:40:06.000Z"
+    },
+    {
+      "title": "Taylor Swift - The Life of a Showgirl - Northern Transmissions",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9UMk53bVhHRXVkYUtjbzdGRVhUSzdfSkJpbWx4ZE1RSDJCLWo2WndLN050NTQ3TzExU2h2NUVfM2FGS1VnRmg3M1ZOTVprcmgwak96VjhnRURFbnBFZFZqTEZJZXpkczA1eXpHQTZCRHUxTHhmZHZRQ3pB?oc=5",
+      "source": "Northern Transmissions",
+      "published_at": "2025-10-31T07:00:00.000Z"
     },
     {
       "title": "Dan + Shay Cover Taylor Swift’s “Back To December” (A Rant) - - Saving Country Music",
@@ -124,15 +124,15 @@
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
-      "title": "Taylor Swift Reacts to ‘The Life of a Showgirl’ Critics: ‘I Welcome the Chaos’ - glamour.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeEJFSzVrc21qVjF6YVhJdU43TWhRWTN1WEgtY0Y5RTZGOGF1MVl6aVRXNXhCN0JjekxRb1VWbnkxUF9xZ2hvQVRlNlJsaWN6Y0tfSzducTBiSG42LXR0NWpUSkd0WVdnVG1rZXdfVURCODZJQ2hQZ3duMFV4V09kYWNia0xJdjJ5TFhn?oc=5",
-      "source": "glamour.com",
-      "published_at": "2025-10-07T07:00:00.000Z"
-    },
-    {
       "title": "In Review: Taylor Swift, Jeff Tweedy, Robert Plant - Stephen Thomas Erlewine | Substack",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vOWI1VndRRUNuZGtSNDFDY3RjYXlBLWl4Ujl3T00tRjUtZFhBTEM1ZHlVaVo5RU9KYW0zcHBlWnlTTmNkWE00NXlzUTFHT0dEV3BlS2lHandoRzEtelJtdlltVlotWFlmZEo2dkZnWXotb0RYY1JZ?oc=5",
       "source": "Stephen Thomas Erlewine | Substack",
+      "published_at": "2025-10-07T07:00:00.000Z"
+    },
+    {
+      "title": "Taylor Swift Reacts to ‘The Life of a Showgirl’ Critics: ‘I Welcome the Chaos’ - glamour.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeEJFSzVrc21qVjF6YVhJdU43TWhRWTN1WEgtY0Y5RTZGOGF1MVl6aVRXNXhCN0JjekxRb1VWbnkxUF9xZ2hvQVRlNlJsaWN6Y0tfSzducTBiSG42LXR0NWpUSkd0WVdnVG1rZXdfVURCODZJQ2hQZ3duMFV4V09kYWNia0xJdjJ5TFhn?oc=5",
+      "source": "glamour.com",
       "published_at": "2025-10-07T07:00:00.000Z"
     },
     {
