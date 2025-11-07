@@ -1,19 +1,13 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-11-07T20:37:09.530Z",
+  "updatedAt": "2025-11-07T21:08:57.576Z",
   "items": [
     {
       "title": "I’m Tired of Hearing about Taylor Swift - The Bottom Line UCSB",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZGpUOE9vYzE2TzNMNDVzRUQtZ2JmNnZkdnlrYmRnUDVwcjVIcWVfMmFLa3prNTRBcnBzUXBLOEgyTmw5ZjZEcWozeTNVQXViRmtLN2hfZ2JQczhRUWlzZ3BhTU5tRzZZWmZ0azNCS2xqZEVGRkpQRzVzd1FxMmo5b3I5X2pLaW8?oc=5",
       "source": "The Bottom Line UCSB",
       "published_at": "2025-11-05T00:45:53.000Z"
-    },
-    {
-      "title": "Taylor Swift's 'The Life of a Showgirl' Songs, Ranked - Dallas Observer",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdkV2VV9hN2FlemhiNklocjVSNV83Q2ZEZ1VleWUwTVl6S281bHRDcXFOeEFLdjk5YWlkYkNqanVoT1N5eDA4MF9JbzNfcEoyM1ByZW1xd2t4UDI1MzZFWUcwYjYtYkpTUFhwOUYwZk9ndHlBRkpZck1oMlk4WEJDOHRhWFhfcWxSbElCbEQ2S0VWbm83TFFrb2R3a2R0MnRpa2pSdkNMZl9pNUpLdVE?oc=5",
-      "source": "Dallas Observer",
-      "published_at": "2025-11-03T22:58:28.000Z"
     },
     {
       "title": "It sounds impossibly daunting: Choreograph a music video for Taylor Swift that dances through hundreds of years of art, movie and theater history. Make it all look polished, yet effortless. But Mandy Moore was undaunted by the “Fate of Ophelia” video. - facebook.com",
@@ -56,6 +50,12 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBRaTUzc0YxRkhzd1JvWWNpdXNuaGZvX2VvQ2JOaFowQ3dTNHE3eW56dGdnbFdzcVJFRmd1azdMYmtxVHlDb1IwdFNmMnNZOVE0UmlRVmtvdVBRak4yRlZ2M2NfaUVXRl9ueDhGdFlJQjF3ckQtZ2VyTVFOOHBSQQ?oc=5",
       "source": "The Harvard Crimson",
       "published_at": "2025-10-18T07:00:00.000Z"
+    },
+    {
+      "title": "Fine. I’ll talk about Taylor Swift. - dailyuw.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xeTQwZXdyM0l4eEZ3Vk85S3ZYVkswNk1EZzlVeHRDWjVacTJmQVQtWWFXNll5TnRXdEpxRVF1T0xOenNMTFNDeC1QXzVLc1hVZnpWVVlBdlRIbHA2aEZJQ1lhNWpoQ2xHRk0xaGpjOXBtOEVTXzhsOG8yNTlRdzA?oc=5",
+      "source": "dailyuw.com",
+      "published_at": "2025-10-17T07:00:00.000Z"
     },
     {
       "title": "I Listened to Taylor's New Album 8 More Times and Maybe...I’ve Slightly Changed My Mind - PureWow",
@@ -112,9 +112,15 @@
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
-      "title": "In Review: Taylor Swift, Jeff Tweedy, Robert Plant - Stephen Thomas Erlewine | Substack",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vOWI1VndRRUNuZGtSNDFDY3RjYXlBLWl4Ujl3T00tRjUtZFhBTEM1ZHlVaVo5RU9KYW0zcHBlWnlTTmNkWE00NXlzUTFHT0dEV3BlS2lHandoRzEtelJtdlltVlotWFlmZEo2dkZnWXotb0RYY1JZ?oc=5",
-      "source": "Stephen Thomas Erlewine | Substack",
+      "title": "Mama, Let’s Go Back to the ‘Folklore’ Cottage - 34th Street Magazine",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPa3JVNldSY0FQTHBVUmpHRkRiTVA4ZXN2VUFLUDI2bEltRmMzOE1tUlFTU3JhZHEwcVVUdjlSQTlRcG5QNGJxRDg4MERxa2o0VjdJOE9ZX3VUVURpUTR2Wjh3VzluYlg3NjQtblNZVTZEVzc5RG9QMDM4MUVWYk1RdzJsZlBRN01YSzE2WHFTbHRsTTNRMEhoZ3MyaGFXQQ?oc=5",
+      "source": "34th Street Magazine",
+      "published_at": "2025-10-08T07:00:00.000Z"
+    },
+    {
+      "title": "Review: Taylor Swift has Showgirled too close to the sun - The New School Free Press -",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0lPM29yeGtrMWZwQXNfWVdvNXljdnNjNXBjZUNMMzl5SUxOU0N6X2ZUS3kxQ2JXTHR0aHZwdnJyZmFhVnR2c1dGbDN0ZkZFaUxKMGwwWDU4aFFRT0F5b0lfZlhSOUZuaTFKaFBFellZb2lKajZLSExrd1NCa2lkcGNBRGhFTy15R09vby1LRHdqejJxaFl1dTVhNDY5dlI5ek92LXFwMWU?oc=5",
+      "source": "The New School Free Press -",
       "published_at": "2025-10-07T07:00:00.000Z"
     },
     {
@@ -124,15 +130,15 @@
       "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
-      "title": "Taylor Swift takes Pittsburgh Targets and theaters by storm - The Tartan",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU2hxa00yVW9iR3JWY1VNZmp0ZDZRbW5jNFBVc1ZvdHpTN3VKM1ZaWjR2RkZNUjZVdXlhdmotVVlBZ2tEWkdxcEdoeE16RmFGT3BXWE9DYUgzV0xBRk9JMFNGbm9DRWV0S2RrS2hYZG5vNWlQcXhpS2I4cGREc0lSQUwwVlY4eE1WbkpVVHoyNFM1RC1LcUF4WnNB?oc=5",
-      "source": "The Tartan",
-      "published_at": "2025-10-06T07:00:00.000Z"
-    },
-    {
       "title": "RANT: Calling Taylor Swift MAGA is why the left loses - The.Ink | Anand Giridharadas",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GYUxCS09ydk9mcDhTWGVrdzBjSmJ1YXBUcE5YRVhja29QdnViOUVSaFluSGVnYURocmNxd3lScDNkbXpENE14SmExbTc2Y2p2QVZTQlRGQ28xMWlSRFRCQw?oc=5",
       "source": "The.Ink | Anand Giridharadas",
+      "published_at": "2025-10-06T07:00:00.000Z"
+    },
+    {
+      "title": "Taylor Swift takes Pittsburgh Targets and theaters by storm - The Tartan",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU2hxa00yVW9iR3JWY1VNZmp0ZDZRbW5jNFBVc1ZvdHpTN3VKM1ZaWjR2RkZNUjZVdXlhdmotVVlBZ2tEWkdxcEdoeE16RmFGT3BXWE9DYUgzV0xBRk9JMFNGbm9DRWV0S2RrS2hYZG5vNWlQcXhpS2I4cGREc0lSQUwwVlY4eE1WbkpVVHoyNFM1RC1LcUF4WnNB?oc=5",
+      "source": "The Tartan",
       "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
@@ -154,15 +160,9 @@
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
-      "title": "I Don’t Need Taylor Swift’s ‘Showgirl’ Era to Be Kid-Friendly—Here’s Why - The Everymom",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mWFc4Y3dMd3FwdndoS2xfQkNyb3pVazJITlloZzl4VlpWQ0R2a1p5X2lPWWVxRUhwa0NmZ0lVcE55eW5oY0VkVjdYQTFWaTdOdGpuSEVDcWFQN2RTdlIxNVdiWDR2SUZjOEF4SQ?oc=5",
-      "source": "The Everymom",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "FEATURE: A Curious Outsider’s Guide to Taylor Swift’s “Life of a Showgirl” - Ghost Cult Magazine",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVlZkYW9idkNaQVhjQS1COVdGT3hlZFV6UkdocGFIOVA2cFZ3c0hnLTNaNkhlSDBnTk95TXJnUVJiT3REeDdTUWkyb1d3N0t5VFZsQ0lZWEJkTVJQeDhUWW1yeTZqcVVXbHRndFMtRVpERjZXdDNwYVFuc2lMM1o0RnE0el9vU0N0VEhJTW40djV0aUNfY3VWTnFHNA?oc=5",
-      "source": "Ghost Cult Magazine",
+      "title": "Review: Taylor Swift’s “The Life of a Showgirl” wants to feel good, but other feelings keep getting in the way. Also, is this not the superstar who once encouraged all of humanity to shake it off? - facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONmxtU3pwR2lxTnNidkpxLUhTUWtVeHVFVkpiWFhmeTBYbC1YTEtaUmZ4TlI4a0o3QUxGa3U4LXEyVjhGVlpMaW1xaEFUbU90ZjIxSkplbUhzN1ZnejZFUEtSRExRbjQ0cTdBY2tzVmFnU1JZdG1OVnpBdVVBai1nMzhUT0RhSjhndW14NkVqc0d4dHBWUTR5aEwyX0RndnA3eWYwTUdVS3JfcVlqTGk2OHItV1NEVWJBUnhncnhNSmh2dFl2REpZY1lsT2c0Z3UxelJSbm9GN0x6S0lk?oc=5",
+      "source": "facebook.com",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
