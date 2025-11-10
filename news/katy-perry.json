@@ -1,7 +1,7 @@
 {
   "slug": "katy-perry",
   "name": "Katy Perry",
-  "updatedAt": "2025-11-10T10:43:55.334Z",
+  "updatedAt": "2025-11-10T11:11:04.878Z",
   "items": [
     {
       "title": "Katy Perry's new single puts a 'bandaid' over her past flops. Is she healing? | Opinion - USA Today",
@@ -14,6 +14,12 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVFBfQnJBbXdZYnNPSTNGZjhXNENGTG5PQmtnWEpycl9fOTZjdGJoTjByT3ljQm92NDJuVy1kX212aVNsR3ZheXpvTHN0YUlCOFM1OWJBNmxXNjZYWkN2SHZZNkdUZ2VTUnJNY0NtU0REeDQtazg5Y1pJTUVMZzlVaUVNM1RWaDZMTHhIS2pwRmR2UlZSZHVuMVF2Rk1ab2R2ejhNTG92dUphZw?oc=5",
       "source": "billboard.com",
       "published_at": "2025-11-09T22:40:24.000Z"
+    },
+    {
+      "title": "Katy Perry hints at reason behind Orlando Bloom breakup - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSUFzN0drcjlKeUtoYmUtSzRyOEkwVWhoXzlEZWkzTmNtZmhodVkwQVR1QjZlLUxPejh3ajZZdFV0dXdZS2dQVkl6NjJqQUtqRndrV2RLNTI2X016Y2cya056X3F6V1psVFA2S1k4bGFRWkl2UVYwUGhqWEhXcXVVWXp4bFFrQllPSmpz0gGQAUFVX3lxTE9rSzhiS1lLRWlpcTR0cVNXd2dvQmNPN2dqbl9vZ0JyTWdxX2t5dVdTVUljbENwV19mcTJKQ0trZE1hRHNuRWR6U1Z1Vjd3SU11Wmw3RFhDSGtFeldfTjQ5VzE3NzAyRnlINlJoQ3Uxclp3ZlM1amVTbXVDcERmd2NRbHFGaHpjS3JHSnBRSm9teA?oc=5",
+      "source": "Fox News",
+      "published_at": "2025-11-07T17:33:42.000Z"
     },
     {
       "title": "Breaking Down the Lyrics to Katy Perry’s Orlando Bloom Breakup Song, “Bandaids” - Cosmopolitan",
@@ -70,15 +76,15 @@
       "published_at": "2025-10-27T07:00:00.000Z"
     },
     {
-      "title": "Katy Perry and Justin Trudeau pictured holding hands at Paris event - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85MjFjNFBrY0VUVFVRQ2VlVlhBS3I3UVhtOTAwYmdGaXg5VDNlNkZlZFR1VHVhT2tmWktQckNDYmdGUUZzWFJqVEJwczJDR1VuUENXLThQeU9BZ9IBX0FVX3lxTE13dWdBd1Z2Tk9YX0I3TWtYcU4xcVJ1bGRNci1CdFlLc3g2c2RRN29XZkZZUEZxY3VGS2lKQmVuUWxTZ2pUQk1WcXZQcWc3Y0FlS3VHaDJQdnp6b05icEs4?oc=5",
-      "source": "BBC",
-      "published_at": "2025-10-27T07:00:00.000Z"
-    },
-    {
       "title": "Katy Perry and Justin Trudeau are ‘officially dating,’ everyone has decided - CNN",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYmRfQTNIWmwxT2xTalotbjB3aEdrdlBmRG1BbERvVHl3azJSbVE3RF9RcFlnSzJKWVpvSGswZTVHam05ZzhZMlI2ZmFkZFBqcmJTWDFxUWJMOU92OExRYWc0dnMyQUdtalk2TEtzMVM4M1pNM001bnJKLWtqeF9qNUJVNA?oc=5",
       "source": "CNN",
+      "published_at": "2025-10-27T07:00:00.000Z"
+    },
+    {
+      "title": "Katy Perry and Justin Trudeau pictured holding hands at Paris event - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85MjFjNFBrY0VUVFVRQ2VlVlhBS3I3UVhtOTAwYmdGaXg5VDNlNkZlZFR1VHVhT2tmWktQckNDYmdGUUZzWFJqVEJwczJDR1VuUENXLThQeU9BZ9IBX0FVX3lxTE13dWdBd1Z2Tk9YX0I3TWtYcU4xcVJ1bGRNci1CdFlLc3g2c2RRN29XZkZZUEZxY3VGS2lKQmVuUWxTZ2pUQk1WcXZQcWc3Y0FlS3VHaDJQdnp6b05icEs4?oc=5",
+      "source": "BBC",
       "published_at": "2025-10-27T07:00:00.000Z"
     },
     {
@@ -170,12 +176,6 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVTlUc1VqcWdtNTdESjNMVkFOY3YxMXJ4Ql9HYzdTUXdteDVqT2tWT053UW9PYjlLZXlNQWdWSFp6b3J2a0xISEtzb3dwdWNHU0xZNE5wUkhTT1JlZEd2SV9pN0xLQjN5aEhuRVNUQVRuVWh2a2JjczVhVE5Ra1c4NldIRzg1YWRwbXfSAVRBVV95cUxQcjdFemk2UUFIZ3VWVmN0c2Z6cDVBZDFLSUFTbDFqUEt1aVhQVGw0dG9Pc1N5V1BhNzJia2huaFkwNHVhOTZkSFF2QVJidHVfYURtVUQ?oc=5",
       "source": "TODAY.com",
       "published_at": "2025-09-05T07:00:00.000Z"
-    },
-    {
-      "title": "Inside Katy Perry and Justin Trudeau's 'wonderful time together in Canada' - KFOX",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQUhadkpyZlZIMC12RVgySktySThmcXhjWTJNblRLbVdiV1I0OVNfR2ozOWlwM1hLWXRhdlNnb1lyeXBhbnA0SmZ0SmFEcTF0UTNtWDlPcm51RGtWQjBTS3ZUbWdFQW84OENJZWY2dXk5eXZwSEZ4UzRDc1lxR05Mdi1XY0FuLWx0bFFQMkdYNU8zNUdVTi1PdEhPUmt2akFaUDd4aQ?oc=5",
-      "source": "KFOX",
-      "published_at": "2025-08-28T07:00:00.000Z"
     },
     {
       "title": "Review: In Tampa, Katy Perry marvels in complex and demanding concert for 14,000 fans - Creative Loafing Tampa",
