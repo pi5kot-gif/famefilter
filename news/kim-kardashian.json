@@ -1,8 +1,14 @@
 {
   "slug": "kim-kardashian",
   "name": "Kim Kardashian",
-  "updatedAt": "2025-11-12T14:13:39.763Z",
+  "updatedAt": "2025-11-12T14:42:54.297Z",
   "items": [
+    {
+      "title": "Kim Kardashian’s Skims Is Worth an Extra Billion Dollars - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNby03MjJ6YWRmeE1KNzFSNC1JZ0lNNWNlVmhDVi16cGRIMUxEdzBjSHQ5Vk1qOFZZUWhBWVBvT0hqQTY5SGg1amxRWWM3eFNDTDJqcjhuTWJpY011OGxHTjJsNXQtbERPMGtid0w1cTY3dW0tVDR0SkZldWRZYWtlUkxKVy1CUG51aEdCbklOeU16TDc2dzFJbUttcWhPd3c?oc=5",
+      "source": "The New York Times",
+      "published_at": "2025-11-12T13:10:40.000Z"
+    },
     {
       "title": "Kim Kardashian and Kris Jenner Delete Photos with Meghan Markle and Prince Harry from 70th Birthday Party - People.com",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYXozSzVXQ2hfVXRURy12aU9RU21COU1Td0VjVzVyUG5lcUQ0ZnItSEFsdGZfTF9zQVp4WmFvT2ttVlVDTURpRnAtQkN6VUdvanQ0WUYyV3VJZVpXOWdJdVMtYTIyX0FWMEd5b0FUV3dtU2JPTVUwamVXU0hBRzVJdlNtODluWmRsVVNqcHRzbHdpb2hKZnVnN3pJT0Y0cjlUU3BhZEhhdVFCYXI4QUpPRk0yc0gwd1U1d3V2TQ?oc=5",
@@ -20,12 +26,6 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSV9JcUoza19DTndnOGhlN0tHZDlMQXNPMHhNckRpQnphUlFCM0xHWHZFcEd6aFh3ak41N2l1TWxaVURKNGU3Vy1GdmFVUURmekh3aXNZX0VFNUViTEJoVUlvcEdhTTJ6WUVsN0lwU0tlUnMyb2J6TF96OFRtLWpZQWhnWHVlUzBydjFmaElMV0R3T3dreGNWWVoxNUg3dw?oc=5",
       "source": "Rolling Stone",
       "published_at": "2025-11-11T08:49:41.000Z"
-    },
-    {
-      "title": "Kim Kardashian Deletes Meghan Markle Photo at Kris Jenner Bash - Us Weekly",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZE5lQXdZLWtfWm4zalNYVHFZZlFtRGp1X0RNVkt1QkR3YnJfOHQzd0hjUGkwa3JqcWw3NTVxTlZaUzhoV0hHaU9TYXhHcUNaWVp6bmVaMnNnREYwUEtHMWxidVBSQS1pbWFoLVNlSkhyU2tBamw0SHpXZUNzVkFURlJfWmlDN0ZGTDctZWRyek92OHpCd1hmR1lTWWRNTmo5Y040UE1CYnFVSGY5Y2pJ?oc=5",
-      "source": "Us Weekly",
-      "published_at": "2025-11-11T04:58:14.000Z"
     },
     {
       "title": "Kim Kardashian Is Furious That Her Family's Psychics Said She'd Pass the Bar Exam: 'Pathological Liars' - People.com",
@@ -92,12 +92,6 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV21mRDBZSW1ET29WUnVtN0NiSUFEejl5NHJGUlZqN3Vuc2tlWDFpUHJsZDVFMEpxMkpoWUNlaTN2dl9KVlpMZHcxQXZuQkkzNnRNVU9Ea0JHdEZoWHFRMVBvejIwTFN3Q1ZoR05CTWhGMENsb0hzYnpzV25IamZqdnhsZ1o5U0RZaXlQYXVXd20?oc=5",
       "source": "The New York Times",
       "published_at": "2025-11-05T16:51:51.000Z"
-    },
-    {
-      "title": "Kim Kardashian Is A Terrible Actress And For The Good Of Humanity She Should Quit Trying - SlashFilm",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLekxLNlNoRHZSV3Y2RVRua3JYV0RKcTJzeS1WYW52N1Y5anU3QnQxcDJKNXFWOGJiN2lSSzhYb1Q5cllaOU1CeERHZUZfajhlcUROVzQtVEttcmk1YllMZUVmemdHcFRhZ2JOTzlhaWw0SzZv?oc=5",
-      "source": "SlashFilm",
-      "published_at": "2025-11-05T14:00:00.000Z"
     },
     {
       "title": "All’s Fair review – Kim Kardashian’s divorce drama is fascinatingly, existentially terrible - The Guardian",
@@ -175,6 +169,12 @@
       "title": "Kim Kardashian Doesn’t Know The Price Of Milk. Must Be Nice. - Scary Mommy",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNGp2cFZ3RzRtWHhlanJqOG03T0tSQ1NEWkllTHU2TENGd2VjZzJmaVpPcWExblBuczhQLVR3dFlTbW94YnFEYjZadzZVX2xTWVdBcTY4VmNzdmZXcGZWS3g4SDlVTzFtS2dYUXFQY0FsYnRvYlVsdmtIdGU5RTctaDY0NEcxMENsWGFfczhvQW4?oc=5",
       "source": "Scary Mommy",
+      "published_at": "2025-10-16T07:00:00.000Z"
+    },
+    {
+      "title": "Actually, Kim Kardashian Spending $1 Million a Year on Glam Isn't Shocking at All - Marie Claire",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSGhCODE3OG1yWUNGM1JyaTZ0aFc3ZldhMGxRaXhGTWJtV1g0bC1GSGpIQlpsZTVVSDJXVC1GT3FFQnI4QTNaVEJfaXVOazAtMXVoTXBKS0U3QTZqZFcxcmp1MU4xRU12OXFwcWk5aXhjcDg2RTRZbTVtZXJTWS1ReEZ3VXlBTWlQVmVnMkVQMTNzRU5LdWJ6OFY1TGk5SWQtNjNPcmZ5NU16Vzd1WXlHczZWOA?oc=5",
+      "source": "Marie Claire",
       "published_at": "2025-10-16T07:00:00.000Z"
     },
     {
