@@ -1,7 +1,7 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-11-12T13:08:04.702Z",
+  "updatedAt": "2025-11-12T13:48:17.168Z",
   "items": [
     {
       "title": "BRODEUR: I feel disillusioned by Taylor Swift — but it isn’t her fault - The Vanderbilt Hustler",
@@ -32,12 +32,6 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWnBaT3dDU2Z5V0tObzNFQmkwMmJvV3ZZdEp4MXZIS0ZKVmoxdU1peUlfSE9wWVJWbmNVRzRrSTVMY055QmtDakh3amlRdXZoX0ZfMjcwYjMwMDhDRHVDcGVnRlI2OWUzWmxDNzl1ZVFLOWlxRVlKM25nUXh6Q3hjT2RHM3lzazJOX2htY0VqTFRNR285?oc=5",
       "source": "chorus.fm",
       "published_at": "2025-10-28T07:00:00.000Z"
-    },
-    {
-      "title": "Why Taylor Swift made herself the villain - vox.com",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObXZjbF8zalRsR3FjTWpsM0l2TDJneXlnOFhXU3FXZXZMZ0hvQnVaU2ctOWlMck1wMlBqMXhYb0RRN3Rad0xVQms3RTdKVFU5QlkyUmdwWnJob0cyNWM0anNmdFFsZnFxd1Q1anZPNHlBbVlVUFpiUkphZHhQZkhJcl9mOF8tQmdiQmhaS0xR?oc=5",
-      "source": "vox.com",
-      "published_at": "2025-10-26T07:00:00.000Z"
     },
     {
       "title": "Opinion: Taylor Swift’s new album, “The Life of a Showgirl,” is the worst album on her discography - The Wood Word",
@@ -130,9 +124,21 @@
       "published_at": "2025-10-12T07:00:00.000Z"
     },
     {
+      "title": "The Downfall of a Showgirl: Is Taylor Swift’s Album Really That Bad? - thecatalystnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNXNqREFzOHpKZTIzc1ZtcGxYWG85dlJ3Wjg3bmlVS2EwYnhqOEN6QkNsM0ZIRXRsVGZZSmwydDBCQUUtSl9wUExRWmd2RUJzWlVPWlhMdUYydGNmUVg5MVJHcHlUUzJXUm5Xc2VTc1VYRkJUejRZS2Rpa0g2S2lXcnFSQlVBWlRDUUk3Rl82eUFreXQ4cG15NWZoSmVOSTZMZHlpVGFaY0TSAa4BQVVfeXFMTWZSd1FQTkVaVnJBTEtnVVJOXzlKNGpVQVdZbl9ubmhscWhUSVctN1VjM3BjMklzRzB3U25YVC12UzBuNExVelR5bWRvYzlhamZ6dlFlUEc4R3dhbDZMU1k3WXdVcTlic0hzWml4U01aMERpUEJKUnhHTW94TmszNkhoVXQ1RmdqNFFmRjVhd29jaUFSVkpXMXNOWklURUlrY19wZ1JWRkdJRmFPX0tn?oc=5",
+      "source": "thecatalystnews.com",
+      "published_at": "2025-10-10T07:00:00.000Z"
+    },
+    {
       "title": "Review: Taylor Swift's new album falls short — even for a longtime fan - Daily Tar Heel",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMkhtLTdWUTFXZER0TWh3RzhkeWl1Ym1SZWZTa3h6NjgzWVFFR2xzbm4zYWdkT0dPRG1BajNBRWZCRzBHVFdxaF9reC1ueTZmbVh4a1NnOTBxRm80dTdkY09MQXBsc2sweTdMODRlRkZDQkpkQmVtdWcyTWI2elNVX3k5OA?oc=5",
       "source": "Daily Tar Heel",
+      "published_at": "2025-10-09T07:00:00.000Z"
+    },
+    {
+      "title": "Roundtable Discussion: A Review of Taylor Swift’s ‘The Life of a Showgirl’ - Atwood Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTjRZY0NRZzJLUWRlY05BQUJObmZnWVU1RlNKR0VqS2xHSF9WUGV6d2JsS0hoX1pxam9leEtCYXRabUs3N1Y3TkVBamxaV0JIT19oTDNlbWxtV0FyX0JSODB5MUM3UEtmd0p2QjR1ekFteUNnaHo4MDd6ZDJoTEZyVkJxNHd2NlozSVh2encyRE9TOE9CUEZTdUdCSDJ5ZHY5cENB?oc=5",
+      "source": "Atwood Magazine",
       "published_at": "2025-10-09T07:00:00.000Z"
     },
     {
@@ -175,12 +181,6 @@
       "title": "Opinion | Thank You, Taylor and Travis. I Needed This. - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZVJLU0pCZXhlY1phWE9LZWdySGhPRGVYSjEtNldDc1BfdGFwTHc2WXk1N2ZxTklVNmpNUFN0M2ZKN1ZWclNXRUZLemNtcExadFc3eVZJSjlSRlJ1c3UxTHVhNHNSR1NMSXhTWVktSXF5c2xUSGdHeW9xNy04LXRoS290c1BUOGlTSzZQYQ?oc=5",
       "source": "The New York Times",
-      "published_at": "2025-08-27T07:00:00.000Z"
-    },
-    {
-      "title": "I'm a Millennial Swiftie, and I'm Going to Say It: Taylor and Travis' Engagement Felt Like a Milestone Win for Our Generation - People.com",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTzFNMzFzSGV0U21hVGtWaGFrcmJzTFBwWXl2QUFEeUR0SEU4OGNpbld5MmowYVBtZUZiLUhJbkRacVpOUUNZNHoxVl9BMk94aXE5UGYzUnhiekttenFSZkcxbFVQYjBoNnR2Rm5SVzZjVGhzcDRZU2VHWDc2b1FzXzhQY2ZESzBuMEE4YWxjdWM?oc=5",
-      "source": "People.com",
       "published_at": "2025-08-27T07:00:00.000Z"
     }
   ]
