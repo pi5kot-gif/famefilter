@@ -1,7 +1,7 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-11-13T17:13:02.251Z",
+  "updatedAt": "2025-11-13T17:40:52.456Z",
   "items": [
     {
       "title": "BRODEUR: I feel disillusioned by Taylor Swift — but it isn’t her fault - The Vanderbilt Hustler",
@@ -20,6 +20,12 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdkV2VV9hN2FlemhiNklocjVSNV83Q2ZEZ1VleWUwTVl6S281bHRDcXFOeEFLdjk5YWlkYkNqanVoT1N5eDA4MF9JbzNfcEoyM1ByZW1xd2t4UDI1MzZFWUcwYjYtYkpTUFhwOUYwZk9ndHlBRkpZck1oMlk4WEJDOHRhWFhfcWxSbElCbEQ2S0VWbm83TFFrb2R3a2R0MnRpa2pSdkNMZl9pNUpLdVE?oc=5",
       "source": "Dallas Observer",
       "published_at": "2025-11-03T08:00:00.000Z"
+    },
+    {
+      "title": "Dan + Shay Cover Taylor Swift’s “Back To December” (A Rant) - - Saving Country Music",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNV3dLU3BYR09ZNmtvNThwcXpCNTZJa1l0YzM2TjdtcmZHNHNMbG5PdDFaV2ZpLUgyMnlXWXZNeEpNQUZiVkJIR0xMRS1IcDhwa1IxQkZFV05sakl3bHdJOVhicGl2QlJybXFTeGJBWTg1SlN1cDVXdzQ4b2JtTjlReTM3Vl9hQ0VBYnhTYQ?oc=5",
+      "source": "- Saving Country Music",
+      "published_at": "2025-10-29T07:00:00.000Z"
     },
     {
       "title": "My Life In 35 Songs, Track 32: “evermore” by Taylor Swift - chorus.fm",
@@ -70,9 +76,9 @@
       "published_at": "2025-10-17T07:00:00.000Z"
     },
     {
-      "title": "I'm officially resigning as a Swiftie - businessinsider.com",
+      "title": "I'm officially resigning as a Swiftie - Business Insider",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdUMweF9nVTJGRVJxTW1Nb3I1SEV4MzdHT0dtTjAwN0FoZEs2ZlRYenN4VzVZbjl5WmVkUlJuVUNOTUh4LS16bC1LME9XSHJHTFhMTHRLWldpYzhSRXNCWXktV2JpU0wySjJ2eXB0U1dkNHlFVDVhZXBtWnhIR0hLZg?oc=5",
-      "source": "businessinsider.com",
+      "source": "Business Insider",
       "published_at": "2025-10-16T07:00:00.000Z"
     },
     {
@@ -124,15 +130,15 @@
       "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
-      "title": "RANT: Calling Taylor Swift MAGA is why the left loses - The.Ink | Anand Giridharadas",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GYUxCS09ydk9mcDhTWGVrdzBjSmJ1YXBUcE5YRVhja29QdnViOUVSaFluSGVnYURocmNxd3lScDNkbXpENE14SmExbTc2Y2p2QVZTQlRGQ28xMWlSRFRCQw?oc=5",
-      "source": "The.Ink | Anand Giridharadas",
-      "published_at": "2025-10-06T07:00:00.000Z"
-    },
-    {
       "title": "Taylor Swift takes Pittsburgh Targets and theaters by storm - The Tartan",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU2hxa00yVW9iR3JWY1VNZmp0ZDZRbW5jNFBVc1ZvdHpTN3VKM1ZaWjR2RkZNUjZVdXlhdmotVVlBZ2tEWkdxcEdoeE16RmFGT3BXWE9DYUgzV0xBRk9JMFNGbm9DRWV0S2RrS2hYZG5vNWlQcXhpS2I4cGREc0lSQUwwVlY4eE1WbkpVVHoyNFM1RC1LcUF4WnNB?oc=5",
       "source": "The Tartan",
+      "published_at": "2025-10-06T07:00:00.000Z"
+    },
+    {
+      "title": "RANT: Calling Taylor Swift MAGA is why the left loses - The.Ink | Anand Giridharadas",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GYUxCS09ydk9mcDhTWGVrdzBjSmJ1YXBUcE5YRVhja29QdnViOUVSaFluSGVnYURocmNxd3lScDNkbXpENE14SmExbTc2Y2p2QVZTQlRGQ28xMWlSRFRCQw?oc=5",
+      "source": "The.Ink | Anand Giridharadas",
       "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
@@ -151,12 +157,6 @@
       "title": "\"The Life of a Showgirl\" and Taylor Swift on Screen - Hung Up | Hunter Harris",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sdGRqOHBLcnBkckZBVFYtZ1VRazdMNGJOQXd2eUR2U000ZTVwM29leUR4ZDl1NzNrNi1OOEpPTWpyQ1Z2eWZtUEhVVHktUHNSM05IcHlBMlpPNTR0TktIenZkczRVeWpRSml1QUdLcGJIdjdFY0FsdjZMcFQ?oc=5",
       "source": "Hung Up | Hunter Harris",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "I Don’t Need Taylor Swift’s ‘Showgirl’ Era to Be Kid-Friendly—Here’s Why - The Everymom",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mWFc4Y3dMd3FwdndoS2xfQkNyb3pVazJITlloZzl4VlpWQ0R2a1p5X2lPWWVxRUhwa0NmZ0lVcE55eW5oY0VkVjdYQTFWaTdOdGpuSEVDcWFQN2RTdlIxNVdiWDR2SUZjOEF4SQ?oc=5",
-      "source": "The Everymom",
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
