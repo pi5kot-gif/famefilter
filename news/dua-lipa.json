@@ -1,13 +1,19 @@
 {
   "slug": "dua-lipa",
   "name": "Dua Lipa",
-  "updatedAt": "2025-11-14T10:42:23.332Z",
+  "updatedAt": "2025-11-14T11:10:39.861Z",
   "items": [
     {
       "title": "I Tried Dua Lipa's Skincare Line &amp; I Have Thoughts - Coveteur",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1LVjBzRmhBUExYYTRqajJfRml6M2ZOczFicHMyT25FNVV0T1NsemVWU2VGNmhyMEhYTFFKVXg3Rlkyb0xwOUE2QUpBemFTZ2hoX2ZDWFJJTXJYdGt0aW1XNkVzRGlZTWZfZHduOWticDk4MU83YXdB?oc=5",
       "source": "Coveteur",
       "published_at": "2025-11-12T21:40:50.000Z"
+    },
+    {
+      "title": "Augustinus Bader Lost the Plot with Its New Dua Lipa Line - Allure",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5lUElsaHB5SFk2WU1teGpFUGg3VHlKQTF3dmlHbzNrUjc2cWN5YUhrSERRS0tpMGFvMF9iRVFzQUFQZ2pfeXgxOUVwby1xWk9iYXVqbkNYUlRGdEdXMG5McmdNR180NXhrMnFOS01kekRyOWJCT2ZwSHhB?oc=5",
+      "source": "Allure",
+      "published_at": "2025-11-06T17:47:10.000Z"
     },
     {
       "title": "I'm Obsessed With Dua Lipa's Very Good Bookclub, 'Service95' - PAPER Magazine",
@@ -38,12 +44,6 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV2czNjl2VThDQ1ZlVHp6aTN3bldfLVlKM1k1ZndxcXFIS2lsOFBkNGtVTXhPeXBIc3E4cm9ReV9VZTJWMlVlMXM5ZENwNlNLVG9BWTU1V3BNTV9kWl91bVY2eWhucUdmQkJZUmdVdlVLNDMtbFJTR2hLWkwxYWZpczNfRkQ1SDE0X0JBUDRkRmRwSUNqMmoyTGtDQ3FVTkpVYmc?oc=5",
       "source": "WWD",
       "published_at": "2025-11-04T08:00:00.000Z"
-    },
-    {
-      "title": "Dua Lipa Wears a Snakeskin Coat and Lingerie Slip for Date Night With Callum Turner - Harper's BAZAAR",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSS0yZEFfWTdCRk9TRHN3VDJBUDZsVDk0T1lGczNrQzI1b0ZLNWx2Z3ZMRU9DMVhCZ1Z0TlFmc002aHQwNm1nX2hQTFhIOW5uTEtxc0hxaUI3LTI2Y0psQnRmVWc1Ym1tZ1V1MmIwdzd1OEFEaFV2VnZGZzNWQ005d3FJMk5JMThsWEs1eVQxcEtjUEdlc1FmRkRoLXhsdVQtMnpKcnVPLTRua3diZlBfVk5JNDdvMmtQYTRlTkJNclFsZDVqelZRbm5xZHVhZFVENll0ellsaVg?oc=5",
-      "source": "Harper's BAZAAR",
-      "published_at": "2025-11-03T08:00:00.000Z"
     },
     {
       "title": "Dua Lipa and Callum Turner Do Date Night Like the Biebers - Vogue",
@@ -124,12 +124,6 @@
       "published_at": "2025-10-11T07:00:00.000Z"
     },
     {
-      "title": "Dua Lipa Brought Out Gwen Stefani On Tour For A Surprise No Doubt Duet - nylon.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlaWZka1JmZU1FaWJtVDMwVE9DZUFJM0FXOEJSWkdoWjB6ZVlvVU9heWRxNUJsaXFrQU11NzcyVzFJaWhHUkc1U3NyRENweTZudThIZmdHU2U4emhkbzh2WmkzenFzQWNFWm15M0lEZE9HU3Vpem9PRWh3RUc5RTQ?oc=5",
-      "source": "nylon.com",
-      "published_at": "2025-10-09T07:00:00.000Z"
-    },
-    {
       "title": "Concert review: Dua Lipa’s ‘Radical Optimism Tour’ has attendees levitating - Daily Bruin",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZU1HZ1VHQUFlYWphOXk2ZE9ONmxTM2tjd3N6OTFzYmEzZGRWMkJkc0RZbk1SWWQ2VVJETHF0T1ROcnJKU0ZKR0pQWmRyeFR5dVdKTzhFbnc3WjJFY0dTNGw0dHpKcEFaaEoxQjlQY3kyT1FLV3piSng3Zk9iRHdzMFk1WV9SSFNxT2Myc1ZiaGpaQzVWNEt0WG4yNndYXzNMU3UzR291Tno?oc=5",
       "source": "Daily Bruin",
@@ -164,6 +158,12 @@
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHQW9ISThtTW5qM2M3Q0dyRHdHTl9hWnNuNmJRTmpfMGdoUWliZXRrMEFqREtsMUY0ZUFHcVFnSGFnd2pyT2IxbEtZZEhydklZRDgyVDhTMjNERFM1d3JxVWRYQmMxNkxuUG02YXREbjQ?oc=5",
       "source": "UPROXX",
       "published_at": "2025-09-23T07:00:00.000Z"
+    },
+    {
+      "title": "Dua Lipa Joins Frame Fitness as Co-Founder and Chief Creative Officer - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWUpPR3ZZOUFqRncybk92YnF6UjRHUUtDYzNfNmQtd3ZIbHM4eUZzbGNBaEc5NWYzNlliVnZQTU1NQTEteXBlRllvUE8xcUtvOVVPMTF5T093dXV6SVAyRFBwRE5DQ0syb3cxN28zTDFLZ3pmZ2RTUGV1UG5BczRmYWF3VGJfc0ozMGhjb0NzNjhwRktrLWpYZHhrME4yeTRDTE5Xb3R1cFBzM3hiOVRMNEdPOXJxQTIzQjd2UGo5RDN0aDg?oc=5",
+      "source": "PR Newswire",
+      "published_at": "2025-09-22T07:00:00.000Z"
     },
     {
       "title": "Dua Lipa on Her Abs and Living Life as Vacation - Vogue",
