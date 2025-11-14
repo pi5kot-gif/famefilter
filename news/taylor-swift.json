@@ -1,13 +1,19 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-11-14T09:39:58.937Z",
+  "updatedAt": "2025-11-14T10:14:39.830Z",
   "items": [
     {
       "title": "BRODEUR: I feel disillusioned by Taylor Swift — but it isn’t her fault - The Vanderbilt Hustler",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObTJ3Q294T2dKTFhhcm9kbDh4RVRLaVhDa2diYnN4WHg3R0lFU0hSSGQwUlZZNTQxWUlCNDViVFUtbGhIV0FKeHdHMXNxRkpNOW5WeUc3b1hJMU5XeHFGMGgzZGdCbXA4TkN4YmEycnExZGxiTHlDbzNQbHUwUm02Yk1TRUtOQnFJOTBqWlAwQzZOZEVyM1JPemdQeFZoV3huUVdrRDFjaDZLNG9m?oc=5",
       "source": "The Vanderbilt Hustler",
       "published_at": "2025-11-10T03:17:11.000Z"
+    },
+    {
+      "title": "OPINION: The flop of Taylor Swift? - The Muhlenberg Weekly",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWk9kRjVoZjBnMTJndVVYREdPYVRtZ0JQV3YxVEFLV2RWMkpwX2k5aGxYemlHMVJ4NWRxUHpqbER5eGo0b1VZZk1xX0xIS3dTSmc1NlB6UU5sb2hKU2FqNm55Rk5SaEhzYVBEbFVNaXI4Y0ZGTXB0aldVcVZGdkJraDVB?oc=5",
+      "source": "The Muhlenberg Weekly",
+      "published_at": "2025-11-06T13:00:00.000Z"
     },
     {
       "title": "It sounds impossibly daunting: Choreograph a music video for Taylor Swift that dances through hundreds of years of art, movie and theater history. Make it all look polished, yet effortless. But Mandy Moore was undaunted by the “Fate of Ophelia” video. - facebook.com",
@@ -58,12 +64,6 @@
       "published_at": "2025-10-19T07:00:00.000Z"
     },
     {
-      "title": "Pledge Allegiance to Taylor Swift: My top 5 songs from The Life of a Showgirl - Her Campus",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQmFfV1BLVWp0SVZNMU51VFhpUURyTUwtSFIyYldFZVlfTnRONk1TLTdnTEVIbHRIbnE0YzUzYXFJX0RlZkt6dXh4aHhWc3BfYmZtelRmV19UeWY5UG9sc0VKUHQwTHZScWhZeFdoT3RKUGhFSU5MZW5GUklHUW5uR0E4X0pVZUdUZmFVdi1KVTFIejh6TEc0M0dQTnNLV0lYZVlSOGs5MEd2YTZTRHBsUGtsZW80Sm85MG9CRzl3a05KZw?oc=5",
-      "source": "Her Campus",
-      "published_at": "2025-10-19T07:00:00.000Z"
-    },
-    {
       "title": "Harvard’s Taylor Swift Scholar on “The Life of a Showgirl” - The Harvard Crimson",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBRaTUzc0YxRkhzd1JvWWNpdXNuaGZvX2VvQ2JOaFowQ3dTNHE3eW56dGdnbFdzcVJFRmd1azdMYmtxVHlDb1IwdFNmMnNZOVE0UmlRVmtvdVBRak4yRlZ2M2NfaUVXRl9ueDhGdFlJQjF3ckQtZ2VyTVFOOHBSQQ?oc=5",
       "source": "The Harvard Crimson",
@@ -73,12 +73,6 @@
       "title": "Taylor Swift Is Our Biggest Cinematic Universe. But the Magic Is Fading. - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS2tYazNUM19ySzd2OWJRT2RCaExNUF85X0h6eW5yTWlaTjVGcUJuNkVxaWZjY1Y2YmFjemRUd2lkdFQ0NXptRmlQSHpNak5Ub1BuQTVxNnRFbGtMc0FoQmlBVDNiY3o0TmViRkVZb1FKc3d1S21XTmJ3aklNM2x3WTBDWFU0ZzA?oc=5",
       "source": "The New York Times",
-      "published_at": "2025-10-17T07:00:00.000Z"
-    },
-    {
-      "title": "What Students Really Think of Taylor Swift’s New Album - M-A Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMXFLQ19ORU51SWZleExMYzhIcHdzcWtOUTRpOEU0YWFTUklfOS1oLUhWTUpOenVfa1QwWDJPeWRHSy03S2VwempSWENYc19xREVOYXljUGVSOFBrT3FQMUN4cU9oNnZMOHBPUTNyaEtIcHlkWjdFa1NMN3RSdXZrU2V3ajA?oc=5",
-      "source": "M-A Chronicle",
       "published_at": "2025-10-17T07:00:00.000Z"
     },
     {
@@ -98,12 +92,6 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOV94OUJ0Z3QycGpMSG9lSkZpVXd6d1FZeFJSZzgwRGZFTTZyZWQ3Tk1GbUZEcVlNRURmeW45OTR3R3lBaHVvVDlIVWI1MFJSRWw5NkVLLS1KV0VRbUcxVVVGRkZIQmlFa0o3UEZ3Qjg2QTYtTDdsMzgwSFEzTGFvak9nSExUd2VqTTlPWHRZQlZqRnFmcHpIdEtYcWlpd1BwdUJpMFNPMTNyTGF2Zk5GMWpJZw?oc=5",
       "source": "The Auburn Plainsman",
       "published_at": "2025-10-14T07:00:00.000Z"
-    },
-    {
-      "title": "OPINION: Hot takes on Taylor Swift's latest album, 'The Life of a Showgirl' - Indiana Daily Student",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYlEyLWVfU3ZZMHg0ZVhqVDJOczR6aW9jY2Fsd295V0ZXOUtLNWUtODV2bHd6V2l6YmxQRDBlQUF2VnB3OXp2eFE5aDNHUzZkVGZmUjhmN1VKaVAtZDNYNmg5OWJmZXJhYXU4aVBYMW5mb2lvMmJYNkdOYTFXZzJMa05mdnJBTEU0bDF0WWV6ZFBvclZIdGJyMDlVZXVIT3dBdGF0cWJ3Unh1eE8yY2xrag?oc=5",
-      "source": "Indiana Daily Student",
-      "published_at": "2025-10-12T07:00:00.000Z"
     },
     {
       "title": "The Downfall of a Showgirl: Is Taylor Swift’s Album Really That Bad? - thecatalystnews.com",
@@ -142,10 +130,22 @@
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
-      "title": "‘The Life of a Showgirl’ Doesn’t Even Feel Like a Taylor Swift Album - The Everygirl",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xZG9wSW1UbWJfMnhibzY4UUd0TTZCSmQxeWRHOVJWZFdVUmxpU2xleHRXVlRId0c3dU1HM1Q3ZVhMTDNuckxDMUwyREN1ZnMzSDJSME5XTDV3MkFIV3hIaEFvSTZ2S1NKbWVUbQ?oc=5",
-      "source": "The Everygirl",
-      "published_at": "2025-10-08T07:00:00.000Z"
+      "title": "Review: Taylor Swift has Showgirled too close to the sun - The New School Free Press -",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0lPM29yeGtrMWZwQXNfWVdvNXljdnNjNXBjZUNMMzl5SUxOU0N6X2ZUS3kxQ2JXTHR0aHZwdnJyZmFhVnR2c1dGbDN0ZkZFaUxKMGwwWDU4aFFRT0F5b0lfZlhSOUZuaTFKaFBFellZb2lKajZLSExrd1NCa2lkcGNBRGhFTy15R09vby1LRHdqejJxaFl1dTVhNDY5dlI5ek92LXFwMWU?oc=5",
+      "source": "The New School Free Press -",
+      "published_at": "2025-10-07T07:00:00.000Z"
+    },
+    {
+      "title": "In Review: Taylor Swift, Jeff Tweedy, Robert Plant - Stephen Thomas Erlewine | Substack",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vOWI1VndRRUNuZGtSNDFDY3RjYXlBLWl4Ujl3T00tRjUtZFhBTEM1ZHlVaVo5RU9KYW0zcHBlWnlTTmNkWE00NXlzUTFHT0dEV3BlS2lHandoRzEtelJtdlltVlotWFlmZEo2dkZnWXotb0RYY1JZ?oc=5",
+      "source": "Stephen Thomas Erlewine | Substack",
+      "published_at": "2025-10-07T07:00:00.000Z"
+    },
+    {
+      "title": "In Which I Have a Thought on Taylor Swift and Her Latest Album - whatever.scalzi.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ2dHbUFfR0g5dkMySGtUR1h5WDFrLWpSQ1RhSEl5Ym0tamxSaDVXTHMxVHBkelhsU1JEemdEZkVMTDNwSFRiYk14aHBmYkt4dUhjMlF1Y0VyNlBFbmg0ejBtdjNwazRQeHhjRTl1X0dkRjVQbElxaU5wa1phNW1iR0dFU0dDa09DaEIwbXRVcEYtOXdIYzc5alpmVXdPa0lGSlNhMg?oc=5",
+      "source": "whatever.scalzi.com",
+      "published_at": "2025-10-06T07:00:00.000Z"
     },
     {
       "title": "Do We Still Like Taylor Swift When She’s Happy? - The New Yorker",
