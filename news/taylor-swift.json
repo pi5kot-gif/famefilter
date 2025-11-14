@@ -1,13 +1,19 @@
 {
   "slug": "taylor-swift",
   "name": "Taylor Swift",
-  "updatedAt": "2025-11-14T17:11:24.246Z",
+  "updatedAt": "2025-11-14T17:38:51.366Z",
   "items": [
     {
       "title": "BRODEUR: I feel disillusioned by Taylor Swift — but it isn’t her fault - The Vanderbilt Hustler",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObTJ3Q294T2dKTFhhcm9kbDh4RVRLaVhDa2diYnN4WHg3R0lFU0hSSGQwUlZZNTQxWUlCNDViVFUtbGhIV0FKeHdHMXNxRkpNOW5WeUc3b1hJMU5XeHFGMGgzZGdCbXA4TkN4YmEycnExZGxiTHlDbzNQbHUwUm02Yk1TRUtOQnFJOTBqWlAwQzZOZEVyM1JPemdQeFZoV3huUVdrRDFjaDZLNG9m?oc=5",
       "source": "The Vanderbilt Hustler",
       "published_at": "2025-11-10T03:17:11.000Z"
+    },
+    {
+      "title": "It sounds impossibly daunting: Choreograph a music video for Taylor Swift that dances through hundreds of years of art, movie and theater history. Make it all look polished, yet effortless. But Mandy Moore was undaunted by the “Fate of Ophelia” video. - facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNa21WMXZpWnV6VDl2eGpSWG1xNlRkMWFlWmVWRHlOb0I3NVVYdnYzOXFGeTM1NG5SR1N3S3M5NnF0MjhWM0ZseWRWbTU1Mmoxek14OXV6MENIVlcyWm9HM005Rm1kTE5iNW9mbFVuY2lhOER4Tm82akNvdWdZZ2gxS204NzlIN1BhWlhuOUFMOUJYdVc5M1h5cVdyb01WcmpWRUtkbFB1LUZhU012NHJ4Y2s5aENJQ3pPYWlUY2FhT0FXdWljRUNLRkNtYUpWelFDa2hV?oc=5",
+      "source": "facebook.com",
+      "published_at": "2025-11-01T07:00:00.000Z"
     },
     {
       "title": "Dan + Shay Cover Taylor Swift’s “Back To December” (A Rant) - - Saving Country Music",
@@ -52,12 +58,6 @@
       "published_at": "2025-10-19T07:00:00.000Z"
     },
     {
-      "title": "Harvard’s Taylor Swift Scholar on “The Life of a Showgirl” - The Harvard Crimson",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBRaTUzc0YxRkhzd1JvWWNpdXNuaGZvX2VvQ2JOaFowQ3dTNHE3eW56dGdnbFdzcVJFRmd1azdMYmtxVHlDb1IwdFNmMnNZOVE0UmlRVmtvdVBRak4yRlZ2M2NfaUVXRl9ueDhGdFlJQjF3ckQtZ2VyTVFOOHBSQQ?oc=5",
-      "source": "The Harvard Crimson",
-      "published_at": "2025-10-18T07:00:00.000Z"
-    },
-    {
       "title": "I'm officially resigning as a Swiftie - Business Insider",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdUMweF9nVTJGRVJxTW1Nb3I1SEV4MzdHT0dtTjAwN0FoZEs2ZlRYenN4VzVZbjl5WmVkUlJuVUNOTUh4LS16bC1LME9XSHJHTFhMTHRLWldpYzhSRXNCWXktV2JpU0wySjJ2eXB0U1dkNHlFVDVhZXBtWnhIR0hLZg?oc=5",
       "source": "Business Insider",
@@ -88,15 +88,33 @@
       "published_at": "2025-10-09T07:00:00.000Z"
     },
     {
+      "title": "Roundtable Discussion: A Review of Taylor Swift’s ‘The Life of a Showgirl’ - Atwood Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTjRZY0NRZzJLUWRlY05BQUJObmZnWVU1RlNKR0VqS2xHSF9WUGV6d2JsS0hoX1pxam9leEtCYXRabUs3N1Y3TkVBamxaV0JIT19oTDNlbWxtV0FyX0JSODB5MUM3UEtmd0p2QjR1ekFteUNnaHo4MDd6ZDJoTEZyVkJxNHd2NlozSVh2encyRE9TOE9CUEZTdUdCSDJ5ZHY5cENB?oc=5",
+      "source": "Atwood Magazine",
+      "published_at": "2025-10-09T07:00:00.000Z"
+    },
+    {
       "title": "Taylor Swift Makes Showgirls of Us All - Christianity Today",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vNGdaSktiZmhWc05lR0FSMl9qNm5pWnQtVDY0ZzYwak4tZDlUSmZSeDlCSmEwdkQ5WUVUaDRFOEJhcmZ6c09IaTlNalFsMjZDd0lCZll2MHdWcnRRNUh1bHZsSVl4R1RmdW9QRy1XM0ZBMGF6UGJON2txOW5CRWM?oc=5",
       "source": "Christianity Today",
       "published_at": "2025-10-08T07:00:00.000Z"
     },
     {
+      "title": "Mama, Let’s Go Back to the ‘Folklore’ Cottage - 34st.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPa3JVNldSY0FQTHBVUmpHRkRiTVA4ZXN2VUFLUDI2bEltRmMzOE1tUlFTU3JhZHEwcVVUdjlSQTlRcG5QNGJxRDg4MERxa2o0VjdJOE9ZX3VUVURpUTR2Wjh3VzluYlg3NjQtblNZVTZEVzc5RG9QMDM4MUVWYk1RdzJsZlBRN01YSzE2WHFTbHRsTTNRMEhoZ3MyaGFXQQ?oc=5",
+      "source": "34st.com",
+      "published_at": "2025-10-08T07:00:00.000Z"
+    },
+    {
       "title": "Review: Taylor Swift has Showgirled too close to the sun - The New School Free Press -",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0lPM29yeGtrMWZwQXNfWVdvNXljdnNjNXBjZUNMMzl5SUxOU0N6X2ZUS3kxQ2JXTHR0aHZwdnJyZmFhVnR2c1dGbDN0ZkZFaUxKMGwwWDU4aFFRT0F5b0lfZlhSOUZuaTFKaFBFellZb2lKajZLSExrd1NCa2lkcGNBRGhFTy15R09vby1LRHdqejJxaFl1dTVhNDY5dlI5ek92LXFwMWU?oc=5",
       "source": "The New School Free Press -",
+      "published_at": "2025-10-07T07:00:00.000Z"
+    },
+    {
+      "title": "In Review: Taylor Swift, Jeff Tweedy, Robert Plant - Stephen Thomas Erlewine | Substack",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vOWI1VndRRUNuZGtSNDFDY3RjYXlBLWl4Ujl3T00tRjUtZFhBTEM1ZHlVaVo5RU9KYW0zcHBlWnlTTmNkWE00NXlzUTFHT0dEV3BlS2lHandoRzEtelJtdlltVlotWFlmZEo2dkZnWXotb0RYY1JZ?oc=5",
+      "source": "Stephen Thomas Erlewine | Substack",
       "published_at": "2025-10-07T07:00:00.000Z"
     },
     {
@@ -142,28 +160,10 @@
       "published_at": "2025-10-03T07:00:00.000Z"
     },
     {
-      "title": "I Don’t Need Taylor Swift’s ‘Showgirl’ Era to Be Kid-Friendly—Here’s Why - The Everymom",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mWFc4Y3dMd3FwdndoS2xfQkNyb3pVazJITlloZzl4VlpWQ0R2a1p5X2lPWWVxRUhwa0NmZ0lVcE55eW5oY0VkVjdYQTFWaTdOdGpuSEVDcWFQN2RTdlIxNVdiWDR2SUZjOEF4SQ?oc=5",
-      "source": "The Everymom",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "Review: Taylor Swift’s “The Life of a Showgirl” wants to feel good, but other feelings keep getting in the way. Also, is this not the superstar who once encouraged all of humanity to shake it off? - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONmxtU3pwR2lxTnNidkpxLUhTUWtVeHVFVkpiWFhmeTBYbC1YTEtaUmZ4TlI4a0o3QUxGa3U4LXEyVjhGVlpMaW1xaEFUbU90ZjIxSkplbUhzN1ZnejZFUEtSRExRbjQ0cTdBY2tzVmFnU1JZdG1OVnpBdVVBai1nMzhUT0RhSjhndW14NkVqc0d4dHBWUTR5aEwyX0RndnA3eWYwTUdVS3JfcVlqTGk2OHItV1NEVWJBUnhncnhNSmh2dFl2REpZY1lsT2c0Z3UxelJSbm9GN0x6S0lk?oc=5",
-      "source": "facebook.com",
-      "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
       "title": "FEATURE: A Curious Outsider’s Guide to Taylor Swift’s “Life of a Showgirl” - Ghost Cult Magazine",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVlZkYW9idkNaQVhjQS1COVdGT3hlZFV6UkdocGFIOVA2cFZ3c0hnLTNaNkhlSDBnTk95TXJnUVJiT3REeDdTUWkyb1d3N0t5VFZsQ0lZWEJkTVJQeDhUWW1yeTZqcVVXbHRndFMtRVpERjZXdDNwYVFuc2lMM1o0RnE0el9vU0N0VEhJTW40djV0aUNfY3VWTnFHNA?oc=5",
       "source": "Ghost Cult Magazine",
       "published_at": "2025-10-03T07:00:00.000Z"
-    },
-    {
-      "title": "Hating Taylor Swift is not a personality trait — neither is loving her - The Baylor Lariat",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNU1DRHQ5TG9vTlQ1UVhXLVpDYTd4WXo3b0pPbENhRkNLTUcxMGF6MmllWl9jcFE4QmpoTllnWU1saW5VSGdLQXd0T0hUQThEU1pVVjVwUWM2VHJTOEFrd0tPdFpZRlN2bjM1Z0YxQmRnemlOLXpjRTUtNjVGcjY4Z3FZSEd6OFlKemJZUHpsQzBua25fNk9zb05wQ3dwekw1ck1rOU4zTjjSAbABQVVfeXFMTjBTWDV1OWRtVFpYenYwQ3JHM2hjTVJ5bWFpU3pHSVlrckRzbld3MG9hMlFMeEdzOVMzck82Z3ZfNXd0bjl6VDJhcWZQUVFnaHQ2QzBNNkxWWEs5akNFakU1eS0yMDFydWIwdEhKdnpXazlBUkN6X2ZRWVVvV1Z3R3Z3cGJ4dXlCTTV2cGpfOFNyQzRaOFY1TGM0WkpnVnRiU2E4VEQ4Yko1XzNLQ3RMZHI?oc=5",
-      "source": "The Baylor Lariat",
-      "published_at": "2025-10-02T07:00:00.000Z"
     },
     {
       "title": "Stephanie Burt on Taylor Swift and Some Other Favorite Geniuses - The New York Times",
